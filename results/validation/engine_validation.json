@@ -1,0 +1,92 @@
+{
+ "model": "Shiu et al. 2024 leaky integrate-and-fire on FlyWire v630",
+ "neurons": 127400,
+ "stimulus": "21 right sugar GRNs, 150 Hz Poisson, 30 trials of 1 s",
+ "engine": "numba, exact exponential integration at dt = 0.1 ms, Brian2 update order",
+ "references": {
+  "local_brian2_2.10.1": {
+   "spikes_per_trial": 13539.4,
+   "active_neurons": 436,
+   "mn9_hz": 82.3
+  },
+  "released_example_output": {
+   "spikes_per_trial": 17052.2,
+   "active_neurons": 448,
+   "mn9_hz": 93.27
+  }
+ },
+ "engine_runs": {
+  "gate=True": [
+   {
+    "seed": 7,
+    "spikes_per_trial": 13707.1,
+    "active_neurons": 432,
+    "mn9_hz": 82.83,
+    "wall_s": 49.5
+   },
+   {
+    "seed": 11,
+    "spikes_per_trial": 13649.7,
+    "active_neurons": 418,
+    "mn9_hz": 83.8,
+    "wall_s": 23.0
+   },
+   {
+    "seed": 12,
+    "spikes_per_trial": 13543.9,
+    "active_neurons": 436,
+    "mn9_hz": 84.07,
+    "wall_s": 32.9
+   }
+  ],
+  "gate=False": [
+   {
+    "seed": 7,
+    "spikes_per_trial": 16713.8,
+    "active_neurons": 441,
+    "mn9_hz": 105.6,
+    "wall_s": 43.5
+   },
+   {
+    "seed": 11,
+    "spikes_per_trial": 16681.2,
+    "active_neurons": 433,
+    "mn9_hz": 105.77,
+    "wall_s": 37.4
+   },
+   {
+    "seed": 12,
+    "spikes_per_trial": 16784.3,
+    "active_neurons": 428,
+    "mn9_hz": 105.37,
+    "wall_s": 17.1
+   }
+  ]
+ },
+ "comparisons": {
+  "gate=True vs local_brian2_2.10.1": {
+   "pearson_r": 0.9997,
+   "spearman_r": 0.9992,
+   "slope": 1.004,
+   "n_compared": 438
+  },
+  "gate=True vs released_example_output": {
+   "pearson_r": 0.9943,
+   "spearman_r": 0.9897,
+   "slope": 0.794,
+   "n_compared": 453
+  },
+  "gate=False vs local_brian2_2.10.1": {
+   "pearson_r": 0.9583,
+   "spearman_r": 0.9745,
+   "slope": 1.147,
+   "n_compared": 461
+  },
+  "gate=False vs released_example_output": {
+   "pearson_r": 0.9414,
+   "spearman_r": 0.9679,
+   "slope": 0.895,
+   "n_compared": 468
+  }
+ }
+}

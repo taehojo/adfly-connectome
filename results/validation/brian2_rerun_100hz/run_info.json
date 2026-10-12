@@ -1,0 +1,14 @@
+{
+ "code": "ext/Drosophila_brain_model (unmodified); run_exp(exp_name='sugarR', params=copy of default_params with r_poi set)",
+ "r_poi_hz": 100.0,
+ "r_poi_released_default_hz": 150.0,
+ "n_run": 30,
+ "t_run_ms": 1000.0,
+ "brian2": "2.10.1",
+ "codegen_target": "auto",
+ "python": "3.13.5",
+ "n_proc": 30,
+ "seeded": false,
+ "ld_preload": "libstdc++.so.6 of GCC 14.2.0 (system library of the cluster; path removed)",
+ "wall_s": 104.7
+}

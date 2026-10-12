@@ -1,0 +1,164 @@
+[
+ {
+  "tau_a": 1000.0,
+  "da": 0.0,
+  "odor_active_on": 9845,
+  "odor_active_last200": 8696,
+  "KC_frac_on": 0.615,
+  "KC_mean_hz_on": 39.28,
+  "sugar_MN9_hz": [
+   95.0,
+   0.8
+  ],
+  "sugar_active_last200": 933,
+  "loom_GF_hz": [
+   265.0,
+   140.8
+  ],
+  "loom_active_last200": 92
+ },
+ {
+  "tau_a": 300.0,
+  "da": 0.5,
+  "odor_active_on": 9672,
+  "odor_active_last200": 8662,
+  "KC_frac_on": 0.576,
+  "KC_mean_hz_on": 17.16,
+  "sugar_MN9_hz": [
+   75.8,
+   0.0
+  ],
+  "sugar_active_last200": 416,
+  "loom_GF_hz": [
+   240.0,
+   131.7
+  ],
+  "loom_active_last200": 253
+ },
+ {
+  "tau_a": 300.0,
+  "da": 1.0,
+  "odor_active_on": 9701,
+  "odor_active_last200": 7984,
+  "KC_frac_on": 0.558,
+  "KC_mean_hz_on": 10.92,
+  "sugar_MN9_hz": [
+   54.2,
+   0.0
+  ],
+  "sugar_active_last200": 0,
+  "loom_GF_hz": [
+   228.3,
+   125.0
+  ],
+  "loom_active_last200": 79
+ },
+ {
+  "tau_a": 300.0,
+  "da": 2.0,
+  "odor_active_on": 10216,
+  "odor_active_last200": 8096,
+  "KC_frac_on": 0.497,
+  "KC_mean_hz_on": 6.37,
+  "sugar_MN9_hz": [
+   39.2,
+   0.0
+  ],
+  "sugar_active_last200": 34,
+  "loom_GF_hz": [
+   208.3,
+   104.2
+  ],
+  "loom_active_last200": 0
+ },
+ {
+  "tau_a": 300.0,
+  "da": 4.0,
+  "odor_active_on": 10224,
+  "odor_active_last200": 6771,
+  "KC_frac_on": 0.455,
+  "KC_mean_hz_on": 3.72,
+  "sugar_MN9_hz": [
+   16.7,
+   0.0
+  ],
+  "sugar_active_last200": 0,
+  "loom_GF_hz": [
+   182.5,
+   75.8
+  ],
+  "loom_active_last200": 0
+ },
+ {
+  "tau_a": 1000.0,
+  "da": 0.5,
+  "odor_active_on": 9736,
+  "odor_active_last200": 9080,
+  "KC_frac_on": 0.577,
+  "KC_mean_hz_on": 15.05,
+  "sugar_MN9_hz": [
+   63.3,
+   0.0
+  ],
+  "sugar_active_last200": 0,
+  "loom_GF_hz": [
+   238.3,
+   129.2
+  ],
+  "loom_active_last200": 31
+ },
+ {
+  "tau_a": 1000.0,
+  "da": 1.0,
+  "odor_active_on": 10173,
+  "odor_active_last200": 7768,
+  "KC_frac_on": 0.555,
+  "KC_mean_hz_on": 9.26,
+  "sugar_MN9_hz": [
+   55.0,
+   0.8
+  ],
+  "sugar_active_last200": 0,
+  "loom_GF_hz": [
+   220.8,
+   119.2
+  ],
+  "loom_active_last200": 0
+ },
+ {
+  "tau_a": 1000.0,
+  "da": 2.0,
+  "odor_active_on": 10546,
+  "odor_active_last200": 1025,
+  "KC_frac_on": 0.515,
+  "KC_mean_hz_on": 5.4,
+  "sugar_MN9_hz": [
+   32.5,
+   0.0
+  ],
+  "sugar_active_last200": 0,
+  "loom_GF_hz": [
+   202.5,
+   100.0
+  ],
+  "loom_active_last200": 0
+ },
+ {
+  "tau_a": 1000.0,
+  "da": 4.0,
+  "odor_active_on": 9759,
+  "odor_active_last200": 0,
+  "KC_frac_on": 0.505,
+  "KC_mean_hz_on": 3.16,
+  "sugar_MN9_hz": [
+   14.2,
+   0.0
+  ],
+  "sugar_active_last200": 0,
+  "loom_GF_hz": [
+   169.2,
+   60.0
+  ],
+  "loom_active_last200": 0
+ }
+]

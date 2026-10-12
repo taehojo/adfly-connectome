@@ -1,0 +1,23 @@
+# Python 3.13 (the facts tables and figures were checked with 3.13.3 on Windows 11).
+# These are the versions installed on the machine that wrote results/facts/ and figures/.
+numpy==2.2.5
+pandas==2.2.3
+scipy==1.15.3
+numba==0.61.2          # simulation engine (code/adfly/lif.py, house_nb.py); installs llvmlite 0.44.0
+pyarrow==21.0.0        # parquet and feather files
+matplotlib==3.10.3     # figures
+Pillow==11.2.1         # TIFF output of the figures
+
+# Optional
+# PyMuPDF==1.27.2.3    # code/scripts/check_figures.py only
+# brian2==2.10.1       # code/scripts/rerun_brian2_sugarR.py and rerun_brian2_sugarR_rate.py only:
+#                        reference runs of the published base model
+#                        (https://github.com/philshiu/Drosophila_brain_model). Not installed on the
+#                        machine above; 2.10.1 is the version recorded by the runs.
+# python-docx==1.2.0   # installed on the machine above for building the manuscript; nothing in
+#                        this repository imports it
+
+# The simulations, the validation runs and the network build were made on a Linux server, not
+# with the versions above: Python 3.13.5, numpy 2.5.3, numba 0.68.0, scipy 1.18.1, pandas 3.0.6,
+# pyarrow 25.0.1, brian2 2.10.1. requirements-simulation.txt is the full list of that
+# environment (pip freeze).

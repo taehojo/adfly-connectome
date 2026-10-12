@@ -1,0 +1,735 @@
+{
+ "model": "Shiu et al. 2024 leaky integrate-and-fire on FlyWire v630",
+ "neurons": 127400,
+ "stimulus": "21 right sugar GRNs, Poisson at the rate of each block, 30 trials of 1 s",
+ "engine": "numba, exact exponential integration at dt = 0.1 ms, Brian2 update order, dense kernel",
+ "seeds": [
+  7,
+  11,
+  12
+ ],
+ "slope": "engine rate regressed on reference rate (np.polyfit(ref, ours)), linear rates, neurons active in either run; slope_reverse is the reference regressed on the engine",
+ "spread": "spikes_per_trial_sd and mn9_hz_sd_trials are standard deviations over the 30 trials of a run (ddof = 1); the standard error of a 30-trial mean is the SD divided by sqrt(30)",
+ "versions": {
+  "python": "3.13.5",
+  "numpy": "2.5.3",
+  "numba": "0.68.0",
+  "scipy": "1.18.1",
+  "pandas": "3.0.6"
+ },
+ "rates": {
+  "200": {
+   "references": {
+    "distributed_example_output": {
+     "spikes_per_trial": 17052.2,
+     "spikes_per_trial_sd": 215.3,
+     "active_neurons": 448,
+     "mn9_hz": 93.27,
+     "mn9_hz_sd_trials": 3.2,
+     "stim_hz_min": 191.27,
+     "stim_hz_max": 202.07,
+     "stim_hz_mean": 196.75,
+     "stim_are_the_21_highest_rates": true,
+     "file": "data/shiu2024/example/sugarR.parquet",
+     "trials": 30,
+     "total_spikes": 511566,
+     "t_max_s": 0.9999
+    },
+    "local_brian2_2.10.1": {
+     "spikes_per_trial": 16996.9,
+     "spikes_per_trial_sd": 276.8,
+     "active_neurons": 454,
+     "mn9_hz": 93.63,
+     "mn9_hz_sd_trials": 6.29,
+     "stim_hz_min": 192.6,
+     "stim_hz_max": 199.5,
+     "stim_hz_mean": 195.77,
+     "stim_are_the_21_highest_rates": true,
+     "file": "results/validation/brian2_rerun_200hz/sugarR.parquet",
+     "trials": 30,
+     "total_spikes": 509906,
+     "t_max_s": 0.9999
+    }
+   },
+   "reference_vs_reference": {
+    "local_brian2_2.10.1 vs distributed_example_output": {
+     "pearson_r": 0.9998,
+     "spearman_r": 0.9992,
+     "slope": 0.997,
+     "slope_reverse": 1.003,
+     "n_compared": 459
+    }
+   },
+   "engine_runs": {
+    "gate=True": [
+     {
+      "seed": 7,
+      "spikes_per_trial": 16971.6,
+      "spikes_per_trial_sd": 312.8,
+      "active_neurons": 445,
+      "mn9_hz": 93.73,
+      "mn9_hz_sd_trials": 4.46,
+      "stim_hz_min": 192.03,
+      "stim_hz_max": 199.27,
+      "stim_hz_mean": 196.31,
+      "stim_are_the_21_highest_rates": true,
+      "wall_s": 9.4
+     },
+     {
+      "seed": 11,
+      "spikes_per_trial": 17012.3,
+      "spikes_per_trial_sd": 330.1,
+      "active_neurons": 448,
+      "mn9_hz": 91.9,
+      "mn9_hz_sd_trials": 4.88,
+      "stim_hz_min": 192.73,
+      "stim_hz_max": 201.97,
+      "stim_hz_mean": 195.86,
+      "stim_are_the_21_highest_rates": true,
+      "wall_s": 9.4
+     },
+     {
+      "seed": 12,
+      "spikes_per_trial": 16918.9,
+      "spikes_per_trial_sd": 345.9,
+      "active_neurons": 442,
+      "mn9_hz": 93.23,
+      "mn9_hz_sd_trials": 4.74,
+      "stim_hz_min": 190.53,
+      "stim_hz_max": 199.87,
+      "stim_hz_mean": 195.52,
+      "stim_are_the_21_highest_rates": true,
+      "wall_s": 9.6
+     }
+    ],
+    "gate=False": [
+     {
+      "seed": 7,
+      "spikes_per_trial": 20687.4,
+      "spikes_per_trial_sd": 327.6,
+      "active_neurons": 455,
+      "mn9_hz": 119.13,
+      "mn9_hz_sd_trials": 4.52,
+      "stim_hz_min": 192.03,
+      "stim_hz_max": 199.27,
+      "stim_hz_mean": 196.28,
+      "stim_are_the_21_highest_rates": false,
+      "wall_s": 9.6
+     },
+     {
+      "seed": 11,
+      "spikes_per_trial": 20756.5,
+      "spikes_per_trial_sd": 296.3,
+      "active_neurons": 464,
+      "mn9_hz": 120.07,
+      "mn9_hz_sd_trials": 4.2,
+      "stim_hz_min": 192.73,
+      "stim_hz_max": 201.97,
+      "stim_hz_mean": 195.82,
+      "stim_are_the_21_highest_rates": false,
+      "wall_s": 9.6
+     },
+     {
+      "seed": 12,
+      "spikes_per_trial": 20757.2,
+      "spikes_per_trial_sd": 343.2,
+      "active_neurons": 461,
+      "mn9_hz": 121.17,
+      "mn9_hz_sd_trials": 4.64,
+      "stim_hz_min": 190.53,
+      "stim_hz_max": 199.87,
+      "stim_hz_mean": 195.48,
+      "stim_are_the_21_highest_rates": false,
+      "wall_s": 9.7
+     }
+    ]
+   },
+   "comparisons": {
+    "gate=True vs distributed_example_output": {
+     "seed_7": {
+      "pearson_r": 0.9998,
+      "spearman_r": 0.9993,
+      "slope": 0.997,
+      "slope_reverse": 1.002,
+      "n_compared": 452
+     },
+     "by_seed": [
+      {
+       "seed": 7,
+       "pearson_r": 0.9998,
+       "spearman_r": 0.9993,
+       "slope": 0.997,
+       "slope_reverse": 1.002,
+       "n_compared": 452
+      },
+      {
+       "seed": 11,
+       "pearson_r": 0.9999,
+       "spearman_r": 0.9994,
+       "slope": 0.996,
+       "slope_reverse": 1.004,
+       "n_compared": 452
+      },
+      {
+       "seed": 12,
+       "pearson_r": 0.9998,
+       "spearman_r": 0.9993,
+       "slope": 0.995,
+       "slope_reverse": 1.004,
+       "n_compared": 452
+      }
+     ]
+    },
+    "gate=True vs local_brian2_2.10.1": {
+     "seed_7": {
+      "pearson_r": 0.9998,
+      "spearman_r": 0.9993,
+      "slope": 1.001,
+      "slope_reverse": 0.999,
+      "n_compared": 458
+     },
+     "by_seed": [
+      {
+       "seed": 7,
+       "pearson_r": 0.9998,
+       "spearman_r": 0.9993,
+       "slope": 1.001,
+       "slope_reverse": 0.999,
+       "n_compared": 458
+      },
+      {
+       "seed": 11,
+       "pearson_r": 0.9998,
+       "spearman_r": 0.9994,
+       "slope": 0.999,
+       "slope_reverse": 1.0,
+       "n_compared": 458
+      },
+      {
+       "seed": 12,
+       "pearson_r": 0.9998,
+       "spearman_r": 0.9994,
+       "slope": 0.998,
+       "slope_reverse": 1.001,
+       "n_compared": 456
+      }
+     ]
+    },
+    "gate=False vs distributed_example_output": {
+     "seed_7": {
+      "pearson_r": 0.9674,
+      "spearman_r": 0.9761,
+      "slope": 1.123,
+      "slope_reverse": 0.833,
+      "n_compared": 462
+     },
+     "by_seed": [
+      {
+       "seed": 7,
+       "pearson_r": 0.9674,
+       "spearman_r": 0.9761,
+       "slope": 1.123,
+       "slope_reverse": 0.833,
+       "n_compared": 462
+      },
+      {
+       "seed": 11,
+       "pearson_r": 0.967,
+       "spearman_r": 0.9766,
+       "slope": 1.123,
+       "slope_reverse": 0.833,
+       "n_compared": 472
+      },
+      {
+       "seed": 12,
+       "pearson_r": 0.9656,
+       "spearman_r": 0.9753,
+       "slope": 1.122,
+       "slope_reverse": 0.831,
+       "n_compared": 469
+      }
+     ]
+    },
+    "gate=False vs local_brian2_2.10.1": {
+     "seed_7": {
+      "pearson_r": 0.9689,
+      "spearman_r": 0.9774,
+      "slope": 1.129,
+      "slope_reverse": 0.831,
+      "n_compared": 469
+     },
+     "by_seed": [
+      {
+       "seed": 7,
+       "pearson_r": 0.9689,
+       "spearman_r": 0.9774,
+       "slope": 1.129,
+       "slope_reverse": 0.831,
+       "n_compared": 469
+      },
+      {
+       "seed": 11,
+       "pearson_r": 0.9682,
+       "spearman_r": 0.9771,
+       "slope": 1.128,
+       "slope_reverse": 0.831,
+       "n_compared": 473
+      },
+      {
+       "seed": 12,
+       "pearson_r": 0.9668,
+       "spearman_r": 0.976,
+       "slope": 1.128,
+       "slope_reverse": 0.829,
+       "n_compared": 470
+      }
+     ]
+    }
+   },
+   "engine_seed_vs_seed": {
+    "gate=True": [
+     {
+      "seeds": [
+       7,
+       11
+      ],
+      "pearson_r": 0.9998,
+      "spearman_r": 0.9995,
+      "slope": 1.001,
+      "slope_reverse": 0.998,
+      "n_compared": 452
+     },
+     {
+      "seeds": [
+       7,
+       12
+      ],
+      "pearson_r": 0.9999,
+      "spearman_r": 0.9994,
+      "slope": 1.002,
+      "slope_reverse": 0.998,
+      "n_compared": 447
+     },
+     {
+      "seeds": [
+       11,
+       12
+      ],
+      "pearson_r": 0.9999,
+      "spearman_r": 0.9995,
+      "slope": 1.001,
+      "slope_reverse": 0.999,
+      "n_compared": 450
+     }
+    ],
+    "gate=False": [
+     {
+      "seeds": [
+       7,
+       11
+      ],
+      "pearson_r": 0.9999,
+      "spearman_r": 0.9992,
+      "slope": 1.001,
+      "slope_reverse": 0.999,
+      "n_compared": 469
+     },
+     {
+      "seeds": [
+       7,
+       12
+      ],
+      "pearson_r": 0.9999,
+      "spearman_r": 0.9993,
+      "slope": 0.999,
+      "slope_reverse": 1.001,
+      "n_compared": 467
+     },
+     {
+      "seeds": [
+       11,
+       12
+      ],
+      "pearson_r": 0.9999,
+      "spearman_r": 0.9993,
+      "slope": 0.999,
+      "slope_reverse": 1.001,
+      "n_compared": 470
+     }
+    ]
+   }
+  },
+  "100": {
+   "references": {
+    "distributed_example_output": {
+     "spikes_per_trial": 9635.8,
+     "spikes_per_trial_sd": 413.5,
+     "active_neurons": 404,
+     "mn9_hz": 67.03,
+     "mn9_hz_sd_trials": 6.71,
+     "stim_hz_min": 95.0,
+     "stim_hz_max": 102.57,
+     "stim_hz_mean": 98.98,
+     "stim_are_the_21_highest_rates": false,
+     "file": "data/shiu2024/example/sugarR_100Hz.parquet",
+     "trials": 30,
+     "total_spikes": 289073,
+     "t_max_s": 0.9999
+    },
+    "local_brian2_2.10.1": {
+     "spikes_per_trial": 9774.7,
+     "spikes_per_trial_sd": 290.0,
+     "active_neurons": 414,
+     "mn9_hz": 65.67,
+     "mn9_hz_sd_trials": 5.46,
+     "stim_hz_min": 96.77,
+     "stim_hz_max": 104.07,
+     "stim_hz_mean": 99.54,
+     "stim_are_the_21_highest_rates": false,
+     "file": "results/validation/brian2_rerun_100hz/sugarR.parquet",
+     "trials": 30,
+     "total_spikes": 293241,
+     "t_max_s": 0.9999
+    }
+   },
+   "reference_vs_reference": {
+    "local_brian2_2.10.1 vs distributed_example_output": {
+     "pearson_r": 0.9995,
+     "spearman_r": 0.9978,
+     "slope": 1.008,
+     "slope_reverse": 0.991,
+     "n_compared": 420
+    }
+   },
+   "engine_runs": {
+    "gate=True": [
+     {
+      "seed": 7,
+      "spikes_per_trial": 9648.3,
+      "spikes_per_trial_sd": 296.0,
+      "active_neurons": 408,
+      "mn9_hz": 68.07,
+      "mn9_hz_sd_trials": 5.25,
+      "stim_hz_min": 96.7,
+      "stim_hz_max": 102.57,
+      "stim_hz_mean": 99.04,
+      "stim_are_the_21_highest_rates": false,
+      "wall_s": 9.5
+     },
+     {
+      "seed": 11,
+      "spikes_per_trial": 9719.6,
+      "spikes_per_trial_sd": 363.6,
+      "active_neurons": 409,
+      "mn9_hz": 68.4,
+      "mn9_hz_sd_trials": 5.09,
+      "stim_hz_min": 95.57,
+      "stim_hz_max": 102.37,
+      "stim_hz_mean": 98.93,
+      "stim_are_the_21_highest_rates": false,
+      "wall_s": 9.6
+     },
+     {
+      "seed": 12,
+      "spikes_per_trial": 9679.1,
+      "spikes_per_trial_sd": 329.0,
+      "active_neurons": 404,
+      "mn9_hz": 68.6,
+      "mn9_hz_sd_trials": 5.59,
+      "stim_hz_min": 94.97,
+      "stim_hz_max": 101.3,
+      "stim_hz_mean": 98.54,
+      "stim_are_the_21_highest_rates": false,
+      "wall_s": 9.6
+     }
+    ],
+    "gate=False": [
+     {
+      "seed": 7,
+      "spikes_per_trial": 11787.5,
+      "spikes_per_trial_sd": 464.1,
+      "active_neurons": 443,
+      "mn9_hz": 79.9,
+      "mn9_hz_sd_trials": 5.22,
+      "stim_hz_min": 96.7,
+      "stim_hz_max": 102.57,
+      "stim_hz_mean": 99.03,
+      "stim_are_the_21_highest_rates": false,
+      "wall_s": 9.8
+     },
+     {
+      "seed": 11,
+      "spikes_per_trial": 12009.7,
+      "spikes_per_trial_sd": 503.8,
+      "active_neurons": 430,
+      "mn9_hz": 81.77,
+      "mn9_hz_sd_trials": 7.23,
+      "stim_hz_min": 95.57,
+      "stim_hz_max": 102.37,
+      "stim_hz_mean": 98.92,
+      "stim_are_the_21_highest_rates": false,
+      "wall_s": 9.6
+     },
+     {
+      "seed": 12,
+      "spikes_per_trial": 11861.4,
+      "spikes_per_trial_sd": 528.9,
+      "active_neurons": 424,
+      "mn9_hz": 81.87,
+      "mn9_hz_sd_trials": 5.57,
+      "stim_hz_min": 94.97,
+      "stim_hz_max": 101.3,
+      "stim_hz_mean": 98.53,
+      "stim_are_the_21_highest_rates": false,
+      "wall_s": 9.6
+     }
+    ]
+   },
+   "comparisons": {
+    "gate=True vs distributed_example_output": {
+     "seed_7": {
+      "pearson_r": 0.9996,
+      "spearman_r": 0.9978,
+      "slope": 1.0,
+      "slope_reverse": 0.999,
+      "n_compared": 422
+     },
+     "by_seed": [
+      {
+       "seed": 7,
+       "pearson_r": 0.9996,
+       "spearman_r": 0.9978,
+       "slope": 1.0,
+       "slope_reverse": 0.999,
+       "n_compared": 422
+      },
+      {
+       "seed": 11,
+       "pearson_r": 0.9996,
+       "spearman_r": 0.9974,
+       "slope": 1.002,
+       "slope_reverse": 0.997,
+       "n_compared": 422
+      },
+      {
+       "seed": 12,
+       "pearson_r": 0.9995,
+       "spearman_r": 0.9983,
+       "slope": 0.998,
+       "slope_reverse": 1.001,
+       "n_compared": 418
+      }
+     ]
+    },
+    "gate=True vs local_brian2_2.10.1": {
+     "seed_7": {
+      "pearson_r": 0.9995,
+      "spearman_r": 0.9982,
+      "slope": 0.991,
+      "slope_reverse": 1.008,
+      "n_compared": 422
+     },
+     "by_seed": [
+      {
+       "seed": 7,
+       "pearson_r": 0.9995,
+       "spearman_r": 0.9982,
+       "slope": 0.991,
+       "slope_reverse": 1.008,
+       "n_compared": 422
+      },
+      {
+       "seed": 11,
+       "pearson_r": 0.9995,
+       "spearman_r": 0.9984,
+       "slope": 0.994,
+       "slope_reverse": 1.005,
+       "n_compared": 421
+      },
+      {
+       "seed": 12,
+       "pearson_r": 0.9992,
+       "spearman_r": 0.9982,
+       "slope": 0.989,
+       "slope_reverse": 1.009,
+       "n_compared": 422
+      }
+     ]
+    },
+    "gate=False vs distributed_example_output": {
+     "seed_7": {
+      "pearson_r": 0.957,
+      "spearman_r": 0.968,
+      "slope": 1.153,
+      "slope_reverse": 0.794,
+      "n_compared": 454
+     },
+     "by_seed": [
+      {
+       "seed": 7,
+       "pearson_r": 0.957,
+       "spearman_r": 0.968,
+       "slope": 1.153,
+       "slope_reverse": 0.794,
+       "n_compared": 454
+      },
+      {
+       "seed": 11,
+       "pearson_r": 0.9461,
+       "spearman_r": 0.9671,
+       "slope": 1.164,
+       "slope_reverse": 0.769,
+       "n_compared": 435
+      },
+      {
+       "seed": 12,
+       "pearson_r": 0.9533,
+       "spearman_r": 0.9703,
+       "slope": 1.154,
+       "slope_reverse": 0.788,
+       "n_compared": 431
+      }
+     ]
+    },
+    "gate=False vs local_brian2_2.10.1": {
+     "seed_7": {
+      "pearson_r": 0.9604,
+      "spearman_r": 0.9722,
+      "slope": 1.148,
+      "slope_reverse": 0.804,
+      "n_compared": 453
+     },
+     "by_seed": [
+      {
+       "seed": 7,
+       "pearson_r": 0.9604,
+       "spearman_r": 0.9722,
+       "slope": 1.148,
+       "slope_reverse": 0.804,
+       "n_compared": 453
+      },
+      {
+       "seed": 11,
+       "pearson_r": 0.9499,
+       "spearman_r": 0.9703,
+       "slope": 1.159,
+       "slope_reverse": 0.779,
+       "n_compared": 436
+      },
+      {
+       "seed": 12,
+       "pearson_r": 0.9566,
+       "spearman_r": 0.9724,
+       "slope": 1.148,
+       "slope_reverse": 0.797,
+       "n_compared": 429
+      }
+     ]
+    }
+   },
+   "engine_seed_vs_seed": {
+    "gate=True": [
+     {
+      "seeds": [
+       7,
+       11
+      ],
+      "pearson_r": 0.9995,
+      "spearman_r": 0.9986,
+      "slope": 0.997,
+      "slope_reverse": 1.002,
+      "n_compared": 415
+     },
+     {
+      "seeds": [
+       7,
+       12
+      ],
+      "pearson_r": 0.9997,
+      "spearman_r": 0.9989,
+      "slope": 1.002,
+      "slope_reverse": 0.998,
+      "n_compared": 414
+     },
+     {
+      "seeds": [
+       11,
+       12
+      ],
+      "pearson_r": 0.9997,
+      "spearman_r": 0.9989,
+      "slope": 1.004,
+      "slope_reverse": 0.996,
+      "n_compared": 415
+     }
+    ],
+    "gate=False": [
+     {
+      "seeds": [
+       7,
+       11
+      ],
+      "pearson_r": 0.9991,
+      "spearman_r": 0.9942,
+      "slope": 0.978,
+      "slope_reverse": 1.02,
+      "n_compared": 461
+     },
+     {
+      "seeds": [
+       7,
+       12
+      ],
+      "pearson_r": 0.9998,
+      "spearman_r": 0.9954,
+      "slope": 0.995,
+      "slope_reverse": 1.005,
+      "n_compared": 454
+     },
+     {
+      "seeds": [
+       11,
+       12
+      ],
+      "pearson_r": 0.9994,
+      "spearman_r": 0.9984,
+      "slope": 1.016,
+      "slope_reverse": 0.983,
+      "n_compared": 435
+     }
+    ]
+   }
+  }
+ },
+ "check_150hz_seed7_discard": {
+  "seed": 7,
+  "spikes_per_trial": 13707.1,
+  "spikes_per_trial_sd": 401.5,
+  "active_neurons": 432,
+  "mn9_hz": 82.83,
+  "mn9_hz_sd_trials": 4.53,
+  "stim_hz_min": 145.47,
+  "stim_hz_max": 150.57,
+  "stim_hz_mean": 147.57,
+  "stim_are_the_21_highest_rates": true,
+  "wall_s": 10.2,
+  "max_abs_diff_from_saved_run_hz": 0.0,
+  "identical_to_saved_run": true,
+  "saved_run": "results/validation/engine_validation_rates.npz ours_gate1"
+ },
+ "reference_150hz_local_brian2_2.10.1": {
+  "spikes_per_trial": 13539.4,
+  "spikes_per_trial_sd": 280.5,
+  "active_neurons": 436,
+  "mn9_hz": 82.3,
+  "mn9_hz_sd_trials": 4.03,
+  "stim_hz_min": 143.13,
+  "stim_hz_max": 151.03,
+  "stim_hz_mean": 147.66,
+  "stim_are_the_21_highest_rates": true,
+  "file": "results/validation/brian2_rerun/sugarR.parquet",
+  "trials": 30,
+  "total_spikes": 406182,
+  "t_max_s": 0.9999
+ }
+}

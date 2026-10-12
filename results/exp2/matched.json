@@ -1,0 +1,63 @@
+{
+ "reference_stages": [
+  0.1,
+  0.25,
+  0.5
+ ],
+ "maps": {
+  "0.1": {
+   "target_syn_lost_frac": 0.11545718523750444,
+   "hub": {
+    "s": 0.1,
+    "reachable": true,
+    "max_syn_lost_frac": 0.7687995396630428
+   },
+   "shuffled": {
+    "s": 0.1452,
+    "reachable": true,
+    "max_syn_lost_frac": 0.6039198472590783
+   },
+   "antihub": {
+    "s": 0.2809,
+    "reachable": true,
+    "max_syn_lost_frac": 0.35523426011135634
+   }
+  },
+  "0.25": {
+   "target_syn_lost_frac": 0.27080751798092967,
+   "hub": {
+    "s": 0.25,
+    "reachable": true,
+    "max_syn_lost_frac": 0.7687995396630428
+   },
+   "shuffled": {
+    "s": 0.3676,
+    "reachable": true,
+    "max_syn_lost_frac": 0.6039198472590783
+   },
+   "antihub": {
+    "s": 0.7175,
+    "reachable": true,
+    "max_syn_lost_frac": 0.35523426011135634
+   }
+  },
+  "0.5": {
+   "target_syn_lost_frac": 0.48281685709064687,
+   "hub": {
+    "s": 0.5,
+    "reachable": true,
+    "max_syn_lost_frac": 0.7687995396630428
+   },
+   "shuffled": {
+    "s": 0.7348,
+    "reachable": true,
+    "max_syn_lost_frac": 0.6039198472590783
+   },
+   "antihub": {
+    "s": null,
+    "reachable": false,
+    "max_syn_lost_frac": 0.35523426011135634
+   }
+  }
+ }
+}

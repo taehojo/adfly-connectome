@@ -1,0 +1,1808 @@
+{
+ "_bootstrap_seed": 20261009,
+ "connectome_manifest_found": true,
+ "connectome_dataset": "male-cns-v1.0-superclass-non-null-known-nt",
+ "connectome_neurons": 166700,
+ "connectome_edges_signed": 24469412,
+ "connectome_synaptic_contacts": 120260398,
+ "connectome_raw_weight_rows": 151856684,
+ "connectome_rows_dropped_endpoint_unannotated": 126273746,
+ "connectome_rows_dropped_endpoint_unannotated_frac": 0.8315,
+ "connectome_rows_dropped_unsigned_presyn": 1113526,
+ "connectome_row_accounting_closes": true,
+ "connectome_neurons_excitatory": 103720,
+ "connectome_neurons_inhibitory": 51371,
+ "connectome_neurons_unsigned_no_output": 11609,
+ "connectome_sign_rule": "ACh +1, GABA -1, Glu -1, others no edges",
+ "connectome_minconf": 0.5,
+ "n_sensory_superclass_neurons": 17937,
+ "n_sensory_superclass_frac": 0.1076,
+ "calib_brain_mask_excluded_prefixes": [
+  "vnc_",
+  "ascending",
+  "sensory_ascending",
+  "efferent_ascending"
+ ],
+ "calib_brain_mask_neurons": 143878,
+ "calib_brain_mask_optic_visual_neurons": 105267,
+ "lif_v_0": -52.0,
+ "lif_v_rst": -52.0,
+ "lif_v_th": -45.0,
+ "lif_t_mbr": 20.0,
+ "lif_tau": 5.0,
+ "lif_t_rfc": 2.2,
+ "lif_t_dly": 1.8,
+ "lif_w_syn": 0.275,
+ "lif_f_poi": 250.0,
+ "lif_dt": 0.1,
+ "lif_tau_a": 1000.0,
+ "lif_poisson_kick_mV": 68.75,
+ "lif_isolated_driven_spikes_per_event": {
+  "150Hz_da0": 0.9845,
+  "150Hz_da1": 0.9787,
+  "100Hz_da0": 0.9892,
+  "100Hz_da1": 0.9891
+ },
+ "lif_adaptation_off_by_default": true,
+ "lif_gate_refractory_input_default": true,
+ "model_tau_a_ms": 1000.0,
+ "model_da_mV": 1.0,
+ "model_w_syn_mV": 0.275,
+ "odour_A_glomeruli": [
+  "DM1",
+  "DM4",
+  "VA2"
+ ],
+ "odour_B_glomeruli": [
+  "DL5",
+  "DM2",
+  "VM2"
+ ],
+ "engine_validation_network": "Shiu et al. 2024 leaky integrate-and-fire on FlyWire v630",
+ "engine_validation_neurons": 127400,
+ "engine_validation_stimulus": "21 right sugar GRNs, 150 Hz Poisson, 30 trials of 1 s",
+ "engine_validation_seeds": [
+  7,
+  11,
+  12
+ ],
+ "engine_validation_seed_used_for_comparisons": 7,
+ "engine_validation_slope_direction": "engine rate regressed on reference rate (np.polyfit(ref, ours)), linear rates over neurons active in either run",
+ "engine_discard_spikes_per_trial_by_seed": [
+  13707.1,
+  13649.7,
+  13543.9
+ ],
+ "engine_discard_mn9_hz_by_seed": [
+  82.83,
+  83.8,
+  84.07
+ ],
+ "engine_discard_active_by_seed": [
+  432,
+  418,
+  436
+ ],
+ "engine_accumulate_spikes_per_trial_by_seed": [
+  16713.8,
+  16681.2,
+  16784.3
+ ],
+ "engine_accumulate_mn9_hz_by_seed": [
+  105.6,
+  105.77,
+  105.37
+ ],
+ "engine_accumulate_active_by_seed": [
+  441,
+  433,
+  428
+ ],
+ "engine_ref_brian2_local": [
+  13539.4,
+  436,
+  82.3
+ ],
+ "engine_ref_released_example": [
+  17052.2,
+  448,
+  93.27
+ ],
+ "engine_cmp_discard_vs_local": [
+  0.9997,
+  0.9992,
+  1.004,
+  438
+ ],
+ "engine_cmp_discard_vs_released": [
+  0.9943,
+  0.9897,
+  0.794,
+  453
+ ],
+ "engine_cmp_accumulate_vs_local": [
+  0.9583,
+  0.9745,
+  1.147,
+  461
+ ],
+ "engine_cmp_accumulate_vs_released": [
+  0.9414,
+  0.9679,
+  0.895,
+  468
+ ],
+ "engine_cmp_discard_vs_local_recomputed": [
+  0.9997,
+  1.004,
+  0.995,
+  438
+ ],
+ "engine_cmp_discard_vs_released_recomputed": [
+  0.9943,
+  0.794,
+  1.246,
+  453
+ ],
+ "engine_cmp_accumulate_vs_local_recomputed": [
+  0.9583,
+  1.147,
+  0.801,
+  461
+ ],
+ "engine_cmp_accumulate_vs_released_recomputed": [
+  0.9414,
+  0.895,
+  0.99,
+  468
+ ],
+ "engine_discard_seed_spread_spikes": 163.2,
+ "engine_discard_seed_spread_mn9_hz": 1.24,
+ "engine_discard_mn9_minus_brian2_by_seed": [
+  0.53,
+  1.5,
+  1.77
+ ],
+ "flywire_sign_convention": "Shiu et al. 'Excitatory x Connectivity' column (GABA/Glu negative, all else positive) for both v630 and v783 packs",
+ "malecns_gust_check_protocol": "base model (w_syn 0.275, no adaptation, recurrent AL), 150 Hz Poisson, 30 trials of 1000 ms, seed 0, right-side GRNs",
+ "malecns_gust_nostim_n_stim": 0,
+ "malecns_gust_nostim_n_active": 0,
+ "malecns_gust_nostim_mn9_L_R_hz": [
+  0.0,
+  0.0
+ ],
+ "malecns_gust_nostim_mn9_L_sd_hz": 0.0,
+ "malecns_gust_nostim_spikes_per_trial": 0.0,
+ "malecns_gust_LB3c_R_n_stim": 11,
+ "malecns_gust_LB3c_R_n_active": 5167,
+ "malecns_gust_LB3c_R_mn9_L_R_hz": [
+  28.3,
+  0.2
+ ],
+ "malecns_gust_LB3c_R_mn9_L_sd_hz": 5.85,
+ "malecns_gust_LB3c_R_spikes_per_trial": 68972.0,
+ "malecns_gust_LB3cb_R_n_stim": 17,
+ "malecns_gust_LB3cb_R_n_active": 5244,
+ "malecns_gust_LB3cb_R_mn9_L_R_hz": [
+  47.5,
+  0.6
+ ],
+ "malecns_gust_LB3cb_R_mn9_L_sd_hz": 8.38,
+ "malecns_gust_LB3cb_R_spikes_per_trial": 73249.0,
+ "malecns_gust_bitter_R_n_stim": 19,
+ "malecns_gust_bitter_R_n_active": 15033,
+ "malecns_gust_bitter_R_mn9_L_R_hz": [
+  0.0,
+  0.0
+ ],
+ "malecns_gust_bitter_R_mn9_L_sd_hz": 0.0,
+ "malecns_gust_bitter_R_spikes_per_trial": 81165.0,
+ "malecns_gust_bitter_R_kc_active": 3352,
+ "calib_flywire_version": "v783",
+ "calib_type_matching_key": "MaleCNS flywireType == FlyWire cell_type",
+ "calib_min_mean_input_synapses": 50,
+ "calib_n_matched_types": 6808,
+ "calib_n_matched_types_recomputed": 6808,
+ "calib_min_mean_fw_mc_in_table": [
+  50.49,
+  54.5
+ ],
+ "calib_ratio_median": 1.7547,
+ "calib_ratio_median_recomputed": 1.7547,
+ "calib_ratio_iqr": [
+  1.4083,
+  2.2594
+ ],
+ "calib_w_syn_scaled_mV": 0.1567,
+ "calib_w_syn_scaled_over_published": 0.57,
+ "calib_fw_mean_in_syn_per_neuron": 393.1,
+ "calib_mc_brain_mean_in_syn_per_neuron": 694.2,
+ "calib_persistence_protocol": "base model (no adaptation, recurrent AL), Poisson 150 Hz for 300 ms then 700 ms off, 10 bins of 100 ms, rates averaged over B replicates (odour B=4, sugar B=16), seed 0",
+ "mn9_pack_order_sides": [
+  "L",
+  "R"
+ ],
+ "dnp01_pack_order_sides": [
+  "R",
+  "L"
+ ],
+ "calib_w0157_sugar_mn9_hz": [
+  24.4,
+  0.0
+ ],
+ "calib_w0157_sugar_mn9_mean_of_two_hz": 12.2,
+ "calib_w0157_sugar_active_per_100ms": [
+  146,
+  149,
+  162,
+  100,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "calib_w0157_sugar_silent_from_ms": 400,
+ "calib_malecns_odour_w0.275_active_range_all_bins": [
+  8132,
+  8892
+ ],
+ "calib_malecns_odour_w0.275_active_last_bin": 8140,
+ "calib_malecns_odour_w0.275_kc_on_last_total": [
+  2501,
+  2281,
+  4064
+ ],
+ "calib_malecns_odour_w0.157_active_range_all_bins": [
+  3806,
+  4151
+ ],
+ "calib_malecns_odour_w0.157_active_last_bin": 3806,
+ "calib_malecns_odour_w0.157_kc_on_last_total": [
+  781,
+  654,
+  4064
+ ],
+ "calib_flywire783_odour_active_range_all_bins": [
+  8154,
+  8335
+ ],
+ "calib_flywire783_odour_active_range_post_offset": [
+  8162,
+  8225
+ ],
+ "calib_flywire783_odour_kc_on_last_total": [
+  3400,
+  3360,
+  5177
+ ],
+ "calib_flywire_odour_stimulus_sets_tested": 1,
+ "kckc_w0275_keep_equals_sweep_da0_row": true,
+ "kckc_w0275_mn9_sugar_hz": [
+  95.0,
+  0.8
+ ],
+ "kckc_w0275_gf_lplc2_hz": [
+  265.0,
+  140.8
+ ],
+ "kckc_w0275_odour_sugar_loom_last200": [
+  8696,
+  933,
+  92
+ ],
+ "kckc_w0275_kc_frac_on": 0.615,
+ "kckc_w0157_mn9_sugar_hz": [
+  22.5,
+  0.0
+ ],
+ "kckc_w0157_gf_lplc2_hz": [
+  217.5,
+  124.2
+ ],
+ "kckc_w0157_odour_sugar_loom_last200": [
+  4004,
+  0,
+  48
+ ],
+ "kckc_w0157_kc_frac_on": 0.195,
+ "calib_mn9_ratio_w0157_vs_w0275": 0.237,
+ "calib_gf_ratio_w0157_vs_w0275": 0.821,
+ "sweep_on_window_ms": [
+  0,
+  300
+ ],
+ "sweep_persistence_window_after_offset_ms": [
+  500,
+  700
+ ],
+ "sweep_replicates_and_seed": [
+  4,
+  0
+ ],
+ "sweep_stimuli": "odour: left ORN DM1/DM4/VA2; sugar: right LB3c+LB3b; looming: right LPLC2; all 150 Hz, 300 ms; base MaleCNS model with recurrent AL, w 0.275",
+ "criterion_C3_kc_sparse_range_pct": [
+  5,
+  20
+ ],
+ "criterion_C1_quiescence": "~0 active neurons in the last 200 ms of a 700-ms post-stimulus window for odour, sugar and looming",
+ "criterion_C2_responses_kept": "sugar GRNs -> MN9 and LPLC2 -> DNp01 remain strongly driven",
+ "sweep_settings_tau_da": [
+  [
+   1000.0,
+   0.0
+  ],
+  [
+   300.0,
+   0.5
+  ],
+  [
+   300.0,
+   1.0
+  ],
+  [
+   300.0,
+   2.0
+  ],
+  [
+   300.0,
+   4.0
+  ],
+  [
+   1000.0,
+   0.5
+  ],
+  [
+   1000.0,
+   1.0
+  ],
+  [
+   1000.0,
+   2.0
+  ],
+  [
+   1000.0,
+   4.0
+  ]
+ ],
+ "sweep_odour_last200_by_setting": [
+  8696,
+  8662,
+  7984,
+  8096,
+  6771,
+  9080,
+  7768,
+  1025,
+  0
+ ],
+ "sweep_sugar_last200_by_setting": [
+  933,
+  416,
+  0,
+  34,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "sweep_loom_last200_by_setting": [
+  92,
+  253,
+  79,
+  0,
+  0,
+  31,
+  0,
+  0,
+  0
+ ],
+ "sweep_kc_frac_on_by_setting": [
+  0.615,
+  0.576,
+  0.558,
+  0.497,
+  0.455,
+  0.577,
+  0.555,
+  0.515,
+  0.505
+ ],
+ "sweep_kc_mean_hz_on_by_setting": [
+  39.28,
+  17.16,
+  10.92,
+  6.37,
+  3.72,
+  15.05,
+  9.26,
+  5.4,
+  3.16
+ ],
+ "sweep_mn9_driven_hz_by_setting": [
+  95.0,
+  75.8,
+  54.2,
+  39.2,
+  16.7,
+  63.3,
+  55.0,
+  32.5,
+  14.2
+ ],
+ "sweep_gf_ipsi_hz_by_setting": [
+  265.0,
+  240.0,
+  228.3,
+  208.3,
+  182.5,
+  238.3,
+  220.8,
+  202.5,
+  169.2
+ ],
+ "sweep_gf_contra_hz_by_setting": [
+  140.8,
+  131.7,
+  125.0,
+  104.2,
+  75.8,
+  129.2,
+  119.2,
+  100.0,
+  60.0
+ ],
+ "persist_noadapt_odour_sugar_loom_last200": [
+  8696,
+  933,
+  92
+ ],
+ "persist_chosen_odour_sugar_loom_last200": [
+  7768,
+  0,
+  0
+ ],
+ "persist_noadapt_odour_active_on": 9845,
+ "adapt_kc_mean_hz_noadapt_to_chosen": [
+  39.28,
+  9.26
+ ],
+ "adapt_kc_frac_noadapt_to_chosen": [
+  0.615,
+  0.555
+ ],
+ "adapt_cost_mn9_hz": [
+  95.0,
+  55.0
+ ],
+ "adapt_cost_mn9_pct_change": -42.1,
+ "adapt_cost_gf_ipsi_hz": [
+  265.0,
+  220.8
+ ],
+ "adapt_cost_gf_ipsi_pct_change": -16.7,
+ "adapt_cost_gf_contra_pct_change": -15.3,
+ "adapt_tau1000_da2_odour_last200_kcfrac_mn9_gf": [
+  1025,
+  0.515,
+  32.5,
+  202.5
+ ],
+ "adapt_tau1000_da4_odour_last200_kcfrac_mn9_gf": [
+  0,
+  0.505,
+  14.2,
+  169.2
+ ],
+ "adapt_da4_mn9_pct_change": -85.1,
+ "sweep_kc_frac_range_adaptation_settings": [
+  0.455,
+  0.577
+ ],
+ "sweep_settings_all_three_quiescent": [
+  [
+   1000.0,
+   4.0
+  ]
+ ],
+ "sweep_settings_sugar_and_loom_quiescent": [
+  [
+   300.0,
+   4.0
+  ],
+  [
+   1000.0,
+   1.0
+  ],
+  [
+   1000.0,
+   2.0
+  ],
+  [
+   1000.0,
+   4.0
+  ]
+ ],
+ "probe_protocol": "base model (default Params: w 0.275, da 0, recurrent AL), 10 trials, 50-ms bins, seed 0",
+ "probe_sugar_active_per_bin_stimulus_range": [
+  858,
+  2943
+ ],
+ "probe_sugar_active_per_bin_post_offset_range": [
+  1236,
+  1655
+ ],
+ "probe_sugar_active_first_post_offset_bin_and_drop_frac": [
+  1655,
+  0.215
+ ],
+ "probe_sugar_active_per_bin_post_offset_after_first_bin_range": [
+  1236,
+  1375
+ ],
+ "probe_sugar_total_rate_stimulus_range_hz": [
+  21462.0,
+  75790.0
+ ],
+ "probe_sugar_total_rate_post_offset_range_hz": [
+  63806.0,
+  68034.0
+ ],
+ "alt_drop_kckc_w0275_odour_last200": [
+  8696,
+  7594
+ ],
+ "alt_drop_kckc_w0275_kc_last200": [
+  2281,
+  1087
+ ],
+ "alt_drop_kckc_w0275_kc_frac_on": 0.305,
+ "alt_drop_sensory_input_w0275_odour_last200": 8211,
+ "alt_drop_sensory_input_w0275_kc_last200_and_share": [
+  2280,
+  0.278
+ ],
+ "alt_drop_sensory_input_top_type": [
+  "KCg-m",
+  1318
+ ],
+ "alt_drop_sensory_and_kckc_w0275_odour_last200": 7253,
+ "alt_lower_weight_w0157_odour_last200_kcfrac": [
+  4004,
+  0.195
+ ],
+ "alt_adaptation_only_da4": [
+  0,
+  0.505,
+  14.2
+ ],
+ "alt_tests_generating_scripts_found": 0,
+ "intensity_sweep_da0_last200_range": [
+  7720,
+  7875
+ ],
+ "intensity_sweep_da0_kc_frac_range": [
+  0.562,
+  0.615
+ ],
+ "intensity_sweep_da1_last200_range": [
+  4211,
+  5019
+ ],
+ "intensity_sweep_da1_kc_frac_range": [
+  0.458,
+  0.516
+ ],
+ "intensity_sweep_pn_active_range": [
+  547,
+  562
+ ],
+ "intensity_sweep_n_orn_range": [
+  35,
+  179
+ ],
+ "intensity_sweep_all_rows_include_DM1": true,
+ "probe_odour_conditions": 6,
+ "probe_odour_n_active_range": [
+  11933,
+  12413
+ ],
+ "ffal_al_edge_definition": "edges with both endpoints in classes ALPN/ALLN/ALIN/ALON or types ORN_/HRN_/TRN_ set to 0",
+ "ffal_calibration_protocol": "PN drive 100 Hz for 300 ms then 700 ms off, B=8 replicates, seed 0, tau_a 1000 ms, w 0.275",
+ "n_stimulated_PN_odour_A": 8,
+ "n_stimulated_PN_odour_B": 9,
+ "stim_PN_odour_A_by_side": [
+  4,
+  4
+ ],
+ "stim_PN_odour_B_by_side": [
+  5,
+  4
+ ],
+ "ffal_kc_frac_A_B_da1": [
+  0.0557,
+  0.019
+ ],
+ "ffal_kc_frac_A_B_da0": [
+  0.0416,
+  0.0145
+ ],
+ "ffal_jaccard_da1_da0": [
+  0.012,
+  0.008
+ ],
+ "ffal_last200_A_da1_da0": [
+  1,
+  11
+ ],
+ "ffal_last200_B_da1_da0": [
+  0,
+  0
+ ],
+ "ffal_mbon_hz_A_da1_da0": [
+  0.67,
+  0.44
+ ],
+ "ffal_active_on_A_da1_da0": [
+  1066,
+  702
+ ],
+ "healthy_n": 64,
+ "healthy_n_other_designs": {
+  "exp2_burden_matched": 32,
+  "joint_cohort": 32
+ },
+ "protocol_paired_odour": "A",
+ "healthy_kc_frac_A_median": 0.1656,
+ "healthy_kc_frac_A_ci95": [
+  0.1622,
+  0.1681
+ ],
+ "healthy_kc_frac_A_range": [
+  0.1356,
+  0.1873
+ ],
+ "healthy_kc_frac_B_median": 0.0846,
+ "healthy_kc_frac_B_ci95": [
+  0.083,
+  0.0861
+ ],
+ "healthy_kc_frac_B_range": [
+  0.0696,
+  0.0957
+ ],
+ "healthy_valence_naive_A_median": 81.0,
+ "healthy_valence_naive_A_ci95": [
+  78.0,
+  82.5
+ ],
+ "healthy_valence_naive_A_range": [
+  49.0,
+  103.0
+ ],
+ "healthy_valence_naive_B_median": 18.0,
+ "healthy_valence_naive_B_ci95": [
+  16.0,
+  20.0
+ ],
+ "healthy_valence_naive_B_range": [
+  7.0,
+  31.0
+ ],
+ "healthy_kc_jaccard_AB_median": 0.0707,
+ "healthy_kc_jaccard_AB_ci95": [
+  0.0681,
+  0.0728
+ ],
+ "healthy_kc_jaccard_AB_range": [
+  0.0531,
+  0.0869
+ ],
+ "healthy_mn9_sugar_hz_median": 20.0,
+ "healthy_mn9_sugar_hz_ci95": [
+  18.5,
+  22.0
+ ],
+ "healthy_mn9_sugar_hz_range": [
+  12.0,
+  38.0
+ ],
+ "healthy_gf_loom_hz_median": 195.0,
+ "healthy_gf_loom_hz_ci95": [
+  193.3333,
+  195.0
+ ],
+ "healthy_gf_loom_hz_range": [
+  186.6667,
+  201.6667
+ ],
+ "healthy_pam_pair_hz_median": 98.8996,
+ "healthy_pam_pair_hz_ci95": [
+  98.7401,
+  99.1518
+ ],
+ "healthy_pam_pair_hz_range": [
+  97.7979,
+  101.1752
+ ],
+ "healthy_kc_frac_B_over_A_ratio_of_medians": 0.511,
+ "healthy_kc_frac_B_over_A_ci95": [
+  0.5,
+  0.525
+ ],
+ "healthy_n_flies_B_exceeds_A_kc": 0,
+ "healthy_kc_frac_A_vs_B_wilcoxon_p": 3.52e-12,
+ "healthy_valence_A_over_B_ratio_of_medians": 4.5,
+ "healthy_valence_A_vs_B_wilcoxon_p": 3.49e-12,
+ "healthy_kc_jaccard_chance_median": 0.0594,
+ "healthy_kc_jaccard_obs_over_chance_median": 1.207,
+ "healthy_kc_jaccard_obs_over_chance_iqr_range": [
+  1.155,
+  1.253,
+  0.933,
+  1.355
+ ],
+ "healthy_kc_jaccard_n_flies_above_chance": [
+  63,
+  64
+ ],
+ "healthy_kc_jaccard_obs_vs_chance_wilcoxon_p": 4.06e-12,
+ "healthy_dvalence_A_B_LI_medians": [
+  66.0,
+  3.0,
+  61.5
+ ],
+ "protocol_odour_rate_and_duration_battery_vs_calibration": [
+  [
+   150,
+   1000
+  ],
+  [
+   100.0,
+   300
+  ]
+ ],
+ "path_dth_max_mV": 2.0,
+ "path_syn_loss_max": 0.6,
+ "path_death_max": 0.5,
+ "path_death_max_other_scripts": [
+  "assay_battery.py"
+ ],
+ "path_death_max_fitting_scripts": 0,
+ "vuln_rank_definition": "rank/N in (0,1] of in+out |signed| contacts in the signed MaleCNS pack; ties broken by pack index (ascending bodyId, stable argsort), not averaged",
+ "vuln_rank_counts_al_internal_edges": true,
+ "vuln_rank_excludes_unsigned_outputs": [
+  11609,
+  1113526
+ ],
+ "vuln_rank_dnp01_L_R": [
+  0.9981,
+  0.9963
+ ],
+ "vuln_rank_mn9_L_R": [
+  0.966,
+  0.5856
+ ],
+ "path_eligible_rule": "all neurons whose superclass does not contain 'sensory'",
+ "kc_dead_pct_s05_s06_s1": [
+  14.67,
+  17.63,
+  29.41
+ ],
+ "kc_loss_17pct_crossing_s_interp": 0.579,
+ "fig_anchor_hardcoded": 0.55,
+ "min_death_max_to_reach_17pct_kc_loss": 0.289,
+ "dead_frac_s1_mean": 0.2381,
+ "stim_set_sizes_grn_loomL_pam": [
+  34,
+  165,
+  316
+ ],
+ "stim_sets_sensory_flags": {
+  "GRN": true,
+  "PN": false,
+  "LPLC2_LC4": false,
+  "PAM": false
+ },
+ "pam_types_n_and_size_range": [
+  15,
+  4,
+  50
+ ],
+ "ppl1_neurons_and_types": [
+  16,
+  8
+ ],
+ "n_kc_mbon": [
+  4064,
+  97
+ ],
+ "pn_readout_denominator_686_all_flies": true,
+ "pn_spikes_healthy_median": 1123.5,
+ "pn_spikes_healthy_range": [
+  1058.0,
+  1191.0
+ ],
+ "pn_spikes_healthy_over_isolated_expectation": 0.957,
+ "pam_healthy_median_over_isolated_expectation": 1.0,
+ "pn_rate_s05_pct_healthy": 77.7,
+ "pn_rate_s05_pct_healthy_ci95": [
+  74.0,
+  86.1
+ ],
+ "pn_rate_s05_pct_healthy_ci95_mc_range": [
+  [
+   71.7,
+   75.0
+  ],
+  [
+   85.4,
+   88.1
+  ]
+ ],
+ "pn_rate_s1_pct_healthy": 54.2,
+ "pn_rate_s1_pct_healthy_ci95": [
+  50.6,
+  67.7
+ ],
+ "pn_rate_s1_pct_healthy_ci95_mc_range": [
+  [
+   50.5,
+   50.8
+  ],
+  [
+   67.5,
+   67.8
+  ]
+ ],
+ "pam_rate_s05_pct_healthy": 87.9,
+ "pam_rate_s05_pct_healthy_ci95": [
+  86.9,
+  89.2
+ ],
+ "pam_rate_s05_pct_healthy_ci95_mc_range": [
+  [
+   86.9,
+   86.9
+  ],
+  [
+   89.2,
+   89.3
+  ]
+ ],
+ "pam_rate_s1_pct_healthy": 75.4,
+ "pam_rate_s1_pct_healthy_ci95": [
+  73.6,
+  76.4
+ ],
+ "pam_rate_s1_pct_healthy_ci95_mc_range": [
+  [
+   73.5,
+   73.7
+  ],
+  [
+   76.3,
+   76.4
+  ]
+ ],
+ "pam_healthy_vs_s1_mannwhitney_p": 1.79e-15,
+ "pam_pair_hz_min_all_x4_flies": 63.1,
+ "pam_pair_hz_min_all_x4_flies_fly": [
+  "vulnerability",
+  "antihub_s1",
+  3170
+ ],
+ "components_s1_pn_spikes_median_by_condition": {
+  "all_s1": 603.5,
+  "death_only_s1": 609.5,
+  "hyper_only_s1": 1139.5,
+  "no_hyper_s1": 702.5,
+  "synloss_only_s1": 1173.5
+ },
+ "components_s1_pam_hz_median_by_condition": {
+  "all_s1": 75.1,
+  "death_only_s1": 74.4,
+  "hyper_only_s1": 99.0,
+  "no_hyper_s1": 74.6,
+  "synloss_only_s1": 99.1
+ },
+ "exp1_pn_rate_restored_fraction_by_stage": {
+  "s0.3": {
+   "restore_dead_all": [
+    1.074,
+    13
+   ],
+   "restore_syn_all": [
+    -0.054,
+    13
+   ]
+  },
+  "s0.5": {
+   "restore_dead_all": [
+    1.099,
+    23
+   ],
+   "restore_syn_all": [
+    -0.034,
+    23
+   ]
+  }
+ },
+ "final_model_da_half_over_base_healthy": {
+  "KC_hz_A": 1.054,
+  "KC_frac_A": 0.788,
+  "MN9_sugar_hz": 1.46,
+  "brain_spikes_A": 1.296,
+  "GF_loom_hz": 1.047
+ },
+ "final_model_da_half_n_flies": 12,
+ "protocol_state_reset_calls_in_battery": 0,
+ "protocol_joint_resets_after_circuit_assays": true,
+ "protocol_arena_starts_from_reset_state": true,
+ "protocol_residual_adaptation_after_gap": [
+  0.368,
+  0.135
+ ],
+ "protocol_plasticity_applied_after_training_block": true,
+ "protocol_pam_drive_hz": 100.0,
+ "protocol_stim_rates_hz": 150.0,
+ "learn_dan_on_hz": 5.0,
+ "learn_eta_and_factor": [
+  0.6,
+  0.4
+ ],
+ "learn_fraction_of_type_removed_to_close_gate": 0.949,
+ "learn_compartment_rule": "MBON type in a DAN type's compartment if it receives >= 10% of that type's synapses onto MBONs; map built from PAM and PPL1, but only PAM types are tested for activity",
+ "readout_mn9_definition": "MN9 spikes over the 0.5-s sugar segment / 0.5 s / 2 neurons",
+ "readout_gf_definition": "DNp01 spikes over the 0.3-s left looming segment / 0.3 s / 2 neurons; latency = first 1-ms bin with a spike",
+ "probe_steering_dn_max_hz": 3.33,
+ "probe_steering_model": "unmodified base model (da 0, recurrent AL, ORN drive) - not the paper model; no steering-DN test exists for the final model",
+ "probe_loom_LPLC2_R_dnp01_L_R_hz": [
+  213.33,
+  367.33
+ ],
+ "probe_loom_LC4_R_dnp01_L_R_hz": [
+  86.67,
+  370.67
+ ],
+ "probe_loom_LC4_LPLC2_R_dnp01_L_R_hz": [
+  193.0,
+  413.33
+ ],
+ "probe_loom_LPLC2_LR_dnp01_L_R_hz": [
+  403.33,
+  378.33
+ ],
+ "arena_odour_drive_bilateral": true,
+ "arena_radius_mm": 50.0,
+ "arena_food_patches_xyr_mm": [
+  [
+   0.0,
+   27.0,
+   8.0
+  ],
+  [
+   0.0,
+   -27.0,
+   8.0
+  ]
+ ],
+ "arena_odour_sources_xy_mm": {
+  "A": [
+   -21.0,
+   0.0
+  ],
+  "B": [
+   21.0,
+   0.0
+  ]
+ },
+ "arena_plume_sigma_mm": 14.0,
+ "arena_inside_plume_threshold": "c > exp(-0.5) = 0.607, i.e. within 1 sigma (14 mm) of the source",
+ "arena_pn_drive": "150 Hz x concentration",
+ "arena_sugar_drive": "150 Hz x hunger, only on a food patch and grounded",
+ "arena_hunger_feed_rate_per_s": 0.25,
+ "arena_hunger_recover_per_s": 0.03,
+ "arena_feed_mn9_threshold_hz": 10.0,
+ "arena_body_step_ms": 10.0,
+ "arena_readout_windows_ms": {
+  "MN9": 100,
+  "GF": 30,
+  "MBON_valence": 300
+ },
+ "arena_gf_spikes_for_takeoff": 2,
+ "arena_steering_gain_rad_s": 6.0,
+ "arena_valence_scale_hz": 30.0,
+ "arena_learned_valence": "MBON valence (300 ms) minus the fly's naive valence at the current c_A and c_B (linear interpolation over probe levels 0, 0.25, 0.5, 1.0; held at the 1.0 value above)",
+ "arena_walk_speed_mm_s": 9.0,
+ "arena_heading_diffusion_rad_sqrt_s": 2.2,
+ "arena_jump_mm_and_air_s": [
+  22.0,
+  0.35
+ ],
+ "arena_jump_refractory_s": 1.0,
+ "arena_jump_direction_noise_rad": 0.5,
+ "arena_shadow_radius_mm_and_duration_s": [
+  2.0,
+  24.0,
+  0.6
+ ],
+ "arena_threat_seen_margin_mm": 6.0,
+ "arena_looming_drive": "150 Hz per threat to LPLC2+LC4 on the side facing the shadow (sin(bearing - heading) > 0 -> left)",
+ "arena_input_rate_cap_hz": 300.0,
+ "arena_start_disc_radius_frac": 0.8,
+ "arena_wall_mm": 48.5,
+ "arena_naive_probe": [
+  [
+   0.25,
+   0.5,
+   1.0
+  ],
+  1000.0,
+  500.0,
+  3
+ ],
+ "arena_pam_driven": false,
+ "arena_threat_rule": "first at 6 s, then every 10 + 4U s (U uniform) until 2 s before the end; centres uniform within 18 mm of the arena centre; drawn once from default_rng(seed + 2), shared by all flies",
+ "arena_threats_n": 10,
+ "arena_threat_times_s": [
+  6.0,
+  18.12,
+  31.98,
+  43.86,
+  53.92,
+  66.33,
+  78.86,
+  89.14,
+  101.48,
+  112.55
+ ],
+ "arena_threat_gap_range_s": [
+  10.06,
+  13.86
+ ],
+ "arena_threat_max_centre_dist_mm": 17.4,
+ "joint_seconds_seed_nflies": [
+  120.0,
+  5150,
+  176
+ ],
+ "joint_stage_list": "0:32,0.05:24,0.1:24,0.15:24,0.2:24,0.3:24,0.5:24",
+ "joint_threats_seen_mean_median_min_max": [
+  3.32,
+  3.0,
+  0.0,
+  7.0
+ ],
+ "joint_flies_no_threat_seen": 5,
+ "joint_flies_pi_undefined": 6,
+ "joint_seeds_rule": "fly seed = 5150 + 13 i; circuit stimulus rng 5151; threat rng 5152; probe rng 3; training rng 1; arena body rng per-fly xorshift from seed 5150",
+ "cohort_totals_battery_stats": {
+  "series": 384,
+  "ablation": 320,
+  "maps": 192,
+  "kc_only": 64,
+  "joint": 176,
+  "all": 1136
+ },
+ "cohort_exp2_flies": 288,
+ "cohort_total_flies": 1424,
+ "schematic_hardcoded_fly_count": "1,136",
+ "figure_common_output_dir": "figures/scratch",
+ "schematic_panel_c_is_illustration": true,
+ "schematic_engine_box_text": "Shiu et al. parameters / matches Brian2 (r = 0.9997) / + feedforward antennal lobe / + spike-frequency adaptation",
+ "_meaning": {
+  "_bootstrap_seed": "Seed of numpy default_rng used for every bootstrap interval in this file (4,000 resamples, percentile 2.5/97.5).",
+  "connectome_manifest_found": "Whether connectome/manifest.json (written by build_pack.py) exists; it is the build record of the network (the network itself is not kept with the result tables).",
+  "connectome_dataset": "Name of the MaleCNS v1.0 materialisation the pack follows (superclass non-null, known transmitter).",
+  "connectome_neurons": "Number of MaleCNS v1.0 bodies retained (non-null superclass), i.e. neurons in the simulated network.",
+  "connectome_edges_signed": "Number of signed directed edges (neuron pairs) kept in the CSR pack.",
+  "connectome_synaptic_contacts": "Total synaptic contacts carried by the kept edges (sum of |signed weight|).",
+  "connectome_raw_weight_rows": "Rows in the raw MaleCNS connectome-weights table (minconf 0.5) before selection.",
+  "connectome_rows_dropped_endpoint_unannotated": "Raw weight rows dropped because an endpoint body had no superclass annotation (rows, not synapses).",
+  "connectome_rows_dropped_endpoint_unannotated_frac": "Fraction of raw weight rows dropped for an unannotated endpoint.",
+  "connectome_rows_dropped_unsigned_presyn": "Weight rows (edges) between retained bodies dropped because the presynaptic neuron's consensus transmitter is not ACh, GABA or Glu.",
+  "connectome_row_accounting_closes": "True if raw rows minus both dropped counts equals the kept edge count exactly (no further rows lost).",
+  "connectome_neurons_excitatory": "Neurons whose outgoing edges are signed +1 (acetylcholine).",
+  "connectome_neurons_inhibitory": "Neurons whose outgoing edges are signed -1 (GABA or glutamate).",
+  "connectome_neurons_unsigned_no_output": "Neurons with another or no transmitter prediction: they receive input but send no edges.",
+  "connectome_sign_rule": "Signing rule of the MaleCNS pack (presynaptic consensus_nt).",
+  "connectome_minconf": "Minimum synapse confidence of the MaleCNS source tables.",
+  "n_sensory_superclass_neurons": "Neurons whose superclass contains 'sensory' (cb_, vnc_, ol_sensory, sensory_ascending/descending and _tbc): the only neurons exempt from pathology load and from adaptation.",
+  "n_sensory_superclass_frac": "Fraction of the 166,700 neurons that are sensory and therefore carry zero load under every vulnerability map.",
+  "calib_brain_mask_excluded_prefixes": "Superclass prefixes excluded from the MaleCNS 'brain' used for the synapse-count comparison (VNC and ascending only; optic lobes are kept).",
+  "calib_brain_mask_neurons": "MaleCNS neurons inside that 'brain' mask (not a central-brain mask).",
+  "calib_brain_mask_optic_visual_neurons": "Of the brain-mask neurons, those in optic-lobe or visual superclasses (ol_intrinsic, ol_sensory, visual_projection, visual_centrifugal, visual_projection_tbc).",
+  "lif_v_0": "LIF parameter: Resting potential (mV).",
+  "lif_v_rst": "LIF parameter: Reset potential (mV).",
+  "lif_v_th": "LIF parameter: Spike threshold (mV).",
+  "lif_t_mbr": "LIF parameter: Membrane time constant (ms).",
+  "lif_tau": "LIF parameter: Synaptic time constant (ms).",
+  "lif_t_rfc": "LIF parameter: Refractory period (ms).",
+  "lif_t_dly": "LIF parameter: Synaptic delay (ms).",
+  "lif_w_syn": "LIF parameter: Unitary synaptic weight used throughout (mV per contact), the published Shiu et al. value.",
+  "lif_f_poi": "LIF parameter: Poisson-input scaling: each input event adds f_poi * w_syn to v.",
+  "lif_dt": "LIF parameter: Integration step (ms).",
+  "lif_tau_a": "LIF parameter: Default adaptation time constant in Params (ms); adaptation is off unless da > 0.",
+  "lif_poisson_kick_mV": "Membrane jump per Poisson input event (w_syn * f_poi, mV), about ten times the 7-mV rest-to-threshold gap. The project's scripts give their Poisson targets no refractory period (Brains.no_refractory), so a driven neuron near rest, in the absence of adaptation and synaptic input, spikes on the step after almost every event; an event that arrives in the step a spike is emitted is overwritten by the reset (lif_isolated_driven_spikes_per_event). This need not hold for the paper model's driven PNs, PAM and LPLC2/LC4, which are non-sensory, carry adaptation (da 1 mV, tau_a 1 s) and receive synaptic input: healthy driven PNs miss more events than an isolated neuron (pn_spikes_healthy_over_isolated_expectation), while healthy PAM neurons fire like one (pam_healthy_median_over_isolated_expectation).",
+  "lif_isolated_driven_spikes_per_event": "Engine test (lif.py on a one-neuron pack without edges, 256 replicates, 1 s from rest, no refractory period, tau_a 1 s): spikes per Poisson event at 150 Hz (odour/sugar/looming drive) and 100 Hz (PAM drive), without (da 0) and with the paper model's adaptation (da 1 mV). Losses without adaptation are events overwritten by the reset in a spike step; adaptation from rest adds 0.6 points of loss at 150 Hz and 0.0 at 100 Hz over 1 s.",
+  "lif_adaptation_off_by_default": "Brains initialises da to zeros, so every script that builds Brains without setting da (calibrate_wsyn, probe_circuits, validate_sugar_mn9, validate_engine_*) ran the unmodified base model without adaptation.",
+  "lif_gate_refractory_input_default": "Default engine setting: synaptic input arriving during the refractory period is discarded (the setting that matched Brian2 2.10.1); used by all paper simulations.",
+  "model_tau_a_ms": "Adaptation time constant of the paper model (ms).",
+  "model_da_mV": "Adaptation increment per spike in the paper model (mV), applied to non-sensory neurons only.",
+  "model_w_syn_mV": "Unitary weight of the paper model (mV).",
+  "odour_A_glomeruli": "Glomeruli whose uniglomerular PNs are driven for odour A (always the paired odour).",
+  "odour_B_glomeruli": "Glomeruli whose uniglomerular PNs are driven for odour B (never paired).",
+  "engine_validation_network": "Network and model of the engine validation (base model, no MaleCNS extensions).",
+  "engine_validation_neurons": "Neurons in the FlyWire v630 network used for engine validation.",
+  "engine_validation_stimulus": "Stimulus of the engine validation run.",
+  "engine_validation_seeds": "Poisson input seeds run for each engine setting (30 trials of 1 s each).",
+  "engine_validation_seed_used_for_comparisons": "Only the first seed's 30-trial realisation enters the per-neuron correlations, slopes and S1 Fig.",
+  "engine_validation_slope_direction": "Direction and scale of the reported regression slopes.",
+  "engine_discard_spikes_per_trial_by_seed": "Total spikes per 1-s trial, engine with refractory input discarded, seeds [7, 11, 12].",
+  "engine_discard_mn9_hz_by_seed": "MN9 rate (Hz), engine with refractory input discarded, seeds [7, 11, 12].",
+  "engine_discard_active_by_seed": "Neurons with nonzero mean rate, engine with refractory input discarded, seeds [7, 11, 12].",
+  "engine_accumulate_spikes_per_trial_by_seed": "Total spikes per 1-s trial, engine with refractory input accumulated, seeds [7, 11, 12].",
+  "engine_accumulate_mn9_hz_by_seed": "MN9 rate (Hz), engine with refractory input accumulated, seeds [7, 11, 12].",
+  "engine_accumulate_active_by_seed": "Neurons with nonzero mean rate, engine with refractory input accumulated, seeds [7, 11, 12].",
+  "engine_ref_brian2_local": "Reference 'local_brian2_2.10.1': [spikes per trial, active neurons, MN9 Hz] (single realisation).",
+  "engine_ref_released_example": "Reference 'released_example_output': [spikes per trial, active neurons, MN9 Hz] (single realisation).",
+  "engine_cmp_discard_vs_local": "Comparison 'gate=True vs local_brian2_2.10.1' (seed 7): [Pearson r, Spearman r, slope engine-on-reference, n neurons active in either run].",
+  "engine_cmp_discard_vs_released": "Comparison 'gate=True vs released_example_output' (seed 7): [Pearson r, Spearman r, slope engine-on-reference, n neurons active in either run].",
+  "engine_cmp_accumulate_vs_local": "Comparison 'gate=False vs local_brian2_2.10.1' (seed 7): [Pearson r, Spearman r, slope engine-on-reference, n neurons active in either run].",
+  "engine_cmp_accumulate_vs_released": "Comparison 'gate=False vs released_example_output' (seed 7): [Pearson r, Spearman r, slope engine-on-reference, n neurons active in either run].",
+  "engine_cmp_discard_vs_local_recomputed": "Recomputed from the saved seed-7 rate vectors: [Pearson r, slope engine-on-reference, reverse slope reference-on-engine, n]; the reverse slope shows how much the reported slope depends on regression direction.",
+  "engine_cmp_discard_vs_released_recomputed": "Recomputed from the saved seed-7 rate vectors: [Pearson r, slope engine-on-reference, reverse slope reference-on-engine, n]; the reverse slope shows how much the reported slope depends on regression direction.",
+  "engine_cmp_accumulate_vs_local_recomputed": "Recomputed from the saved seed-7 rate vectors: [Pearson r, slope engine-on-reference, reverse slope reference-on-engine, n]; the reverse slope shows how much the reported slope depends on regression direction.",
+  "engine_cmp_accumulate_vs_released_recomputed": "Recomputed from the saved seed-7 rate vectors: [Pearson r, slope engine-on-reference, reverse slope reference-on-engine, n]; the reverse slope shows how much the reported slope depends on regression direction.",
+  "engine_discard_seed_spread_spikes": "Range (max-min) of spikes per trial across the three seeds, discard setting.",
+  "engine_discard_seed_spread_mn9_hz": "Range of MN9 rate across the three seeds, discard setting (Hz).",
+  "engine_discard_mn9_minus_brian2_by_seed": "Engine minus local Brian2 MN9 rate (Hz) for each seed; all positive, so the reference lies below every engine seed.",
+  "flywire_sign_convention": "FlyWire packs are not signed by the MaleCNS rule (which drops non-ACh/GABA/Glu outputs).",
+  "malecns_gust_check_protocol": "Protocol of validate_sugar_mn9.py on MaleCNS.",
+  "malecns_gust_nostim_n_stim": "Stimulated neurons in condition baseline_nostim.",
+  "malecns_gust_nostim_n_active": "Neurons with nonzero mean rate (30 trials) in condition baseline_nostim.",
+  "malecns_gust_nostim_mn9_L_R_hz": "Mean rate (Hz) of the left-annotated MN9 (bodyId 10331) and right-annotated MN9 (bodyId 16949) in condition baseline_nostim.",
+  "malecns_gust_nostim_mn9_L_sd_hz": "SD across 30 trials of the left-annotated MN9 rate in condition baseline_nostim.",
+  "malecns_gust_nostim_spikes_per_trial": "Total spikes per 1-s trial (sum of per-neuron mean rates) in condition baseline_nostim.",
+  "malecns_gust_LB3c_R_n_stim": "Stimulated neurons in condition sugar_LB3c_R.",
+  "malecns_gust_LB3c_R_n_active": "Neurons with nonzero mean rate (30 trials) in condition sugar_LB3c_R.",
+  "malecns_gust_LB3c_R_mn9_L_R_hz": "Mean rate (Hz) of the left-annotated MN9 (bodyId 10331) and right-annotated MN9 (bodyId 16949) in condition sugar_LB3c_R.",
+  "malecns_gust_LB3c_R_mn9_L_sd_hz": "SD across 30 trials of the left-annotated MN9 rate in condition sugar_LB3c_R.",
+  "malecns_gust_LB3c_R_spikes_per_trial": "Total spikes per 1-s trial (sum of per-neuron mean rates) in condition sugar_LB3c_R.",
+  "malecns_gust_LB3cb_R_n_stim": "Stimulated neurons in condition sugar_LB3c_LB3b_R.",
+  "malecns_gust_LB3cb_R_n_active": "Neurons with nonzero mean rate (30 trials) in condition sugar_LB3c_LB3b_R.",
+  "malecns_gust_LB3cb_R_mn9_L_R_hz": "Mean rate (Hz) of the left-annotated MN9 (bodyId 10331) and right-annotated MN9 (bodyId 16949) in condition sugar_LB3c_LB3b_R.",
+  "malecns_gust_LB3cb_R_mn9_L_sd_hz": "SD across 30 trials of the left-annotated MN9 rate in condition sugar_LB3c_LB3b_R.",
+  "malecns_gust_LB3cb_R_spikes_per_trial": "Total spikes per 1-s trial (sum of per-neuron mean rates) in condition sugar_LB3c_LB3b_R.",
+  "malecns_gust_bitter_R_n_stim": "Stimulated neurons in condition bitter_LB1abcd_R.",
+  "malecns_gust_bitter_R_n_active": "Neurons with nonzero mean rate (30 trials) in condition bitter_LB1abcd_R.",
+  "malecns_gust_bitter_R_mn9_L_R_hz": "Mean rate (Hz) of the left-annotated MN9 (bodyId 10331) and right-annotated MN9 (bodyId 16949) in condition bitter_LB1abcd_R.",
+  "malecns_gust_bitter_R_mn9_L_sd_hz": "SD across 30 trials of the left-annotated MN9 rate in condition bitter_LB1abcd_R.",
+  "malecns_gust_bitter_R_spikes_per_trial": "Total spikes per 1-s trial (sum of per-neuron mean rates) in condition bitter_LB1abcd_R.",
+  "malecns_gust_bitter_R_kc_active": "Kenyon cells with nonzero rate under right bitter (LB1a-d) stimulation, base model.",
+  "calib_flywire_version": "FlyWire release used for the synapse-count calibration and for the FlyWire odour-persistence test (Connectivity_783 / Completeness_783).",
+  "calib_type_matching_key": "Key used to match cell types between the two datasets.",
+  "calib_min_mean_input_synapses": "Inclusion filter: a matched type enters only if its mean input synapses per neuron are >= this value in BOTH datasets.",
+  "calib_n_matched_types": "Matched cell types passing the filter.",
+  "calib_n_matched_types_recomputed": "Rows of matched_type_input_synapses.csv (should equal n_matched_types).",
+  "calib_min_mean_fw_mc_in_table": "Smallest FlyWire and MaleCNS type-mean input synapses among matched types (confirms the >= 50 filter).",
+  "calib_ratio_median": "Median over matched types of MaleCNS/FlyWire mean input synapses per neuron.",
+  "calib_ratio_median_recomputed": "Same median recomputed from the matched-type table.",
+  "calib_ratio_iqr": "Interquartile range (25th, 75th percentile) of the per-type ratio.",
+  "calib_w_syn_scaled_mV": "0.275 mV divided by the median ratio: the weight a face-value rescaling would give (reported as 0.157 mV).",
+  "calib_w_syn_scaled_over_published": "Rescaled weight as a fraction of 0.275 mV (outside the 0.8-1.2x robustness range of the counterfactual experiment).",
+  "calib_fw_mean_in_syn_per_neuron": "Mean input synapses per neuron over all FlyWire v783 neurons (optic lobes included).",
+  "calib_mc_brain_mean_in_syn_per_neuron": "Mean input synapses per neuron over the MaleCNS brain mask (excluding VNC/ascending only, optic lobes included; partners counted only among the 166,700 retained bodies).",
+  "calib_persistence_protocol": "Protocol of calibrate_wsyn.py persistence(): 'active' = neurons whose replicate-mean rate is > 0 in a bin.",
+  "mn9_pack_order_sides": "Soma sides of the two MN9s in pack (bodyId) order; lists of MN9 rates in calibration/sweep/kckc files follow this order.",
+  "dnp01_pack_order_sides": "Soma sides of the two giant fibres (DNp01) in pack order; GF rate lists in the sweep/kckc files follow this order.",
+  "calib_w0157_sugar_mn9_hz": "At 0.157 mV, right LB3c+LB3b sugar: rate (Hz) of each MN9 (pack order L, R) averaged over the whole 300-ms stimulus (B=16), not the first 100 ms.",
+  "calib_w0157_sugar_mn9_mean_of_two_hz": "Mean of the two MN9 rates in that run (Hz).",
+  "calib_w0157_sugar_active_per_100ms": "At 0.157 mV, sugar run: active neurons in each 100-ms bin (bins 0-2 stimulus, 3-9 after offset).",
+  "calib_w0157_sugar_silent_from_ms": "Start (ms from stimulus onset) of the first bin with no active neuron; = 100 ms after the 300-ms stimulus ended.",
+  "calib_malecns_odour_w0.275_active_range_all_bins": "MaleCNS, w_syn 0.275 mV, left DM1/DM4/VA2 ORNs: min and max active neurons per 100-ms bin over the whole 1-s run.",
+  "calib_malecns_odour_w0.275_active_last_bin": "MaleCNS, w_syn 0.275 mV odour run: active neurons in the last bin (600-700 ms after offset).",
+  "calib_malecns_odour_w0.275_kc_on_last_total": "MaleCNS, w_syn 0.275 mV odour run: [KCs active during stimulus, KCs active in last 200 ms (500-700 ms after offset), total KCs] (union over B=4 replicates).",
+  "calib_malecns_odour_w0.157_active_range_all_bins": "MaleCNS, w_syn 0.157 mV, left DM1/DM4/VA2 ORNs: min and max active neurons per 100-ms bin over the whole 1-s run.",
+  "calib_malecns_odour_w0.157_active_last_bin": "MaleCNS, w_syn 0.157 mV odour run: active neurons in the last bin (600-700 ms after offset).",
+  "calib_malecns_odour_w0.157_kc_on_last_total": "MaleCNS, w_syn 0.157 mV odour run: [KCs active during stimulus, KCs active in last 200 ms (500-700 ms after offset), total KCs] (union over B=4 replicates).",
+  "calib_flywire783_odour_active_range_all_bins": "FlyWire v783 (w 0.275, no adaptation), left ORN DM1/DM4/VA2 at 150 Hz for 300 ms: min and max active neurons per 100-ms bin over 1 s.",
+  "calib_flywire783_odour_active_range_post_offset": "Same run, bins after stimulus offset only (300-1000 ms).",
+  "calib_flywire783_odour_kc_on_last_total": "FlyWire v783 odour run: [KCs active during stimulus, KCs active 500-700 ms after offset, total KCs].",
+  "calib_flywire_odour_stimulus_sets_tested": "Number of distinct odour (ORN) stimulus sets ever run on FlyWire: one (left DM1/DM4/VA2), so 'independent of odour identity on FlyWire' is untested.",
+  "kckc_w0275_keep_equals_sweep_da0_row": "Whether the kckc_test keep-KC-KC w0.275 row equals the adaptation-sweep no-adaptation row in all 7 shared fields (odour active on and last200, KC fraction, MN9 Hz, sugar last200, GF Hz, looming last200); if so the two files share stimuli, model and window.",
+  "kckc_w0275_mn9_sugar_hz": "kckc_test w0.275_dropKCKCFalse: MN9 rates (pack order L, R; Hz) under right sugar (like-for-like run at both weights). Protocol inferred, not verified: no script in code/ writes this file (alt_tests_generating_scripts_found = 0); its keep-KC-KC w0.275 row equals the sweep_adaptation.py no-adaptation row exactly (kckc_w0275_keep_equals_sweep_da0_row), which supports left ORN DM1/DM4/VA2 odour, right sugar, right LPLC2, recurrent AL and the 500-700-ms window.",
+  "kckc_w0275_gf_lplc2_hz": "kckc_test w0.275_dropKCKCFalse: DNp01 rates (pack order R, L; Hz) under right LPLC2 looming. Protocol inferred, not verified: no script in code/ writes this file (alt_tests_generating_scripts_found = 0); its keep-KC-KC w0.275 row equals the sweep_adaptation.py no-adaptation row exactly (kckc_w0275_keep_equals_sweep_da0_row), which supports left ORN DM1/DM4/VA2 odour, right sugar, right LPLC2, recurrent AL and the 500-700-ms window.",
+  "kckc_w0275_odour_sugar_loom_last200": "kckc_test w0.275_dropKCKCFalse: neurons active 500-700 ms after offset for [odour, sugar, looming]. Protocol inferred, not verified: no script in code/ writes this file (alt_tests_generating_scripts_found = 0); its keep-KC-KC w0.275 row equals the sweep_adaptation.py no-adaptation row exactly (kckc_w0275_keep_equals_sweep_da0_row), which supports left ORN DM1/DM4/VA2 odour, right sugar, right LPLC2, recurrent AL and the 500-700-ms window.",
+  "kckc_w0275_kc_frac_on": "kckc_test w0.275_dropKCKCFalse: fraction of KCs active during the odour (union over replicates). Protocol inferred, not verified: no script in code/ writes this file (alt_tests_generating_scripts_found = 0); its keep-KC-KC w0.275 row equals the sweep_adaptation.py no-adaptation row exactly (kckc_w0275_keep_equals_sweep_da0_row), which supports left ORN DM1/DM4/VA2 odour, right sugar, right LPLC2, recurrent AL and the 500-700-ms window.",
+  "kckc_w0157_mn9_sugar_hz": "kckc_test w0.157_dropKCKCFalse: MN9 rates (pack order L, R; Hz) under right sugar (like-for-like run at both weights). Protocol inferred, not verified: no script in code/ writes this file (alt_tests_generating_scripts_found = 0); its keep-KC-KC w0.275 row equals the sweep_adaptation.py no-adaptation row exactly (kckc_w0275_keep_equals_sweep_da0_row), which supports left ORN DM1/DM4/VA2 odour, right sugar, right LPLC2, recurrent AL and the 500-700-ms window.",
+  "kckc_w0157_gf_lplc2_hz": "kckc_test w0.157_dropKCKCFalse: DNp01 rates (pack order R, L; Hz) under right LPLC2 looming. Protocol inferred, not verified: no script in code/ writes this file (alt_tests_generating_scripts_found = 0); its keep-KC-KC w0.275 row equals the sweep_adaptation.py no-adaptation row exactly (kckc_w0275_keep_equals_sweep_da0_row), which supports left ORN DM1/DM4/VA2 odour, right sugar, right LPLC2, recurrent AL and the 500-700-ms window.",
+  "kckc_w0157_odour_sugar_loom_last200": "kckc_test w0.157_dropKCKCFalse: neurons active 500-700 ms after offset for [odour, sugar, looming]. Protocol inferred, not verified: no script in code/ writes this file (alt_tests_generating_scripts_found = 0); its keep-KC-KC w0.275 row equals the sweep_adaptation.py no-adaptation row exactly (kckc_w0275_keep_equals_sweep_da0_row), which supports left ORN DM1/DM4/VA2 odour, right sugar, right LPLC2, recurrent AL and the 500-700-ms window.",
+  "kckc_w0157_kc_frac_on": "kckc_test w0.157_dropKCKCFalse: fraction of KCs active during the odour (union over replicates). Protocol inferred, not verified: no script in code/ writes this file (alt_tests_generating_scripts_found = 0); its keep-KC-KC w0.275 row equals the sweep_adaptation.py no-adaptation row exactly (kckc_w0275_keep_equals_sweep_da0_row), which supports left ORN DM1/DM4/VA2 odour, right sugar, right LPLC2, recurrent AL and the 500-700-ms window.",
+  "calib_mn9_ratio_w0157_vs_w0275": "Driven-MN9 rate at 0.157 mV divided by that at 0.275 mV (kckc_test, same protocol): about a fourfold loss. Protocol inferred, not verified: no script in code/ writes this file (alt_tests_generating_scripts_found = 0); its keep-KC-KC w0.275 row equals the sweep_adaptation.py no-adaptation row exactly (kckc_w0275_keep_equals_sweep_da0_row), which supports left ORN DM1/DM4/VA2 odour, right sugar, right LPLC2, recurrent AL and the 500-700-ms window.",
+  "calib_gf_ratio_w0157_vs_w0275": "Ipsilateral giant-fibre rate at 0.157 mV divided by that at 0.275 mV (kckc_test). Protocol inferred, not verified: no script in code/ writes this file (alt_tests_generating_scripts_found = 0); its keep-KC-KC w0.275 row equals the sweep_adaptation.py no-adaptation row exactly (kckc_w0275_keep_equals_sweep_da0_row), which supports left ORN DM1/DM4/VA2 odour, right sugar, right LPLC2, recurrent AL and the 500-700-ms window.",
+  "sweep_on_window_ms": "Stimulus window (ms from onset) over which sweep 'on' quantities (KC fraction/rate, MN9, GF) are averaged.",
+  "sweep_persistence_window_after_offset_ms": "Window of every '_last200' persistence count: the last 200 ms of a 700-ms post-stimulus window, i.e. 500-700 ms after offset.",
+  "sweep_replicates_and_seed": "Replicate brains per run and Poisson seed; 'active' = replicate-mean rate > 0, i.e. a union over replicates.",
+  "sweep_stimuli": "Stimuli of the adaptation sweep (differ from the battery: bilateral sugar, left LPLC2+LC4, PN-driven odour).",
+  "criterion_C3_kc_sparse_range_pct": "Pre-set KC sparseness criterion (percent of KCs firing during a single odour), written in the sweep docstring.",
+  "criterion_C1_quiescence": "Pre-set quiescence criterion (sweep docstring).",
+  "criterion_C2_responses_kept": "Pre-set response criterion (sweep docstring); no numeric threshold.",
+  "sweep_settings_tau_da": "The 9 sweep settings [tau_a ms, da mV] in file order (first = no adaptation).",
+  "sweep_odour_last200_by_setting": "Neurons active 500-700 ms after odour offset, per setting (same order).",
+  "sweep_sugar_last200_by_setting": "Neurons active 500-700 ms after sugar offset, per setting.",
+  "sweep_loom_last200_by_setting": "Neurons active 500-700 ms after looming offset, per setting.",
+  "sweep_kc_frac_on_by_setting": "Fraction of KCs active during the odour (union over 4 replicates), per setting.",
+  "sweep_kc_mean_hz_on_by_setting": "Mean KC rate during the odour (Hz), per setting.",
+  "sweep_mn9_driven_hz_by_setting": "Rate of the driven (left-annotated) MN9 under right sugar, 0-300 ms (Hz), per setting.",
+  "sweep_gf_ipsi_hz_by_setting": "Rate of the right (ipsilateral) DNp01 under right LPLC2, 0-300 ms (Hz), per setting.",
+  "sweep_gf_contra_hz_by_setting": "Rate of the left (contralateral) DNp01 under right LPLC2 (Hz), per setting.",
+  "persist_noadapt_odour_sugar_loom_last200": "Base MaleCNS model without adaptation: neurons still active 500-700 ms after offset of [odour, sugar, looming]; persistence is not only olfactory.",
+  "persist_chosen_odour_sugar_loom_last200": "Chosen setting (tau_a 1000 ms, da 1 mV), recurrent AL: neurons active 500-700 ms after offset of [odour, sugar, looming].",
+  "persist_noadapt_odour_active_on": "Neurons active during the 300-ms odour without adaptation.",
+  "adapt_kc_mean_hz_noadapt_to_chosen": "Mean KC rate during odour (Hz) without adaptation and at the chosen setting (recurrent AL, ORN drive).",
+  "adapt_kc_frac_noadapt_to_chosen": "KC fraction active during odour without adaptation and at the chosen setting (union over 4 replicates).",
+  "adapt_cost_mn9_hz": "Driven MN9 rate (Hz) without adaptation and at the chosen setting.",
+  "adapt_cost_mn9_pct_change": "Percent change of driven MN9 rate caused by the chosen adaptation.",
+  "adapt_cost_gf_ipsi_hz": "Ipsilateral (right) DNp01 rate (Hz) without adaptation and at the chosen setting.",
+  "adapt_cost_gf_ipsi_pct_change": "Percent change of ipsilateral DNp01 rate caused by the chosen adaptation.",
+  "adapt_cost_gf_contra_pct_change": "Percent change of contralateral DNp01 rate caused by the chosen adaptation.",
+  "adapt_tau1000_da2_odour_last200_kcfrac_mn9_gf": "Stronger adaptation (tau_a 1000 ms, da 2 mV): [odour neurons active 500-700 ms after offset, KC fraction on, driven MN9 Hz, ipsilateral GF Hz].",
+  "adapt_tau1000_da4_odour_last200_kcfrac_mn9_gf": "Stronger adaptation (tau_a 1000 ms, da 4 mV): [odour neurons active 500-700 ms after offset, KC fraction on, driven MN9 Hz, ipsilateral GF Hz].",
+  "adapt_da4_mn9_pct_change": "Percent change of driven MN9 at tau_a 1000 ms, da 4 mV (the only setting with zero odour persistence).",
+  "sweep_kc_frac_range_adaptation_settings": "Range of KC fraction across the 8 adaptation settings: none reaches the 5-20% criterion, so adaptation alone cannot make KCs sparse.",
+  "sweep_settings_all_three_quiescent": "Settings with zero persistence for odour, sugar and looming at once.",
+  "sweep_settings_sugar_and_loom_quiescent": "Settings with zero persistence after sugar and after looming.",
+  "probe_protocol": "Protocol of probe_circuits.py (not the paper model).",
+  "probe_sugar_active_per_bin_stimulus_range": "Right LB3c+LB3b sugar, 150 Hz, 0-300 ms: min/max active neurons per 50-ms bin during the stimulus.",
+  "probe_sugar_active_per_bin_post_offset_range": "Same run, all 50-ms bins from offset to 700 ms after: min and max active neurons. The maximum is the first post-offset bin; after an initial drop the count plateaus with no decay toward rest (see the two keys below).",
+  "probe_sugar_active_first_post_offset_bin_and_drop_frac": "Active neurons in the first 50-ms bin after sugar offset (300-350 ms), and the fractional drop to the next bin (350-400 ms).",
+  "probe_sugar_active_per_bin_post_offset_after_first_bin_range": "Active neurons per 50-ms bin from 350 ms to 1000 ms (50-700 ms after offset): a plateau with no decay toward rest.",
+  "probe_sugar_total_rate_stimulus_range_hz": "Summed rate over all neurons (Hz) per 50-ms bin during the sugar stimulus (first bin included).",
+  "probe_sugar_total_rate_post_offset_range_hz": "Summed rate per 50-ms bin after sugar offset: flat, no decay.",
+  "alt_drop_kckc_w0275_odour_last200": "Odour neurons active 500-700 ms after offset with KC-KC synapses kept vs removed (w 0.275, no adaptation): removal does not end persistence. Protocol inferred, not verified: no script in code/ writes this file (alt_tests_generating_scripts_found = 0); its keep-KC-KC w0.275 row equals the sweep_adaptation.py no-adaptation row exactly (kckc_w0275_keep_equals_sweep_da0_row), which supports left ORN DM1/DM4/VA2 odour, right sugar, right LPLC2, recurrent AL and the 500-700-ms window.",
+  "alt_drop_kckc_w0275_kc_last200": "KCs active 500-700 ms after offset with KC-KC kept vs removed. Protocol inferred, not verified: no script in code/ writes this file (alt_tests_generating_scripts_found = 0); its keep-KC-KC w0.275 row equals the sweep_adaptation.py no-adaptation row exactly (kckc_w0275_keep_equals_sweep_da0_row), which supports left ORN DM1/DM4/VA2 odour, right sugar, right LPLC2, recurrent AL and the 500-700-ms window.",
+  "alt_drop_kckc_w0275_kc_frac_on": "KC fraction during odour after KC-KC removal (still above 20%). Protocol inferred, not verified: no script in code/ writes this file (alt_tests_generating_scripts_found = 0); its keep-KC-KC w0.275 row equals the sweep_adaptation.py no-adaptation row exactly (kckc_w0275_keep_equals_sweep_da0_row), which supports left ORN DM1/DM4/VA2 odour, right sugar, right LPLC2, recurrent AL and the 500-700-ms window.",
+  "alt_drop_sensory_input_w0275_odour_last200": "Odour neurons active 500-700 ms after offset when input to sensory neurons is removed (w 0.275): persistence remains. Protocol inferred, not verified: no script in code/ writes this file (alt_tests_generating_scripts_found = 0); stimuli, recurrent AL and the 500-700-ms window are assumed to follow sweep_adaptation.py, as for kckc_test.",
+  "alt_drop_sensory_input_w0275_kc_last200_and_share": "KCs among those persistent neurons, and their share. Protocol inferred, not verified: no script in code/ writes this file (alt_tests_generating_scripts_found = 0); stimuli, recurrent AL and the 500-700-ms window are assumed to follow sweep_adaptation.py, as for kckc_test.",
+  "alt_drop_sensory_input_top_type": "Largest persistent type after sensory-input removal and its count. Protocol inferred, not verified: no script in code/ writes this file (alt_tests_generating_scripts_found = 0); stimuli, recurrent AL and the 500-700-ms window are assumed to follow sweep_adaptation.py, as for kckc_test.",
+  "alt_drop_sensory_and_kckc_w0275_odour_last200": "Persistent odour neurons with both sensory input and KC-KC removed. Protocol inferred, not verified: no script in code/ writes this file (alt_tests_generating_scripts_found = 0); stimuli, recurrent AL and the 500-700-ms window are assumed to follow sweep_adaptation.py, as for kckc_test.",
+  "alt_lower_weight_w0157_odour_last200_kcfrac": "Lower weight (0.157 mV): odour persistence remains (neurons active 500-700 ms after offset) while KC recruitment becomes sparse. Protocol inferred, not verified: no script in code/ writes this file (alt_tests_generating_scripts_found = 0); its keep-KC-KC w0.275 row equals the sweep_adaptation.py no-adaptation row exactly (kckc_w0275_keep_equals_sweep_da0_row), which supports left ORN DM1/DM4/VA2 odour, right sugar, right LPLC2, recurrent AL and the 500-700-ms window.",
+  "alt_adaptation_only_da4": "Adaptation alone at da 4 mV ends odour persistence but leaves KCs non-sparse and MN9 weak: [odour persistent neurons, KC fraction, MN9 Hz].",
+  "alt_tests_generating_scripts_found": "Number of scripts under code/ that write kckc_test.json, sensory_input_test.json or odor_intensity_sweep.csv (0 = not in the code release).",
+  "intensity_sweep_da0_last200_range": "odor_intensity_sweep.csv, da 0: range of the active_last200 column (neurons active in the last 200 ms after offset) over the 12 conditions. Protocol inferred, not verified: no script in code/ writes this file (alt_tests_generating_scripts_found = 0); ORN drive is read from the n_orn column, and recurrent AL and the 500-700-ms window are assumed to follow sweep_adaptation.py.",
+  "intensity_sweep_da0_kc_frac_range": "odor_intensity_sweep.csv, da 0: range of KC fraction. Protocol inferred, not verified: no script in code/ writes this file (alt_tests_generating_scripts_found = 0); ORN drive is read from the n_orn column, and recurrent AL and the 500-700-ms window are assumed to follow sweep_adaptation.py.",
+  "intensity_sweep_da1_last200_range": "odor_intensity_sweep.csv, da 1: range of the active_last200 column (neurons active in the last 200 ms after offset) over the 12 conditions. Protocol inferred, not verified: no script in code/ writes this file (alt_tests_generating_scripts_found = 0); ORN drive is read from the n_orn column, and recurrent AL and the 500-700-ms window are assumed to follow sweep_adaptation.py.",
+  "intensity_sweep_da1_kc_frac_range": "odor_intensity_sweep.csv, da 1: range of KC fraction. Protocol inferred, not verified: no script in code/ writes this file (alt_tests_generating_scripts_found = 0); ORN drive is read from the n_orn column, and recurrent AL and the 500-700-ms window are assumed to follow sweep_adaptation.py.",
+  "intensity_sweep_pn_active_range": "Number of active PNs (PN_active column) over all 24 intensity-sweep conditions (35 DM1 ORNs at 20 Hz up to 179 ORNs of 3 glomeruli at 100 Hz): a similar number (~550) of PNs regardless of input. The file holds counts only, not PN identities, so it does not show that the same PNs fire. Protocol inferred, not verified: no script in code/ writes this file (alt_tests_generating_scripts_found = 0); ORN drive is read from the n_orn column, and recurrent AL and the 500-700-ms window are assumed to follow sweep_adaptation.py.",
+  "intensity_sweep_n_orn_range": "Range of stimulated ORNs in the intensity sweep (n_orn column).",
+  "intensity_sweep_all_rows_include_DM1": "Whether every intensity-sweep condition contains DM1 (glomerulus sets nested: a size/intensity test, not an odour-identity test).",
+  "probe_odour_conditions": "Unilateral ORN conditions in the probe (DM1+DM4+VA2, DA2, V on each side).",
+  "probe_odour_n_active_range": "Neurons active during the 300-ms ORN stimulus (t_off = 0, not persistence) across the six probe odours, base model.",
+  "ffal_al_edge_definition": "Definition of the removed antennal-lobe-internal chemical synapses (same mask in model.py).",
+  "ffal_calibration_protocol": "Protocol of test_ff_al.py (the feedforward calibration run); counts are per-replicate means truncated to int.",
+  "n_stimulated_PN_odour_A": "Uniglomerular PNs driven for odour A (DM1, DM4, VA2; both sides).",
+  "n_stimulated_PN_odour_B": "Uniglomerular PNs driven for odour B (DL5, DM2, VM2; both sides).",
+  "stim_PN_odour_A_by_side": "Odour A PNs (types matching the glomeruli) on the left and right (count check against n_PN_A).",
+  "stim_PN_odour_B_by_side": "Odour B PNs (types matching the glomeruli) on the left and right (count check against n_PN_B).",
+  "ffal_kc_frac_A_B_da1": "Calibration run, feedforward AL with adaptation: mean per-replicate KC fraction for odour A and odour B (B is below the 5% criterion).",
+  "ffal_kc_frac_A_B_da0": "Same without adaptation: adaptation raised, not lowered, KC recruitment in the feedforward AL.",
+  "ffal_jaccard_da1_da0": "KC-set Jaccard overlap between odours A and B (mean over replicates), with and without adaptation.",
+  "ffal_last200_A_da1_da0": "Neurons active 500-700 ms after odour-A offset (mean per replicate, int), with and without adaptation.",
+  "ffal_last200_B_da1_da0": "Same for odour B.",
+  "ffal_mbon_hz_A_da1_da0": "Mean MBON rate during odour A (Hz) with and without adaptation (feedforward AL).",
+  "ffal_active_on_A_da1_da0": "Neurons active during odour A with and without adaptation (feedforward AL).",
+  "healthy_n": "Healthy (stage 0, pan) flies of the severity series, the healthy reference for the four battery x4 designs (stage_curve, components, vulnerability, scope). The burden-matched comparison (exp2 battery.csv, map 'healthy'), the joint cohort (stage 0) and exp1 (per-fly healthy twins) each have their own healthy flies.",
+  "healthy_n_other_designs": "Healthy flies of the designs with their own reference: exp2 battery.csv rows with map 'healthy' (analyze_exp2.py) and joint-cohort stage-0 flies (analyze_joint.py).",
+  "protocol_paired_odour": "Odour paired with PAM activation in every fly (no reciprocal or counterbalanced pairing in code/).",
+  "healthy_kc_frac_A_median": "Healthy flies (n=64): median fraction of KCs firing >= 1 spike during 1-s odour A at 150 Hz.",
+  "healthy_kc_frac_A_ci95": "95% bootstrap CI of that median.",
+  "healthy_kc_frac_A_range": "Min and max over healthy flies of the fraction of KCs firing >= 1 spike during 1-s odour A at 150 Hz.",
+  "healthy_kc_frac_B_median": "Healthy flies (n=64): median fraction of KCs firing >= 1 spike during 1-s odour B.",
+  "healthy_kc_frac_B_ci95": "95% bootstrap CI of that median.",
+  "healthy_kc_frac_B_range": "Min and max over healthy flies of the fraction of KCs firing >= 1 spike during 1-s odour B.",
+  "healthy_valence_naive_A_median": "Healthy flies (n=64): median naive MBON valence for odour A (signed sum of MBON rates, Hz).",
+  "healthy_valence_naive_A_ci95": "95% bootstrap CI of that median.",
+  "healthy_valence_naive_A_range": "Min and max over healthy flies of the naive MBON valence for odour A (signed sum of MBON rates, Hz).",
+  "healthy_valence_naive_B_median": "Healthy flies (n=64): median naive MBON valence for odour B (Hz).",
+  "healthy_valence_naive_B_ci95": "95% bootstrap CI of that median.",
+  "healthy_valence_naive_B_range": "Min and max over healthy flies of the naive MBON valence for odour B (Hz).",
+  "healthy_kc_jaccard_AB_median": "Healthy flies (n=64): median Jaccard overlap of the naive KC sets of odours A and B.",
+  "healthy_kc_jaccard_AB_ci95": "95% bootstrap CI of that median.",
+  "healthy_kc_jaccard_AB_range": "Min and max over healthy flies of the Jaccard overlap of the naive KC sets of odours A and B.",
+  "healthy_mn9_sugar_hz_median": "Healthy flies (n=64): median MN9 rate (mean of the two MN9s) during 0.5-s bilateral sugar (Hz).",
+  "healthy_mn9_sugar_hz_ci95": "95% bootstrap CI of that median.",
+  "healthy_mn9_sugar_hz_range": "Min and max over healthy flies of the MN9 rate (mean of the two MN9s) during 0.5-s bilateral sugar (Hz).",
+  "healthy_gf_loom_hz_median": "Healthy flies (n=64): median giant-fibre rate (mean of both DNp01) during 0.3-s left looming (Hz).",
+  "healthy_gf_loom_hz_ci95": "95% bootstrap CI of that median.",
+  "healthy_gf_loom_hz_range": "Min and max over healthy flies of the giant-fibre rate (mean of both DNp01) during 0.3-s left looming (Hz).",
+  "healthy_pam_pair_hz_median": "Healthy flies (n=64): median mean over PAM types of the type-mean rate during pairing (Hz).",
+  "healthy_pam_pair_hz_ci95": "95% bootstrap CI of that median.",
+  "healthy_pam_pair_hz_range": "Min and max over healthy flies of the mean over PAM types of the type-mean rate during pairing (Hz).",
+  "healthy_kc_frac_B_over_A_ratio_of_medians": "Median KC fraction for odour B divided by that for odour A, healthy flies.",
+  "healthy_kc_frac_B_over_A_ci95": "95% bootstrap CI (flies resampled as pairs) of that ratio.",
+  "healthy_n_flies_B_exceeds_A_kc": "Healthy flies in which odour B recruited more KCs than odour A.",
+  "healthy_kc_frac_A_vs_B_wilcoxon_p": "Two-sided Wilcoxon signed-rank p, KC fraction A vs B within healthy flies.",
+  "healthy_valence_A_over_B_ratio_of_medians": "Median naive valence A divided by median naive valence B, healthy flies.",
+  "healthy_valence_A_vs_B_wilcoxon_p": "Two-sided Wilcoxon signed-rank p, naive valence A vs B within healthy flies.",
+  "healthy_kc_jaccard_chance_median": "Median per-fly Jaccard expected for independent KC sets of the observed sizes, pq/(p+q-pq).",
+  "healthy_kc_jaccard_obs_over_chance_median": "Median per-fly ratio of observed to chance Jaccard: overlap is consistently about 21% above the independent-set expectation (see the keys below), not at chance; the low absolute overlap mostly reflects sparseness.",
+  "healthy_kc_jaccard_obs_over_chance_iqr_range": "Per-fly observed/chance Jaccard ratio, healthy flies: [25th percentile, 75th percentile, min, max].",
+  "healthy_kc_jaccard_n_flies_above_chance": "Healthy flies whose observed Jaccard exceeds the independent-set expectation, of all healthy flies.",
+  "healthy_kc_jaccard_obs_vs_chance_wilcoxon_p": "Two-sided Wilcoxon signed-rank p, observed vs chance Jaccard within healthy flies.",
+  "healthy_dvalence_A_B_LI_medians": "Healthy medians of training change in valence for odour A, for odour B, and of the learning index (LI is almost entirely the paired-odour change).",
+  "protocol_odour_rate_and_duration_battery_vs_calibration": "[Hz, ms] of PN drive in the full protocol and in the feedforward calibration run; the code records no reason for the difference.",
+  "path_dth_max_mV": "Threshold drop at full load (mV); v_th,i = -45 - dth_max * l_i.",
+  "path_syn_loss_max": "Fraction of output contacts lost at full load (binomial thinning, keep p = 1 - 0.6 l_i).",
+  "path_death_max": "Removal probability at full load (P = 0.5 l_i); a fixed default, fitted by no script.",
+  "path_death_max_other_scripts": "Scripts other than pathology.py that mention death_max (only to set it to 0.0 for the rule ablations).",
+  "path_death_max_fitting_scripts": "Scripts other than pathology.py that set death_max to any nonzero value (0 = the 0.5 default was never fitted or varied).",
+  "vuln_rank_definition": "How u_i is computed.",
+  "vuln_rank_counts_al_internal_edges": "The rank is computed in Connectome.__init__ on the full signed pack, before build_brains zeroes antennal-lobe-internal edges, so those edges count.",
+  "vuln_rank_excludes_unsigned_outputs": "Outputs of these neurons (count) and these edges are absent from the signed pack, so they count neither as the sender's outputs nor as the targets' inputs.",
+  "vuln_rank_dnp01_L_R": "Vulnerability percentile u of the left and right giant fibre (DNp01).",
+  "vuln_rank_mn9_L_R": "Vulnerability percentile u of the two MN9s in pack order (left-annotated, right-annotated).",
+  "path_eligible_rule": "Eligibility for load: stimulated non-sensory neurons (odour PNs, LPLC2/LC4, PAM) carry load and can be removed; a removed neuron has v_th = inf and cannot be driven by Poisson input.",
+  "kc_dead_pct_s05_s06_s1": "Mean percent of KCs removed at s = 0.5, 0.6 and 1.0 (severity series).",
+  "kc_loss_17pct_crossing_s_interp": "Severity at which mean KC removal reaches 17% by linear interpolation between s = 0.5 and 0.6 (the figures hard-code 0.55).",
+  "fig_anchor_hardcoded": "Severity anchor hard-coded in the figure script (read off the curve, not fitted).",
+  "min_death_max_to_reach_17pct_kc_loss": "Smallest death_max for which mean KC loss reaches 17% within s <= 1 (17% divided by the mean KC rank implied by 29.41% at s = 1 with death_max 0.5).",
+  "dead_frac_s1_mean": "Mean fraction of all neurons removed at s = 1 (below the 0.25 expected if every neuron carried load = rank, because sensory neurons carry none).",
+  "stim_set_sizes_grn_loomL_pam": "Battery stimulus sets: sugar GRNs LB3c+LB3b both sides, left LPLC2+LC4, all PAM neurons.",
+  "stim_sets_sensory_flags": "Whether each stimulated set is sensory (exempt from load): only the gustatory neurons are.",
+  "pam_types_n_and_size_range": "Number of PAM types and smallest/largest type size (neurons).",
+  "ppl1_neurons_and_types": "PPL1 neurons and types: they define compartments but are never tested for activity.",
+  "n_kc_mbon": "Kenyon cells and MBONs in the network.",
+  "pn_readout_denominator_686_all_flies": "PN_hz_A x 686 is an integer in every fly of the four x4 tables, so the PN readout averages over 686 ALPN-class neurons of which only 8 are driven.",
+  "pn_spikes_healthy_median": "Median total ALPN spikes (all 686 ALPN-class neurons) per healthy fly during 1-s odour A, against 8 x 150 = 1,200 expected Poisson events to the driven PNs.",
+  "pn_spikes_healthy_range": "Min and max total ALPN spikes per healthy fly during 1-s odour A.",
+  "pn_spikes_healthy_over_isolated_expectation": "Healthy median total ALPN spikes during odour A divided by the spikes 8 isolated driven neurons with the paper model's adaptation would fire (8 x 150 events x lif_isolated_driven_spikes_per_event['150Hz_da1'] = 1174). The numerator also contains non-driven ALPN spikes, so this is an upper bound for the driven PNs (odour A is the first protocol segment, so their adaptation starts from rest). A value below 1 means the driven PNs miss more events than adaptation alone explains; the extra loss comes from their synaptic input in the network, which the saved tables cannot separate.",
+  "pam_healthy_median_over_isolated_expectation": "Healthy median PAM_pair_hz divided by the rate of an isolated neuron driven at 100 Hz with the paper model's adaptation (100 x lif_isolated_driven_spikes_per_event['100Hz_da1']): healthy PAM neurons fire on about every event.",
+  "pn_rate_s05_pct_healthy": "Median PN_hz_A at s = 0.5 as % of the healthy median (severity series).",
+  "pn_rate_s05_pct_healthy_ci95": "95% bootstrap CI of that percentage (flies resampled within groups, 4,000 resamples, seed _bootstrap_seed). Monte-Carlo unstable: over 20 other bootstrap seeds a bound varies over a range of up to 3.2 points (see the _mc_range key), so quote it to integers.",
+  "pn_rate_s05_pct_healthy_ci95_mc_range": "Same CI recomputed with seeds _bootstrap_seed + 1 to + 20 (4,000 resamples each): [[lowest, highest lower bound], [lowest, highest upper bound]] (% of healthy).",
+  "pn_rate_s1_pct_healthy": "Median PN_hz_A at s = 1 as % of the healthy median (severity series).",
+  "pn_rate_s1_pct_healthy_ci95": "95% bootstrap CI of that percentage (flies resampled within groups, 4,000 resamples, seed _bootstrap_seed). Stable to within 1 point over 20 other bootstrap seeds (see the _mc_range key).",
+  "pn_rate_s1_pct_healthy_ci95_mc_range": "Same CI recomputed with seeds _bootstrap_seed + 1 to + 20 (4,000 resamples each): [[lowest, highest lower bound], [lowest, highest upper bound]] (% of healthy).",
+  "pam_rate_s05_pct_healthy": "Median PAM_pair_hz at s = 0.5 as % of the healthy median (severity series).",
+  "pam_rate_s05_pct_healthy_ci95": "95% bootstrap CI of that percentage (flies resampled within groups, 4,000 resamples, seed _bootstrap_seed). Stable to within 1 point over 20 other bootstrap seeds (see the _mc_range key).",
+  "pam_rate_s05_pct_healthy_ci95_mc_range": "Same CI recomputed with seeds _bootstrap_seed + 1 to + 20 (4,000 resamples each): [[lowest, highest lower bound], [lowest, highest upper bound]] (% of healthy).",
+  "pam_rate_s1_pct_healthy": "Median PAM_pair_hz at s = 1 as % of the healthy median (severity series).",
+  "pam_rate_s1_pct_healthy_ci95": "95% bootstrap CI of that percentage (flies resampled within groups, 4,000 resamples, seed _bootstrap_seed). Stable to within 1 point over 20 other bootstrap seeds (see the _mc_range key).",
+  "pam_rate_s1_pct_healthy_ci95_mc_range": "Same CI recomputed with seeds _bootstrap_seed + 1 to + 20 (4,000 resamples each): [[lowest, highest lower bound], [lowest, highest upper bound]] (% of healthy).",
+  "pam_healthy_vs_s1_mannwhitney_p": "Two-sided Mann-Whitney p, PAM rate during pairing, healthy vs s = 1.",
+  "pam_pair_hz_min_all_x4_flies": "Lowest fly-level PAM_pair_hz (mean over the 15 PAM types of each type's mean rate during pairing, removed neurons counting 0) in any fly of the four x4 designs. The 5-Hz gate of learn() acts on each type separately, and per-type rates are not saved, so these tables cannot exclude that a type's gate closed (e.g. 14 types at 67.6 Hz and one at 0 give the same mean).",
+  "pam_pair_hz_min_all_x4_flies_fly": "Fly with that lowest PAM_pair_hz: [design table, condition, fly seed].",
+  "components_s1_pn_spikes_median_by_condition": "Median PN spikes per fly at s = 1 by rule-ablation condition: the PN decline comes from neuron removal (death_only ~ all; synloss_only and hyper_only ~ healthy).",
+  "components_s1_pam_hz_median_by_condition": "Median PAM rate during pairing at s = 1 by rule-ablation condition.",
+  "exp1_pn_rate_restored_fraction_by_stage": "Within-fly fraction of the PN-rate deficit restored by restoring all removed neurons vs all synapses ([median, n flies with deficit > 5% of healthy]); ~1 vs ~0 = lost stimulus delivery.",
+  "final_model_da_half_over_base_healthy": "Final model, healthy twins of 12 flies (shortened protocol): median per-fly ratio of readouts with adaptation da halved (0.5 mV) to da 1 mV; adaptation sets KC recruitment, MN9 and whole-brain spikes more than KC rate.",
+  "final_model_da_half_n_flies": "Flies in that comparison.",
+  "protocol_state_reset_calls_in_battery": "Calls to Brains.reset_state() in assay_battery.py: 0, so v, g, adaptation current and delay buffer carry over between all protocol segments (reset happens once, at construction).",
+  "protocol_joint_resets_after_circuit_assays": "The joint cohort resets state after its circuit assays and before the naive-valence probe (comment: 'the circuit assays leave adaptation charged').",
+  "protocol_arena_starts_from_reset_state": "HouseNB.run() resets brain state (not weights) before the arena, i.e. after training and the memory test.",
+  "protocol_residual_adaptation_after_gap": "Fraction of the adaptation current left after a 1-s and a 2-s gap (exp(-gap/tau_a)), carried into the next segment.",
+  "protocol_plasticity_applied_after_training_block": "learn() is called once, after pairing (1 s), 2-s gap, odour B (1 s) and 2-s gap; KC activity during pairing only decides which synapses change.",
+  "protocol_pam_drive_hz": "Poisson drive to every PAM neuron during pairing (Hz).",
+  "protocol_stim_rates_hz": "Poisson drive to odour PNs, sugar GRNs and looming LPLC2/LC4 (Hz).",
+  "learn_dan_on_hz": "A PAM type counts as active if its type-mean rate (removed neurons count as 0) during pairing reaches this rate (Hz).",
+  "learn_eta_and_factor": "Depression eta and resulting multiplicative factor on KC->MBON weights (binary: applied in full to every active compartment).",
+  "learn_fraction_of_type_removed_to_close_gate": "Fraction of a PAM type's neurons that must be removed before its mean (~99 Hz per surviving neuron) drops below the gate.",
+  "learn_compartment_rule": "Compartment definition and which DAN types gate plasticity.",
+  "readout_mn9_definition": "MN9 readout is the mean of both MN9s (right sugar drives only the left-annotated MN9 in the base model).",
+  "readout_gf_definition": "Giant-fibre readouts.",
+  "probe_steering_dn_max_hz": "Highest DNa01/DNa02 rate (Hz) over six unilateral ORN stimuli (150 Hz, 300 ms) in the base model with ORN input and recurrent AL; no consistent lateralisation.",
+  "probe_steering_model": "Which model the steering probe ran on.",
+  "probe_loom_LPLC2_R_dnp01_L_R_hz": "Base model, LPLC2_R at 150 Hz for 300 ms (91 neurons): left and right DNp01 rate during the stimulus (Hz).",
+  "probe_loom_LC4_R_dnp01_L_R_hz": "Base model, LC4_R at 150 Hz for 300 ms (55 neurons): left and right DNp01 rate during the stimulus (Hz).",
+  "probe_loom_LC4_LPLC2_R_dnp01_L_R_hz": "Base model, LC4_LPLC2_R at 150 Hz for 300 ms (146 neurons): left and right DNp01 rate during the stimulus (Hz).",
+  "probe_loom_LPLC2_LR_dnp01_L_R_hz": "Base model, LPLC2_LR at 150 Hz for 300 ms (185 neurons): left and right DNp01 rate during the stimulus (Hz).",
+  "arena_odour_drive_bilateral": "Arena odour drive goes to the uniglomerular PNs of both sides at one concentration (cx.upn has no side filter), so the brain receives no left-right odour difference; the gradient direction is given to the body controller.",
+  "arena_radius_mm": "Arena radius (mm).",
+  "arena_food_patches_xyr_mm": "Food patches [x, y, radius] (mm).",
+  "arena_odour_sources_xy_mm": "Odour source positions (mm); 42 mm apart.",
+  "arena_plume_sigma_mm": "Plume concentration c = exp(-d^2 / (2 sigma^2)): sigma is a Gaussian SD (mm), not a width.",
+  "arena_inside_plume_threshold": "Definition of 'time near trained odour' (time inside the plume of odour A).",
+  "arena_pn_drive": "Poisson drive to the odour's uniglomerular PNs (both sides).",
+  "arena_sugar_drive": "Drive to LB3c/LB3b GRNs (both sides).",
+  "arena_hunger_feed_rate_per_s": "Hunger decrease per second of feeding (hunger starts at 1, clipped to [0, 1]).",
+  "arena_hunger_recover_per_s": "Hunger recovery per second when not feeding.",
+  "arena_feed_mn9_threshold_hz": "MN9 rate (mean of two, last 100 ms) above which a grounded fly on food feeds.",
+  "arena_body_step_ms": "Body step (ms); the brain runs 100 steps of 0.1 ms per body step.",
+  "arena_readout_windows_ms": "Sliding windows of the arena readouts (MN9 rate, giant-fibre spike count for take-off, MBON valence for steering).",
+  "arena_gf_spikes_for_takeoff": "Giant-fibre spikes (both DNp01 pooled) within 30 ms that trigger a take-off.",
+  "arena_steering_gain_rad_s": "Steering gain: steer = gain x tanh(learned valence / v_scale) x sin(phi - heading), phi = direction of sum_o c_o (source_o - x); only while walking.",
+  "arena_valence_scale_hz": "Valence saturation scale v_scale (Hz) in the steering tanh.",
+  "arena_learned_valence": "Valence that drives steering.",
+  "arena_walk_speed_mm_s": "Walking speed (mm/s).",
+  "arena_heading_diffusion_rad_sqrt_s": "Heading diffusion of the correlated random walk (rad/sqrt(s)).",
+  "arena_jump_mm_and_air_s": "Jump distance (mm) and airborne time (s).",
+  "arena_jump_refractory_s": "Minimum time between jumps (s); jumps include spontaneous GF-triggered ones (heading kept when no shadow).",
+  "arena_jump_direction_noise_rad": "SD of Gaussian noise added to the away-from-shadow jump direction (rad).",
+  "arena_shadow_radius_mm_and_duration_s": "Looming shadow grows linearly from 2 mm to shadow_rmax (mm) over shadow_dur (s).",
+  "arena_threat_seen_margin_mm": "A threat is 'encountered' (denominator of jumps per threat) if the fly is within shadow radius + 6 mm at any step, even if airborne; looming drive is given only when grounded.",
+  "arena_looming_drive": "Lateralised looming drive.",
+  "arena_input_rate_cap_hz": "Cap on every input rate (Hz).",
+  "arena_start_disc_radius_frac": "Flies start uniformly within a disc of 0.8 R with random heading and hunger 1.",
+  "arena_wall_mm": "Wall position (R - 1.5 mm); a fly crossing it is put back and turned toward the centre with N(0, 0.6 rad) noise.",
+  "arena_naive_probe": "Naive-valence probe: [concentration levels, ms per level, gap ms, rng seed]; PN drive 150 Hz x level, run after a state reset and before training.",
+  "arena_pam_driven": "PAM neurons receive no drive in the arena (only GRN, odour PN and LPLC2/LC4 inputs).",
+  "arena_threat_rule": "Threat schedule rule in cohort_joint.py.",
+  "arena_threats_n": "Threats in the 120-s joint-cohort arena run.",
+  "arena_threat_times_s": "Threat onset times (s).",
+  "arena_threat_gap_range_s": "Range of inter-threat intervals (s).",
+  "arena_threat_max_centre_dist_mm": "Largest distance of a threat centre from the arena centre (mm).",
+  "joint_seconds_seed_nflies": "Joint cohort: arena duration (s), master seed, number of flies.",
+  "joint_stage_list": "Severity:count list of the joint cohort.",
+  "joint_threats_seen_mean_median_min_max": "Threats encountered per fly (of 10): mean, median, min, max.",
+  "joint_flies_no_threat_seen": "Flies that encountered no threat, so jumps per threat is undefined for them.",
+  "joint_flies_pi_undefined": "Flies that entered neither plume, so the preference index is undefined.",
+  "joint_seeds_rule": "Seeds of the joint cohort.",
+  "cohort_totals_battery_stats": "Flies per design in battery_stats.json (the four battery designs and the joint cohort, without the burden-matched comparison).",
+  "cohort_exp2_flies": "Flies of the burden-matched map comparison (exp2 battery rows).",
+  "cohort_total_flies": "Total simulated flies (total of battery_stats.json + exp2); exp1 re-simulates existing flies and adds none.",
+  "schematic_hardcoded_fly_count": "Fly count hard-coded in the 'Readouts' box of the model schematic of figure_common.py (not the published Fig 1A, which make_figures.py draws with the total above).",
+  "figure_common_output_dir": "Output directory set in figure_common.py (the scripts that import the module set their own).",
+  "schematic_panel_c_is_illustration": "Panel C of the model schematic of figure_common.py draws the line u, the line 1-u and 260 uniform random points ('rule illustration'), not model loads; real loads put sensory neurons at 0 and the antihub map is not 1-u.",
+  "schematic_engine_box_text": "Text of the engine box in the model schematic of figure_common.py: r = 0.9997 sits above the two MaleCNS extensions although it was obtained on FlyWire v630 with the base model."
+ },
+ "_source": {
+  "_bootstrap_seed": "this script",
+  "connectome_manifest_found": "connectome/manifest.json",
+  "connectome_dataset": "connectome/manifest.json dataset",
+  "connectome_neurons": "connectome/manifest.json neurons",
+  "connectome_edges_signed": "connectome/manifest.json edges",
+  "connectome_synaptic_contacts": "connectome/manifest.json synapses_abs",
+  "connectome_raw_weight_rows": "connectome/manifest.json raw_rows",
+  "connectome_rows_dropped_endpoint_unannotated": "connectome/manifest.json dropped_endpoint_not_selected",
+  "connectome_rows_dropped_endpoint_unannotated_frac": "connectome/manifest.json",
+  "connectome_rows_dropped_unsigned_presyn": "connectome/manifest.json dropped_unsigned_presynaptic",
+  "connectome_row_accounting_closes": "connectome/manifest.json",
+  "connectome_neurons_excitatory": "connectome/manifest.json sign_counts[1]",
+  "connectome_neurons_inhibitory": "connectome/manifest.json sign_counts[-1]",
+  "connectome_neurons_unsigned_no_output": "connectome/manifest.json sign_counts[0]",
+  "connectome_sign_rule": "code/adfly/build_pack.py line 27",
+  "connectome_minconf": "code/adfly/build_pack.py F_W/F_ANN filenames (minconf-0.5)",
+  "n_sensory_superclass_neurons": "results/validation/baseline_nostim.parquet superclass (pack order)",
+  "n_sensory_superclass_frac": "results/validation/baseline_nostim.parquet",
+  "calib_brain_mask_excluded_prefixes": "code/scripts/calibrate_wsyn.py line 66",
+  "calib_brain_mask_neurons": "results/validation/baseline_nostim.parquet superclass with the calibrate_wsyn.py mask",
+  "calib_brain_mask_optic_visual_neurons": "results/validation/baseline_nostim.parquet",
+  "lif_v_0": "code/adfly/lif.py Params default",
+  "lif_v_rst": "code/adfly/lif.py Params default",
+  "lif_v_th": "code/adfly/lif.py Params default",
+  "lif_t_mbr": "code/adfly/lif.py Params default",
+  "lif_tau": "code/adfly/lif.py Params default",
+  "lif_t_rfc": "code/adfly/lif.py Params default",
+  "lif_t_dly": "code/adfly/lif.py Params default",
+  "lif_w_syn": "code/adfly/lif.py Params default",
+  "lif_f_poi": "code/adfly/lif.py Params default",
+  "lif_dt": "code/adfly/lif.py Params default",
+  "lif_tau_a": "code/adfly/lif.py Params default",
+  "lif_poisson_kick_mV": "code/adfly/lif.py",
+  "lif_isolated_driven_spikes_per_event": "code/adfly/lif.py Brains.run; this script",
+  "lif_adaptation_off_by_default": "code/adfly/lif.py line 252",
+  "lif_gate_refractory_input_default": "code/adfly/lif.py Brains.__init__ default",
+  "model_tau_a_ms": "code/adfly/model.py TAU_A",
+  "model_da_mV": "code/adfly/model.py DA",
+  "model_w_syn_mV": "code/adfly/model.py W_SYN",
+  "odour_A_glomeruli": "code/adfly/model.py ODORS",
+  "odour_B_glomeruli": "code/adfly/model.py ODORS",
+  "engine_validation_network": "results/validation/engine_validation.json model",
+  "engine_validation_neurons": "results/validation/engine_validation.json neurons",
+  "engine_validation_stimulus": "results/validation/engine_validation.json stimulus",
+  "engine_validation_seeds": "code/scripts/validate_engine_final.py line 79",
+  "engine_validation_seed_used_for_comparisons": "code/scripts/validate_engine_final.py line 94",
+  "engine_validation_slope_direction": "code/scripts/validate_engine_final.py line 101",
+  "engine_discard_spikes_per_trial_by_seed": "results/validation/engine_validation.json engine_runs[gate=True]",
+  "engine_discard_mn9_hz_by_seed": "results/validation/engine_validation.json engine_runs[gate=True]",
+  "engine_discard_active_by_seed": "results/validation/engine_validation.json engine_runs[gate=True]",
+  "engine_accumulate_spikes_per_trial_by_seed": "results/validation/engine_validation.json engine_runs[gate=False]",
+  "engine_accumulate_mn9_hz_by_seed": "results/validation/engine_validation.json engine_runs[gate=False]",
+  "engine_accumulate_active_by_seed": "results/validation/engine_validation.json engine_runs[gate=False]",
+  "engine_ref_brian2_local": "results/validation/engine_validation.json references[local_brian2_2.10.1]",
+  "engine_ref_released_example": "results/validation/engine_validation.json references[released_example_output]",
+  "engine_cmp_discard_vs_local": "results/validation/engine_validation.json comparisons[gate=True vs local_brian2_2.10.1]",
+  "engine_cmp_discard_vs_released": "results/validation/engine_validation.json comparisons[gate=True vs released_example_output]",
+  "engine_cmp_accumulate_vs_local": "results/validation/engine_validation.json comparisons[gate=False vs local_brian2_2.10.1]",
+  "engine_cmp_accumulate_vs_released": "results/validation/engine_validation.json comparisons[gate=False vs released_example_output]",
+  "engine_cmp_discard_vs_local_recomputed": "results/validation/engine_validation_rates.npz",
+  "engine_cmp_discard_vs_released_recomputed": "results/validation/engine_validation_rates.npz",
+  "engine_cmp_accumulate_vs_local_recomputed": "results/validation/engine_validation_rates.npz",
+  "engine_cmp_accumulate_vs_released_recomputed": "results/validation/engine_validation_rates.npz",
+  "engine_discard_seed_spread_spikes": "results/validation/engine_validation.json",
+  "engine_discard_seed_spread_mn9_hz": "results/validation/engine_validation.json",
+  "engine_discard_mn9_minus_brian2_by_seed": "results/validation/engine_validation.json",
+  "flywire_sign_convention": "code/scripts/validate_engine_flywire.py line 40; code/scripts/calibrate_wsyn.py line 34",
+  "malecns_gust_check_protocol": "code/scripts/validate_sugar_mn9.py experiment() defaults",
+  "malecns_gust_nostim_n_stim": "results/validation/summary_sugar_mn9.json",
+  "malecns_gust_nostim_n_active": "results/validation/summary_sugar_mn9.json",
+  "malecns_gust_nostim_mn9_L_R_hz": "results/validation/summary_sugar_mn9.json",
+  "malecns_gust_nostim_mn9_L_sd_hz": "results/validation/summary_sugar_mn9.json",
+  "malecns_gust_nostim_spikes_per_trial": "results/validation/baseline_nostim.parquet",
+  "malecns_gust_LB3c_R_n_stim": "results/validation/summary_sugar_mn9.json",
+  "malecns_gust_LB3c_R_n_active": "results/validation/summary_sugar_mn9.json",
+  "malecns_gust_LB3c_R_mn9_L_R_hz": "results/validation/summary_sugar_mn9.json",
+  "malecns_gust_LB3c_R_mn9_L_sd_hz": "results/validation/summary_sugar_mn9.json",
+  "malecns_gust_LB3c_R_spikes_per_trial": "results/validation/sugar_LB3c_R.parquet",
+  "malecns_gust_LB3cb_R_n_stim": "results/validation/summary_sugar_mn9.json",
+  "malecns_gust_LB3cb_R_n_active": "results/validation/summary_sugar_mn9.json",
+  "malecns_gust_LB3cb_R_mn9_L_R_hz": "results/validation/summary_sugar_mn9.json",
+  "malecns_gust_LB3cb_R_mn9_L_sd_hz": "results/validation/summary_sugar_mn9.json",
+  "malecns_gust_LB3cb_R_spikes_per_trial": "results/validation/sugar_LB3c_LB3b_R.parquet",
+  "malecns_gust_bitter_R_n_stim": "results/validation/summary_sugar_mn9.json",
+  "malecns_gust_bitter_R_n_active": "results/validation/summary_sugar_mn9.json",
+  "malecns_gust_bitter_R_mn9_L_R_hz": "results/validation/summary_sugar_mn9.json",
+  "malecns_gust_bitter_R_mn9_L_sd_hz": "results/validation/summary_sugar_mn9.json",
+  "malecns_gust_bitter_R_spikes_per_trial": "results/validation/bitter_LB1abcd_R.parquet",
+  "malecns_gust_bitter_R_kc_active": "results/validation/bitter_LB1abcd_R.parquet",
+  "calib_flywire_version": "code/scripts/calibrate_wsyn.py line 29",
+  "calib_type_matching_key": "code/scripts/calibrate_wsyn.py lines 67, 49",
+  "calib_min_mean_input_synapses": "code/scripts/calibrate_wsyn.py line 70",
+  "calib_n_matched_types": "results/calibration/calibration.json n_matched_types",
+  "calib_n_matched_types_recomputed": "results/calibration/matched_type_input_synapses.csv",
+  "calib_min_mean_fw_mc_in_table": "results/calibration/matched_type_input_synapses.csv",
+  "calib_ratio_median": "results/calibration/calibration.json ratio_median",
+  "calib_ratio_median_recomputed": "results/calibration/matched_type_input_synapses.csv",
+  "calib_ratio_iqr": "results/calibration/calibration.json ratio_iqr",
+  "calib_w_syn_scaled_mV": "results/calibration/calibration.json w_syn_calibrated_mV",
+  "calib_w_syn_scaled_over_published": "results/calibration/calibration.json",
+  "calib_fw_mean_in_syn_per_neuron": "results/calibration/calibration.json fw_mean_in_syn_per_neuron",
+  "calib_mc_brain_mean_in_syn_per_neuron": "results/calibration/calibration.json mc_brain_mean_in_syn_per_neuron",
+  "calib_persistence_protocol": "code/scripts/calibrate_wsyn.py lines 82-92",
+  "mn9_pack_order_sides": "results/validation/baseline_nostim.parquet",
+  "dnp01_pack_order_sides": "results/validation/baseline_nostim.parquet",
+  "calib_w0157_sugar_mn9_hz": "results/calibration/calibration.json malecns_sugar_wcal_MN9_on_hz",
+  "calib_w0157_sugar_mn9_mean_of_two_hz": "results/calibration/calibration.json",
+  "calib_w0157_sugar_active_per_100ms": "results/calibration/calibration.json malecns_sugar_wcal_active_per_100ms",
+  "calib_w0157_sugar_silent_from_ms": "results/calibration/calibration.json",
+  "calib_malecns_odour_w0.275_active_range_all_bins": "results/calibration/calibration.json malecns_odor_w0.275_active_per_100ms",
+  "calib_malecns_odour_w0.275_active_last_bin": "results/calibration/calibration.json",
+  "calib_malecns_odour_w0.275_kc_on_last_total": "results/calibration/calibration.json malecns_odor_w0.275_KC_active_on_vs_last",
+  "calib_malecns_odour_w0.157_active_range_all_bins": "results/calibration/calibration.json malecns_odor_w0.157_active_per_100ms",
+  "calib_malecns_odour_w0.157_active_last_bin": "results/calibration/calibration.json",
+  "calib_malecns_odour_w0.157_kc_on_last_total": "results/calibration/calibration.json malecns_odor_w0.157_KC_active_on_vs_last",
+  "calib_flywire783_odour_active_range_all_bins": "results/calibration/calibration.json flywire_odor_active_per_100ms",
+  "calib_flywire783_odour_active_range_post_offset": "results/calibration/calibration.json",
+  "calib_flywire783_odour_kc_on_last_total": "results/calibration/calibration.json flywire_odor_KC_active_on_vs_last",
+  "calib_flywire_odour_stimulus_sets_tested": "code/scripts/calibrate_wsyn.py line 99",
+  "kckc_w0275_keep_equals_sweep_da0_row": "results/calibration/kckc_test.json; results/calibration/adaptation_sweep.json",
+  "kckc_w0275_mn9_sugar_hz": "results/calibration/kckc_test.json w0.275_dropKCKCFalse",
+  "kckc_w0275_gf_lplc2_hz": "results/calibration/kckc_test.json w0.275_dropKCKCFalse",
+  "kckc_w0275_odour_sugar_loom_last200": "results/calibration/kckc_test.json w0.275_dropKCKCFalse",
+  "kckc_w0275_kc_frac_on": "results/calibration/kckc_test.json w0.275_dropKCKCFalse",
+  "kckc_w0157_mn9_sugar_hz": "results/calibration/kckc_test.json w0.157_dropKCKCFalse",
+  "kckc_w0157_gf_lplc2_hz": "results/calibration/kckc_test.json w0.157_dropKCKCFalse",
+  "kckc_w0157_odour_sugar_loom_last200": "results/calibration/kckc_test.json w0.157_dropKCKCFalse",
+  "kckc_w0157_kc_frac_on": "results/calibration/kckc_test.json w0.157_dropKCKCFalse",
+  "calib_mn9_ratio_w0157_vs_w0275": "results/calibration/kckc_test.json",
+  "calib_gf_ratio_w0157_vs_w0275": "results/calibration/kckc_test.json",
+  "sweep_on_window_ms": "code/scripts/sweep_adaptation.py line 50",
+  "sweep_persistence_window_after_offset_ms": "code/scripts/sweep_adaptation.py line 60",
+  "sweep_replicates_and_seed": "code/scripts/sweep_adaptation.py run() defaults",
+  "sweep_stimuli": "code/scripts/sweep_adaptation.py line 37",
+  "criterion_C3_kc_sparse_range_pct": "code/scripts/sweep_adaptation.py line 9",
+  "criterion_C1_quiescence": "code/scripts/sweep_adaptation.py line 4",
+  "criterion_C2_responses_kept": "code/scripts/sweep_adaptation.py line 6",
+  "sweep_settings_tau_da": "results/calibration/adaptation_sweep.json",
+  "sweep_odour_last200_by_setting": "results/calibration/adaptation_sweep.json odor_active_last200",
+  "sweep_sugar_last200_by_setting": "results/calibration/adaptation_sweep.json sugar_active_last200",
+  "sweep_loom_last200_by_setting": "results/calibration/adaptation_sweep.json loom_active_last200",
+  "sweep_kc_frac_on_by_setting": "results/calibration/adaptation_sweep.json KC_frac_on",
+  "sweep_kc_mean_hz_on_by_setting": "results/calibration/adaptation_sweep.json KC_mean_hz_on",
+  "sweep_mn9_driven_hz_by_setting": "results/calibration/adaptation_sweep.json sugar_MN9_hz[0]",
+  "sweep_gf_ipsi_hz_by_setting": "results/calibration/adaptation_sweep.json loom_GF_hz[0]",
+  "sweep_gf_contra_hz_by_setting": "results/calibration/adaptation_sweep.json loom_GF_hz[1]",
+  "persist_noadapt_odour_sugar_loom_last200": "results/calibration/adaptation_sweep.json row da=0",
+  "persist_chosen_odour_sugar_loom_last200": "results/calibration/adaptation_sweep.json row tau_a=1000, da=1",
+  "persist_noadapt_odour_active_on": "results/calibration/adaptation_sweep.json",
+  "adapt_kc_mean_hz_noadapt_to_chosen": "results/calibration/adaptation_sweep.json",
+  "adapt_kc_frac_noadapt_to_chosen": "results/calibration/adaptation_sweep.json",
+  "adapt_cost_mn9_hz": "results/calibration/adaptation_sweep.json",
+  "adapt_cost_mn9_pct_change": "results/calibration/adaptation_sweep.json",
+  "adapt_cost_gf_ipsi_hz": "results/calibration/adaptation_sweep.json",
+  "adapt_cost_gf_ipsi_pct_change": "results/calibration/adaptation_sweep.json",
+  "adapt_cost_gf_contra_pct_change": "results/calibration/adaptation_sweep.json",
+  "adapt_tau1000_da2_odour_last200_kcfrac_mn9_gf": "results/calibration/adaptation_sweep.json",
+  "adapt_tau1000_da4_odour_last200_kcfrac_mn9_gf": "results/calibration/adaptation_sweep.json",
+  "adapt_da4_mn9_pct_change": "results/calibration/adaptation_sweep.json",
+  "sweep_kc_frac_range_adaptation_settings": "results/calibration/adaptation_sweep.json",
+  "sweep_settings_all_three_quiescent": "results/calibration/adaptation_sweep.json",
+  "sweep_settings_sugar_and_loom_quiescent": "results/calibration/adaptation_sweep.json",
+  "probe_protocol": "code/scripts/probe_circuits.py run() defaults",
+  "probe_sugar_active_per_bin_stimulus_range": "results/probe/probe_circuits.json persistence_sugar",
+  "probe_sugar_active_per_bin_post_offset_range": "results/probe/probe_circuits.json",
+  "probe_sugar_active_first_post_offset_bin_and_drop_frac": "results/probe/probe_circuits.json persistence_sugar",
+  "probe_sugar_active_per_bin_post_offset_after_first_bin_range": "results/probe/probe_circuits.json persistence_sugar",
+  "probe_sugar_total_rate_stimulus_range_hz": "results/probe/probe_circuits.json",
+  "probe_sugar_total_rate_post_offset_range_hz": "results/probe/probe_circuits.json",
+  "alt_drop_kckc_w0275_odour_last200": "results/calibration/kckc_test.json",
+  "alt_drop_kckc_w0275_kc_last200": "results/calibration/kckc_test.json",
+  "alt_drop_kckc_w0275_kc_frac_on": "results/calibration/kckc_test.json",
+  "alt_drop_sensory_input_w0275_odour_last200": "results/calibration/sensory_input_test.json w0.275_dropSensIn",
+  "alt_drop_sensory_input_w0275_kc_last200_and_share": "results/calibration/sensory_input_test.json",
+  "alt_drop_sensory_input_top_type": "results/calibration/sensory_input_test.json persist_top",
+  "alt_drop_sensory_and_kckc_w0275_odour_last200": "results/calibration/sensory_input_test.json",
+  "alt_lower_weight_w0157_odour_last200_kcfrac": "results/calibration/kckc_test.json",
+  "alt_adaptation_only_da4": "results/calibration/adaptation_sweep.json",
+  "alt_tests_generating_scripts_found": "grep over code/**/*.py (excluding the facts_* scripts)",
+  "intensity_sweep_da0_last200_range": "results/calibration/odor_intensity_sweep.csv",
+  "intensity_sweep_da0_kc_frac_range": "results/calibration/odor_intensity_sweep.csv",
+  "intensity_sweep_da1_last200_range": "results/calibration/odor_intensity_sweep.csv",
+  "intensity_sweep_da1_kc_frac_range": "results/calibration/odor_intensity_sweep.csv",
+  "intensity_sweep_pn_active_range": "results/calibration/odor_intensity_sweep.csv",
+  "intensity_sweep_n_orn_range": "results/calibration/odor_intensity_sweep.csv",
+  "intensity_sweep_all_rows_include_DM1": "results/calibration/odor_intensity_sweep.csv",
+  "probe_odour_conditions": "results/probe/probe_circuits.json",
+  "probe_odour_n_active_range": "results/probe/probe_circuits.json odor_*.n_active",
+  "ffal_al_edge_definition": "code/scripts/test_ff_al.py line 28",
+  "ffal_calibration_protocol": "code/scripts/test_ff_al.py run() defaults",
+  "n_stimulated_PN_odour_A": "results/calibration/ff_al_test.json n_PN_A",
+  "n_stimulated_PN_odour_B": "results/calibration/ff_al_test.json n_PN_B",
+  "stim_PN_odour_A_by_side": "results/validation/baseline_nostim.parquet",
+  "stim_PN_odour_B_by_side": "results/validation/baseline_nostim.parquet",
+  "ffal_kc_frac_A_B_da1": "results/calibration/ff_al_test.json ffAL da=1",
+  "ffal_kc_frac_A_B_da0": "results/calibration/ff_al_test.json ffAL da=0",
+  "ffal_jaccard_da1_da0": "results/calibration/ff_al_test.json",
+  "ffal_last200_A_da1_da0": "results/calibration/ff_al_test.json active_last200_A",
+  "ffal_last200_B_da1_da0": "results/calibration/ff_al_test.json active_last200_B",
+  "ffal_mbon_hz_A_da1_da0": "results/calibration/ff_al_test.json MBON_hz_A",
+  "ffal_active_on_A_da1_da0": "results/calibration/ff_al_test.json",
+  "healthy_n": "results/battery/stage_curve_x4.csv",
+  "healthy_n_other_designs": "results/exp2/battery.csv map; results/joint/cohort_joint.csv stage",
+  "protocol_paired_odour": "code/scripts/assay_battery.py line 96",
+  "healthy_kc_frac_A_median": "results/battery/stage_curve_x4.csv KC_frac_A, stage 0",
+  "healthy_kc_frac_A_ci95": "results/battery/stage_curve_x4.csv",
+  "healthy_kc_frac_A_range": "results/battery/stage_curve_x4.csv",
+  "healthy_kc_frac_B_median": "results/battery/stage_curve_x4.csv KC_frac_B, stage 0",
+  "healthy_kc_frac_B_ci95": "results/battery/stage_curve_x4.csv",
+  "healthy_kc_frac_B_range": "results/battery/stage_curve_x4.csv",
+  "healthy_valence_naive_A_median": "results/battery/stage_curve_x4.csv V_pre_A, stage 0",
+  "healthy_valence_naive_A_ci95": "results/battery/stage_curve_x4.csv",
+  "healthy_valence_naive_A_range": "results/battery/stage_curve_x4.csv",
+  "healthy_valence_naive_B_median": "results/battery/stage_curve_x4.csv V_pre_B, stage 0",
+  "healthy_valence_naive_B_ci95": "results/battery/stage_curve_x4.csv",
+  "healthy_valence_naive_B_range": "results/battery/stage_curve_x4.csv",
+  "healthy_kc_jaccard_AB_median": "results/battery/stage_curve_x4.csv KC_overlap_AB, stage 0",
+  "healthy_kc_jaccard_AB_ci95": "results/battery/stage_curve_x4.csv",
+  "healthy_kc_jaccard_AB_range": "results/battery/stage_curve_x4.csv",
+  "healthy_mn9_sugar_hz_median": "results/battery/stage_curve_x4.csv MN9_sugar_hz, stage 0",
+  "healthy_mn9_sugar_hz_ci95": "results/battery/stage_curve_x4.csv",
+  "healthy_mn9_sugar_hz_range": "results/battery/stage_curve_x4.csv",
+  "healthy_gf_loom_hz_median": "results/battery/stage_curve_x4.csv GF_loom_hz, stage 0",
+  "healthy_gf_loom_hz_ci95": "results/battery/stage_curve_x4.csv",
+  "healthy_gf_loom_hz_range": "results/battery/stage_curve_x4.csv",
+  "healthy_pam_pair_hz_median": "results/battery/stage_curve_x4.csv PAM_pair_hz, stage 0",
+  "healthy_pam_pair_hz_ci95": "results/battery/stage_curve_x4.csv",
+  "healthy_pam_pair_hz_range": "results/battery/stage_curve_x4.csv",
+  "healthy_kc_frac_B_over_A_ratio_of_medians": "results/battery/stage_curve_x4.csv",
+  "healthy_kc_frac_B_over_A_ci95": "results/battery/stage_curve_x4.csv",
+  "healthy_n_flies_B_exceeds_A_kc": "results/battery/stage_curve_x4.csv",
+  "healthy_kc_frac_A_vs_B_wilcoxon_p": "results/battery/stage_curve_x4.csv",
+  "healthy_valence_A_over_B_ratio_of_medians": "results/battery/stage_curve_x4.csv",
+  "healthy_valence_A_vs_B_wilcoxon_p": "results/battery/stage_curve_x4.csv",
+  "healthy_kc_jaccard_chance_median": "results/battery/stage_curve_x4.csv",
+  "healthy_kc_jaccard_obs_over_chance_median": "results/battery/stage_curve_x4.csv",
+  "healthy_kc_jaccard_obs_over_chance_iqr_range": "results/battery/stage_curve_x4.csv",
+  "healthy_kc_jaccard_n_flies_above_chance": "results/battery/stage_curve_x4.csv",
+  "healthy_kc_jaccard_obs_vs_chance_wilcoxon_p": "results/battery/stage_curve_x4.csv",
+  "healthy_dvalence_A_B_LI_medians": "results/battery/stage_curve_x4.csv",
+  "protocol_odour_rate_and_duration_battery_vs_calibration": "code/scripts/assay_battery.py line 88; code/scripts/test_ff_al.py",
+  "path_dth_max_mV": "code/adfly/pathology.py Stage default",
+  "path_syn_loss_max": "code/adfly/pathology.py Stage default",
+  "path_death_max": "code/adfly/pathology.py Stage default",
+  "path_death_max_other_scripts": "grep death_max over code/**/*.py (excluding the facts_* analysis scripts)",
+  "path_death_max_fitting_scripts": "grep death_max over code/**/*.py (excluding the facts_* analysis scripts)",
+  "vuln_rank_definition": "code/adfly/pathology.py lines 43-54",
+  "vuln_rank_counts_al_internal_edges": "code/adfly/model.py lines 41, 95",
+  "vuln_rank_excludes_unsigned_outputs": "connectome/manifest.json",
+  "vuln_rank_dnp01_L_R": "results/paper/output_neuron_loss.json vulnerability_percentile",
+  "vuln_rank_mn9_L_R": "results/paper/output_neuron_loss.json vulnerability_percentile.MN9",
+  "path_eligible_rule": "code/adfly/model.py line 89",
+  "kc_dead_pct_s05_s06_s1": "results/stats/battery_stats.json series.burden.kc_dead_pct",
+  "kc_loss_17pct_crossing_s_interp": "results/stats/battery_stats.json",
+  "fig_anchor_hardcoded": "code/scripts/figure_common.py line 56",
+  "min_death_max_to_reach_17pct_kc_loss": "results/stats/battery_stats.json",
+  "dead_frac_s1_mean": "results/battery/stage_curve_x4.csv",
+  "stim_set_sizes_grn_loomL_pam": "results/validation/baseline_nostim.parquet type/side",
+  "stim_sets_sensory_flags": "results/validation/baseline_nostim.parquet superclass",
+  "pam_types_n_and_size_range": "results/validation/baseline_nostim.parquet",
+  "ppl1_neurons_and_types": "results/validation/baseline_nostim.parquet",
+  "n_kc_mbon": "results/validation/baseline_nostim.parquet",
+  "pn_readout_denominator_686_all_flies": "results/battery/*_x4.csv PN_hz_A",
+  "pn_spikes_healthy_median": "results/battery/stage_curve_x4.csv",
+  "pn_spikes_healthy_range": "results/battery/stage_curve_x4.csv",
+  "pn_spikes_healthy_over_isolated_expectation": "results/battery/stage_curve_x4.csv; this script",
+  "pam_healthy_median_over_isolated_expectation": "results/battery/stage_curve_x4.csv; this script",
+  "pn_rate_s05_pct_healthy": "results/battery/stage_curve_x4.csv",
+  "pn_rate_s05_pct_healthy_ci95": "results/battery/stage_curve_x4.csv",
+  "pn_rate_s05_pct_healthy_ci95_mc_range": "results/battery/stage_curve_x4.csv; this script",
+  "pn_rate_s1_pct_healthy": "results/battery/stage_curve_x4.csv",
+  "pn_rate_s1_pct_healthy_ci95": "results/battery/stage_curve_x4.csv",
+  "pn_rate_s1_pct_healthy_ci95_mc_range": "results/battery/stage_curve_x4.csv; this script",
+  "pam_rate_s05_pct_healthy": "results/battery/stage_curve_x4.csv",
+  "pam_rate_s05_pct_healthy_ci95": "results/battery/stage_curve_x4.csv",
+  "pam_rate_s05_pct_healthy_ci95_mc_range": "results/battery/stage_curve_x4.csv; this script",
+  "pam_rate_s1_pct_healthy": "results/battery/stage_curve_x4.csv",
+  "pam_rate_s1_pct_healthy_ci95": "results/battery/stage_curve_x4.csv",
+  "pam_rate_s1_pct_healthy_ci95_mc_range": "results/battery/stage_curve_x4.csv; this script",
+  "pam_healthy_vs_s1_mannwhitney_p": "results/battery/stage_curve_x4.csv",
+  "pam_pair_hz_min_all_x4_flies": "results/battery/*_x4.csv PAM_pair_hz",
+  "pam_pair_hz_min_all_x4_flies_fly": "results/battery/*_x4.csv",
+  "components_s1_pn_spikes_median_by_condition": "results/battery/components_x4.csv",
+  "components_s1_pam_hz_median_by_condition": "results/battery/components_x4.csv",
+  "exp1_pn_rate_restored_fraction_by_stage": "results/exp1/screen/*_runs.csv level=baseline",
+  "final_model_da_half_over_base_healthy": "results/exp1/robust/*.csv level=baseline unit=healthy",
+  "final_model_da_half_n_flies": "results/exp1/robust/*.csv",
+  "protocol_state_reset_calls_in_battery": "code/scripts/assay_battery.py",
+  "protocol_joint_resets_after_circuit_assays": "code/scripts/cohort_joint.py line 91",
+  "protocol_arena_starts_from_reset_state": "code/adfly/house_nb.py line 367",
+  "protocol_residual_adaptation_after_gap": "code/adfly/model.py TAU_A; code/scripts/assay_battery.py",
+  "protocol_plasticity_applied_after_training_block": "code/scripts/assay_battery.py lines 98-101",
+  "protocol_pam_drive_hz": "code/scripts/assay_battery.py line 97",
+  "protocol_stim_rates_hz": "code/scripts/assay_battery.py",
+  "learn_dan_on_hz": "code/adfly/model.py learn() default",
+  "learn_eta_and_factor": "code/adfly/model.py learn() default",
+  "learn_fraction_of_type_removed_to_close_gate": "code/adfly/model.py; healthy PAM_pair_hz",
+  "learn_compartment_rule": "code/adfly/model.py lines 60-63; code/scripts/assay_battery.py line 99",
+  "readout_mn9_definition": "code/scripts/assay_battery.py line 91",
+  "readout_gf_definition": "code/scripts/assay_battery.py lines 94-95",
+  "probe_steering_dn_max_hz": "results/probe/probe_circuits.json odor_*.dn_rates",
+  "probe_steering_model": "code/scripts/probe_circuits.py run(): Brains(n_trials) defaults",
+  "probe_loom_LPLC2_R_dnp01_L_R_hz": "results/probe/probe_circuits.json looming_LPLC2_R",
+  "probe_loom_LC4_R_dnp01_L_R_hz": "results/probe/probe_circuits.json looming_LC4_R",
+  "probe_loom_LC4_LPLC2_R_dnp01_L_R_hz": "results/probe/probe_circuits.json looming_LC4_LPLC2_R",
+  "probe_loom_LPLC2_LR_dnp01_L_R_hz": "results/probe/probe_circuits.json looming_LPLC2_LR",
+  "arena_odour_drive_bilateral": "code/adfly/house.py line 16; code/adfly/model.py line 47",
+  "arena_radius_mm": "code/adfly/house.py Arena.R",
+  "arena_food_patches_xyr_mm": "code/adfly/house.py Arena.food",
+  "arena_odour_sources_xy_mm": "code/adfly/house.py Arena.odor_src",
+  "arena_plume_sigma_mm": "code/adfly/house.py Arena.sigma; code/adfly/house_nb.py line 76",
+  "arena_inside_plume_threshold": "code/adfly/house_nb.py line 236",
+  "arena_pn_drive": "code/adfly/house_nb.py line 78",
+  "arena_sugar_drive": "code/adfly/house_nb.py line 75",
+  "arena_hunger_feed_rate_per_s": "code/adfly/house.py Body",
+  "arena_hunger_recover_per_s": "code/adfly/house.py Body",
+  "arena_feed_mn9_threshold_hz": "code/adfly/house.py Body.feed_hz",
+  "arena_body_step_ms": "code/adfly/house.py DT_BODY",
+  "arena_readout_windows_ms": "code/adfly/house_nb.py lines 168, 174, 354",
+  "arena_gf_spikes_for_takeoff": "code/adfly/house.py Body.gf_spikes",
+  "arena_steering_gain_rad_s": "code/adfly/house.py Body.odor_gain; code/adfly/house_nb.py line 217",
+  "arena_valence_scale_hz": "code/adfly/house.py Body.v_scale",
+  "arena_learned_valence": "code/adfly/house_nb.py lines 198-211",
+  "arena_walk_speed_mm_s": "code/adfly/house.py Body.walk_speed",
+  "arena_heading_diffusion_rad_sqrt_s": "code/adfly/house.py Body.turn_sd",
+  "arena_jump_mm_and_air_s": "code/adfly/house.py Body",
+  "arena_jump_refractory_s": "code/adfly/house_nb.py line 183",
+  "arena_jump_direction_noise_rad": "code/adfly/house_nb.py line 189",
+  "arena_shadow_radius_mm_and_duration_s": "code/adfly/house.py Arena; code/adfly/house_nb.py line 87",
+  "arena_threat_seen_margin_mm": "code/adfly/house_nb.py line 92",
+  "arena_looming_drive": "code/adfly/house_nb.py lines 96-98",
+  "arena_input_rate_cap_hz": "code/adfly/house_nb.py line 366",
+  "arena_start_disc_radius_frac": "code/adfly/house_nb.py line 347",
+  "arena_wall_mm": "code/adfly/house_nb.py line 226",
+  "arena_naive_probe": "code/adfly/house_nb.py probe_naive() defaults",
+  "arena_pam_driven": "code/adfly/house_nb.py line 269",
+  "arena_threat_rule": "code/scripts/cohort_joint.py lines 101-106",
+  "arena_threats_n": "results/joint/cohort_joint_meta.json threats",
+  "arena_threat_times_s": "results/joint/cohort_joint_meta.json threats",
+  "arena_threat_gap_range_s": "results/joint/cohort_joint_meta.json",
+  "arena_threat_max_centre_dist_mm": "results/joint/cohort_joint_meta.json",
+  "joint_seconds_seed_nflies": "results/joint/cohort_joint_meta.json",
+  "joint_stage_list": "results/joint/cohort_joint_meta.json stage_list",
+  "joint_threats_seen_mean_median_min_max": "results/joint/cohort_joint.csv behaviour_threats_seen",
+  "joint_flies_no_threat_seen": "results/joint/cohort_joint.csv",
+  "joint_flies_pi_undefined": "results/joint/cohort_joint.csv",
+  "joint_seeds_rule": "code/scripts/cohort_joint.py; code/adfly/house_nb.py",
+  "cohort_totals_battery_stats": "results/stats/battery_stats.json totals",
+  "cohort_exp2_flies": "results/exp2/battery.csv",
+  "cohort_total_flies": "results/stats/battery_stats.json; results/exp2/battery.csv",
+  "schematic_hardcoded_fly_count": "code/scripts/figure_common.py line 116",
+  "figure_common_output_dir": "code/scripts/figure_common.py line 23",
+  "schematic_panel_c_is_illustration": "code/scripts/figure_common.py lines 149-154",
+  "schematic_engine_box_text": "code/scripts/figure_common.py line 112"
+ }
+}

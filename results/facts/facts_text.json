@@ -1,0 +1,766 @@
+{
+ "pn_spikes_n_projection_neurons": 686,
+ "series_pn_share_of_brain_count_pct": [
+  6.4,
+  18.8,
+  48.3
+ ],
+ "series_s0.5_rho_PN_vs_brain_excl_PN": [
+  0.831,
+  4.03e-09,
+  32
+ ],
+ "series_s0.5_rho_PN_vs_brain_incl_PN": [
+  0.842,
+  1.59e-09,
+  32
+ ],
+ "series_s1_brain_excl_PN_pct": [
+  4.5,
+  3.6,
+  5.8
+ ],
+ "series_s1_brain_incl_PN_pct": 8.2,
+ "sensory_exempt_superclasses": [
+  8,
+  [
+   "cb_sensory",
+   "cb_sensory_tbc",
+   "ol_sensory",
+   "sensory_ascending",
+   "sensory_ascending_tbc",
+   "sensory_descending",
+   "vnc_sensory",
+   "vnc_sensory_tbc"
+  ],
+  17937,
+  10.8
+ ],
+ "LInorm_pooled_s01_03_ci_40000": [
+  67.0,
+  99.8
+ ],
+ "LInorm_pooled_s01_03_ci_4000_seed_range": [
+  [
+   66.9,
+   67.2
+  ],
+  [
+   98.9,
+   100.5
+  ],
+  9
+ ],
+ "LInorm_pooled_s005_03_vs_healthy": [
+  88.9,
+  73.3,
+  109.6,
+  0.107,
+  160
+ ],
+ "LInorm_pooled_s005_03_ci_4000": [
+  73.2,
+  109.5
+ ],
+ "LInorm_pooled_s005_03_ci_4000_seed_range": [
+  [
+   73.1,
+   73.9
+  ],
+  [
+   108.9,
+   110.4
+  ],
+  9
+ ],
+ "LInorm_pooled_s005_03_unrounded": [
+  88.86,
+  73.32,
+  109.57
+ ],
+ "healthy_rho_MBON_vs_naive_valence": [
+  0.714,
+  3.39e-11,
+  64
+ ],
+ "healthy_rho_naive_valence_vs_valence_after_training": [
+  -0.105,
+  0.41,
+  64
+ ],
+ "healthy_partial_LI_MBON_given_naive_valence": [
+  0.108,
+  0.396,
+  64
+ ],
+ "healthy_rho_LI_vs_MBON": [
+  -0.386,
+  0.00164,
+  64
+ ],
+ "series_rankcorr_auc_vs_shift_over_spread_s0.05_exact_p": [
+  0.857,
+  0.0107,
+  8,
+  40320
+ ],
+ "series_rankcorr_auc_vs_shift_over_spread_s0.1_exact_p": [
+  0.738,
+  0.0458,
+  8,
+  40320
+ ],
+ "series_rankcorr_auc_vs_shift_over_spread_s0.2_exact_p": [
+  0.905,
+  0.00456,
+  8,
+  40320
+ ],
+ "series_rankcorr_auc_vs_inverse_spread_s0.05_p_4dp": [
+  -0.024,
+  0.9554
+ ],
+ "series_rankcorr_auc_vs_shift_over_spread_s0.1_all10_exact_p": [
+  0.733,
+  0.0202,
+  10,
+  3628800
+ ],
+ "retest_healthy_PN_p": [
+  0.695,
+  0.00282,
+  16,
+  10,
+  0.0282
+ ],
+ "hiact_owngroup_from_s0.5_above_a_healthy_maximum": [
+  18,
+  [
+   [
+    0.5,
+    1274,
+    3.186,
+    0.831
+   ]
+  ],
+  2.825,
+  0.896
+ ],
+ "series_healthy_rcv_pct_LI_3dp": 32.846,
+ "series_s0.5_rho_PN_vs_MBON_5dp": [
+  0.52485,
+  0.00204,
+  32
+ ],
+ "shuffled_s0.5_equal_neurons_vs_matched_burden_brain": [
+  8111.5,
+  6199.0,
+  0.764,
+  23.6,
+  0.00124,
+  32,
+  32
+ ],
+ "shuffled_matched_over_hub_s0.5_groups_brain": {
+  "mapcomp": 1.172,
+  "series": 1.296,
+  "ablation": 1.489,
+  "exp2": 1.455
+ },
+ "shuffled_equal_neurons_over_hub_s0.5_groups_brain": {
+  "mapcomp": 1.534,
+  "series": 1.696,
+  "ablation": 1.948,
+  "exp2": 1.904
+ },
+ "shuffled_over_hub_s0.5_groups_brain_ranges": [
+  [
+   1.534,
+   1.948
+  ],
+  [
+   1.172,
+   1.489
+  ]
+ ],
+ "hub_s0.5_groups_PN_pct": {
+  "mapcomp": 89.9,
+  "series": 77.7,
+  "ablation": 76.2,
+  "exp2": 76.5
+ },
+ "hub_s0.5_groups_PN_pct_other_than_mapcomp_range": [
+  76.2,
+  77.7
+ ],
+ "syn27.1_GF_mw_p_hub_vs_shuffled_4dp": [
+  0.4846,
+  32,
+  32
+ ],
+ "syn48.3_hub_KCrate_pct_3dp": [
+  37.485,
+  32,
+  32
+ ],
+ "matched_target_contacts_lost_pct_3dp": [
+  11.546,
+  27.081,
+  48.282
+ ],
+ "screen_best_GF_type_with_ties": {
+  "n_flies_with_GF_deficit": 40,
+  "n_flies_with_ties": 19,
+  "LPLC2_alone_or_tied": 14,
+  "LC4_alone_or_tied": 11,
+  "LPLC2_or_LC4_alone_or_tied": 21,
+  "both_tied": 4,
+  "LPLC2_alone": 5,
+  "LC4_alone": 4,
+  "n_flies_with_no_type_above_0": 1
+ },
+ "screen_DN_class_GF_by_group": [
+  [
+   0.9034,
+   0.6887,
+   1.0471,
+   10
+  ],
+  [
+   0.1917,
+   30
+  ]
+ ],
+ "screen_s0.5_neurons_removed_range": [
+  19541,
+  19975,
+  2.22,
+  24
+ ],
+ "screen_GF_below100_still_firing_series_GF_hz": [
+  8,
+  [
+   1205,
+   1208,
+   1213,
+   1256,
+   1261,
+   1264,
+   1272,
+   1274
+  ],
+  [
+   55.0,
+   50.0,
+   46.7,
+   13.3,
+   55.0,
+   48.3,
+   33.3,
+   23.3
+  ],
+  13.3,
+  55.0,
+  8
+ ],
+ "confirm_lesion_n_neurons": [
+  2.0,
+  483,
+  1.0,
+  54
+ ],
+ "robust_confirm_readouts_damaged_above_healthy": [
+  [
+   1257,
+   "MN9_sugar_hz",
+   "weights x1.2",
+   36.0,
+   32.0,
+   false
+  ],
+  [
+   1266,
+   "KC_hz_A",
+   "adaptation increment x0.5",
+   1.043,
+   0.835,
+   false
+  ],
+  [
+   1266,
+   "KC_hz_A",
+   "weights x1.2",
+   1.368,
+   1.017,
+   false
+  ],
+  [
+   1266,
+   "LI",
+   "full protocol",
+   109.0,
+   90.0,
+   false
+  ],
+  [
+   1266,
+   "MBON_hz_A",
+   "adaptation increment x0.5",
+   4.351,
+   2.309,
+   false
+  ],
+  [
+   1266,
+   "MBON_hz_A",
+   "base model",
+   2.485,
+   2.33,
+   true
+  ],
+  [
+   1266,
+   "MBON_hz_A",
+   "full protocol",
+   2.485,
+   2.33,
+   true
+  ],
+  [
+   1266,
+   "MBON_hz_A",
+   "glutamatergic weights x0.5",
+   2.907,
+   2.722,
+   false
+  ],
+  [
+   1266,
+   "MBON_hz_A",
+   "input noise 1",
+   2.258,
+   2.041,
+   false
+  ],
+  [
+   1266,
+   "MBON_hz_A",
+   "input noise 2",
+   2.485,
+   2.134,
+   false
+  ],
+  [
+   1266,
+   "MBON_hz_A",
+   "weights x1.2",
+   5.835,
+   3.608,
+   false
+  ]
+ ],
+ "screen_best_type_per_fly_LH_median_5dp": [
+  0.03848,
+  48
+ ],
+ "joint_trend_feedTime": [
+  -0.513,
+  3.44e-13,
+  176,
+  2.41e-12
+ ],
+ "joint_trend_jumpsPerThreat": [
+  -0.493,
+  7.78e-12,
+  171,
+  4.67e-11
+ ],
+ "joint_withinfly_GF_vs_jumpsPerThreat_by_severity": [
+  [
+   0.0,
+   0.0,
+   31
+  ],
+  [
+   0.05,
+   0.43,
+   24
+  ],
+  [
+   0.1,
+   0.18,
+   23
+  ],
+  [
+   0.15,
+   0.29,
+   24
+  ],
+  [
+   0.2,
+   null,
+   24
+  ],
+  [
+   0.3,
+   0.08,
+   22
+  ],
+  [
+   0.5,
+   0.49,
+   23
+  ]
+ ],
+ "joint_n_defined_by_severity": {
+  "severities": [
+   0.0,
+   0.05,
+   0.1,
+   0.15,
+   0.2,
+   0.3,
+   0.5
+  ],
+  "preference_index": [
+   32,
+   22,
+   24,
+   24,
+   21,
+   24,
+   23
+  ],
+  "jumps_per_threat": [
+   31,
+   24,
+   23,
+   24,
+   24,
+   22,
+   23
+  ]
+ },
+ "battery_flies_in_position_of_a_healthy_series_fly": {
+  "rule_ablation": {
+   "all_s0.5": [
+    5,
+    1
+   ],
+   "all_s1": [
+    6,
+    2
+   ],
+   "death_only_s0.5": [
+    5,
+    1
+   ],
+   "death_only_s1": [
+    5,
+    0
+   ],
+   "hyper_only_s0.5": [
+    10,
+    0
+   ],
+   "hyper_only_s1": [
+    5,
+    0
+   ],
+   "no_hyper_s0.5": [
+    4,
+    2
+   ],
+   "no_hyper_s1": [
+    5,
+    0
+   ],
+   "synloss_only_s0.5": [
+    6,
+    1
+   ],
+   "synloss_only_s1": [
+    5,
+    1
+   ]
+  },
+  "map_comparison": {
+   "antihub_s0.5": [
+    7,
+    0
+   ],
+   "antihub_s1": [
+    3,
+    0
+   ],
+   "hub_s0.5": [
+    8,
+    0
+   ],
+   "hub_s1": [
+    4,
+    0
+   ],
+   "shuffled_s0.5": [
+    8,
+    0
+   ],
+   "shuffled_s1": [
+    3,
+    0
+   ]
+  },
+  "kenyon_cell_only": {
+   "mb_s0.5": [
+    4,
+    1
+   ],
+   "mb_s1": [
+    8,
+    1
+   ]
+  }
+ },
+ "battery_flies_in_position_of_a_healthy_series_fly_range": {
+  "all_groups": [
+   3,
+   10
+  ],
+  "rule_ablation": [
+   4,
+   10
+  ],
+  "map_comparison": [
+   3,
+   8
+  ],
+  "kenyon_cell_only": [
+   4,
+   8
+  ],
+  "total": 101,
+  "total_in_a_short_last_batch": 10
+ },
+ "rep_22tests_n_below_005": [
+  3,
+  22,
+  [
+   [
+    "brain",
+    0.5,
+    0.0334
+   ],
+   [
+    "KC",
+    0.5,
+    0.0381
+   ],
+   [
+    "KCrec",
+    0.5,
+    0.0387
+   ]
+  ]
+ ],
+ "intensity_sweep_design": {
+  "n_conditions": 24,
+  "orn_sets": [
+   [
+    "DM1",
+    "L",
+    35
+   ],
+   [
+    "DM1",
+    "LR",
+    74
+   ],
+   [
+    "DM1+DM4+VA2",
+    "L",
+    84
+   ],
+   [
+    "DM1+DM4+VA2",
+    "LR",
+    179
+   ]
+  ],
+  "rates_hz": [
+   20.0,
+   50.0,
+   100.0
+  ],
+  "adaptation_increment_mv": [
+   0.0,
+   1.0
+  ]
+ },
+ "within_fly_n_simulations": {
+  "screen": 44415,
+  "robustness": 3549,
+  "full_protocol": 990,
+  "total": 48954
+ },
+ "fig4D_largest_iqr_in_symbol_diameters": [
+  0.17,
+  0.9,
+  1.39,
+  1.7,
+  [
+   0.0,
+   21.0
+  ],
+  3.8,
+  8
+ ],
+ "fig3C_hub_s0.5_MBON_drawn_vs_text": [
+  [
+   43.5,
+   38.0,
+   64.5
+  ],
+  [
+   43.5,
+   38.2,
+   59.2
+  ],
+  5.3,
+  -0.2
+ ],
+ "map_s0.5_hub_MBON_ci_seed_range": [
+  [
+   38.0,
+   38.6
+  ],
+  [
+   57.6,
+   64.6
+  ],
+  9,
+  [
+   38.2,
+   59.5
+  ]
+ ],
+ "anchor_severity_interpolated": [
+  16.503,
+  14.675,
+  17.627,
+  0.5619
+ ],
+ "_meaning": {
+  "pn_spikes_n_projection_neurons": "Antennal lobe projection neurons averaged in PN_hz_A (facts_battery pn_n_ALPN); PN_hz_A x 686 is a whole number of spikes in every fly of the four battery designs and of the burden-matched comparison (checked here).",
+  "series_pn_share_of_brain_count_pct": "Severity series, share of the whole-brain spike count during odour A that is projection neuron spikes, %: median over flies of the per-fly share [64 healthy flies, 32 flies at s = 0.5, 32 flies at s = 1.0]. Projection neuron spikes = PN_hz_A x 686 (PN_hz_A is the mean spike count over all 686 antennal lobe projection neurons, class ALPN, in the 1-s presentation of odour A before training, and brain_spikes_A is the spike count of all neurons in the same window: assay_battery.py).",
+  "series_s0.5_rho_PN_vs_brain_excl_PN": "Severity series, the 32 flies at s = 0.5: Spearman rho, p (t approximation) and n between the projection neuron rate (PN_hz_A) and the whole-brain spike count with projection neuron spikes excluded (brain_spikes_A - PN_hz_A x 686). With the spikes included the correlation is series_s0.5_rho_PN_vs_brain_incl_PN. Projection neuron spikes = PN_hz_A x 686 (PN_hz_A is the mean spike count over all 686 antennal lobe projection neurons, class ALPN, in the 1-s presentation of odour A before training, and brain_spikes_A is the spike count of all neurons in the same window: assay_battery.py).",
+  "series_s0.5_rho_PN_vs_brain_incl_PN": "Same flies: Spearman rho, p and n between the projection neuron rate and the whole-brain spike count as measured (projection neuron spikes included); the rho equals facts_battery within_s0.5_rho_PN_vs['brain'] (checked here).",
+  "series_s1_brain_excl_PN_pct": "Severity series, s = 1.0 (32 flies against 64 healthy): median whole-brain spike count with projection neuron spikes excluded in both groups, as % of the healthy median [estimate, lo, hi]. Interval: 95% percentile bootstrap of median(group) / median(healthy) x 100, flies resampled with replacement within the group and within the healthy flies, numpy default_rng([20261009, crc32(label)]) as in facts_battery.py, label 'text:series1.0brain_exclPN', 4,000 resamples (the text quotes the estimate only). Projection neuron spikes = PN_hz_A x 686 (PN_hz_A is the mean spike count over all 686 antennal lobe projection neurons, class ALPN, in the 1-s presentation of odour A before training, and brain_spikes_A is the spike count of all neurons in the same window: assay_battery.py).",
+  "series_s1_brain_incl_PN_pct": "Same comparison with the count as measured (projection neuron spikes included): estimate only; equals facts_battery series_s1_brain_pct[0] (checked here), which holds its interval.",
+  "sensory_exempt_superclasses": "Neurons exempt from pathology load, those whose superclass name contains 'sensory' (model.py, Connectome.sensory): [number of such superclasses, their names, neurons, % of the 166,700 neurons of the network]. The neuron count equals facts_battery n_neurons_sensory_exempt (checked here).",
+  "LInorm_pooled_s01_03_ci_40000": "Learning index / MBON rate (LI / MBON_hz_A, defined where MBON_hz_A >= 0.5 Hz) pooled over the flies of the named severities, median as % of the median of the 64 healthy flies, s = 0.10 to 0.3 (128 flies, all with a defined ratio): 95% interval [lo, hi] from 40,000 resamples, the bounds quoted in the text (67 to 99.8%). 95% percentile bootstrap of median(group) / median(healthy) x 100, flies resampled with replacement within the group and within the healthy flies, numpy default_rng([20261009, crc32(label)]) as in facts_battery.py, label 'lins01_03#big'. The estimate, the 4,000-resample interval, the Mann-Whitney p and n are facts_battery LInorm_pooled_s01_03_vs_healthy, which this script reproduces exactly (checked here).",
+  "LInorm_pooled_s01_03_ci_4000_seed_range": "Same interval at 4,000 resamples under the reported seed (label 'lins01_03') and 8 further seeds (labels 'lins01_03#alt0' to '#alt7'): [[lowest, highest lower bound], [lowest, highest upper bound], number of seeds]. The upper bound crosses 100% between seeds, which is why the text quotes the 40,000-resample value.",
+  "LInorm_pooled_s005_03_vs_healthy": "Learning index / MBON rate (LI / MBON_hz_A, defined where MBON_hz_A >= 0.5 Hz) pooled over the flies of the named severities, median as % of the median of the 64 healthy flies, s = 0.05 to 0.3 (160 of 160 flies with a defined ratio): [estimate, lo, hi, two-sided Mann-Whitney p against the healthy flies, n defined]. Interval from 40,000 resamples, the one quoted in the text (73 to 110%): 95% percentile bootstrap of median(group) / median(healthy) x 100, flies resampled with replacement within the group and within the healthy flies, numpy default_rng([20261009, crc32(label)]) as in facts_battery.py, label 'lins005_03#big'.",
+  "LInorm_pooled_s005_03_ci_4000": "Same interval at 4,000 resamples (label 'lins005_03', the label scheme of LInorm_pooled_* in facts_battery.py): [lo, hi]. Not quoted; it differs from the 40,000-resample interval by Monte Carlo error.",
+  "LInorm_pooled_s005_03_ci_4000_seed_range": "Same interval at 4,000 resamples under the reported seed and 8 further seeds (labels 'lins005_03#alt0' to '#alt7'): [[lowest, highest lower bound], [lowest, highest upper bound], number of seeds].",
+  "LInorm_pooled_s005_03_unrounded": "The estimate and the 40,000-resample bounds of LInorm_pooled_s005_03_vs_healthy with two decimals, to show how far each is from a rounding edge.",
+  "healthy_rho_MBON_vs_naive_valence": "The 64 healthy flies of the severity series (runs of one intact network under different input noise): Spearman rho, p (t approximation) and n between MBON rate (MBON_hz_A) and the naive valence of odour A (V_pre_A), both measured in the same 1-s presentation of odour A before training.",
+  "healthy_rho_naive_valence_vs_valence_after_training": "Same flies: Spearman rho, p and n between the valence of odour A before training (V_pre_A) and after training (V_post_A).",
+  "healthy_partial_LI_MBON_given_naive_valence": "Same flies: partial rank correlation of the learning index with MBON rate controlling for the naive valence of odour A, its p and n (partial_spearman of facts_battery.py: Pearson correlation of the residuals of rank(LI) and rank(MBON rate) after a linear fit on rank(naive valence)).",
+  "healthy_rho_LI_vs_MBON": "Same flies: Spearman rho, p and n of the learning index with MBON rate (the uncontrolled correlation, for comparison with healthy_partial_LI_MBON_given_naive_valence).",
+  "series_rankcorr_auc_vs_shift_over_spread_s0.05_exact_p": "Severity series, the 8 graded readouts (whole-brain spike count, lateral horn, projection neuron and Kenyon cell rates, Kenyon cells recruited, MBON rate, naive valence, learning index) at s = 0.05: [Spearman rho between AUC and change / spread, exact two-sided permutation p, n readouts, pairings enumerated]. AUC = direction-free Mann-Whitney AUC of the 32 flies of that severity against the 64 healthy flies; change = |group median - healthy median| / |healthy median|; spread = robust CV of the healthy flies, interquartile range / 1.349 / |median| (auc, shift_pct, rcv of facts_detection.py). The exact p is the share of all n! pairings of the two rank vectors whose |rho| is at least the observed |rho| (two-sided, ties kept as mid-ranks); the t-approximation p of scipy is in the facts_detection key named series_rankcorr_auc_vs_shift_over_spread_s0.05 (rho reproduced exactly, checked here).",
+  "series_rankcorr_auc_vs_shift_over_spread_s0.1_exact_p": "Severity series, the 8 graded readouts (whole-brain spike count, lateral horn, projection neuron and Kenyon cell rates, Kenyon cells recruited, MBON rate, naive valence, learning index) at s = 0.1: [Spearman rho between AUC and change / spread, exact two-sided permutation p, n readouts, pairings enumerated]. AUC = direction-free Mann-Whitney AUC of the 32 flies of that severity against the 64 healthy flies; change = |group median - healthy median| / |healthy median|; spread = robust CV of the healthy flies, interquartile range / 1.349 / |median| (auc, shift_pct, rcv of facts_detection.py). The exact p is the share of all n! pairings of the two rank vectors whose |rho| is at least the observed |rho| (two-sided, ties kept as mid-ranks); the t-approximation p of scipy is in the facts_detection key named series_rankcorr_auc_vs_shift_over_spread_s0.1 (rho reproduced exactly, checked here).",
+  "series_rankcorr_auc_vs_shift_over_spread_s0.2_exact_p": "Severity series, the 8 graded readouts (whole-brain spike count, lateral horn, projection neuron and Kenyon cell rates, Kenyon cells recruited, MBON rate, naive valence, learning index) at s = 0.2: [Spearman rho between AUC and change / spread, exact two-sided permutation p, n readouts, pairings enumerated]. AUC = direction-free Mann-Whitney AUC of the 32 flies of that severity against the 64 healthy flies; change = |group median - healthy median| / |healthy median|; spread = robust CV of the healthy flies, interquartile range / 1.349 / |median| (auc, shift_pct, rcv of facts_detection.py). The exact p is the share of all n! pairings of the two rank vectors whose |rho| is at least the observed |rho| (two-sided, ties kept as mid-ranks); the t-approximation p of scipy is in the facts_detection key named series_rankcorr_auc_vs_shift_over_spread_s0.2 (rho reproduced exactly, checked here).",
+  "series_rankcorr_auc_vs_inverse_spread_s0.05_p_4dp": "Same eight readouts at s = 0.05: Spearman rho between AUC and the inverse of the healthy spread alone, and its p (t approximation) with four decimals. facts_detection series_rankcorr_auc_vs_inverse_spread_s0.05 keeps three significant figures (0.955), which must not be rounded again: the value is 0.96 to two decimals.",
+  "series_rankcorr_auc_vs_shift_over_spread_s0.1_all10_exact_p": "Same at s = 0.1 across all 10 series readouts of the precision analysis (the eight graded readouts with MN9 drive and giant fibre rate): [rho, exact two-sided permutation p, n readouts, pairings enumerated]. AUC = direction-free Mann-Whitney AUC of the 32 flies of that severity against the 64 healthy flies; change = |group median - healthy median| / |healthy median|; spread = robust CV of the healthy flies, interquartile range / 1.349 / |median| (auc, shift_pct, rcv of facts_detection.py). The exact p is the share of all n! pairings of the two rank vectors whose |rho| is at least the observed |rho| (two-sided, ties kept as mid-ranks); the t-approximation p of scipy is in the facts_detection key named series_rankcorr_auc_vs_shift_over_spread_s0.1_all10.",
+  "retest_healthy_PN_p": "Projection neuron rate (PN_hz_A) in the 16 healthy pilot flies that were simulated again in the severity series with the same seed (two runs of the intact network under different input noise): [Spearman rho between the two runs, its p (t approximation, uncorrected), n pairs, number of readouts in the test-retest table, p after Bonferroni correction over those 10 readouts]. The rho is facts_detection retest_healthy_PN[0] (checked here).",
+  "hiact_owngroup_from_s0.5_above_a_healthy_maximum": "Severity series, flies meeting the own-group high-activity criterion (Kenyon cell rate and MBON rate both above 1.5 times the median of the fly's own severity group) at s = 0.5, 0.6, 0.75 and 1.0: [number of such flies, those with a rate above a healthy maximum as [s, seed, MBON rate Hz, Kenyon cell rate Hz], healthy maximum MBON rate Hz, healthy maximum Kenyon cell rate Hz]. A listed fly is above the healthy maximum in the rate that exceeds it only.",
+  "series_healthy_rcv_pct_LI_3dp": "Healthy robust CV of the learning index (interquartile range / 1.349 / |median|, %, 64 healthy flies of the severity series) with three decimals. facts_detection series_healthy_rcv_pct_LI keeps two (32.85), which must not be rounded again: the value is 32.8% to one decimal.",
+  "series_s0.5_rho_PN_vs_MBON_5dp": "Severity series, the 32 flies at s = 0.5: Spearman rho of projection neuron rate with MBON rate with five decimals, its p and n. facts_battery within_s0.5_rho_PN_vs['MBON'] keeps three (0.525), which must not be rounded again: the value is 0.52 to two decimals.",
+  "shuffled_s0.5_equal_neurons_vs_matched_burden_brain": "Whole-brain spike count during odour A of the shuffled map in the two designs: [median with equal neurons removed (map comparison, s = 0.5), median at matched burden (burden-matched comparison, 48.3% of contacts lost, s = 0.7348), ratio matched / equal-neuron, % by which the matched median is lower, two-sided Mann-Whitney p between the two groups of raw spike counts, n, n]. Because the hub condition (s = 0.5) is the same in both designs, the shuffled/hub ratio against any one hub group falls by this ratio from equal neurons to matched burden.",
+  "shuffled_matched_over_hub_s0.5_groups_brain": "Median whole-brain spike count of the shuffled flies at matched burden (48.3%) divided by the median of each of the four independent hub groups at s = 0.5 (32 flies each): map comparison, severity series, rule ablation ('all three rules') and the hub group of the burden-matched comparison. The ratio within the burden-matched design ('exp2') equals facts_exp2 l4l_hubs05_eqsyn_shuffled_over_hub_brain[0] (checked here).",
+  "shuffled_equal_neurons_over_hub_s0.5_groups_brain": "The same four ratios with the shuffled flies at equal neurons removed (s = 0.5) in the numerator; they equal facts_exp2 l4l_shuffled_s05_over_hub_*_brain (checked here).",
+  "shuffled_over_hub_s0.5_groups_brain_ranges": "[lowest, highest] of the four ratios: [equal neurons removed, matched burden].",
+  "hub_s0.5_groups_PN_pct": "Median projection neuron rate (PN_hz_A) of each of the four hub groups at s = 0.5 as % of the median of its healthy reference (the 64 series healthy flies; for 'exp2' the 32 healthy flies of the burden-matched comparison). Equal to facts_battery rep_s0.5_PN_pct and facts_exp2 syn48.3_hub_PN_pct[0] (checked here).",
+  "hub_s0.5_groups_PN_pct_other_than_mapcomp_range": "[lowest, highest] of the three hub groups other than the map-comparison group (series, rule ablation, burden-matched), % of healthy.",
+  "syn27.1_GF_mw_p_hub_vs_shuffled_4dp": "Burden-matched comparison at 27.1% of contacts lost: two-sided Mann-Whitney p of giant fibre rate, hub against shuffled map, with four decimals, and the two group sizes. facts_exp2 syn27.1_GF_mw_p_hub_vs_shuffled keeps three significant figures (0.485), which must not be rounded again: the value is 0.48 to two decimals.",
+  "syn48.3_hub_KCrate_pct_3dp": "Burden-matched comparison at 48.3% of contacts lost: median Kenyon cell rate of the hub map (s = 0.5) as % of the median of the healthy flies of that design, with three decimals, and the two group sizes. facts_exp2 syn48.3_hub_KCrate_pct keeps one (37.5), which must not be rounded again: the value is 37% to the nearest whole number.",
+  "matched_target_contacts_lost_pct_3dp": "Contacts lost by the hub map at s = 0.10, 0.25 and 0.5, the three burden levels to which the shuffled and antihub maps were matched, % of all contacts with three decimals (mean of the three unsimulated calibration flies; facts_exp2 syn*_target_contacts_lost_pct keeps two).",
+  "screen_best_GF_type_with_ties": "Within-fly screen, the 40 of 48 flies with a giant fibre deficit: the most effective tested type for giant fibre rate, counting every type whose restored fraction equals the fly's maximum over its 450 tested types (ties arise because giant fibre rate moves in steps of one spike). Flies with ties; flies in which LPLC2, LC4, either of them, or both are in the best set; flies in which each is the single best type; flies in which no tested type restored anything (the maximum is 0, so all its types tie; counted among the flies with ties). Restored fraction = (readout with the unit restored - damaged) / (healthy - damaged) per fly, kept where |healthy - damaged| > 5% of |healthy| (analyze_exp1.frac_table, as in facts_exp1.json). facts_exp1 c.best_GF_type_identity counts only the first type in row order (LPLC2 11, LC4 7; reproduced and checked here).",
+  "screen_DN_class_GF_by_group": "Within-fly screen, fraction of the giant fibre deficit restored by restoring the descending-neuron class: [[median, min, max, n] over the flies with giant fibre output below 100 Hz, [median, n] over the other flies with a giant fibre deficit]. Restored fraction = (readout with the unit restored - damaged) / (healthy - damaged) per fly, kept where |healthy - damaged| > 5% of |healthy| (analyze_exp1.frac_table, as in facts_exp1.json). The median over all 40 flies with a deficit is facts_exp1 c.DN_class_GF_all (checked here).",
+  "screen_s0.5_neurons_removed_range": "Within-fly screen, neurons removed per fly in the 24 flies at s = 0.5 (neurons restored by the variant that restores all removed neurons): [min, max, (max - min) / min in %, n flies]. The median is facts_exp1 k.removed_per_fly_s0.5 (checked here).",
+  "screen_GF_below100_still_firing_series_GF_hz": "The screen flies with giant fibre output below 100 Hz in the screen run that still fired (damaged giant fibre rate above 0): [n flies, their seeds, giant fibre rate (Hz) of the same fly in the severity-series run (same pathology, other input noise and protocol), lowest, highest, number below 100 Hz in the series run].",
+  "confirm_lesion_n_neurons": "Full-protocol sufficiency arm (the fly's own lost neurons of a type removed from its healthy counterpart): [median number of neurons removed over all lesions, n lesions, median over types of the per-type median, n types]. The last two are facts_exp1 i.lesion_n_neurons (checked here).",
+  "robust_confirm_readouts_damaged_above_healthy": "Robustness runs (12 flies at s = 0.5 under seven models: the base model, four parameter variants and two further input-noise realisations) and full-protocol runs (the same 12 flies): every fly-readout pair kept with a negative denominator because the damaged value exceeds the healthy one by more than 5% of healthy: [seed, readout, model or 'full protocol', damaged value, healthy value, whether the pair repeats one already present in the screen (same fly, readout, model and input: facts_exp1 k.n_flies_damaged_above_healthy.*)] (rates in Hz; LI in learning index points; the six screen readouts in the robustness runs, and the learning index as well in the full protocol). A model that is not listed for a fly and readout had no such pair.",
+  "screen_best_type_per_fly_LH_median_5dp": "Within-fly screen: median over flies of the largest fraction of the lateral horn deficit restored by a single tested type, with five decimals, and n flies. facts_exp1 a.best_type_per_fly.LH.all keeps four (0.0385), which must not be rounded again: the value is 3.8%. Restored fraction = (readout with the unit restored - damaged) / (healthy - damaged) per fly, kept where |healthy - damaged| > 5% of |healthy| (analyze_exp1.frac_table, as in facts_exp1.json).",
+  "joint_trend_feedTime": "Joint cohort (176 flies: 32 healthy, 24 at each of six severities), time spent feeding in the arena: [Spearman rho with severity, p (t approximation), n flies with a defined value, Holm-corrected p over the 16 readouts tested in the joint cohort (the twelve circuit readouts of the series and the four arena readouts; analyze_joint.py)]. Recomputed from the per-fly table and equal to results/joint/stats_joint.json trend (checked here for all sixteen readouts).",
+  "joint_trend_jumpsPerThreat": "Joint cohort (176 flies: 32 healthy, 24 at each of six severities), jumps per threat met in the arena (flies that met a threat): [Spearman rho with severity, p (t approximation), n flies with a defined value, Holm-corrected p over the 16 readouts tested in the joint cohort (the twelve circuit readouts of the series and the four arena readouts; analyze_joint.py)]. Recomputed from the per-fly table and equal to results/joint/stats_joint.json trend (checked here for all sixteen readouts).",
+  "joint_withinfly_GF_vs_jumpsPerThreat_by_severity": "Joint cohort: within-severity Spearman rho of giant fibre rate (circuit protocol) with jumps per threat met (arena) at s = 0 and 0.05 to 0.5, flies that met a threat: [s, rho, n]. null = undefined because every fly of the group scored exactly 1 jump per threat. The counterpart for MN9 drive and feeding time is facts_detection joint_withinfly_MN9_vs_feedTime_by_severity (reproduced and checked here).",
+  "joint_n_defined_by_severity": "Joint cohort: flies with a defined arena preference index (flies that entered an odour plume) and with a defined jumps per threat (flies that met a threat) at s = 0 (32 healthy flies) and at each severity (24 flies each).",
+  "battery_flies_in_position_of_a_healthy_series_fly": "Flies of each 32-fly group of the rule ablation, the map comparison and the Kenyon-cell-only scenario that sat in the same position of the same batch (batches of 48 in run order) as one of the 64 healthy flies of the severity series, and so received the same input trains as that healthy fly (all four designs used stimulus seed 7): per condition [n flies, of which in a last batch shorter than a full batch, where only the first odour presentation is identical]. Rows of each table are in run order; positions as _slots of facts_battery.py.",
+  "battery_flies_in_position_of_a_healthy_series_fly_range": "[lowest, highest] number per 32-fly group over all eighteen groups and within each design, the total over the groups and the number of them in a short last batch.",
+  "rep_22tests_n_below_005": "Kruskal-Wallis tests across the three default-model replicate groups (severity series, rule ablation 'all three rules', map comparison hub; 32 flies each) for 11 readouts at s = 0.5 and 1.0: [number with p < 0.05 (uncorrected), number of tests, those below 0.05 as [readout, s, p]]. Each p equals facts_battery rep_s*_*_kw_p (checked here); facts_battery rep_14tests_n_below_005 counts the 14 tests of the seven readouts shown in S2 Fig.",
+  "intensity_sweep_design": "Exploratory odour intensity sweep (ORN drive, recurrent antennal lobe; its script was not kept, so the protocol is inferred from the result file, as facts_model says of intensity_sweep_*): number of conditions, the stimulated ORN sets as [glomeruli, side(s), number of ORNs], the input rates (Hz) and the adaptation increments (mV; 0 = none). Every set was run at every rate with each increment. The ranges of ORNs and of active projection neurons equal facts_model intensity_sweep_n_orn_range and intensity_sweep_pn_active_range (checked here).",
+  "within_fly_n_simulations": "Simulations of the within-fly analysis = rows of the result tables: screen (48 flies; facts_exp1 design.n_screen_runs, checked here), robustness test (7 models x 507 rows: the single-type restorations and the damaged and healthy baselines of 12 flies), full protocol (necessity and sufficiency runs and baselines of the same 12 flies; facts_exp1 i.confirm_rows), and their sum.",
+  "fig4D_largest_iqr_in_symbol_diameters": "Fig 4D (neurons and Kenyon cells removed at matched burden; medians drawn without a spread): [largest interquartile range of neurons removed per fly over the groups drawn, percentage points; largest interquartile range of Kenyon cells removed; the latter in symbol diameters on the printed axis; axes height in inches; y-axis limits in %; symbol diameter in points; number of groups drawn (32 flies each)]. One percentage point is axes height x 72 / (y range) points (make_fig4_burden.py, panel D).",
+  "fig3C_hub_s0.5_MBON_drawn_vs_text": "Fig 3C, hub map at s = 0.5, MBON rate as % of healthy: [[estimate, lo, hi] as drawn by make_figures.py, [estimate, lo, hi] quoted in the text (facts_battery map_s0.5_hub_MBON), drawn upper bound minus text upper bound, drawn lower bound minus text lower bound] in percentage points. The figure takes its 4,000 resamples from one generator (numpy default_rng(7)) shared by all figures in the order Fig 1, Fig 2, Fig 3; the same calls are repeated here in memory, without writing a figure. Both intervals are 95% percentile bootstraps of the same ratio of medians and differ by Monte Carlo error.",
+  "map_s0.5_hub_MBON_ci_seed_range": "The text interval of the same value (facts_battery map_s0.5_hub_MBON, label 'map0.5hubMBON', reproduced here) under the reported seed and 8 further seeds of 4,000 resamples (labels '#alt0' to '#alt7'), the stability check that facts_battery.py applies when a bound moves at 40,000 resamples: [[lowest, highest lower bound], [lowest, highest upper bound], number of seeds, [lo, hi] at 40,000 resamples (label '#big')]. Shows how far the upper bound moves between seeds, for comparison with the bound drawn in Fig 3C.",
+  "anchor_severity_interpolated": "Severity at which the model's mean Kenyon cell loss equals the anchoring datum: [Kenyon cell loss of the datum in % (132.1 against 110.3 labelled mushroom body neurons per section, Ping et al. 2015, flies expressing amyloid-beta42 in the mushroom body), mean % of Kenyon cells removed in the severity series at s = 0.5, the same at s = 0.6, s by linear interpolation between the two]. Methods quotes s of about 0.56; figures shade severities from 0.55 upward."
+ },
+ "_source": {
+  "pn_spikes_n_projection_neurons": "results/facts/facts_battery.json pn_n_ALPN",
+  "series_pn_share_of_brain_count_pct": "results/battery/stage_curve_x4.csv columns PN_hz_A, brain_spikes_A (scope pan)",
+  "series_s0.5_rho_PN_vs_brain_excl_PN": "results/battery/stage_curve_x4.csv columns PN_hz_A, brain_spikes_A (scope pan)",
+  "series_s0.5_rho_PN_vs_brain_incl_PN": "results/battery/stage_curve_x4.csv columns PN_hz_A, brain_spikes_A (scope pan)",
+  "series_s1_brain_excl_PN_pct": "results/battery/stage_curve_x4.csv columns PN_hz_A, brain_spikes_A (scope pan)",
+  "series_s1_brain_incl_PN_pct": "results/battery/stage_curve_x4.csv columns PN_hz_A, brain_spikes_A (scope pan)",
+  "sensory_exempt_superclasses": "results/validation/baseline_nostim.parquet column superclass (MaleCNS neuron table in simulation order)",
+  "LInorm_pooled_s01_03_ci_40000": "results/battery/stage_curve_x4.csv columns LI, MBON_hz_A, stage (scope pan)",
+  "LInorm_pooled_s01_03_ci_4000_seed_range": "results/battery/stage_curve_x4.csv columns LI, MBON_hz_A, stage (scope pan)",
+  "LInorm_pooled_s005_03_vs_healthy": "results/battery/stage_curve_x4.csv columns LI, MBON_hz_A, stage (scope pan)",
+  "LInorm_pooled_s005_03_ci_4000": "results/battery/stage_curve_x4.csv columns LI, MBON_hz_A, stage (scope pan)",
+  "LInorm_pooled_s005_03_ci_4000_seed_range": "results/battery/stage_curve_x4.csv columns LI, MBON_hz_A, stage (scope pan)",
+  "LInorm_pooled_s005_03_unrounded": "results/battery/stage_curve_x4.csv columns LI, MBON_hz_A, stage (scope pan)",
+  "healthy_rho_MBON_vs_naive_valence": "results/battery/stage_curve_x4.csv rows stage = 0 (64 healthy flies); columns MBON_hz_A, V_pre_A, V_post_A, LI",
+  "healthy_rho_naive_valence_vs_valence_after_training": "results/battery/stage_curve_x4.csv rows stage = 0 (64 healthy flies); columns MBON_hz_A, V_pre_A, V_post_A, LI",
+  "healthy_partial_LI_MBON_given_naive_valence": "results/battery/stage_curve_x4.csv rows stage = 0 (64 healthy flies); columns MBON_hz_A, V_pre_A, V_post_A, LI",
+  "healthy_rho_LI_vs_MBON": "results/battery/stage_curve_x4.csv rows stage = 0 (64 healthy flies); columns MBON_hz_A, V_pre_A, V_post_A, LI",
+  "series_rankcorr_auc_vs_shift_over_spread_s0.05_exact_p": "results/battery/stage_curve_x4.csv (scope pan), stage 0 against the named severity; readouts PREC / GRADED of facts_detection.py",
+  "series_rankcorr_auc_vs_shift_over_spread_s0.1_exact_p": "results/battery/stage_curve_x4.csv (scope pan), stage 0 against the named severity; readouts PREC / GRADED of facts_detection.py",
+  "series_rankcorr_auc_vs_shift_over_spread_s0.2_exact_p": "results/battery/stage_curve_x4.csv (scope pan), stage 0 against the named severity; readouts PREC / GRADED of facts_detection.py",
+  "series_rankcorr_auc_vs_inverse_spread_s0.05_p_4dp": "results/battery/stage_curve_x4.csv (scope pan), stage 0 against the named severity; readouts PREC / GRADED of facts_detection.py",
+  "series_rankcorr_auc_vs_shift_over_spread_s0.1_all10_exact_p": "results/battery/stage_curve_x4.csv (scope pan), stage 0 against the named severity; readouts PREC / GRADED of facts_detection.py",
+  "retest_healthy_PN_p": "results/battery/stage_curve.csv merged with results/battery/stage_curve_x4.csv on seed, condition, stage, scope; rows condition = healthy; column PN_hz_A",
+  "hiact_owngroup_from_s0.5_above_a_healthy_maximum": "results/battery/stage_curve_x4.csv columns KC_hz_A, MBON_hz_A by stage",
+  "series_healthy_rcv_pct_LI_3dp": "results/battery/stage_curve_x4.csv column LI, stage 0",
+  "series_s0.5_rho_PN_vs_MBON_5dp": "results/battery/stage_curve_x4.csv columns PN_hz_A, MBON_hz_A, stage 0.5",
+  "shuffled_s0.5_equal_neurons_vs_matched_burden_brain": "results/battery/vulnerability_x4.csv (condition shuffled_s0.5, hub_s0.5), results/exp2/battery.csv (map shuffled and hub, reference 0.5), results/battery/stage_curve_x4.csv (stage 0.5), results/battery/components_x4.csv (condition all_s0.5); column brain_spikes_A",
+  "shuffled_matched_over_hub_s0.5_groups_brain": "results/battery/vulnerability_x4.csv (condition shuffled_s0.5, hub_s0.5), results/exp2/battery.csv (map shuffled and hub, reference 0.5), results/battery/stage_curve_x4.csv (stage 0.5), results/battery/components_x4.csv (condition all_s0.5); column brain_spikes_A",
+  "shuffled_equal_neurons_over_hub_s0.5_groups_brain": "results/battery/vulnerability_x4.csv (condition shuffled_s0.5, hub_s0.5), results/exp2/battery.csv (map shuffled and hub, reference 0.5), results/battery/stage_curve_x4.csv (stage 0.5), results/battery/components_x4.csv (condition all_s0.5); column brain_spikes_A",
+  "shuffled_over_hub_s0.5_groups_brain_ranges": "results/battery/vulnerability_x4.csv (condition shuffled_s0.5, hub_s0.5), results/exp2/battery.csv (map shuffled and hub, reference 0.5), results/battery/stage_curve_x4.csv (stage 0.5), results/battery/components_x4.csv (condition all_s0.5); column brain_spikes_A",
+  "hub_s0.5_groups_PN_pct": "results/battery/vulnerability_x4.csv (condition shuffled_s0.5, hub_s0.5), results/exp2/battery.csv (map shuffled and hub, reference 0.5), results/battery/stage_curve_x4.csv (stage 0.5), results/battery/components_x4.csv (condition all_s0.5); column PN_hz_A",
+  "hub_s0.5_groups_PN_pct_other_than_mapcomp_range": "results/battery/vulnerability_x4.csv (condition shuffled_s0.5, hub_s0.5), results/exp2/battery.csv (map shuffled and hub, reference 0.5), results/battery/stage_curve_x4.csv (stage 0.5), results/battery/components_x4.csv (condition all_s0.5); column PN_hz_A",
+  "syn27.1_GF_mw_p_hub_vs_shuffled_4dp": "results/exp2/battery.csv rows reference = 0.25, map hub and shuffled; column GF_loom_hz",
+  "syn48.3_hub_KCrate_pct_3dp": "results/exp2/battery.csv rows map hub, reference 0.5 and map healthy; column KC_hz_A",
+  "matched_target_contacts_lost_pct_3dp": "results/exp2/matched.json maps[0.1 | 0.25 | 0.5].target_syn_lost_frac",
+  "screen_best_GF_type_with_ties": "results/exp1/screen/*_runs.csv level type, column GF_loom_hz",
+  "screen_DN_class_GF_by_group": "results/exp1/screen/*_runs.csv level class, unit sc:descending_neuron; baseline rows",
+  "screen_s0.5_neurons_removed_range": "results/exp1/screen/*_runs.csv baseline row restore_dead_all, column n_restored",
+  "screen_GF_below100_still_firing_series_GF_hz": "results/exp1/screen/*_runs.csv baseline row damaged; results/battery/stage_curve_x4.csv column GF_loom_hz by seed",
+  "confirm_lesion_n_neurons": "results/exp1/confirm/*.csv level lesion, column n_lesioned",
+  "robust_confirm_readouts_damaged_above_healthy": "results/exp1/robust/*.csv and results/exp1/confirm/*.csv, level baseline",
+  "screen_best_type_per_fly_LH_median_5dp": "results/exp1/screen/*_runs.csv level type, column LH_hz_A",
+  "joint_trend_feedTime": "results/joint/cohort_joint.csv columns stage, behaviour_feed_s",
+  "joint_trend_jumpsPerThreat": "results/joint/cohort_joint.csv columns stage, behaviour_esc",
+  "joint_withinfly_GF_vs_jumpsPerThreat_by_severity": "results/joint/cohort_joint.csv columns GF_loom_hz, behaviour_esc by stage",
+  "joint_n_defined_by_severity": "results/joint/cohort_joint.csv columns behaviour_PI, behaviour_esc by stage",
+  "battery_flies_in_position_of_a_healthy_series_fly": "results/battery/components_x4.csv, results/battery/vulnerability_x4.csv, results/battery/scope_x4.csv, results/battery/stage_curve_x4.csv row order and column condition",
+  "battery_flies_in_position_of_a_healthy_series_fly_range": "battery_flies_in_position_of_a_healthy_series_fly",
+  "rep_22tests_n_below_005": "results/battery/stage_curve_x4.csv, results/battery/components_x4.csv, results/battery/vulnerability_x4.csv",
+  "intensity_sweep_design": "results/calibration/odor_intensity_sweep.csv columns glom, side, n_orn, rate, da",
+  "within_fly_n_simulations": "results/exp1/screen/*_runs.csv, results/exp1/robust/*.csv, results/exp1/confirm/*.csv (row counts)",
+  "fig4D_largest_iqr_in_symbol_diameters": "results/exp2/battery.csv columns dead_frac, kc_dead_frac by map and reference; code/scripts/make_fig4_burden.py (HDE, set_ylim, ms)",
+  "fig3C_hub_s0.5_MBON_drawn_vs_text": "code/scripts/make_figures.py fig1(), fig2(), fig3() (_cis, row C); results/battery/vulnerability_x4.csv condition hub_s0.5, column MBON_hz_A",
+  "map_s0.5_hub_MBON_ci_seed_range": "results/battery/vulnerability_x4.csv condition hub_s0.5 and results/battery/stage_curve_x4.csv stage 0; column MBON_hz_A",
+  "anchor_severity_interpolated": "results/battery/stage_curve_x4.csv column kc_dead_frac (scope pan), stages 0.5 and 0.6"
+ }
+}

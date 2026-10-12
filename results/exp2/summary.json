@@ -1,0 +1,418 @@
+{
+ "n_healthy": 32,
+ "references": {
+  "0.1": {
+   "target_syn_lost_frac": 0.11545718523750444,
+   "maps": {
+    "hub": {
+     "s": 0.1,
+     "n": 32,
+     "syn_lost_pct": 11.52,
+     "dead_pct": 2.38,
+     "kc_dead_pct": 2.93,
+     "brain_spikes_A": {
+      "pct": 76.1,
+      "lo": 70.1,
+      "hi": 80.5
+     },
+     "LH_hz_A": {
+      "pct": 90.9,
+      "lo": 84.7,
+      "hi": 93.3
+     },
+     "KC_hz_A": {
+      "pct": 87.9,
+      "lo": 82.0,
+      "hi": 95.4
+     },
+     "MBON_hz_A": {
+      "pct": 82.6,
+      "lo": 72.7,
+      "hi": 88.6
+     },
+     "LI": {
+      "pct": 76.3,
+      "lo": 62.7,
+      "hi": 99.3
+     },
+     "MN9_sugar_hz": {
+      "pct": 84.2,
+      "lo": 74.4,
+      "hi": 97.2
+     },
+     "GF_loom_hz": {
+      "pct": 99.6,
+      "lo": 97.0,
+      "hi": 101.7
+     }
+    },
+    "shuffled": {
+     "s": 0.1452,
+     "n": 32,
+     "syn_lost_pct": 11.46,
+     "dead_pct": 3.46,
+     "kc_dead_pct": 3.84,
+     "brain_spikes_A": {
+      "pct": 79.7,
+      "lo": 74.9,
+      "hi": 85.0
+     },
+     "LH_hz_A": {
+      "pct": 91.7,
+      "lo": 87.8,
+      "hi": 95.3
+     },
+     "KC_hz_A": {
+      "pct": 93.1,
+      "lo": 85.0,
+      "hi": 99.1
+     },
+     "MBON_hz_A": {
+      "pct": 86.7,
+      "lo": 75.5,
+      "hi": 93.8
+     },
+     "LI": {
+      "pct": 71.1,
+      "lo": 63.0,
+      "hi": 87.0
+     },
+     "MN9_sugar_hz": {
+      "pct": 97.4,
+      "lo": 85.0,
+      "hi": 111.1
+     },
+     "GF_loom_hz": {
+      "pct": 97.0,
+      "lo": 93.2,
+      "hi": 100.0
+     }
+    },
+    "antihub": {
+     "s": 0.2809,
+     "n": 32,
+     "syn_lost_pct": 11.6,
+     "dead_pct": 6.67,
+     "kc_dead_pct": 6.74,
+     "brain_spikes_A": {
+      "pct": 91.5,
+      "lo": 85.5,
+      "hi": 96.8
+     },
+     "LH_hz_A": {
+      "pct": 98.3,
+      "lo": 95.6,
+      "hi": 101.2
+     },
+     "KC_hz_A": {
+      "pct": 97.7,
+      "lo": 91.3,
+      "hi": 103.5
+     },
+     "MBON_hz_A": {
+      "pct": 83.5,
+      "lo": 75.6,
+      "hi": 94.2
+     },
+     "LI": {
+      "pct": 63.8,
+      "lo": 54.2,
+      "hi": 82.8
+     },
+     "MN9_sugar_hz": {
+      "pct": 94.7,
+      "lo": 85.7,
+      "hi": 108.3
+     },
+     "GF_loom_hz": {
+      "pct": 98.3,
+      "lo": 96.6,
+      "hi": 100.0
+     }
+    }
+   },
+   "unreachable": [],
+   "kruskal_p": {
+    "brain_spikes_A": 6.521226475377628e-07,
+    "LH_hz_A": 2.5573393209595237e-07,
+    "KC_hz_A": 0.004138202219025435,
+    "MBON_hz_A": 0.7853474172249467,
+    "LI": 0.28294121032691577,
+    "MN9_sugar_hz": 0.018247561767166496,
+    "GF_loom_hz": 0.17600020893343077
+   },
+   "primary": {
+    "highest": "antihub",
+    "lowest": "hub",
+    "ratio": 1.202,
+    "ratio_ci": [
+     1.134,
+     1.306
+    ],
+    "verdict": "burden explains the map effect"
+   }
+  },
+  "0.25": {
+   "target_syn_lost_frac": 0.27080751798092967,
+   "maps": {
+    "hub": {
+     "s": 0.25,
+     "n": 32,
+     "syn_lost_pct": 27.1,
+     "dead_pct": 5.96,
+     "kc_dead_pct": 7.37,
+     "brain_spikes_A": {
+      "pct": 52.9,
+      "lo": 42.8,
+      "hi": 57.8
+     },
+     "LH_hz_A": {
+      "pct": 75.5,
+      "lo": 70.9,
+      "hi": 82.2
+     },
+     "KC_hz_A": {
+      "pct": 73.4,
+      "lo": 65.9,
+      "hi": 86.4
+     },
+     "MBON_hz_A": {
+      "pct": 64.9,
+      "lo": 55.2,
+      "hi": 77.6
+     },
+     "LI": {
+      "pct": 50.7,
+      "lo": 41.4,
+      "hi": 65.0
+     },
+     "MN9_sugar_hz": {
+      "pct": 65.8,
+      "lo": 50.0,
+      "hi": 77.8
+     },
+     "GF_loom_hz": {
+      "pct": 94.8,
+      "lo": 90.6,
+      "hi": 97.8
+     }
+    },
+    "shuffled": {
+     "s": 0.3676,
+     "n": 32,
+     "syn_lost_pct": 27.18,
+     "dead_pct": 8.74,
+     "kc_dead_pct": 9.92,
+     "brain_spikes_A": {
+      "pct": 55.5,
+      "lo": 50.4,
+      "hi": 65.1
+     },
+     "LH_hz_A": {
+      "pct": 84.4,
+      "lo": 77.1,
+      "hi": 87.6
+     },
+     "KC_hz_A": {
+      "pct": 83.8,
+      "lo": 75.8,
+      "hi": 90.0
+     },
+     "MBON_hz_A": {
+      "pct": 64.7,
+      "lo": 58.2,
+      "hi": 79.2
+     },
+     "LI": {
+      "pct": 53.3,
+      "lo": 37.7,
+      "hi": 67.7
+     },
+     "MN9_sugar_hz": {
+      "pct": 81.6,
+      "lo": 69.4,
+      "hi": 100.0
+     },
+     "GF_loom_hz": {
+      "pct": 92.7,
+      "lo": 88.1,
+      "hi": 96.2
+     }
+    },
+    "antihub": {
+     "s": 0.7175,
+     "n": 32,
+     "syn_lost_pct": 27.08,
+     "dead_pct": 17.06,
+     "kc_dead_pct": 17.22,
+     "brain_spikes_A": {
+      "pct": 80.6,
+      "lo": 76.5,
+      "hi": 89.2
+     },
+     "LH_hz_A": {
+      "pct": 95.3,
+      "lo": 92.5,
+      "hi": 97.3
+     },
+     "KC_hz_A": {
+      "pct": 96.7,
+      "lo": 91.3,
+      "hi": 101.7
+     },
+     "MBON_hz_A": {
+      "pct": 67.4,
+      "lo": 61.6,
+      "hi": 72.4
+     },
+     "LI": {
+      "pct": 49.3,
+      "lo": 41.5,
+      "hi": 60.9
+     },
+     "MN9_sugar_hz": {
+      "pct": 94.7,
+      "lo": 84.6,
+      "hi": 105.6
+     },
+     "GF_loom_hz": {
+      "pct": 97.4,
+      "lo": 95.7,
+      "hi": 98.3
+     }
+    }
+   },
+   "unreachable": [],
+   "kruskal_p": {
+    "brain_spikes_A": 4.2422763700032806e-11,
+    "LH_hz_A": 2.6883202816648265e-14,
+    "KC_hz_A": 3.5821247736448626e-05,
+    "MBON_hz_A": 0.9138177089468806,
+    "LI": 0.7136804652702953,
+    "MN9_sugar_hz": 3.185293527688742e-05,
+    "GF_loom_hz": 0.0029975396225821248
+   },
+   "primary": {
+    "highest": "antihub",
+    "lowest": "hub",
+    "ratio": 1.524,
+    "ratio_ci": [
+     1.412,
+     1.932
+    ],
+    "verdict": "placement matters beyond burden"
+   }
+  },
+  "0.5": {
+   "target_syn_lost_frac": 0.48281685709064687,
+   "maps": {
+    "hub": {
+     "s": 0.5,
+     "n": 32,
+     "syn_lost_pct": 48.42,
+     "dead_pct": 11.86,
+     "kc_dead_pct": 14.69,
+     "brain_spikes_A": {
+      "pct": 23.9,
+      "lo": 21.9,
+      "hi": 27.1
+     },
+     "LH_hz_A": {
+      "pct": 44.2,
+      "lo": 40.7,
+      "hi": 49.5
+     },
+     "KC_hz_A": {
+      "pct": 37.5,
+      "lo": 33.1,
+      "hi": 46.6
+     },
+     "MBON_hz_A": {
+      "pct": 28.1,
+      "lo": 23.2,
+      "hi": 41.8
+     },
+     "LI": {
+      "pct": 30.3,
+      "lo": 23.3,
+      "hi": 43.8
+     },
+     "MN9_sugar_hz": {
+      "pct": 31.6,
+      "lo": 0.0,
+      "hi": 38.9
+     },
+     "GF_loom_hz": {
+      "pct": 82.8,
+      "lo": 78.3,
+      "hi": 86.7
+     }
+    },
+    "shuffled": {
+     "s": 0.7348,
+     "n": 32,
+     "syn_lost_pct": 48.28,
+     "dead_pct": 17.49,
+     "kc_dead_pct": 19.65,
+     "brain_spikes_A": {
+      "pct": 34.8,
+      "lo": 31.8,
+      "hi": 37.7
+     },
+     "LH_hz_A": {
+      "pct": 63.5,
+      "lo": 57.1,
+      "hi": 69.1
+     },
+     "KC_hz_A": {
+      "pct": 58.8,
+      "lo": 51.3,
+      "hi": 66.6
+     },
+     "MBON_hz_A": {
+      "pct": 36.4,
+      "lo": 29.6,
+      "hi": 50.7
+     },
+     "LI": {
+      "pct": 36.8,
+      "lo": 25.6,
+      "hi": 51.4
+     },
+     "MN9_sugar_hz": {
+      "pct": 50.0,
+      "lo": 25.0,
+      "hi": 64.9
+     },
+     "GF_loom_hz": {
+      "pct": 82.8,
+      "lo": 74.4,
+      "hi": 87.9
+     }
+    }
+   },
+   "unreachable": [
+    "antihub"
+   ],
+   "kruskal_p": {
+    "brain_spikes_A": 1.4008111325728249e-05,
+    "LH_hz_A": 1.5354280980571637e-05,
+    "KC_hz_A": 0.0001298290479316629,
+    "MBON_hz_A": 0.13963381830855398,
+    "LI": 0.6003822312174298,
+    "MN9_sugar_hz": 0.021132991329467353,
+    "GF_loom_hz": 0.8613082480436351
+   },
+   "primary": {
+    "highest": "shuffled",
+    "lowest": "hub",
+    "ratio": 1.455,
+    "ratio_ci": [
+     1.26,
+     1.624
+    ],
+    "verdict": "unresolved"
+   }
+  }
+ }
+}

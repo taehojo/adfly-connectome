@@ -1,0 +1,109 @@
+unit,test,n_flies,brain_spikes_A,LH_hz_A,KC_hz_A,MBON_hz_A,MN9_sugar_hz,GF_loom_hz,LI
+AN05B100,"sufficiency: deficit produced, as fraction of the full deficit",9,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+AN06B002,"sufficiency: deficit produced, as fraction of the full deficit",12,0.00016337048802428367,0.0,0.0,0.0,0.023809523809523836,0.0,-0.017857142857142794
+AN17A024,"sufficiency: deficit produced, as fraction of the full deficit",9,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+AVLP104,"sufficiency: deficit produced, as fraction of the full deficit",11,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+AVLP731m,"sufficiency: deficit produced, as fraction of the full deficit",9,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+CB0947,"sufficiency: deficit produced, as fraction of the full deficit",8,0.06573926572236027,0.0014932245068801087,-0.014860681114551078,-0.038461538461538436,-0.19999999999999996,0.0,0.07317073170731703
+CB1811,"sufficiency: deficit produced, as fraction of the full deficit",6,-0.005390610611209434,0.004559349879716013,-0.03564450873943825,-0.05499794323323737,-0.12173913043478257,0.031160572337043058,-0.1361062717770034
+CB1923,"sufficiency: deficit produced, as fraction of the full deficit",8,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+CB3288,"sufficiency: deficit produced, as fraction of the full deficit",9,6.71456388907643e-05,0.0,0.005328596802842256,0.0,-0.19999999999999996,0.0,0.05570291777188324
+CB4084,"sufficiency: deficit produced, as fraction of the full deficit",9,0.0,0.0,0.0,0.0,0.0,0.0,0.008620689655172431
+CRE067,"sufficiency: deficit produced, as fraction of the full deficit",9,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+CRE080_c,"sufficiency: deficit produced, as fraction of the full deficit",5,0.0,0.0,0.0,0.0,0.0,0.0,0.24615384615384617
+DNb02,"sufficiency: deficit produced, as fraction of the full deficit",9,8.256274768825289e-05,0.000529380624669118,0.0,-0.0277777777777779,0.1428571428571429,0.0235294117647058,0.06896551724137934
+DNge016,"sufficiency: deficit produced, as fraction of the full deficit",4,0.0005770316620505311,0.0,0.0,0.0,0.0,0.012195121951219634,0.10526315789473684
+DNge106,"sufficiency: deficit produced, as fraction of the full deficit",5,0.0,0.0,0.0,0.0,0.2727272727272727,-0.00909090909090926,-0.05627705627705626
+DNge136,"sufficiency: deficit produced, as fraction of the full deficit",11,0.0,0.0,0.0,0.0,0.0,0.0,0.06833139759969026
+GNG120,"sufficiency: deficit produced, as fraction of the full deficit",7,0.0,0.0,0.0,0.0,0.2727272727272727,0.03409090909090906,0.03658536585365857
+GNG391,"sufficiency: deficit produced, as fraction of the full deficit",6,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+IN03A007,"sufficiency: deficit produced, as fraction of the full deficit",9,-0.1467366147199507,0.0,-0.0009560229445506607,0.0,0.09090909090909094,-0.008620689655172598,0.08766233766233766
+IN12A044,"sufficiency: deficit produced, as fraction of the full deficit",11,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+IN19A008,"sufficiency: deficit produced, as fraction of the full deficit",9,8.278145695361783e-05,0.0,-0.011134020618556839,0.0,0.0,0.029411764705882693,0.041369606003752335
+KCa'b'-m,"sufficiency: deficit produced, as fraction of the full deficit",12,-0.08035619971265573,-0.0005399171204146791,-0.0028656131863718515,-0.051011560693641655,-0.23376623376623384,-0.01631016042780775,0.19047619047619047
+KCab-c,"sufficiency: deficit produced, as fraction of the full deficit",12,0.07081101367138742,-0.005705582559881961,0.020969033513661084,-0.045358841253131055,-0.061111111111111116,0.011363636363636298,0.15625
+KCab-m,"sufficiency: deficit produced, as fraction of the full deficit",12,0.07470488139536063,-0.0012679330618922124,0.07082767486917618,0.039114967147057755,-0.1503623188405797,0.009090909090909038,0.0714285714285714
+KCab-s,"sufficiency: deficit produced, as fraction of the full deficit",12,0.01428710426417612,-0.005822244401730736,0.012623224672960953,-0.01006711409395955,0.07703081232492998,0.0,-0.09375
+KCg-m,"sufficiency: deficit produced, as fraction of the full deficit",12,0.07229619168205748,0.002785605949863157,0.04094707720364443,0.039115576234199256,0.0,-0.008855799373040929,-0.09523809523809534
+LC4,"sufficiency: deficit produced, as fraction of the full deficit",12,0.0,0.0,0.0,0.0,0.0,0.0319472616632861,-0.06349206349206349
+LHAV1a3,"sufficiency: deficit produced, as fraction of the full deficit",11,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+LHAV4a1_b,"sufficiency: deficit produced, as fraction of the full deficit",11,-0.002476780185758587,0.03670276774969927,-0.009072164948453532,-0.017751479289940697,0.08333333333333337,0.06249999999999967,-0.016196447230929945
+LHAV6a3,"sufficiency: deficit produced, as fraction of the full deficit",8,0.005089806765717131,0.015008685798252874,-0.003459824333846395,-0.0227594491398172,0.11764705882352944,0.0,-0.0714285714285714
+LHCENT8,"sufficiency: deficit produced, as fraction of the full deficit",7,-0.08052376533663264,0.0030785017957926097,-0.02313030069390898,-0.12269938650306766,0.09999999999999998,0.011764705882352677,-0.1303616484440706
+LHPD2a1,"sufficiency: deficit produced, as fraction of the full deficit",10,0.05947435932492051,0.024960780874708266,0.004312668463611835,-0.0026595744680850686,-0.09307359307359309,0.0,-0.06349206349206349
+LHPD3a4_b,"sufficiency: deficit produced, as fraction of the full deficit",11,-0.014041043048912183,0.0006662225183210468,-0.006094906399651601,-0.06358381502890187,0.1428571428571429,0.03529411764705881,-0.05654761904761907
+LHPD4c1,"sufficiency: deficit produced, as fraction of the full deficit",7,0.0,0.002318840579710102,0.0,0.0,0.0,0.0,0.0
+LHPV10b1,"sufficiency: deficit produced, as fraction of the full deficit",3,0.02214164480790004,0.00532978014656893,-0.070175438596491,-0.12234042553191493,0.1333333333333333,0.06451612903225767,0.05882352941176472
+LHPV4b1,"sufficiency: deficit produced, as fraction of the full deficit",8,0.044648106315826275,0.023177852756354533,-0.015864776175275153,-0.023581621997911584,0.047619047619047616,0.010395537525355047,-0.0535714285714286
+LHPV5a1,"sufficiency: deficit produced, as fraction of the full deficit",7,0.003291356611333729,0.029115934356802486,0.021228545618789618,0.02890173410404584,0.16666666666666663,-0.024390243902439268,0.104978354978355
+LHPV5a2,"sufficiency: deficit produced, as fraction of the full deficit",8,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+LHPV5d1,"sufficiency: deficit produced, as fraction of the full deficit",9,-0.05268584390143305,0.02050230650948237,0.008905852417302795,0.00591715976331364,-0.11111111111111116,0.0235294117647058,0.01693349753694584
+LPLC2,"sufficiency: deficit produced, as fraction of the full deficit",12,0.0,0.0,0.0,0.0,0.0,0.14569256756756727,0.1568627450980392
+MBON09,"sufficiency: deficit produced, as fraction of the full deficit",8,-0.06195190965113928,0.0015381989581061961,-0.0014767767845887958,0.00884093282283327,0.05757575757575756,-0.008855799373040929,-0.17099567099567103
+MBON12,"sufficiency: deficit produced, as fraction of the full deficit",9,0.05529411764705883,0.005797101449275255,0.0,0.0,0.1333333333333333,0.0,-0.0980392156862746
+MBON14,"sufficiency: deficit produced, as fraction of the full deficit",7,-0.04871202113606343,0.002318840579710102,0.0010090817356205317,0.10489510489510512,-0.23529411764705888,0.06451612903225767,0.1986607142857143
+M_l2PNm16,"sufficiency: deficit produced, as fraction of the full deficit",10,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+M_lPNm11D,"sufficiency: deficit produced, as fraction of the full deficit",11,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+M_lPNm13,"sufficiency: deficit produced, as fraction of the full deficit",8,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+MeLo13,"sufficiency: deficit produced, as fraction of the full deficit",12,0.0,0.0,0.0,0.0,0.0,0.03713235294117617,0.0
+MeLo8,"sufficiency: deficit produced, as fraction of the full deficit",12,0.0,0.0,0.0,0.0,0.0,0.0,-0.04615384615384621
+PS019,"sufficiency: deficit produced, as fraction of the full deficit",9,0.0,0.0,0.0,-0.027972027972027913,0.0,0.0,0.1964285714285714
+PVLP109,"sufficiency: deficit produced, as fraction of the full deficit",10,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+PVLP130,"sufficiency: deficit produced, as fraction of the full deficit",8,0.0,0.0,0.0,0.0,0.0,0.0,-0.0357142857142857
+PVLP151,"sufficiency: deficit produced, as fraction of the full deficit",7,0.0,0.0,0.0,0.0,0.0,0.09090909090909072,-0.09523809523809523
+SLP086,"sufficiency: deficit produced, as fraction of the full deficit",6,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+VES059,"sufficiency: deficit produced, as fraction of the full deficit",7,0.04471899550124214,-0.0018050541516245744,-0.02655286865813178,-0.08737864077669966,0.0714285714285714,0.027027027027027306,0.15311986863711002
+AN05B100,necessity: restored fraction,9,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+AN06B002,necessity: restored fraction,12,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+AN17A024,necessity: restored fraction,9,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+AVLP104,necessity: restored fraction,11,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+AVLP731m,necessity: restored fraction,9,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+CB0947,necessity: restored fraction,8,0.0004672720179733769,0.0,0.0038815405452886473,0.0,0.0,0.0,0.0
+CB1811,necessity: restored fraction,6,0.005468916918177165,0.0053600980988518935,0.0075118763675071105,0.041764705882352954,0.0,0.0,-0.09573502722323049
+CB1923,necessity: restored fraction,8,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+CB3288,necessity: restored fraction,9,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+CB4084,necessity: restored fraction,9,0.0,0.0,0.0,0.0,0.0,0.0,-0.008928571428571428
+CRE067,necessity: restored fraction,9,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+CRE080_c,necessity: restored fraction,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DNb02,necessity: restored fraction,9,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DNge016,necessity: restored fraction,4,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DNge106,necessity: restored fraction,5,0.0,0.0,0.0,0.0,0.05555555555555555,0.0,0.0
+DNge136,necessity: restored fraction,11,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+GNG120,necessity: restored fraction,7,0.0,0.0,0.0,0.0,0.14285714285714285,0.0,0.0
+GNG391,necessity: restored fraction,6,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+IN03A007,necessity: restored fraction,9,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+IN12A044,necessity: restored fraction,11,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+IN19A008,necessity: restored fraction,9,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+KCa'b'-m,necessity: restored fraction,12,0.0056172666204115755,0.0,0.024046002936562973,0.01802598339949477,0.0,0.0,0.0392156862745098
+KCab-c,necessity: restored fraction,12,0.00387593175645667,0.000601684717208186,0.023242151358614113,0.0033557046979865654,0.0,0.0,-0.08928571428571429
+KCab-m,necessity: restored fraction,12,0.007902740474104842,-0.0002459419576980122,0.04168733892238692,0.02303807303807306,0.0,0.0,0.036585365853658534
+KCab-s,necessity: restored fraction,12,0.0005366342301087579,-2.629849475594445e-07,0.015315769856637585,0.01238716736352623,0.0,0.0,0.0
+KCg-m,necessity: restored fraction,12,0.0064359441564796685,0.0006544502617801081,0.02711950150815005,0.01720091988548362,0.0,0.0,-0.0625
+LC4,necessity: restored fraction,12,0.0,0.0,0.0,0.0,0.0,0.0659971305595409,0.0
+LHAV1a3,necessity: restored fraction,11,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+LHAV4a1_b,necessity: restored fraction,11,0.0007247952453431905,0.01797101449275365,0.0005045408678102917,-0.0061349693251533865,0.0,0.0,-0.02112369337979094
+LHAV6a3,necessity: restored fraction,8,0.0002536783358701167,0.01058173055968914,0.0003180661577608136,-0.007921853594615513,0.0,0.0,0.0
+LHCENT8,necessity: restored fraction,7,-0.0006605019815059445,0.008423586040914468,-0.0035317860746720414,-0.018404907975460124,0.0,0.0,-0.03076923076923077
+LHPD2a1,necessity: restored fraction,10,0.0011021706824184867,0.015543933480651891,-0.00026954177897567995,0.0,0.0,0.0,0.0
+LHPD3a4_b,necessity: restored fraction,11,0.0,0.0036576444769569403,0.0,0.0,0.0,0.0,0.008928571428571428
+LHPD4c1,necessity: restored fraction,7,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+LHPV10b1,necessity: restored fraction,3,0.00597596186127711,0.01132578281145901,0.019598470363288788,0.01398601398601401,0.0,0.0,0.0
+LHPV4b1,necessity: restored fraction,8,0.00032935364347468093,0.015107257312784929,0.0017817371937638665,0.0,0.0,0.0,0.0
+LHPV5a1,necessity: restored fraction,7,-0.00021743857360295715,0.008818342151675596,0.0,0.0,0.0,0.0,-0.012195121951219513
+LHPV5a2,necessity: restored fraction,8,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+LHPV5d1,necessity: restored fraction,9,0.002764002926591334,0.01755669348939292,0.001355013550135397,0.006711409395973131,0.0,0.0,0.0
+LPLC2,necessity: restored fraction,12,0.0,0.0,0.0,0.0,0.0,0.0628517823639772,0.0
+MBON09,necessity: restored fraction,8,-7.642271720222112e-05,-0.0005586350507236913,-0.0002258355916892498,0.01225177969276882,0.0,0.0,-0.01488095238095238
+MBON12,necessity: restored fraction,9,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+MBON14,necessity: restored fraction,7,0.0002476780185758514,0.0,0.0,0.019108280254777076,0.0,0.0,0.0
+M_l2PNm16,necessity: restored fraction,10,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+M_lPNm11D,necessity: restored fraction,11,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+M_lPNm13,necessity: restored fraction,8,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+MeLo13,necessity: restored fraction,12,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+MeLo8,necessity: restored fraction,12,0.0,0.0,0.0,0.0,0.0,0.005681818181818174,0.0
+PS019,necessity: restored fraction,9,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+PVLP109,necessity: restored fraction,10,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+PVLP130,necessity: restored fraction,8,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+PVLP151,necessity: restored fraction,7,0.0,0.0,0.0,0.0,0.0,0.21052631578947414,0.0
+SLP086,necessity: restored fraction,6,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+VES059,necessity: restored fraction,7,0.0,0.0,0.0,0.0,0.0,0.0,0.0

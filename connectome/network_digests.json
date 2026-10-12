@@ -1,0 +1,148 @@
+{
+ "what": "SHA-256 digests of the files of the MaleCNS network (data/pack/malecns_v1.0/, not redistributed) that every simulation loaded, and the record of a rebuild. A network rebuilt with build_pack.py and build_mb_edges.py can be checked against these digests.",
+ "recorded": "2026-10-10",
+ "built_by": {
+  "neuron_ids.npy": "build_pack.py",
+  "row_ptr.npy": "build_pack.py",
+  "dst.npy": "build_pack.py",
+  "signed_w.npy": "build_pack.py",
+  "neurons.parquet": "build_pack.py",
+  "manifest.json": "build_pack.py",
+  "mb_edges_raw.parquet": "build_mb_edges.py"
+ },
+ "sha256": {
+  "neuron_ids.npy": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f",
+  "row_ptr.npy": "7cc87cb58015afc74be1e19d433af0a60a3fef06244871f44ed481e7ed6c75ba",
+  "dst.npy": "cf34154377afd6382c5adb73c06bf0d9a5475d7428f488416a8478caa1efffd3",
+  "signed_w.npy": "be2c2e5678712061ee1e3d54aac4c4992ca57b473f3c5a0f4937c09cdbadff0d",
+  "neurons.parquet": "d8d1b84e5b6097d8423dbc747adcb90dc51924657c0882d21121dca7c6e5eed7",
+  "manifest.json": "6ca26c35003a916ac0c1579823adb27f0334fa8a3bd0410fd88a1f7ac62b7707",
+  "mb_edges_raw.parquet": "e1f9f630169f07edaf0deb9b5b50f5bc9265b4a3fa2d8634b7f8d066ff5e5b9a"
+ },
+ "rebuild_check": {
+  "date": "2026-10-10",
+  "what": "build_pack.py and build_mb_edges.py were run, in a separate folder, from the three source files whose digests are in manifest.json. All seven files came out byte-identical to the network in use; the printed manifest equalled manifest.json; and model.Connectome built on the rebuilt files had the same dopaminergic compartment map and the same arrays as on the network in use.",
+  "history_of_mb_edges_raw": "mb_edges_raw.parquet of the network in use was written on 2026-10-02 by a step that was not saved as a script. build_mb_edges.py was written on 2026-10-10 to reproduce it from the source tables; this check shows that it does so byte for byte.",
+  "byte_identical": {
+   "neuron_ids.npy": true,
+   "row_ptr.npy": true,
+   "dst.npy": true,
+   "signed_w.npy": true,
+   "neurons.parquet": true,
+   "manifest.json": true,
+   "mb_edges_raw.parquet": true
+  },
+  "mb_edges_raw": {
+   "rows": 996383,
+   "columns": [
+    "body_pre",
+    "body_post",
+    "weight",
+    "pre_t",
+    "post_t"
+   ],
+   "dopaminergic_to_MBON_rows": 3123,
+   "dopaminergic_to_MBON_synapses": 39616,
+   "dopaminergic_to_MBON_type_pairs": 351
+  },
+  "compartment_map": {
+   "equal": true,
+   "dopaminergic_types": 23,
+   "type_pairs": 45
+  },
+  "connectome_arrays_equal": [
+   "al_edge",
+   "dst",
+   "is_kc",
+   "kcmb_e",
+   "kcmb_post_t",
+   "kcmb_pre",
+   "mbon",
+   "mbon_sign",
+   "pam",
+   "row_ptr",
+   "sensory",
+   "signed",
+   "vuln"
+  ],
+  "environment": {
+   "python": "3.13.5",
+   "numpy": "2.5.3",
+   "pandas": "3.0.6",
+   "pyarrow": "25.0.1",
+   "numba": "0.68.0"
+  },
+  "note": "The .npy files depend only on the source tables. The two parquet files are byte-identical with the same pandas and pyarrow versions (requirements-simulation.txt); with other versions compare them by value."
+ },
+ "hub_rank_check": {
+  "what": "results/validation/hub_vulnerability_u.npz was first written by a step that was not saved as a script. export_hub_rank.py was written afterwards; it was run on the network in use and its output compared with the stored file.",
+  "equal_by_value": true,
+  "arrays": {
+   "u": "float64",
+   "ids": "int64"
+  },
+  "max_abs_difference_u": 0.0,
+  "note": "Both arrays (u, ids) are identical, element for element, and the two .npy members of the archive are byte-identical. The .npz archives themselves differ in their zip headers, which depend on the numpy version."
+ },
+ "rerun_checks": {
+  "date": "2026-10-10",
+  "what": "Reruns made with the code of this repository, in its folder layout, in a separate folder on the machine and in the environment that ran the simulations (requirements-simulation.txt). The stored result files were only read.",
+  "flywire_630_network": {
+   "script": "validate_engine_flywire.py",
+   "result": "the four files of data/pack/flywire_630 came out byte-identical to the network used for the engine validation (digests in manifest_flywire.json)"
+  },
+  "engine_validation_150hz": {
+   "script": "validate_engine_final.py, with the stored Brian2 reference run in place",
+   "result": "every value of results/validation/engine_validation.json reproduced (run times aside) and the four per-neuron rate vectors of engine_validation_rates.npz identical"
+  },
+  "engine_validation_200hz_100hz": {
+   "script": "validate_engine_200hz.py, with the stored Brian2 reference runs in place",
+   "result": "every value of results/validation/engine_validation_200hz.json reproduced (run times aside) and the 20 arrays of engine_validation_200hz_rates.npz identical"
+  },
+  "kenyon_cell_only_design": {
+   "command": "assay_battery.py --design scope --scale 4 --out scope_x4.csv, on the rebuilt MaleCNS network",
+   "flies": 64,
+   "result": "table byte-identical to results/battery/scope_x4.csv",
+   "max_abs_difference": 0.0,
+   "wall_time_min": 10.3
+  },
+  "fly_rebuilt_from_seed": {
+   "what": "the example of README.md: fly 1256 of the severity series (s = 0.5) on the rebuilt network",
+   "removed_neurons": 19541,
+   "dead_frac": 0.11722255548890222,
+   "result": "equals the dead_frac of that fly in results/battery/stage_curve_x4.csv"
+  },
+  "brian2_reference_run_150hz": {
+   "script": "rerun_brian2_sugarR.py (Brian2 2.10.1, unmodified published code, unseeded)",
+   "what": "a new realisation, to check that the script runs and that it does not overwrite; the realisation the manuscript reports is the stored results/validation/brian2_rerun/sugarR.parquet",
+   "stored_run": {
+    "spikes_per_trial": 13539.4,
+    "active_neurons": 436,
+    "mn9_hz": 82.3,
+    "trials": 30,
+    "t_max_s": 0.9999,
+    "top21_hz_min_max": [
+     143.1,
+     151.0
+    ]
+   },
+   "new_run": {
+    "spikes_per_trial": 13737.1,
+    "active_neurons": 421,
+    "mn9_hz": 84.1,
+    "trials": 30,
+    "t_max_s": 0.9999,
+    "top21_hz_min_max": [
+     146.2,
+     151.9
+    ]
+   },
+   "per_neuron_rates_new_on_stored": {
+    "pearson_r": 0.9997,
+    "slope": 1.009,
+    "neurons": 440
+   },
+   "refuses_to_overwrite": true
+  }
+ }
+}

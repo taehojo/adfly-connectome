@@ -1,0 +1,18 @@
+# Store text with LF line endings so that a rerun of the fact scripts on any system
+# leaves `git diff results/facts` empty (the committed files were written on Windows and
+# on Linux and have mixed line endings before normalisation).
+* text=auto eol=lf
+
+*.py   text eol=lf
+*.csv  text eol=lf
+*.json text eol=lf
+*.md   text eol=lf
+*.cff  text eol=lf
+*.txt  text eol=lf
+
+*.parquet binary
+*.npz     binary
+*.npy     binary
+*.png     binary
+*.tif     binary
+*.pdf     binary

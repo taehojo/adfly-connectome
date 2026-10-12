@@ -1,0 +1,78 @@
+{
+ "n_matched_types": 6808,
+ "ratio_median": 1.7546980847231146,
+ "ratio_iqr": [
+  1.4082877520377521,
+  2.259377585575484
+ ],
+ "w_syn_calibrated_mV": 0.15672211783566978,
+ "fw_mean_in_syn_per_neuron": 393.08471776375114,
+ "mc_brain_mean_in_syn_per_neuron": 694.2069948150516,
+ "flywire_odor_active_per_100ms": [
+  8154,
+  8330,
+  8335,
+  8222,
+  8225,
+  8180,
+  8162,
+  8185,
+  8186,
+  8170
+ ],
+ "flywire_odor_KC_active_on_vs_last": [
+  3400,
+  3360,
+  5177
+ ],
+ "malecns_odor_w0.275_active_per_100ms": [
+  8892,
+  8683,
+  8722,
+  8343,
+  8135,
+  8132,
+  8197,
+  8301,
+  8357,
+  8140
+ ],
+ "malecns_odor_w0.275_KC_active_on_vs_last": [
+  2501,
+  2281,
+  4064
+ ],
+ "malecns_odor_w0.157_active_per_100ms": [
+  4021,
+  4116,
+  4151,
+  3966,
+  3862,
+  3816,
+  3855,
+  3850,
+  3887,
+  3806
+ ],
+ "malecns_odor_w0.157_KC_active_on_vs_last": [
+  781,
+  654,
+  4064
+ ],
+ "malecns_sugar_wcal_MN9_on_hz": [
+  24.4,
+  0.0
+ ],
+ "malecns_sugar_wcal_active_per_100ms": [
+  146,
+  149,
+  162,
+  100,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ]
+}

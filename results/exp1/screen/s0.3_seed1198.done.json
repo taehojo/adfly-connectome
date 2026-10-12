@@ -1,0 +1,63 @@
+{
+ "seed": 1198,
+ "stage": 0.3,
+ "input_seed": 778198,
+ "n_runs": 862,
+ "n_removed": 11867,
+ "n_classes": 24,
+ "n_types_damaged": 4111,
+ "chosen_classes": [
+  "sc:cb_intrinsic",
+  "Kenyon_Cell",
+  "MBON",
+  "ALON",
+  "ALIN",
+  "sc:descending_neuron",
+  "sc:vnc_intrinsic",
+  "sc:visual_projection",
+  "sc:vnc_motor"
+ ],
+ "top_types": [
+  "KCg-m",
+  "VES011",
+  "KCa'b'-m",
+  "MBON09",
+  "LHAV6a3",
+  "LHAV7a4",
+  "MBON11",
+  "KCab-c",
+  "GNG226",
+  "DNb02",
+  "AVLP506",
+  "AN27X021",
+  "CL036",
+  "PVLP021",
+  "AVLP370_b",
+  "LC4"
+ ],
+ "minutes": 33.6,
+ "y_damaged": {
+  "brain_spikes_A": 7503.0,
+  "LH_hz_A": 1.1972386587771202,
+  "PN_hz_A": 1.7638483965014577,
+  "KC_hz_A": 0.5903051181102362,
+  "KC_frac_A": 0.1264763779527559,
+  "MBON_hz_A": 1.0206185567010309,
+  "V_pre_A": 21.0,
+  "MN9_sugar_hz": 10.0,
+  "GF_loom_hz": 173.33333333333334,
+  "GF_latency_ms": 2.0
+ },
+ "y_healthy": {
+  "brain_spikes_A": 19362.0,
+  "LH_hz_A": 1.5379684418145956,
+  "PN_hz_A": 1.7434402332361516,
+  "KC_hz_A": 0.8447342519685039,
+  "KC_frac_A": 0.17298228346456693,
+  "MBON_hz_A": 2.3711340206185567,
+  "V_pre_A": 86.0,
+  "MN9_sugar_hz": 13.0,
+  "GF_loom_hz": 186.66666666666669,
+  "GF_latency_ms": 2.0
+ }
+}

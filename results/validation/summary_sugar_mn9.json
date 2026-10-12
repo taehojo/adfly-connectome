@@ -1,0 +1,82 @@
+[
+  {
+    "name": "baseline_nostim",
+    "n_stim": 0,
+    "wall_s": 8.73308515548706,
+    "n_active": 0,
+    "mn9": [
+      {
+        "bodyId": 10331,
+        "side": "L",
+        "rate_mean": 0.0,
+        "rate_sd": 0.0
+      },
+      {
+        "bodyId": 16949,
+        "side": "R",
+        "rate_mean": 0.0,
+        "rate_sd": 0.0
+      }
+    ]
+  },
+  {
+    "name": "sugar_LB3c_R",
+    "n_stim": 11,
+    "wall_s": 38.64611768722534,
+    "n_active": 5167,
+    "mn9": [
+      {
+        "bodyId": 10331,
+        "side": "L",
+        "rate_mean": 28.3,
+        "rate_sd": 5.854627799157404
+      },
+      {
+        "bodyId": 16949,
+        "side": "R",
+        "rate_mean": 0.2,
+        "rate_sd": 0.4000000000000001
+      }
+    ]
+  },
+  {
+    "name": "sugar_LB3c_LB3b_R",
+    "n_stim": 17,
+    "wall_s": 30.068445444107056,
+    "n_active": 5244,
+    "mn9": [
+      {
+        "bodyId": 10331,
+        "side": "L",
+        "rate_mean": 47.5,
+        "rate_sd": 8.377549363228685
+      },
+      {
+        "bodyId": 16949,
+        "side": "R",
+        "rate_mean": 0.6,
+        "rate_sd": 0.7118052168020873
+      }
+    ]
+  },
+  {
+    "name": "bitter_LB1abcd_R",
+    "n_stim": 19,
+    "wall_s": 9.558981895446777,
+    "n_active": 15033,
+    "mn9": [
+      {
+        "bodyId": 10331,
+        "side": "L",
+        "rate_mean": 0.0,
+        "rate_sd": 0.0
+      },
+      {
+        "bodyId": 16949,
+        "side": "R",
+        "rate_mean": 0.0,
+        "rate_sd": 0.0
+      }
+    ]
+  }
+]

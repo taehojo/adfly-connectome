@@ -1,0 +1,37 @@
+{
+ "n_flies": 320,
+ "reconstruction_exact": true,
+ "looming_side": "left",
+ "vulnerability_percentile": {
+  "DNp01_L": 0.9981043791241752,
+  "DNp01_R": 0.9963467306538693,
+  "MN9": [
+   0.9659508098380324,
+   0.585614877024595
+  ]
+ },
+ "gf_fail_by_left_removed": {
+  "False|False": 253,
+  "False|True": 1,
+  "True|False": 0,
+  "True|True": 66
+ },
+ "gf_fail_by_left_right": {
+  "False/False|False": 206,
+  "False/False|True": 0,
+  "False/True|False": 47,
+  "False/True|True": 1,
+  "True/False|False": 0,
+  "True/False|True": 45,
+  "True/True|False": 0,
+  "True/True|True": 21
+ },
+ "mn9_silent_by_n_removed": {
+  "0|False": 219,
+  "0|True": 5,
+  "1|False": 35,
+  "1|True": 54,
+  "2|False": 0,
+  "2|True": 7
+ }
+}

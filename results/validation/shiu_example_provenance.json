@@ -1,0 +1,64 @@
+{
+ "what": "Where the example output distributed with the published base model comes from, and which input rate produced it. Recorded by hand on 2026-10-10 from the published repository and from the copy on the server; the numbers that can be recomputed are in engine_validation_200hz.json.",
+ "repository": "https://github.com/philshiu/Drosophila_brain_model",
+ "checked": "2026-10-10",
+ "server_copy": {
+  "path": "ext/Drosophila_brain_model",
+  "commit": "91bdd1e7dcf193f3e7ca5a8933497fcef63b7960",
+  "commit_date": "2024-09-14",
+  "shallow_clone": true,
+  "working_tree_clean": true,
+  "distributed_outputs": "results/example/sugarR.parquet and sugarR_100Hz.parquet; data/shiu2024/example/ holds identical copies (md5 6ead3256ec84df79d077c7c7c73dc8db and bbfe8de603474a9fe5f2feab5cdcf146)"
+ },
+ "released_model_py": {
+  "r_poi_hz": 150,
+  "line": "'r_poi'     : 150*Hz,                 # default rate of the Poisson inputs",
+  "history": [
+   {"sha": "6f909d9dfc8fe89d5d6a988cab0967fea4c3f659", "date": "2023-04-30", "message": "removed large data files from repo", "r_poi_hz": 150},
+   {"sha": "2a83ad611cd9768f8c9723fc613ed27761a5feb5", "date": "2023-05-09", "message": "Fixed minor typos and comments in model.py", "r_poi_line_changed": false}
+  ],
+  "note": "model.py has two commits; the rate line is 150*Hz in both, so no committed version of the code has a 200-Hz default."
+ },
+ "example_notebook": {
+  "call_that_writes_sugarR": "run_exp(exp_name='sugarR', neu_exc=neu_sugar, **config)",
+  "rate_argument_in_that_call": false,
+  "statement_in_current_version": "By default, the neurons are excited at 200 Hz.",
+  "commit_that_introduced_the_statement": {
+   "sha": "13b9c8396d8b31a53bd64960f96bb8026b76ec70", "date": "2023-07-12",
+   "message": "Update example to state default is 200 Hz.ipynb",
+   "added_line": "In the previous experiment, sugar neurons were activated by default at 200 Hz. We want to change the stimulation frequency."
+  },
+  "second_example": "params['r_poi'] = 100 * Hz; run_exp(exp_name='sugarR_100Hz', neu_exc=neu_sugar, params=params, **config)"
+ },
+ "distributed_output_history": [
+  {"sha": "3fcc161c28975f96d5525dc2b8e8dc6031a90ba8", "date": "2023-06-08", "message": "added output of example.ipynb"},
+  {"sha": "be3970d590a868bb7435dae8c7eaf5aaa5a0b1e4", "date": "2023-06-08", "message": "shortened example"}
+ ],
+ "notebook_with_stored_outputs": {
+  "commit": "be3970d590a868bb7435dae8c7eaf5aaa5a0b1e4",
+  "date": "2023-06-08",
+  "stored_output_of_the_default_call": {
+   "df_spike_rows": 511566,
+   "df_rate_rows": 448,
+   "rates_hz": {"sugar_3": 202.066667, "sugar_9": 200.2, "sugar_13": 199.966667, "sugar_15": 199.4, "sugar_17": 199.033333}
+  },
+  "same_values_in_distributed_sugarR_parquet": {
+   "rows": 511566,
+   "neurons": 448,
+   "rates_hz": {"sugar_3": 202.066667, "sugar_9": 200.2, "sugar_13": 199.966667, "sugar_15": 199.4, "sugar_17": 199.033333}
+  },
+  "matches": true,
+  "note": "The notebook committed with the distributed output shows that output (511,566 spikes, stimulated neurons near 200 Hz) as the result of the call without a rate argument, while model.py of the same commit sets 150 Hz. The output was therefore produced with a default of 200 Hz that is not in any committed model.py. The later versions of the notebook have no stored outputs."
+ },
+ "environment_file": {"environment.yml": "brian2=2.5.1, python=3.10, numpy=1.24", "environment_full.yml": "brian2=2.5.1, python=3.10.11, numpy=1.22.3"},
+ "sources": [
+  "https://api.github.com/repos/philshiu/Drosophila_brain_model/commits?path=example.ipynb",
+  "https://api.github.com/repos/philshiu/Drosophila_brain_model/commits?path=model.py",
+  "https://api.github.com/repos/philshiu/Drosophila_brain_model/commits?path=results/example/sugarR.parquet",
+  "https://github.com/philshiu/Drosophila_brain_model/commit/13b9c8396d8b31a53bd64960f96bb8026b76ec70",
+  "https://github.com/philshiu/Drosophila_brain_model/commit/2a83ad611cd9768f8c9723fc613ed27761a5feb5",
+  "https://raw.githubusercontent.com/philshiu/Drosophila_brain_model/be3970d590a868bb7435dae8c7eaf5aaa5a0b1e4/example.ipynb",
+  "https://raw.githubusercontent.com/philshiu/Drosophila_brain_model/6f909d9dfc8fe89d5d6a988cab0967fea4c3f659/model.py",
+  "server: ext/Drosophila_brain_model/model.py, example.ipynb, environment.yml, environment_full.yml; results/example/*.parquet read with pandas"
+ ]
+}

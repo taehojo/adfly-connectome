@@ -1,0 +1,55 @@
+# Connectomes and other third-party data are not redistributed
+/data/
+/ext/
+
+# Python and numba caches
+__pycache__/
+*.py[cod]
+*.nbi
+*.nbc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Run logs and scratch output
+/logs/
+*.log
+nohup.out
+/results/battery/smoke_*.csv
+/results/joint/smoke_synth*
+/results/exp1_test/
+/results/validation/engine_vs_brian2_flywire630.json
+*.tmp
+*.bak
+
+# Folders that scripts create as a side effect and that hold nothing to keep
+/figures/scratch/
+/code/results/
+/code/data/
+
+# Credentials and local settings (none are used by this code; listed so that none is ever added)
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Material that is not part of this repository: the manuscript text, the page code of the web
+# illustration and working notes. At the top level only the three Markdown files named below
+# are tracked.
+/paper/
+/manuscript/
+/web/
+/prior-art/
+/*.md
+!/README.md
+!/LICENSE-DATA.md
+!/THIRD_PARTY_NOTICES.md
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

@@ -1,0 +1,3661 @@
+{
+ "n_series_healthy": 64,
+ "n_series_per_severity": 32,
+ "series_severities": [
+  0.05,
+  0.1,
+  0.15,
+  0.2,
+  0.3,
+  0.4,
+  0.5,
+  0.6,
+  0.75,
+  1.0
+ ],
+ "n_joint_healthy": 32,
+ "n_joint_per_severity": 24,
+ "joint_severities": [
+  0.05,
+  0.1,
+  0.15,
+  0.2,
+  0.3,
+  0.5
+ ],
+ "healthy_pathology_all_zero": [
+  64,
+  64,
+  32,
+  32
+ ],
+ "series_healthy_rcv_pct_brain": 9.56,
+ "series_healthy_rcv_rank_of10_brain": 7,
+ "series_healthy_rcv_rank_of8graded_brain": 6,
+ "series_change_pct_brain": [
+  -9.56,
+  -16.56,
+  -43.42
+ ],
+ "series_auc_brain": [
+  0.7534,
+  0.8286,
+  1.0
+ ],
+ "series_healthy_rcv_pct_LH": 4.0,
+ "series_healthy_rcv_rank_of10_LH": 3,
+ "series_healthy_rcv_rank_of8graded_LH": 2,
+ "series_change_pct_LH": [
+  -3.89,
+  -5.63,
+  -18.06
+ ],
+ "series_auc_LH": [
+  0.7786,
+  0.8301,
+  0.98
+ ],
+ "series_healthy_rcv_pct_PN": 2.84,
+ "series_healthy_rcv_rank_of10_PN": 2,
+ "series_healthy_rcv_rank_of8graded_PN": 1,
+ "series_change_pct_PN": [
+  0.0,
+  1.29,
+  -3.92
+ ],
+ "series_auc_PN": [
+  0.5149,
+  0.5227,
+  0.6577
+ ],
+ "series_healthy_rcv_pct_KCrate": 5.34,
+ "series_healthy_rcv_rank_of10_KCrate": 4,
+ "series_healthy_rcv_rank_of8graded_KCrate": 3,
+ "series_change_pct_KCrate": [
+  -4.74,
+  -7.77,
+  -18.66
+ ],
+ "series_auc_KCrate": [
+  0.6453,
+  0.6802,
+  0.915
+ ],
+ "series_healthy_rcv_pct_KCrecruited": 5.56,
+ "series_healthy_rcv_rank_of10_KCrecruited": 5,
+ "series_healthy_rcv_rank_of8graded_KCrecruited": 4,
+ "series_change_pct_KCrecruited": [
+  -4.75,
+  -4.83,
+  -12.11
+ ],
+ "series_auc_KCrecruited": [
+  0.6858,
+  0.6392,
+  0.8799
+ ],
+ "series_healthy_rcv_pct_MBON": 9.31,
+ "series_healthy_rcv_rank_of10_MBON": 6,
+ "series_healthy_rcv_rank_of8graded_MBON": 5,
+ "series_change_pct_MBON": [
+  -6.5,
+  -11.43,
+  -26.01
+ ],
+ "series_auc_MBON": [
+  0.6519,
+  0.7202,
+  0.8779
+ ],
+ "series_healthy_rcv_pct_valence": 11.44,
+ "series_healthy_rcv_rank_of10_valence": 8,
+ "series_healthy_rcv_rank_of8graded_valence": 7,
+ "series_change_pct_valence": [
+  -11.11,
+  -14.81,
+  -26.54
+ ],
+ "series_auc_valence": [
+  0.6606,
+  0.6482,
+  0.7981
+ ],
+ "series_healthy_rcv_pct_LI": 32.85,
+ "series_healthy_rcv_rank_of10_LI": 10,
+ "series_healthy_rcv_rank_of8graded_LI": 8,
+ "series_change_pct_LI": [
+  4.88,
+  -24.39,
+  -44.72
+ ],
+ "series_auc_LI": [
+  0.5586,
+  0.6643,
+  0.7761
+ ],
+ "series_healthy_rcv_pct_MN9": 30.58,
+ "series_healthy_rcv_rank_of10_MN9": 9,
+ "series_change_pct_MN9": [
+  -5.0,
+  -15.0,
+  -30.0
+ ],
+ "series_auc_MN9": [
+  0.6045,
+  0.6768,
+  0.8481
+ ],
+ "series_healthy_rcv_pct_GF": 1.9,
+ "series_healthy_rcv_rank_of10_GF": 1,
+ "series_change_pct_GF": [
+  -1.28,
+  -4.27,
+  -6.84
+ ],
+ "series_auc_GF": [
+  0.6016,
+  0.7551,
+  0.7852
+ ],
+ "series_rankcorr_auc_vs_shift_over_spread_s0.05": [
+  0.857,
+  0.00653
+ ],
+ "series_rankcorr_auc_vs_shift_alone_s0.05": [
+  0.262,
+  0.531
+ ],
+ "series_rankcorr_auc_vs_inverse_spread_s0.05": [
+  -0.024,
+  0.955
+ ],
+ "series_rankcorr_auc_vs_shift_over_spread_s0.1": [
+  0.738,
+  0.0366
+ ],
+ "series_rankcorr_auc_vs_shift_alone_s0.1": [
+  0.381,
+  0.352
+ ],
+ "series_rankcorr_auc_vs_inverse_spread_s0.1": [
+  -0.071,
+  0.867
+ ],
+ "series_rankcorr_auc_vs_shift_over_spread_s0.2": [
+  0.905,
+  0.00201
+ ],
+ "series_rankcorr_auc_vs_shift_alone_s0.2": [
+  0.095,
+  0.823
+ ],
+ "series_rankcorr_auc_vs_inverse_spread_s0.2": [
+  0.095,
+  0.823
+ ],
+ "series_rankcorr_auc_vs_shift_over_spread_s0.1_all10": [
+  0.733,
+  0.0158
+ ],
+ "series_rankcorr_s0.1_copied": [
+  0.738,
+  0.0366
+ ],
+ "series_auc_curve_brain": [
+  0.753,
+  0.829,
+  0.975,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "series_auc_curve_LH": [
+  0.779,
+  0.83,
+  0.982,
+  0.98,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "series_auc_curve_PN": [
+  0.515,
+  0.523,
+  0.628,
+  0.658,
+  0.653,
+  0.889,
+  0.979,
+  0.969,
+  0.987,
+  1.0
+ ],
+ "series_auc_curve_KCrate": [
+  0.645,
+  0.68,
+  0.784,
+  0.915,
+  0.873,
+  0.811,
+  0.976,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "series_auc_curve_KCrecruited": [
+  0.686,
+  0.639,
+  0.754,
+  0.88,
+  0.855,
+  0.792,
+  0.951,
+  0.999,
+  1.0,
+  1.0
+ ],
+ "series_auc_curve_MBON": [
+  0.652,
+  0.72,
+  0.79,
+  0.878,
+  0.87,
+  0.789,
+  0.911,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "series_auc_curve_valence": [
+  0.661,
+  0.648,
+  0.756,
+  0.798,
+  0.947,
+  0.994,
+  0.998,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "series_auc_curve_LI": [
+  0.559,
+  0.664,
+  0.691,
+  0.776,
+  0.793,
+  0.827,
+  0.875,
+  0.979,
+  0.967,
+  0.984
+ ],
+ "series_auc_curve_LInorm": [
+  0.573,
+  0.625,
+  0.582,
+  0.606,
+  0.606,
+  0.604,
+  0.631,
+  0.688,
+  0.517,
+  null
+ ],
+ "series_auc_curve_MN9": [
+  0.604,
+  0.677,
+  0.767,
+  0.848,
+  0.951,
+  0.994,
+  0.985,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "series_auc_curve_GF": [
+  0.602,
+  0.755,
+  0.765,
+  0.785,
+  0.935,
+  0.976,
+  1.0,
+  0.998,
+  1.0,
+  1.0
+ ],
+ "series_auc_curve_GFlatency": [
+  0.603,
+  0.589,
+  0.651,
+  0.643,
+  0.685,
+  0.747,
+  0.775,
+  0.768,
+  0.809,
+  0.89
+ ],
+ "joint_healthy_rcv_pct_brain": 11.07,
+ "joint_change_pct_s0.1_brain": -19.92,
+ "joint_auc_brain": [
+  0.6536,
+  0.8477,
+  0.9779,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "joint_healthy_rcv_pct_LH": 4.93,
+ "joint_change_pct_s0.1_LH": -6.52,
+ "joint_auc_LH": [
+  0.7246,
+  0.8255,
+  0.9805,
+  0.9844,
+  1.0,
+  1.0
+ ],
+ "joint_healthy_rcv_pct_KCrate": 7.91,
+ "joint_change_pct_s0.1_KCrate": -6.42,
+ "joint_auc_KCrate": [
+  0.6309,
+  0.61,
+  0.806,
+  0.7428,
+  0.8451,
+  0.9974
+ ],
+ "joint_healthy_rcv_pct_MBON": 17.92,
+ "joint_change_pct_s0.1_MBON": -8.65,
+ "joint_auc_MBON": [
+  0.6035,
+  0.5931,
+  0.8008,
+  0.7096,
+  0.8008,
+  0.9525
+ ],
+ "joint_healthy_rcv_pct_LI": 24.34,
+ "joint_change_pct_s0.1_LI": -27.61,
+ "joint_auc_LI": [
+  0.6992,
+  0.7031,
+  0.8118,
+  0.7298,
+  0.8034,
+  0.9629
+ ],
+ "joint_healthy_rcv_pct_MN9": 15.61,
+ "joint_change_pct_s0.1_MN9": 5.26,
+ "joint_auc_MN9": [
+  0.5794,
+  0.5078,
+  0.8047,
+  0.8216,
+  0.9388,
+  0.9967
+ ],
+ "joint_healthy_rcv_pct_GF": 1.44,
+ "joint_change_pct_s0.1_GF": -1.72,
+ "joint_auc_GF": [
+  0.5833,
+  0.709,
+  0.7969,
+  0.8197,
+  0.931,
+  1.0
+ ],
+ "joint_healthy_rcv_pct_feedTime": 102.43,
+ "joint_change_pct_s0.1_feedTime": -42.29,
+ "joint_auc_feedTime": [
+  0.569,
+  0.6055,
+  0.679,
+  0.6042,
+  0.7812,
+  0.8698
+ ],
+ "joint_healthy_rcv_pct_jumpsPerThreat": 23.3,
+ "joint_change_pct_s0.1_jumpsPerThreat": -14.29,
+ "joint_auc_jumpsPerThreat": [
+  0.5531,
+  0.6823,
+  0.744,
+  0.7903,
+  0.7273,
+  0.8086
+ ],
+ "joint_healthy_rcv_pct_nearOdourA": 119.42,
+ "joint_change_pct_s0.1_nearOdourA": -15.89,
+ "joint_auc_nearOdourA": [
+  0.6263,
+  0.5195,
+  0.5872,
+  0.5547,
+  0.6328,
+  0.5039
+ ],
+ "joint_healthy_rcv_pct_PI": 590.26,
+ "joint_change_pct_s0.1_PI": 90.58,
+ "joint_auc_PI": [
+  0.5241,
+  0.5508,
+  0.5911,
+  0.558,
+  0.5625,
+  0.5639
+ ],
+ "joint_PI_absolute_s0.1": [
+  0.2,
+  0.382,
+  0.181,
+  1.182
+ ],
+ "fd_series_observed_brain": 0.1,
+ "fd_series_bootmedian_copied_brain": 0.1,
+ "fd_series_bootci_copied_brain": [
+  0.05,
+  0.15
+ ],
+ "fd_series_fracnever_copied_brain": 0.0,
+ "fd_series_uncondmedian_recomputed_brain": 0.1,
+ "fd_series_fracby_recomputed_brain": [
+  0.196,
+  0.772,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "fd_series_auc_step_before_observed_brain": 0.7534,
+ "fd_series_observed_LH": 0.1,
+ "fd_series_bootmedian_copied_LH": 0.1,
+ "fd_series_bootci_copied_LH": [
+  0.05,
+  0.15
+ ],
+ "fd_series_fracnever_copied_LH": 0.0,
+ "fd_series_uncondmedian_recomputed_LH": 0.1,
+ "fd_series_fracby_recomputed_LH": [
+  0.342,
+  0.8,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "fd_series_auc_step_before_observed_LH": 0.7786,
+ "fd_series_observed_PN": 0.4,
+ "fd_series_bootmedian_copied_PN": 0.4,
+ "fd_series_bootci_copied_PN": [
+  0.3,
+  0.5
+ ],
+ "fd_series_fracnever_copied_PN": 0.0,
+ "fd_series_uncondmedian_recomputed_PN": 0.4,
+ "fd_series_fracby_recomputed_PN": [
+  0.0,
+  0.0,
+  0.004,
+  0.022,
+  0.041,
+  0.955,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "fd_series_auc_step_before_observed_PN": 0.6531,
+ "fd_series_observed_KCrate": 0.2,
+ "fd_series_bootmedian_copied_KCrate": 0.2,
+ "fd_series_bootci_copied_KCrate": [
+  0.1,
+  0.2
+ ],
+ "fd_series_fracnever_copied_KCrate": 0.0,
+ "fd_series_uncondmedian_recomputed_KCrate": 0.2,
+ "fd_series_fracby_recomputed_KCrate": [
+  0.007,
+  0.037,
+  0.431,
+  0.991,
+  0.999,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "fd_series_auc_step_before_observed_KCrate": 0.7844,
+ "fd_series_observed_KCrecruited": 0.2,
+ "fd_series_bootmedian_copied_KCrecruited": 0.2,
+ "fd_series_bootci_copied_KCrecruited": [
+  0.05,
+  0.3
+ ],
+ "fd_series_fracnever_copied_KCrecruited": 0.0,
+ "fd_series_uncondmedian_recomputed_KCrecruited": 0.2,
+ "fd_series_fracby_recomputed_KCrecruited": [
+  0.024,
+  0.03,
+  0.282,
+  0.958,
+  0.994,
+  0.997,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "fd_series_auc_step_before_observed_KCrecruited": 0.7537,
+ "fd_series_observed_MBON": 0.2,
+ "fd_series_bootmedian_copied_MBON": 0.15,
+ "fd_series_bootci_copied_MBON": [
+  0.1,
+  0.3
+ ],
+ "fd_series_fracnever_copied_MBON": 0.0,
+ "fd_series_uncondmedian_recomputed_MBON": 0.15,
+ "fd_series_fracby_recomputed_MBON": [
+  0.007,
+  0.111,
+  0.514,
+  0.958,
+  0.996,
+  0.998,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "fd_series_auc_step_before_observed_MBON": 0.7903,
+ "fd_series_observed_valence": 0.3,
+ "fd_series_bootmedian_copied_valence": 0.2,
+ "fd_series_bootci_copied_valence": [
+  0.15,
+  0.3
+ ],
+ "fd_series_fracnever_copied_valence": 0.0,
+ "fd_series_uncondmedian_recomputed_valence": 0.2,
+ "fd_series_fracby_recomputed_valence": [
+  0.01,
+  0.023,
+  0.264,
+  0.638,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "fd_series_auc_step_before_observed_valence": 0.7981,
+ "fd_series_observed_LI": 0.4,
+ "fd_series_bootmedian_copied_LI": 0.3,
+ "fd_series_bootci_copied_LI": [
+  0.15,
+  0.5
+ ],
+ "fd_series_fracnever_copied_LI": 0.0,
+ "fd_series_uncondmedian_recomputed_LI": 0.3,
+ "fd_series_fracby_recomputed_LI": [
+  0.0,
+  0.013,
+  0.044,
+  0.378,
+  0.645,
+  0.876,
+  0.99,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "fd_series_auc_step_before_observed_LI": 0.7927,
+ "fd_series_observed_LInorm": null,
+ "fd_series_bootmedian_copied_LInorm": 0.6,
+ "fd_series_bootci_copied_LInorm": [
+  0.2,
+  0.6
+ ],
+ "fd_series_fracnever_copied_LInorm": 0.891,
+ "fd_series_uncondmedian_recomputed_LInorm": null,
+ "fd_series_fracby_recomputed_LInorm": [
+  0.0,
+  0.002,
+  0.002,
+  0.004,
+  0.004,
+  0.005,
+  0.01,
+  0.108,
+  0.11,
+  0.11
+ ],
+ "fd_series_observed_MN9": 0.2,
+ "fd_series_bootmedian_copied_MN9": 0.2,
+ "fd_series_bootci_copied_MN9": [
+  0.15,
+  0.3
+ ],
+ "fd_series_fracnever_copied_MN9": 0.0,
+ "fd_series_uncondmedian_recomputed_MN9": 0.2,
+ "fd_series_fracby_recomputed_MN9": [
+  0.001,
+  0.02,
+  0.319,
+  0.883,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "fd_series_auc_step_before_observed_MN9": 0.7671,
+ "fd_series_observed_GF": 0.3,
+ "fd_series_bootmedian_copied_GF": 0.2,
+ "fd_series_bootci_copied_GF": [
+  0.1,
+  0.3
+ ],
+ "fd_series_fracnever_copied_GF": 0.0,
+ "fd_series_uncondmedian_recomputed_GF": 0.2,
+ "fd_series_fracby_recomputed_GF": [
+  0.002,
+  0.24,
+  0.47,
+  0.702,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "fd_series_auc_step_before_observed_GF": 0.7852,
+ "fd_series_observed_GFlatency": 0.75,
+ "fd_series_bootmedian_copied_GFlatency": 0.75,
+ "fd_series_bootci_copied_GFlatency": [
+  0.4,
+  1.0
+ ],
+ "fd_series_fracnever_copied_GFlatency": 0.002,
+ "fd_series_uncondmedian_recomputed_GFlatency": 0.75,
+ "fd_series_fracby_recomputed_GFlatency": [
+  0.0,
+  0.0,
+  0.0,
+  0.001,
+  0.005,
+  0.051,
+  0.233,
+  0.341,
+  0.668,
+  0.996
+ ],
+ "fd_series_auc_step_before_observed_GFlatency": 0.7677,
+ "fd_series_recomputed_condmedian_check": {
+  "brain": 0.1,
+  "LH": 0.1,
+  "PN": 0.4,
+  "KCrate": 0.2,
+  "KCrecruited": 0.2,
+  "MBON": 0.15,
+  "valence": 0.2,
+  "LI": 0.3,
+  "LInorm": 0.6,
+  "MN9": 0.2,
+  "GF": 0.2,
+  "GFlatency": 0.75
+ },
+ "fd_series_median_stability": {
+  "brain": {
+   "verdict": "stable",
+   "n_runs": 1,
+   "n_resamples_pooled": 4000,
+   "cond_median_counts": {
+    "0.1": 1
+   },
+   "cond_frac_by_median": 0.772,
+   "cond_frac_by_step_below": 0.196,
+   "uncond_median_counts": {
+    "0.1": 1
+   },
+   "uncond_frac_by_median": 0.772,
+   "uncond_frac_by_step_below": 0.196
+  },
+  "LH": {
+   "verdict": "stable",
+   "n_runs": 1,
+   "n_resamples_pooled": 4000,
+   "cond_median_counts": {
+    "0.1": 1
+   },
+   "cond_frac_by_median": 0.8,
+   "cond_frac_by_step_below": 0.342,
+   "uncond_median_counts": {
+    "0.1": 1
+   },
+   "uncond_frac_by_median": 0.8,
+   "uncond_frac_by_step_below": 0.342
+  },
+  "PN": {
+   "verdict": "stable",
+   "n_runs": 1,
+   "n_resamples_pooled": 4000,
+   "cond_median_counts": {
+    "0.4": 1
+   },
+   "cond_frac_by_median": 0.955,
+   "cond_frac_by_step_below": 0.041,
+   "uncond_median_counts": {
+    "0.4": 1
+   },
+   "uncond_frac_by_median": 0.955,
+   "uncond_frac_by_step_below": 0.041
+  },
+  "KCrate": {
+   "verdict": "stable",
+   "n_runs": 11,
+   "n_resamples_pooled": 44000,
+   "cond_median_counts": {
+    "0.2": 11
+   },
+   "cond_frac_by_median": 0.993,
+   "cond_frac_by_step_below": 0.44,
+   "uncond_median_counts": {
+    "0.2": 11
+   },
+   "uncond_frac_by_median": 0.993,
+   "uncond_frac_by_step_below": 0.44
+  },
+  "KCrecruited": {
+   "verdict": "stable",
+   "n_runs": 1,
+   "n_resamples_pooled": 4000,
+   "cond_median_counts": {
+    "0.2": 1
+   },
+   "cond_frac_by_median": 0.958,
+   "cond_frac_by_step_below": 0.282,
+   "uncond_median_counts": {
+    "0.2": 1
+   },
+   "uncond_frac_by_median": 0.958,
+   "uncond_frac_by_step_below": 0.282
+  },
+  "MBON": {
+   "verdict": "seed-dependent",
+   "n_runs": 11,
+   "n_resamples_pooled": 44000,
+   "cond_median_counts": {
+    "0.15": 8,
+    "0.2": 3
+   },
+   "cond_frac_by_median": 0.503,
+   "cond_frac_by_step_below": 0.104,
+   "uncond_median_counts": {
+    "0.15": 8,
+    "0.2": 3
+   },
+   "uncond_frac_by_median": 0.503,
+   "uncond_frac_by_step_below": 0.104
+  },
+  "valence": {
+   "verdict": "stable",
+   "n_runs": 1,
+   "n_resamples_pooled": 4000,
+   "cond_median_counts": {
+    "0.2": 1
+   },
+   "cond_frac_by_median": 0.638,
+   "cond_frac_by_step_below": 0.264,
+   "uncond_median_counts": {
+    "0.2": 1
+   },
+   "uncond_frac_by_median": 0.638,
+   "uncond_frac_by_step_below": 0.264
+  },
+  "LI": {
+   "verdict": "stable",
+   "n_runs": 1,
+   "n_resamples_pooled": 4000,
+   "cond_median_counts": {
+    "0.3": 1
+   },
+   "cond_frac_by_median": 0.645,
+   "cond_frac_by_step_below": 0.378,
+   "uncond_median_counts": {
+    "0.3": 1
+   },
+   "uncond_frac_by_median": 0.645,
+   "uncond_frac_by_step_below": 0.378
+  },
+  "LInorm": {
+   "verdict": "stable",
+   "n_runs": 1,
+   "n_resamples_pooled": 4000,
+   "cond_median_counts": {
+    "0.6": 1
+   },
+   "cond_frac_by_median": 0.984,
+   "cond_frac_by_step_below": 0.089,
+   "uncond_median_counts": {
+    "never": 1
+   },
+   "uncond_frac_by_median": null,
+   "uncond_frac_by_step_below": null
+  },
+  "MN9": {
+   "verdict": "stable",
+   "n_runs": 1,
+   "n_resamples_pooled": 4000,
+   "cond_median_counts": {
+    "0.2": 1
+   },
+   "cond_frac_by_median": 0.883,
+   "cond_frac_by_step_below": 0.319,
+   "uncond_median_counts": {
+    "0.2": 1
+   },
+   "uncond_frac_by_median": 0.883,
+   "uncond_frac_by_step_below": 0.319
+  },
+  "GF": {
+   "verdict": "stable",
+   "n_runs": 11,
+   "n_resamples_pooled": 44000,
+   "cond_median_counts": {
+    "0.2": 11
+   },
+   "cond_frac_by_median": 0.686,
+   "cond_frac_by_step_below": 0.459,
+   "uncond_median_counts": {
+    "0.2": 11
+   },
+   "uncond_frac_by_median": 0.686,
+   "uncond_frac_by_step_below": 0.459
+  },
+  "GFlatency": {
+   "verdict": "stable",
+   "n_runs": 1,
+   "n_resamples_pooled": 4000,
+   "cond_median_counts": {
+    "0.75": 1
+   },
+   "cond_frac_by_median": 0.671,
+   "cond_frac_by_step_below": 0.342,
+   "uncond_median_counts": {
+    "0.75": 1
+   },
+   "uncond_frac_by_median": 0.668,
+   "uncond_frac_by_step_below": 0.341
+  }
+ },
+ "fd_series_median_seed_dependent": [
+  "MBON"
+ ],
+ "fd_series_median_near_even": [],
+ "fd_joint_observed_KCrecruited": 0.5,
+ "fd_joint_bootmedian_copied_KCrecruited": 0.3,
+ "fd_joint_bootci_copied_KCrecruited": [
+  0.15,
+  0.5
+ ],
+ "fd_joint_fracnever_copied_KCrecruited": 0.0,
+ "fd_joint_uncondmedian_recomputed_KCrecruited": 0.3,
+ "fd_joint_fracby_recomputed_KCrecruited": [
+  0.012,
+  0.013,
+  0.43,
+  0.474,
+  0.701,
+  1.0
+ ],
+ "fd_joint_observed_KCrate": 0.15,
+ "fd_joint_bootmedian_copied_KCrate": 0.15,
+ "fd_joint_bootci_copied_KCrate": [
+  0.15,
+  0.5
+ ],
+ "fd_joint_fracnever_copied_KCrate": 0.0,
+ "fd_joint_uncondmedian_recomputed_KCrate": 0.15,
+ "fd_joint_fracby_recomputed_KCrate": [
+  0.011,
+  0.02,
+  0.562,
+  0.664,
+  0.911,
+  1.0
+ ],
+ "fd_joint_observed_PN": 0.5,
+ "fd_joint_bootmedian_copied_PN": 0.5,
+ "fd_joint_bootci_copied_PN": [
+  0.15,
+  0.5
+ ],
+ "fd_joint_fracnever_copied_PN": 0.0018,
+ "fd_joint_uncondmedian_recomputed_PN": 0.5,
+ "fd_joint_fracby_recomputed_PN": [
+  0.001,
+  0.007,
+  0.084,
+  0.354,
+  0.427,
+  0.999
+ ],
+ "fd_joint_observed_LH": 0.1,
+ "fd_joint_bootmedian_copied_LH": 0.1,
+ "fd_joint_bootci_copied_LH": [
+  0.05,
+  0.15
+ ],
+ "fd_joint_fracnever_copied_LH": 0.0,
+ "fd_joint_uncondmedian_recomputed_LH": 0.1,
+ "fd_joint_fracby_recomputed_LH": [
+  0.143,
+  0.716,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "fd_joint_observed_MBON": 0.15,
+ "fd_joint_bootmedian_copied_MBON": 0.15,
+ "fd_joint_bootci_copied_MBON": [
+  0.15,
+  0.5
+ ],
+ "fd_joint_fracnever_copied_MBON": 0.0,
+ "fd_joint_uncondmedian_recomputed_MBON": 0.15,
+ "fd_joint_fracby_recomputed_MBON": [
+  0.004,
+  0.008,
+  0.523,
+  0.585,
+  0.787,
+  1.0
+ ],
+ "fd_joint_observed_brain": 0.1,
+ "fd_joint_bootmedian_copied_brain": 0.1,
+ "fd_joint_bootci_copied_brain": [
+  0.05,
+  0.15
+ ],
+ "fd_joint_fracnever_copied_brain": 0.0,
+ "fd_joint_uncondmedian_recomputed_brain": 0.1,
+ "fd_joint_fracby_recomputed_brain": [
+  0.026,
+  0.811,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "fd_joint_observed_valence": 0.3,
+ "fd_joint_bootmedian_copied_valence": 0.2,
+ "fd_joint_bootci_copied_valence": [
+  0.15,
+  0.5
+ ],
+ "fd_joint_fracnever_copied_valence": 0.0,
+ "fd_joint_uncondmedian_recomputed_valence": 0.3,
+ "fd_joint_fracby_recomputed_valence": [
+  0.0,
+  0.002,
+  0.427,
+  0.488,
+  0.915,
+  1.0
+ ],
+ "fd_joint_observed_MN9": 0.15,
+ "fd_joint_bootmedian_copied_MN9": 0.15,
+ "fd_joint_bootci_copied_MN9": [
+  0.15,
+  0.3
+ ],
+ "fd_joint_fracnever_copied_MN9": 0.0,
+ "fd_joint_uncondmedian_recomputed_MN9": 0.15,
+ "fd_joint_fracby_recomputed_MN9": [
+  0.001,
+  0.001,
+  0.554,
+  0.808,
+  1.0,
+  1.0
+ ],
+ "fd_joint_observed_GF": 0.2,
+ "fd_joint_bootmedian_copied_GF": 0.15,
+ "fd_joint_bootci_copied_GF": [
+  0.1,
+  0.3
+ ],
+ "fd_joint_fracnever_copied_GF": 0.0,
+ "fd_joint_uncondmedian_recomputed_GF": 0.15,
+ "fd_joint_fracby_recomputed_GF": [
+  0.004,
+  0.13,
+  0.558,
+  0.822,
+  1.0,
+  1.0
+ ],
+ "fd_joint_observed_GFlatency": null,
+ "fd_joint_bootmedian_copied_GFlatency": 0.5,
+ "fd_joint_bootci_copied_GFlatency": [
+  0.1,
+  0.5
+ ],
+ "fd_joint_fracnever_copied_GFlatency": 0.8585,
+ "fd_joint_uncondmedian_recomputed_GFlatency": null,
+ "fd_joint_fracby_recomputed_GFlatency": [
+  0.0,
+  0.005,
+  0.006,
+  0.008,
+  0.013,
+  0.138
+ ],
+ "fd_joint_observed_LI": 0.15,
+ "fd_joint_bootmedian_copied_LI": 0.15,
+ "fd_joint_bootci_copied_LI": [
+  0.05,
+  0.5
+ ],
+ "fd_joint_fracnever_copied_LI": 0.0,
+ "fd_joint_uncondmedian_recomputed_LI": 0.15,
+ "fd_joint_fracby_recomputed_LI": [
+  0.081,
+  0.151,
+  0.644,
+  0.686,
+  0.808,
+  1.0
+ ],
+ "fd_joint_observed_LInorm": null,
+ "fd_joint_bootmedian_copied_LInorm": 0.2,
+ "fd_joint_bootci_copied_LInorm": [
+  0.05,
+  0.5
+ ],
+ "fd_joint_fracnever_copied_LInorm": 0.7055,
+ "fd_joint_uncondmedian_recomputed_LInorm": null,
+ "fd_joint_fracby_recomputed_LInorm": [
+  0.07,
+  0.129,
+  0.14,
+  0.174,
+  0.174,
+  0.294
+ ],
+ "fd_joint_observed_feedTime": 0.5,
+ "fd_joint_bootmedian_copied_feedTime": 0.5,
+ "fd_joint_bootci_copied_feedTime": [
+  0.15,
+  0.5
+ ],
+ "fd_joint_fracnever_copied_feedTime": 0.0813,
+ "fd_joint_uncondmedian_recomputed_feedTime": 0.5,
+ "fd_joint_fracby_recomputed_feedTime": [
+  0.002,
+  0.005,
+  0.044,
+  0.046,
+  0.392,
+  0.925
+ ],
+ "fd_joint_observed_jumpsPerThreat": 0.5,
+ "fd_joint_bootmedian_copied_jumpsPerThreat": 0.2,
+ "fd_joint_bootci_copied_jumpsPerThreat": [
+  0.1,
+  0.5
+ ],
+ "fd_joint_fracnever_copied_jumpsPerThreat": 0.4093,
+ "fd_joint_uncondmedian_recomputed_jumpsPerThreat": 0.5,
+ "fd_joint_fracby_recomputed_jumpsPerThreat": [
+  0.0,
+  0.032,
+  0.158,
+  0.43,
+  0.43,
+  0.59
+ ],
+ "fd_joint_observed_nearOdourA": null,
+ "fd_joint_bootmedian_copied_nearOdourA": 0.15,
+ "fd_joint_bootci_copied_nearOdourA": [
+  0.05,
+  0.3
+ ],
+ "fd_joint_fracnever_copied_nearOdourA": 0.977,
+ "fd_joint_uncondmedian_recomputed_nearOdourA": null,
+ "fd_joint_fracby_recomputed_nearOdourA": [
+  0.009,
+  0.009,
+  0.01,
+  0.011,
+  0.018,
+  0.018
+ ],
+ "fd_joint_observed_PI": null,
+ "fd_joint_bootmedian_copied_PI": 0.2,
+ "fd_joint_bootci_copied_PI": [
+  0.15,
+  0.5
+ ],
+ "fd_joint_fracnever_copied_PI": 0.9965,
+ "fd_joint_uncondmedian_recomputed_PI": null,
+ "fd_joint_fracby_recomputed_PI": [
+  0.0,
+  0.0,
+  0.003,
+  0.004,
+  0.006,
+  0.006
+ ],
+ "fd_joint_recomputed_condmedian_check": {
+  "KCrecruited": 0.3,
+  "KCrate": 0.15,
+  "PN": 0.5,
+  "LH": 0.1,
+  "MBON": 0.15,
+  "brain": 0.1,
+  "valence": 0.3,
+  "MN9": 0.15,
+  "GF": 0.15,
+  "GFlatency": 0.5,
+  "LI": 0.15,
+  "LInorm": 0.2,
+  "feedTime": 0.5,
+  "jumpsPerThreat": 0.2,
+  "nearOdourA": 0.05,
+  "PI": 0.2
+ },
+ "fd_joint_median_stability": {
+  "KCrecruited": {
+   "verdict": "stable",
+   "n_runs": 11,
+   "n_resamples_pooled": 44000,
+   "cond_median_counts": {
+    "0.3": 11
+   },
+   "cond_frac_by_median": 0.702,
+   "cond_frac_by_step_below": 0.47,
+   "uncond_median_counts": {
+    "0.3": 11
+   },
+   "uncond_frac_by_median": 0.702,
+   "uncond_frac_by_step_below": 0.47
+  },
+  "KCrate": {
+   "verdict": "near-even",
+   "n_runs": 11,
+   "n_resamples_pooled": 44000,
+   "cond_median_counts": {
+    "0.15": 11
+   },
+   "cond_frac_by_median": 0.557,
+   "cond_frac_by_step_below": 0.018,
+   "uncond_median_counts": {
+    "0.15": 11
+   },
+   "uncond_frac_by_median": 0.557,
+   "uncond_frac_by_step_below": 0.018
+  },
+  "PN": {
+   "verdict": "stable",
+   "n_runs": 11,
+   "n_resamples_pooled": 44000,
+   "cond_median_counts": {
+    "0.5": 11
+   },
+   "cond_frac_by_median": 1.0,
+   "cond_frac_by_step_below": 0.431,
+   "uncond_median_counts": {
+    "0.5": 11
+   },
+   "uncond_frac_by_median": 0.998,
+   "uncond_frac_by_step_below": 0.43
+  },
+  "LH": {
+   "verdict": "stable",
+   "n_runs": 1,
+   "n_resamples_pooled": 4000,
+   "cond_median_counts": {
+    "0.1": 1
+   },
+   "cond_frac_by_median": 0.716,
+   "cond_frac_by_step_below": 0.143,
+   "uncond_median_counts": {
+    "0.1": 1
+   },
+   "uncond_frac_by_median": 0.716,
+   "uncond_frac_by_step_below": 0.143
+  },
+  "MBON": {
+   "verdict": "near-even",
+   "n_runs": 11,
+   "n_resamples_pooled": 44000,
+   "cond_median_counts": {
+    "0.15": 11
+   },
+   "cond_frac_by_median": 0.525,
+   "cond_frac_by_step_below": 0.007,
+   "uncond_median_counts": {
+    "0.15": 11
+   },
+   "uncond_frac_by_median": 0.524,
+   "uncond_frac_by_step_below": 0.007
+  },
+  "brain": {
+   "verdict": "stable",
+   "n_runs": 1,
+   "n_resamples_pooled": 4000,
+   "cond_median_counts": {
+    "0.1": 1
+   },
+   "cond_frac_by_median": 0.811,
+   "cond_frac_by_step_below": 0.026,
+   "uncond_median_counts": {
+    "0.1": 1
+   },
+   "uncond_frac_by_median": 0.811,
+   "uncond_frac_by_step_below": 0.026
+  },
+  "valence": {
+   "verdict": "seed-dependent",
+   "n_runs": 11,
+   "n_resamples_pooled": 44000,
+   "cond_median_counts": {
+    "0.2": 2,
+    "0.3": 9
+   },
+   "cond_frac_by_median": 0.925,
+   "cond_frac_by_step_below": 0.495,
+   "uncond_median_counts": {
+    "0.3": 9,
+    "0.2": 2
+   },
+   "uncond_frac_by_median": 0.925,
+   "uncond_frac_by_step_below": 0.495
+  },
+  "MN9": {
+   "verdict": "near-even",
+   "n_runs": 11,
+   "n_resamples_pooled": 44000,
+   "cond_median_counts": {
+    "0.15": 11
+   },
+   "cond_frac_by_median": 0.551,
+   "cond_frac_by_step_below": 0.002,
+   "uncond_median_counts": {
+    "0.15": 11
+   },
+   "uncond_frac_by_median": 0.551,
+   "uncond_frac_by_step_below": 0.002
+  },
+  "GF": {
+   "verdict": "near-even",
+   "n_runs": 11,
+   "n_resamples_pooled": 44000,
+   "cond_median_counts": {
+    "0.15": 11
+   },
+   "cond_frac_by_median": 0.559,
+   "cond_frac_by_step_below": 0.127,
+   "uncond_median_counts": {
+    "0.15": 11
+   },
+   "uncond_frac_by_median": 0.559,
+   "uncond_frac_by_step_below": 0.127
+  },
+  "GFlatency": {
+   "verdict": "stable",
+   "n_runs": 1,
+   "n_resamples_pooled": 4000,
+   "cond_median_counts": {
+    "0.5": 1
+   },
+   "cond_frac_by_median": 1.0,
+   "cond_frac_by_step_below": 0.094,
+   "uncond_median_counts": {
+    "never": 1
+   },
+   "uncond_frac_by_median": null,
+   "uncond_frac_by_step_below": null
+  },
+  "LI": {
+   "verdict": "stable",
+   "n_runs": 1,
+   "n_resamples_pooled": 4000,
+   "cond_median_counts": {
+    "0.15": 1
+   },
+   "cond_frac_by_median": 0.644,
+   "cond_frac_by_step_below": 0.151,
+   "uncond_median_counts": {
+    "0.15": 1
+   },
+   "uncond_frac_by_median": 0.644,
+   "uncond_frac_by_step_below": 0.151
+  },
+  "LInorm": {
+   "verdict": "seed-dependent",
+   "n_runs": 11,
+   "n_resamples_pooled": 44000,
+   "cond_median_counts": {
+    "0.15": 3,
+    "0.2": 8
+   },
+   "cond_frac_by_median": 0.61,
+   "cond_frac_by_step_below": 0.491,
+   "uncond_median_counts": {
+    "never": 11
+   },
+   "uncond_frac_by_median": null,
+   "uncond_frac_by_step_below": null
+  },
+  "feedTime": {
+   "verdict": "stable",
+   "n_runs": 11,
+   "n_resamples_pooled": 44000,
+   "cond_median_counts": {
+    "0.5": 11
+   },
+   "cond_frac_by_median": 1.0,
+   "cond_frac_by_step_below": 0.431,
+   "uncond_median_counts": {
+    "0.5": 11
+   },
+   "uncond_frac_by_median": 0.924,
+   "uncond_frac_by_step_below": 0.398
+  },
+  "jumpsPerThreat": {
+   "verdict": "near-even",
+   "n_runs": 11,
+   "n_resamples_pooled": 44000,
+   "cond_median_counts": {
+    "0.2": 11
+   },
+   "cond_frac_by_median": 0.746,
+   "cond_frac_by_step_below": 0.282,
+   "uncond_median_counts": {
+    "0.5": 11
+   },
+   "uncond_frac_by_median": 0.582,
+   "uncond_frac_by_step_below": 0.435
+  },
+  "nearOdourA": {
+   "verdict": "seed-dependent",
+   "n_runs": 11,
+   "n_resamples_pooled": 44000,
+   "cond_median_counts": {
+    "0.05": 3,
+    "0.1": 1,
+    "0.15": 4,
+    "0.175": 1,
+    "0.2": 1,
+    "0.3": 1
+   },
+   "cond_frac_by_median": 0.446,
+   "cond_frac_by_step_below": 0.0,
+   "uncond_median_counts": {
+    "never": 11
+   },
+   "uncond_frac_by_median": null,
+   "uncond_frac_by_step_below": null
+  },
+  "PI": {
+   "verdict": "seed-dependent",
+   "n_runs": 11,
+   "n_resamples_pooled": 44000,
+   "cond_median_counts": {
+    "0.15": 3,
+    "0.175": 1,
+    "0.2": 6,
+    "0.3": 1
+   },
+   "cond_frac_by_median": 0.677,
+   "cond_frac_by_step_below": 0.444,
+   "uncond_median_counts": {
+    "never": 11
+   },
+   "uncond_frac_by_median": null,
+   "uncond_frac_by_step_below": null
+  }
+ },
+ "fd_joint_median_seed_dependent": [
+  "valence",
+  "LInorm",
+  "nearOdourA",
+  "PI"
+ ],
+ "fd_joint_median_near_even": [
+  "KCrate",
+  "MBON",
+  "MN9",
+  "GF",
+  "jumpsPerThreat"
+ ],
+ "fd_joint_jumpsPerThreat_recomputed": [
+  0.41,
+  0.43,
+  0.59
+ ],
+ "series_pair_brain_minus_LI_point": [
+  0.1948,
+  0.1643,
+  0.2832,
+  0.2239,
+  0.2073
+ ],
+ "series_pair_brain_minus_LI_bootmean_copied": [
+  0.1827,
+  0.1656,
+  0.2834,
+  0.2233,
+  0.2077
+ ],
+ "series_pair_brain_minus_LI_ci": [
+  [
+   0.0342,
+   0.3088
+  ],
+  [
+   0.0215,
+   0.3093
+  ],
+  [
+   0.1531,
+   0.4131
+  ],
+  [
+   0.1201,
+   0.3401
+  ],
+  [
+   0.1121,
+   0.3142
+  ]
+ ],
+ "series_pair_LH_minus_LI_point": [
+  0.22,
+  0.1658,
+  0.2903,
+  0.2039,
+  0.2073
+ ],
+ "series_pair_LH_minus_LI_bootmean_copied": [
+  0.208,
+  0.1667,
+  0.2907,
+  0.2034,
+  0.2062
+ ],
+ "series_pair_LH_minus_LI_ci": [
+  [
+   0.0581,
+   0.3352
+  ],
+  [
+   0.0017,
+   0.3237
+  ],
+  [
+   0.1765,
+   0.4158
+  ],
+  [
+   0.0893,
+   0.3235
+  ],
+  [
+   0.1101,
+   0.3145
+  ]
+ ],
+ "series_pair_brain_minus_LI_s0.05_aucs": [
+  0.7534,
+  0.5586
+ ],
+ "joint_pair_brain_minus_LI_point": [
+  -0.0456,
+  0.1445,
+  0.166,
+  0.2702,
+  0.1966,
+  0.0371
+ ],
+ "joint_pair_brain_minus_LI_ci": [
+  [
+   -0.2429,
+   0.1608
+  ],
+  [
+   -0.0143,
+   0.3106
+  ],
+  [
+   0.0501,
+   0.306
+  ],
+  [
+   0.1354,
+   0.4225
+  ],
+  [
+   0.0794,
+   0.3294
+  ],
+  [
+   0.0,
+   0.0938
+  ]
+ ],
+ "joint_pair_LH_minus_LI_point": [
+  0.0254,
+  0.1224,
+  0.1686,
+  0.2546,
+  0.1966,
+  0.0371
+ ],
+ "joint_pair_LH_minus_LI_ci": [
+  [
+   -0.1882,
+   0.239
+  ],
+  [
+   -0.0703,
+   0.3171
+  ],
+  [
+   0.0553,
+   0.3034
+  ],
+  [
+   0.1211,
+   0.4108
+  ],
+  [
+   0.0794,
+   0.3346
+  ],
+  [
+   0.0,
+   0.0924
+  ]
+ ],
+ "joint_brain_vs_closest_arena_point": [
+  0.0273,
+  0.1653,
+  0.2339,
+  0.2097,
+  0.2188,
+  0.1302
+ ],
+ "joint_brain_vs_closest_arena_name": [
+  "nearOdourA",
+  "jumpsPerThreat",
+  "jumpsPerThreat",
+  "jumpsPerThreat",
+  "feedTime",
+  "feedTime"
+ ],
+ "joint_brain_vs_closest_arena_ci": [
+  [
+   -0.1771,
+   0.2123
+  ],
+  [
+   0.0053,
+   0.3138
+  ],
+  [
+   0.1265,
+   0.3451
+  ],
+  [
+   0.1249,
+   0.2969
+  ],
+  [
+   0.1048,
+   0.3451
+  ],
+  [
+   0.0443,
+   0.2266
+  ]
+ ],
+ "joint_brain_beats_all_arena": [
+  false,
+  true,
+  true,
+  true,
+  true,
+  true
+ ],
+ "joint_LH_vs_closest_arena_point": [
+  0.0983,
+  0.1432,
+  0.2365,
+  0.1941,
+  0.2188,
+  0.1302
+ ],
+ "joint_LH_vs_closest_arena_name": [
+  "nearOdourA",
+  "jumpsPerThreat",
+  "jumpsPerThreat",
+  "jumpsPerThreat",
+  "feedTime",
+  "feedTime"
+ ],
+ "joint_LH_vs_closest_arena_ci": [
+  [
+   -0.1061,
+   0.2793
+  ],
+  [
+   -0.0406,
+   0.3216
+  ],
+  [
+   0.1263,
+   0.353
+  ],
+  [
+   0.1056,
+   0.2866
+  ],
+  [
+   0.1035,
+   0.3477
+  ],
+  [
+   0.0456,
+   0.2285
+  ]
+ ],
+ "joint_LH_beats_all_arena": [
+  false,
+  false,
+  true,
+  true,
+  true,
+  true
+ ],
+ "joint_LI_vs_closest_arena_point": [
+  0.0729,
+  0.0208,
+  0.0679,
+  -0.0605,
+  0.0221,
+  0.0931
+ ],
+ "joint_LI_vs_closest_arena_name": [
+  "nearOdourA",
+  "jumpsPerThreat",
+  "jumpsPerThreat",
+  "jumpsPerThreat",
+  "feedTime",
+  "feedTime"
+ ],
+ "joint_LI_vs_closest_arena_ci": [
+  [
+   -0.1315,
+   0.2565
+  ],
+  [
+   -0.1654,
+   0.2037
+  ],
+  [
+   -0.1066,
+   0.2345
+  ],
+  [
+   -0.2357,
+   0.106
+  ],
+  [
+   -0.1458,
+   0.1908
+  ],
+  [
+   -0.0098,
+   0.2096
+  ]
+ ],
+ "joint_LI_beats_all_arena": [
+  false,
+  false,
+  false,
+  false,
+  false,
+  false
+ ],
+ "joint_LI_vs_best_arena_point_auc": [
+  [
+   0.699,
+   0.626,
+   "nearOdourA"
+  ],
+  [
+   0.703,
+   0.682,
+   "jumpsPerThreat"
+  ],
+  [
+   0.812,
+   0.744,
+   "jumpsPerThreat"
+  ],
+  [
+   0.73,
+   0.79,
+   "jumpsPerThreat"
+  ],
+  [
+   0.803,
+   0.781,
+   "feedTime"
+  ],
+  [
+   0.963,
+   0.87,
+   "feedTime"
+  ]
+ ],
+ "joint_LI_point_auc_above_all_arena_n_of6": 5,
+ "joint_LI_vs_closest_arena_ci_includes0_n_of6": [
+  6,
+  0
+ ],
+ "joint_LI_healthy_rcv_pct_vs_series": [
+  24.34,
+  32.85
+ ],
+ "LI_median_joint_vs_series_by_severity": [
+  [
+   0.0,
+   67.0,
+   61.5,
+   0.127
+  ],
+  [
+   0.05,
+   52.5,
+   64.5,
+   0.0442
+  ],
+  [
+   0.1,
+   48.5,
+   46.5,
+   0.649
+  ],
+  [
+   0.15,
+   43.0,
+   46.0,
+   0.836
+  ],
+  [
+   0.2,
+   41.5,
+   34.0,
+   0.114
+  ],
+  [
+   0.3,
+   42.5,
+   30.5,
+   0.224
+  ],
+  [
+   0.5,
+   14.5,
+   17.0,
+   0.888
+  ]
+ ],
+ "joint_LI_pct_healthy": [
+  [
+   78.4,
+   61.6,
+   97.8
+  ],
+  [
+   72.4,
+   54.8,
+   98.5
+  ],
+  [
+   64.2,
+   51.4,
+   82.3
+  ],
+  [
+   61.9,
+   48.6,
+   92.4
+  ],
+  [
+   63.4,
+   47.1,
+   78.8
+  ],
+  [
+   21.6,
+   15.3,
+   39.1
+  ]
+ ],
+ "series_LI_pct_healthy_s0.05": [
+  104.9,
+  92.1,
+  129.6
+ ],
+ "LI_vs_severity_rho_joint_series_le0.5": [
+  -0.516,
+  -0.51
+ ],
+ "LI_vs_severity_rho_series_joint_severities": [
+  -0.499,
+  1.62e-17,
+  256
+ ],
+ "LInorm_vs_severity_joint": [
+  -0.105,
+  0.173,
+  169
+ ],
+ "LInorm_vs_severity_series_le0.5": [
+  -0.165,
+  0.00556,
+  280
+ ],
+ "LInorm_vs_severity_series_joint_severities": [
+  -0.176,
+  0.0054,
+  249
+ ],
+ "LInorm_healthy_median_joint_vs_series": [
+  29.3,
+  26.38
+ ],
+ "series_LInorm_pct_healthy": [
+  [
+   117.3,
+   97.5,
+   138.5
+  ],
+  [
+   80.4,
+   61.7,
+   106.1
+  ],
+  [
+   85.2,
+   66.3,
+   113.3
+  ],
+  [
+   78.0,
+   47.9,
+   114.2
+  ],
+  [
+   77.4,
+   58.4,
+   107.4
+  ],
+  [
+   88.6,
+   65.1,
+   107.3
+  ],
+  [
+   84.9,
+   62.9,
+   105.6
+  ],
+  [
+   72.0,
+   21.4,
+   109.4
+  ],
+  [
+   103.2,
+   59.5,
+   133.6
+  ],
+  null
+ ],
+ "series_LInorm_n_defined": [
+  32,
+  32,
+  32,
+  32,
+  32,
+  31,
+  25,
+  14,
+  12,
+  0
+ ],
+ "series_LInorm_mw_p_vs_healthy": [
+  0.247,
+  0.0479,
+  0.196,
+  0.0924,
+  0.0909,
+  0.101,
+  0.0558,
+  0.0292,
+  0.859,
+  null
+ ],
+ "series_LInorm_trend_0_to_0.3_incl_healthy": [
+  -0.162,
+  0.0155,
+  224
+ ],
+ "series_LInorm_trend_0.05_to_0.3": [
+  -0.14,
+  0.0773,
+  160
+ ],
+ "series_LInorm_trend_0.1_to_0.3": [
+  -0.018,
+  0.842,
+  128
+ ],
+ "series_LInorm_trend_0.1_to_0.6": [
+  -0.053,
+  0.462,
+  198
+ ],
+ "series_LInorm_trend_ge0.1_all": [
+  -0.026,
+  0.712,
+  210
+ ],
+ "series_LInorm_kruskal_0.1_to_0.6": [
+  2.0,
+  0.919
+ ],
+ "series_LInorm_pooled_0.1_to_0.3": [
+  81.5,
+  66.8,
+  99.9,
+  0.0183,
+  128
+ ],
+ "series_LInorm_pooled_0.1_to_0.6": [
+  82.3,
+  68.1,
+  96.9,
+  0.00623,
+  198
+ ],
+ "series_partial_stage_LI_given_MBON_0.1_to_0.6": [
+  -0.14,
+  0.0363,
+  224
+ ],
+ "series_LInorm_survivor_selection": [
+  [
+   0.4,
+   31,
+   1.26,
+   1.28,
+   27.0,
+   28.0
+  ],
+  [
+   0.5,
+   25,
+   0.76,
+   0.9,
+   17.0,
+   18.0
+  ],
+  [
+   0.6,
+   14,
+   0.46,
+   0.66,
+   11.0,
+   16.0
+  ],
+  [
+   0.75,
+   12,
+   0.36,
+   0.87,
+   9.5,
+   21.0
+  ]
+ ],
+ "series_LInorm_n_undefined_total": 78,
+ "components_all_s0.5_LInorm_pct_copied": [
+  100.4,
+  80.5,
+  125.9,
+  26
+ ],
+ "series_LI_vs_MBON_within_severity": [
+  [
+   0.0,
+   -0.386,
+   0.00164
+  ],
+  [
+   0.05,
+   0.03,
+   0.87
+  ],
+  [
+   0.1,
+   0.019,
+   0.917
+  ],
+  [
+   0.15,
+   0.271,
+   0.134
+  ],
+  [
+   0.2,
+   -0.023,
+   0.901
+  ],
+  [
+   0.3,
+   0.201,
+   0.269
+  ],
+  [
+   0.4,
+   0.584,
+   0.000453
+  ],
+  [
+   0.5,
+   0.697,
+   9.44e-06
+  ],
+  [
+   0.6,
+   0.411,
+   0.0194
+  ],
+  [
+   0.75,
+   0.704,
+   6.99e-06
+  ],
+  [
+   1.0,
+   0.666,
+   3.16e-05
+  ]
+ ],
+ "series_LI_vs_MBON_pooled_all": [
+  0.735,
+  384
+ ],
+ "series_LI_vs_MBON_pooled_le0.3": [
+  0.346,
+  224
+ ],
+ "series_LI_vs_MBON_pooled_ge0.4": [
+  0.752,
+  160
+ ],
+ "series_partial_LI_MBON_given_severity_all": [
+  0.373,
+  4.24e-14,
+  384
+ ],
+ "series_partial_LI_MBON_given_severity_le0.3": [
+  0.133,
+  0.0468,
+  224
+ ],
+ "series_partial_LI_MBON_given_severity_ge0.4": [
+  0.614,
+  6.23e-18,
+  160
+ ],
+ "series_partial_severity_LI_given_MBON_all": [
+  -0.28,
+  2.38e-08,
+  384
+ ],
+ "gf_healthy_range_hz": [
+  186.67,
+  201.67
+ ],
+ "gf_healthy_latency_ms_counts": {
+  "2": 28,
+  "3": 36
+ },
+ "gf_n_affected": 320,
+ "gf_n_below100": 67,
+ "gf_n_below100_silent": 22,
+ "gf_n_below100_firing": 45,
+ "gf_below100_firing_rate_hz": [
+  38.33,
+  5.0,
+  98.33
+ ],
+ "gf_below100_firing_latency_ms": [
+  10.0,
+  9.0,
+  13.0,
+  4.0,
+  142.0
+ ],
+ "gf_nonfail_affected_latency_median_ms": 3.0,
+ "gf_affected_between_60_and_100hz": [
+  [
+   66.67,
+   0.4,
+   1229,
+   9.0
+  ],
+  [
+   98.33,
+   1.0,
+   1358,
+   4.0
+  ]
+ ],
+ "gf_bands_by_severity": [
+  [
+   1,
+   5,
+   26
+  ],
+  [
+   3,
+   13,
+   16
+  ],
+  [
+   3,
+   11,
+   18
+  ],
+  [
+   2,
+   19,
+   11
+  ],
+  [
+   5,
+   18,
+   9
+  ],
+  [
+   5,
+   22,
+   5
+  ],
+  [
+   8,
+   24,
+   0
+  ],
+  [
+   9,
+   22,
+   1
+  ],
+  [
+   15,
+   17,
+   0
+  ],
+  [
+   16,
+   16,
+   0
+  ]
+ ],
+ "gf_bands_total": [
+  67,
+  167,
+  86
+ ],
+ "gf_failing_median_by_severity": [
+  46.67,
+  46.67,
+  46.67,
+  48.33,
+  48.33,
+  36.67,
+  28.33,
+  25.0,
+  13.33,
+  0.0
+ ],
+ "gf_nonfail_median_by_severity": [
+  193.33,
+  188.33,
+  188.33,
+  183.33,
+  176.67,
+  175.0,
+  153.33,
+  156.67,
+  138.33,
+  117.5
+ ],
+ "gf_nonfail_auc_by_severity": [
+  0.5887,
+  0.7298,
+  0.7408,
+  0.7708,
+  0.9225,
+  0.9719,
+  1.0,
+  0.9969,
+  1.0,
+  1.0
+ ],
+ "gf_s0.1_auc_all_vs_nonfail": [
+  0.7551,
+  0.7298
+ ],
+ "gf_recon_left_removed_fail": [
+  66,
+  66
+ ],
+ "gf_recon_left_kept_fail": [
+  1,
+  254
+ ],
+ "gf_recon_by_loss": {
+  "left_only": [
+   45,
+   45
+  ],
+  "both": [
+   21,
+   21
+  ],
+  "right_only": [
+   1,
+   48
+  ],
+  "neither": [
+   0,
+   206
+  ]
+ },
+ "gf_recon_right_removed_total": 69,
+ "gf_vulnerability_percentile_L_R": [
+  0.9981,
+  0.9963
+ ],
+ "mn9_recon_silent_by_n_removed": {
+  "0": [
+   5,
+   224
+  ],
+  "1": [
+   54,
+   89
+  ],
+  "2": [
+   7,
+   7
+  ]
+ },
+ "mn9_n_silent_affected": 66,
+ "mn9_nonsilent_median_by_severity": [
+  20.0,
+  19.0,
+  17.0,
+  16.0,
+  14.0,
+  13.0,
+  10.0,
+  9.0,
+  6.0,
+  4.0,
+  2.0
+ ],
+ "motor_nonfail_trend_rho_incl_healthy": [
+  -0.774,
+  -0.814
+ ],
+ "motor_nonfail_trend_affected_only": [
+  [
+   -0.728,
+   5.55e-43,
+   253
+  ],
+  [
+   -0.795,
+   1.35e-56,
+   254
+  ]
+ ],
+ "mn9_nonsilent_auc_by_severity": [
+  0.6045,
+  0.6306,
+  0.7338,
+  0.82,
+  0.9399,
+  0.9918,
+  0.9817,
+  0.9994,
+  1.0,
+  1.0
+ ],
+ "joint_gf_below100_n": 16,
+ "joint_gf_below100_met_threat_n": 15,
+ "joint_gf_below100_jpt_eq1_n": 13,
+ "joint_gf_below100_jpt_eq1_gf_range_hz": [
+  16.67,
+  71.67
+ ],
+ "joint_gf_below100_never_jumped": [
+  [
+   0.5,
+   0.0,
+   0,
+   3
+  ],
+  [
+   0.5,
+   0.0,
+   0,
+   3
+  ]
+ ],
+ "joint_n_met_threat": 171,
+ "joint_n_fewer_jumps_than_threats": 2,
+ "joint_fewer_jumps_flies_gf_hz": [
+  0.0,
+  0.0
+ ],
+ "joint_no_threat_flies": [
+  [
+   0.1,
+   0,
+   180.0
+  ],
+  [
+   0.3,
+   0,
+   185.0
+  ],
+  [
+   0.3,
+   0,
+   160.0
+  ],
+  [
+   0.0,
+   0,
+   195.0
+  ],
+  [
+   0.5,
+   0,
+   40.0
+  ]
+ ],
+ "joint_jpt_decomposition_by_severity": [
+  [
+   0.0,
+   31,
+   18,
+   13,
+   0,
+   1.167,
+   1.305
+  ],
+  [
+   0.05,
+   24,
+   11,
+   13,
+   0,
+   1.0,
+   1.331
+  ],
+  [
+   0.1,
+   23,
+   4,
+   19,
+   0,
+   1.0,
+   1.127
+  ],
+  [
+   0.15,
+   24,
+   2,
+   22,
+   0,
+   1.0,
+   1.035
+  ],
+  [
+   0.2,
+   24,
+   0,
+   24,
+   0,
+   1.0,
+   1.0
+  ],
+  [
+   0.3,
+   22,
+   2,
+   20,
+   0,
+   1.0,
+   1.076
+  ],
+  [
+   0.5,
+   23,
+   0,
+   21,
+   2,
+   1.0,
+   0.913
+  ]
+ ],
+ "joint_jpt_vs_severity": [
+  -0.493,
+  7.78e-12,
+  171
+ ],
+ "joint_jpt_capped1_vs_severity": [
+  -0.165,
+  0.0312,
+  171
+ ],
+ "joint_jpt_gt1_indicator_vs_severity": [
+  -0.492,
+  8.35e-12,
+  171
+ ],
+ "joint_threats_seen_vs_severity": [
+  0.001,
+  0.984,
+  176
+ ],
+ "joint_extra_jumps_mean_by_severity": [
+  0.84,
+  0.67,
+  0.52,
+  0.08,
+  0.0,
+  0.23,
+  -0.26
+ ],
+ "joint_jumps_beyond_threats_met_by_severity": [
+  [
+   0.0,
+   32,
+   18,
+   26,
+   137
+  ],
+  [
+   0.05,
+   24,
+   11,
+   16,
+   97
+  ],
+  [
+   0.1,
+   24,
+   4,
+   12,
+   91
+  ],
+  [
+   0.15,
+   24,
+   2,
+   2,
+   72
+  ],
+  [
+   0.2,
+   24,
+   0,
+   0,
+   89
+  ],
+  [
+   0.3,
+   24,
+   2,
+   5,
+   70
+  ],
+  [
+   0.5,
+   24,
+   0,
+   0,
+   83
+  ]
+ ],
+ "joint_threat_min_gap_s": 10.06,
+ "joint_mn9_silent_feed": [
+  18,
+  18
+ ],
+ "joint_healthy_never_fed": [
+  6,
+  32
+ ],
+ "joint_healthy_never_fed_mn9_hz": [
+  17.0,
+  22.0,
+  17.0,
+  32.0,
+  22.0,
+  19.0
+ ],
+ "joint_healthy_threats_seen": [
+  3.0,
+  0,
+  7
+ ],
+ "joint_healthy_jpt_exactly1": [
+  13,
+  31
+ ],
+ "joint_withinfly_MN9_vs_feedTime_raw": [
+  0.495,
+  2.99e-12,
+  176
+ ],
+ "joint_withinfly_MN9_vs_feedTime_partial_severity": [
+  0.221,
+  0.00314,
+  176
+ ],
+ "joint_withinfly_MN9_vs_feedTime_healthy": [
+  -0.082,
+  0.654,
+  32
+ ],
+ "joint_withinfly_GF_vs_jumpsPerThreat_raw": [
+  0.423,
+  8.6e-09,
+  171
+ ],
+ "joint_withinfly_GF_vs_jumpsPerThreat_partial_severity": [
+  0.16,
+  0.0365,
+  171
+ ],
+ "joint_withinfly_GF_vs_jumpsPerThreat_healthy": [
+  -0.001,
+  0.996,
+  31
+ ],
+ "joint_withinfly_MN9_vs_feedTime_by_severity": [
+  -0.08,
+  0.18,
+  0.08,
+  0.16,
+  0.35,
+  0.62,
+  0.75
+ ],
+ "joint_pairs_circuit_better_copied": [
+  95,
+  288,
+  1
+ ],
+ "webdemo_config": [
+  20,
+  20,
+  0.5,
+  90.0,
+  7,
+  2026,
+  1800,
+  0.05
+ ],
+ "webdemo_feed_s_median_healthy_vs_s0.5": [
+  2.2,
+  0.09,
+  1.37e-06
+ ],
+ "joint_arena_config": [
+  120.0,
+  10,
+  5150,
+  "0:32,0.05:24,0.1:24,0.15:24,0.2:24,0.3:24,0.5:24"
+ ],
+ "cohorts_reported_total": [
+  1136,
+  288,
+  1424
+ ],
+ "cohorts_unreported": {
+  "pilot_battery": 240,
+  "learning_cohort": 30,
+  "early_arena": 45,
+  "web_demo": 40,
+  "joint_smoke_test": 4
+ },
+ "healthy_KC_max_median_hz": [
+  0.8957,
+  0.8127
+ ],
+ "healthy_MBON_max_median_hz": [
+  2.8247,
+  2.299
+ ],
+ "hiact_groupmedian_criterion_by_severity": [
+  1,
+  3,
+  6,
+  2,
+  4,
+  7,
+  3,
+  3,
+  5,
+  7
+ ],
+ "hiact_healthy_referenced_KCmax_and_MBONmax_by_severity": [
+  1,
+  3,
+  6,
+  2,
+  4,
+  6,
+  0,
+  0,
+  0,
+  0
+ ],
+ "hiact_healthy_referenced_1.5x_healthy_median_by_severity": [
+  1,
+  3,
+  6,
+  2,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "hiact_groupmedian_flagged_with_KC_above_healthy_max": [
+  1,
+  3,
+  6,
+  2,
+  4,
+  6,
+  0,
+  0,
+  0,
+  0
+ ],
+ "hiact_groupmedian_flagged_KC_over_healthy_median": [
+  2.22,
+  2.06,
+  1.71,
+  1.62,
+  1.3,
+  1.17,
+  0.87,
+  0.53,
+  0.42,
+  0.13
+ ],
+ "hiact_expected_one_of_two_top_hubs": [
+  1.58,
+  3.12,
+  4.62,
+  6.08,
+  8.88,
+  11.52,
+  14.0,
+  16.32,
+  19.5,
+  24.0
+ ],
+ "hiact_binomial_P_le_observed": [
+  0.527,
+  0.619,
+  0.83,
+  0.0422,
+  0.035,
+  0.0657,
+  2.68e-05,
+  7.52e-07,
+  1.81e-07,
+  4.38e-10
+ ],
+ "hiact_observed_vs_expected_le0.15": [
+  10,
+  9.32
+ ],
+ "hiact_observed_vs_expected_0.2_to_0.4": [
+  13,
+  26.48
+ ],
+ "hiact_observed_vs_expected_ge0.5": [
+  18,
+  73.82
+ ],
+ "hiact_healthy_flagged": [
+  0,
+  64
+ ],
+ "hiact_flagged_seeds_in_exp1": [
+  [
+   0.3,
+   1197
+  ],
+  [
+   0.3,
+   1213
+  ],
+  [
+   0.3,
+   1200
+  ],
+  [
+   0.5,
+   1266
+  ],
+  [
+   0.5,
+   1274
+  ]
+ ],
+ "exp1_seed1266_APL_units": [
+  2,
+  0.999991,
+  431897
+ ],
+ "exp1_seed1266_KC_MBON_hz": {
+  "damaged": [
+   0.676,
+   2.485
+  ],
+  "restore_APL_both": [
+   0.372,
+   0.67
+  ],
+  "restore_APL#10540": [
+   0.502,
+   1.412
+  ],
+  "restore_APL#10977": [
+   0.555,
+   1.794
+  ]
+ },
+ "series_seed1266_KC_MBON_vs_group_median": [
+  0.704,
+  2.67,
+  0.375,
+  0.763
+ ],
+ "ablation_KC_excursions": [
+  [
+   "all_s0.5",
+   0,
+   0,
+   0,
+   6,
+   0.861
+  ],
+  [
+   "hyper_only_s0.5",
+   20,
+   1,
+   0,
+   0,
+   1.116
+  ],
+  [
+   "death_only_s0.5",
+   9,
+   8,
+   3,
+   9,
+   1.417
+  ],
+  [
+   "synloss_only_s0.5",
+   0,
+   0,
+   0,
+   0,
+   0.508
+  ],
+  [
+   "no_hyper_s0.5",
+   0,
+   0,
+   0,
+   4,
+   0.594
+  ],
+  [
+   "all_s1",
+   0,
+   0,
+   0,
+   13,
+   0.152
+  ],
+  [
+   "hyper_only_s1",
+   31,
+   12,
+   0,
+   0,
+   1.215
+  ],
+  [
+   "death_only_s1",
+   0,
+   0,
+   0,
+   10,
+   0.875
+  ],
+  [
+   "synloss_only_s1",
+   0,
+   0,
+   0,
+   0,
+   0.128
+  ],
+  [
+   "no_hyper_s1",
+   0,
+   0,
+   0,
+   6,
+   0.08
+  ]
+ ],
+ "dip_auc_all_KCrate": [
+  0.7844,
+  0.915,
+  0.8726,
+  0.8105,
+  0.9756
+ ],
+ "dip_auc_without_flagged_KCrate": [
+  0.9654,
+  0.976,
+  0.9972,
+  0.9994,
+  1.0
+ ],
+ "dip_auc_all_KCrecruited": [
+  0.7537,
+  0.8799,
+  0.8552,
+  0.7915,
+  0.9512
+ ],
+ "dip_auc_without_flagged_KCrecruited": [
+  0.9276,
+  0.9385,
+  0.9774,
+  0.9775,
+  0.9962
+ ],
+ "dip_auc_all_MBON": [
+  0.7903,
+  0.8779,
+  0.8696,
+  0.7886,
+  0.9109
+ ],
+ "dip_auc_without_flagged_MBON": [
+  0.9727,
+  0.9365,
+  0.9939,
+  0.9838,
+  0.993
+ ],
+ "dip_MBON_pct_healthy_s0.3_s0.4": [
+  [
+   56.3,
+   49.8,
+   60.0
+  ],
+  [
+   54.9,
+   36.4,
+   78.6
+  ]
+ ],
+ "dip_n_above_healthy_max_s0.4": [
+  6,
+  6
+ ],
+ "retest_n_pairs_by_condition": {
+  "all_s0.5": 8,
+  "healthy": 16,
+  "hub_s0.5": 8,
+  "mb_s0.5": 8
+ },
+ "retest_healthy_pathology_zero": [
+  16,
+  16
+ ],
+ "retest_max_abs_dead_frac_difference": 0.0,
+ "retest_healthy_brain": [
+  -0.16,
+  1.07
+ ],
+ "retest_healthy_LH": [
+  0.28,
+  0.72
+ ],
+ "retest_healthy_PN": [
+  0.69,
+  0.59
+ ],
+ "retest_healthy_KCrate": [
+  0.19,
+  0.84
+ ],
+ "retest_healthy_KCrecruited": [
+  0.04,
+  0.95
+ ],
+ "retest_healthy_MBON": [
+  -0.18,
+  1.1
+ ],
+ "retest_healthy_valence": [
+  0.36,
+  0.87
+ ],
+ "retest_healthy_LI": [
+  -0.16,
+  1.07
+ ],
+ "retest_healthy_MN9": [
+  0.0,
+  0.93
+ ],
+ "retest_healthy_GF": [
+  0.28,
+  0.96
+ ],
+ "retest_s0.5_pan_brain": [
+  0.96,
+  0.16
+ ],
+ "retest_s0.5_pan_LH": [
+  0.93,
+  0.13
+ ],
+ "retest_s0.5_pan_PN": [
+  0.9,
+  0.1
+ ],
+ "retest_s0.5_pan_KCrate": [
+  0.93,
+  0.19
+ ],
+ "retest_s0.5_pan_KCrecruited": [
+  0.89,
+  0.22
+ ],
+ "retest_s0.5_pan_MBON": [
+  0.9,
+  0.2
+ ],
+ "retest_s0.5_pan_valence": [
+  0.76,
+  0.4
+ ],
+ "retest_s0.5_pan_LI": [
+  0.71,
+  0.4
+ ],
+ "retest_s0.5_pan_MN9": [
+  0.94,
+  0.19
+ ],
+ "retest_s0.5_pan_GF": [
+  1.0,
+  0.03
+ ],
+ "retest_s0.5_KConly_brain": [
+  -0.1,
+  1.0
+ ],
+ "retest_s0.5_KConly_LH": [
+  -0.1,
+  1.09
+ ],
+ "retest_s0.5_KConly_PN": [
+  -0.51,
+  1.15
+ ],
+ "retest_s0.5_KConly_KCrate": [
+  -0.24,
+  1.07
+ ],
+ "retest_s0.5_KConly_KCrecruited": [
+  0.52,
+  0.71
+ ],
+ "retest_s0.5_KConly_MBON": [
+  0.12,
+  0.81
+ ],
+ "retest_s0.5_KConly_valence": [
+  -0.19,
+  1.06
+ ],
+ "retest_s0.5_KConly_LI": [
+  0.05,
+  1.11
+ ],
+ "retest_s0.5_KConly_MN9": [
+  0.21,
+  0.75
+ ],
+ "retest_s0.5_KConly_GF": [
+  0.52,
+  0.82
+ ],
+ "protocol_joint_sequence": [
+  "odour A 1000 ms (pre-training valence V_pre)",
+  "gap 1000 ms",
+  "odour B 1000 ms",
+  "gap 1000 ms",
+  "sugar 500 ms (MN9)",
+  "gap 1000 ms",
+  "left looming 300 ms (giant fibre)",
+  "gap 1000 ms",
+  "br.reset_state(): v, g, adaptation, refractory and delay buffers reset; weights kept",
+  "probe_naive: odour A then B at 0.25, 0.5, 1.0 x 150 Hz, 1000 ms each, 500 ms gaps (arena baseline only)",
+  "train (once, eta 0.6): Odor A + PAM (1 s), 2 s gap, odor B (1 s), 2 s gap; then KC->MBON depression.",
+  "memory test: odour A 1000 ms, gap 1000 ms, odour B 1000 ms (V_post)",
+  "arena 120 s with 10 threats (reset_state at arena start: True)"
+ ],
+ "protocol_joint_LI_uses_prereset_valence": true,
+ "protocol_series_has_reset_or_probe": false,
+ "arena_constants": [
+  0.6,
+  1.0,
+  2,
+  30,
+  10.0
+ ],
+ "arena_max_jumps_per_threat_window": 1,
+ "_meaning": {
+  "n_series_healthy": "Number of healthy (stage 0, pan scope) flies in the severity series (results/battery/stage_curve_x4.csv).",
+  "n_series_per_severity": "Number of flies per non-zero severity group in the severity series.",
+  "series_severities": "Non-zero severities s of the severity series; per-severity lists of series facts follow this order unless their meaning names other severities.",
+  "n_joint_healthy": "Number of healthy (stage 0) flies in the 176-fly joint cohort (results/joint/cohort_joint.csv).",
+  "n_joint_per_severity": "Number of flies per non-zero severity group in the joint cohort.",
+  "joint_severities": "Non-zero severities of the joint cohort; per-severity lists of joint facts follow this order unless their meaning names other severities.",
+  "healthy_pathology_all_zero": "Healthy flies with dead_frac = kc_dead_frac = mean_load = 0: [severity series n, series healthy total, joint cohort n, joint healthy total]. Every healthy fly is therefore the identical intact network (pathology.apply at s = 0 removes nothing); healthy flies differ only in the Poisson input noise they receive.",
+  "series_healthy_rcv_pct_brain": "Healthy robust CV (IQR/1.349/|median|, %) of whole-brain spike count (odour A) over the 64 healthy flies of the severity series. The healthy flies are all the identical intact network (healthy_pathology_all_zero), so this is the trial-to-trial spread of one network under Poisson input noise, not variability between individual flies.",
+  "series_healthy_rcv_rank_of10_brain": "Rank of the healthy robust CV (input-noise spread of the one healthy network) of whole-brain spike count (odour A) among the 10 series readouts of the precision analysis (1 = least variable).",
+  "series_healthy_rcv_rank_of8graded_brain": "Rank of the healthy robust CV (input-noise spread of the one healthy network) of whole-brain spike count (odour A) among the 8 graded readouts (MN9 and GF excluded; 1 = least variable).",
+  "series_change_pct_brain": "Change of the group median of whole-brain spike count (odour A) relative to the healthy median (%), at s = 0.05, 0.10, 0.20 (32 flies each vs 64 healthy).",
+  "series_auc_brain": "Direction-free AUC of whole-brain spike count (odour A) against healthy at s = 0.05, 0.10, 0.20 (severity series).",
+  "series_healthy_rcv_pct_LH": "Healthy robust CV (IQR/1.349/|median|, %) of lateral horn rate (odour A) over the 64 healthy flies of the severity series. The healthy flies are all the identical intact network (healthy_pathology_all_zero), so this is the trial-to-trial spread of one network under Poisson input noise, not variability between individual flies.",
+  "series_healthy_rcv_rank_of10_LH": "Rank of the healthy robust CV (input-noise spread of the one healthy network) of lateral horn rate (odour A) among the 10 series readouts of the precision analysis (1 = least variable).",
+  "series_healthy_rcv_rank_of8graded_LH": "Rank of the healthy robust CV (input-noise spread of the one healthy network) of lateral horn rate (odour A) among the 8 graded readouts (MN9 and GF excluded; 1 = least variable).",
+  "series_change_pct_LH": "Change of the group median of lateral horn rate (odour A) relative to the healthy median (%), at s = 0.05, 0.10, 0.20 (32 flies each vs 64 healthy).",
+  "series_auc_LH": "Direction-free AUC of lateral horn rate (odour A) against healthy at s = 0.05, 0.10, 0.20 (severity series).",
+  "series_healthy_rcv_pct_PN": "Healthy robust CV (IQR/1.349/|median|, %) of projection neuron rate (odour A) over the 64 healthy flies of the severity series. The healthy flies are all the identical intact network (healthy_pathology_all_zero), so this is the trial-to-trial spread of one network under Poisson input noise, not variability between individual flies.",
+  "series_healthy_rcv_rank_of10_PN": "Rank of the healthy robust CV (input-noise spread of the one healthy network) of projection neuron rate (odour A) among the 10 series readouts of the precision analysis (1 = least variable).",
+  "series_healthy_rcv_rank_of8graded_PN": "Rank of the healthy robust CV (input-noise spread of the one healthy network) of projection neuron rate (odour A) among the 8 graded readouts (MN9 and GF excluded; 1 = least variable).",
+  "series_change_pct_PN": "Change of the group median of projection neuron rate (odour A) relative to the healthy median (%), at s = 0.05, 0.10, 0.20 (32 flies each vs 64 healthy).",
+  "series_auc_PN": "Direction-free AUC of projection neuron rate (odour A) against healthy at s = 0.05, 0.10, 0.20 (severity series).",
+  "series_healthy_rcv_pct_KCrate": "Healthy robust CV (IQR/1.349/|median|, %) of Kenyon cell rate (odour A) over the 64 healthy flies of the severity series. The healthy flies are all the identical intact network (healthy_pathology_all_zero), so this is the trial-to-trial spread of one network under Poisson input noise, not variability between individual flies.",
+  "series_healthy_rcv_rank_of10_KCrate": "Rank of the healthy robust CV (input-noise spread of the one healthy network) of Kenyon cell rate (odour A) among the 10 series readouts of the precision analysis (1 = least variable).",
+  "series_healthy_rcv_rank_of8graded_KCrate": "Rank of the healthy robust CV (input-noise spread of the one healthy network) of Kenyon cell rate (odour A) among the 8 graded readouts (MN9 and GF excluded; 1 = least variable).",
+  "series_change_pct_KCrate": "Change of the group median of Kenyon cell rate (odour A) relative to the healthy median (%), at s = 0.05, 0.10, 0.20 (32 flies each vs 64 healthy).",
+  "series_auc_KCrate": "Direction-free AUC of Kenyon cell rate (odour A) against healthy at s = 0.05, 0.10, 0.20 (severity series).",
+  "series_healthy_rcv_pct_KCrecruited": "Healthy robust CV (IQR/1.349/|median|, %) of fraction of Kenyon cells recruited (odour A) over the 64 healthy flies of the severity series. The healthy flies are all the identical intact network (healthy_pathology_all_zero), so this is the trial-to-trial spread of one network under Poisson input noise, not variability between individual flies.",
+  "series_healthy_rcv_rank_of10_KCrecruited": "Rank of the healthy robust CV (input-noise spread of the one healthy network) of fraction of Kenyon cells recruited (odour A) among the 10 series readouts of the precision analysis (1 = least variable).",
+  "series_healthy_rcv_rank_of8graded_KCrecruited": "Rank of the healthy robust CV (input-noise spread of the one healthy network) of fraction of Kenyon cells recruited (odour A) among the 8 graded readouts (MN9 and GF excluded; 1 = least variable).",
+  "series_change_pct_KCrecruited": "Change of the group median of fraction of Kenyon cells recruited (odour A) relative to the healthy median (%), at s = 0.05, 0.10, 0.20 (32 flies each vs 64 healthy).",
+  "series_auc_KCrecruited": "Direction-free AUC of fraction of Kenyon cells recruited (odour A) against healthy at s = 0.05, 0.10, 0.20 (severity series).",
+  "series_healthy_rcv_pct_MBON": "Healthy robust CV (IQR/1.349/|median|, %) of MBON rate (odour A) over the 64 healthy flies of the severity series. The healthy flies are all the identical intact network (healthy_pathology_all_zero), so this is the trial-to-trial spread of one network under Poisson input noise, not variability between individual flies.",
+  "series_healthy_rcv_rank_of10_MBON": "Rank of the healthy robust CV (input-noise spread of the one healthy network) of MBON rate (odour A) among the 10 series readouts of the precision analysis (1 = least variable).",
+  "series_healthy_rcv_rank_of8graded_MBON": "Rank of the healthy robust CV (input-noise spread of the one healthy network) of MBON rate (odour A) among the 8 graded readouts (MN9 and GF excluded; 1 = least variable).",
+  "series_change_pct_MBON": "Change of the group median of MBON rate (odour A) relative to the healthy median (%), at s = 0.05, 0.10, 0.20 (32 flies each vs 64 healthy).",
+  "series_auc_MBON": "Direction-free AUC of MBON rate (odour A) against healthy at s = 0.05, 0.10, 0.20 (severity series).",
+  "series_healthy_rcv_pct_valence": "Healthy robust CV (IQR/1.349/|median|, %) of naive MB valence (odour A) over the 64 healthy flies of the severity series. The healthy flies are all the identical intact network (healthy_pathology_all_zero), so this is the trial-to-trial spread of one network under Poisson input noise, not variability between individual flies.",
+  "series_healthy_rcv_rank_of10_valence": "Rank of the healthy robust CV (input-noise spread of the one healthy network) of naive MB valence (odour A) among the 10 series readouts of the precision analysis (1 = least variable).",
+  "series_healthy_rcv_rank_of8graded_valence": "Rank of the healthy robust CV (input-noise spread of the one healthy network) of naive MB valence (odour A) among the 8 graded readouts (MN9 and GF excluded; 1 = least variable).",
+  "series_change_pct_valence": "Change of the group median of naive MB valence (odour A) relative to the healthy median (%), at s = 0.05, 0.10, 0.20 (32 flies each vs 64 healthy).",
+  "series_auc_valence": "Direction-free AUC of naive MB valence (odour A) against healthy at s = 0.05, 0.10, 0.20 (severity series).",
+  "series_healthy_rcv_pct_LI": "Healthy robust CV (IQR/1.349/|median|, %) of learning index over the 64 healthy flies of the severity series. The healthy flies are all the identical intact network (healthy_pathology_all_zero), so this is the trial-to-trial spread of one network under Poisson input noise, not variability between individual flies.",
+  "series_healthy_rcv_rank_of10_LI": "Rank of the healthy robust CV (input-noise spread of the one healthy network) of learning index among the 10 series readouts of the precision analysis (1 = least variable).",
+  "series_healthy_rcv_rank_of8graded_LI": "Rank of the healthy robust CV (input-noise spread of the one healthy network) of learning index among the 8 graded readouts (MN9 and GF excluded; 1 = least variable).",
+  "series_change_pct_LI": "Change of the group median of learning index relative to the healthy median (%), at s = 0.05, 0.10, 0.20 (32 flies each vs 64 healthy).",
+  "series_auc_LI": "Direction-free AUC of learning index against healthy at s = 0.05, 0.10, 0.20 (severity series).",
+  "series_healthy_rcv_pct_MN9": "Healthy robust CV (IQR/1.349/|median|, %) of MN9 sugar response rate over the 64 healthy flies of the severity series. The healthy flies are all the identical intact network (healthy_pathology_all_zero), so this is the trial-to-trial spread of one network under Poisson input noise, not variability between individual flies.",
+  "series_healthy_rcv_rank_of10_MN9": "Rank of the healthy robust CV (input-noise spread of the one healthy network) of MN9 sugar response rate among the 10 series readouts of the precision analysis (1 = least variable).",
+  "series_change_pct_MN9": "Change of the group median of MN9 sugar response rate relative to the healthy median (%), at s = 0.05, 0.10, 0.20 (32 flies each vs 64 healthy).",
+  "series_auc_MN9": "Direction-free AUC of MN9 sugar response rate against healthy at s = 0.05, 0.10, 0.20 (severity series).",
+  "series_healthy_rcv_pct_GF": "Healthy robust CV (IQR/1.349/|median|, %) of giant fibre looming rate (mean of the two DNp01) over the 64 healthy flies of the severity series. The healthy flies are all the identical intact network (healthy_pathology_all_zero), so this is the trial-to-trial spread of one network under Poisson input noise, not variability between individual flies.",
+  "series_healthy_rcv_rank_of10_GF": "Rank of the healthy robust CV (input-noise spread of the one healthy network) of giant fibre looming rate (mean of the two DNp01) among the 10 series readouts of the precision analysis (1 = least variable).",
+  "series_change_pct_GF": "Change of the group median of giant fibre looming rate (mean of the two DNp01) relative to the healthy median (%), at s = 0.05, 0.10, 0.20 (32 flies each vs 64 healthy).",
+  "series_auc_GF": "Direction-free AUC of giant fibre looming rate (mean of the two DNp01) against healthy at s = 0.05, 0.10, 0.20 (severity series).",
+  "series_rankcorr_auc_vs_shift_over_spread_s0.05": "Spearman rho and p across the 8 graded series readouts between AUC at s = 0.05 and |median change|/healthy robust CV (n = 8 readouts).",
+  "series_rankcorr_auc_vs_shift_alone_s0.05": "Spearman rho and p across the 8 graded series readouts between AUC at s = 0.05 and |median change| alone (n = 8).",
+  "series_rankcorr_auc_vs_inverse_spread_s0.05": "Spearman rho and p across the 8 graded series readouts between AUC at s = 0.05 and 1/healthy robust CV alone (n = 8).",
+  "series_rankcorr_auc_vs_shift_over_spread_s0.1": "Spearman rho and p across the 8 graded series readouts between AUC at s = 0.1 and |median change|/healthy robust CV (n = 8 readouts).",
+  "series_rankcorr_auc_vs_shift_alone_s0.1": "Spearman rho and p across the 8 graded series readouts between AUC at s = 0.1 and |median change| alone (n = 8).",
+  "series_rankcorr_auc_vs_inverse_spread_s0.1": "Spearman rho and p across the 8 graded series readouts between AUC at s = 0.1 and 1/healthy robust CV alone (n = 8).",
+  "series_rankcorr_auc_vs_shift_over_spread_s0.2": "Spearman rho and p across the 8 graded series readouts between AUC at s = 0.2 and |median change|/healthy robust CV (n = 8 readouts).",
+  "series_rankcorr_auc_vs_shift_alone_s0.2": "Spearman rho and p across the 8 graded series readouts between AUC at s = 0.2 and |median change| alone (n = 8).",
+  "series_rankcorr_auc_vs_inverse_spread_s0.2": "Spearman rho and p across the 8 graded series readouts between AUC at s = 0.2 and 1/healthy robust CV alone (n = 8).",
+  "series_rankcorr_auc_vs_shift_over_spread_s0.1_all10": "Spearman rho and p between AUC at s = 0.10 and |median change|/healthy robust CV across all 10 series readouts including MN9 and GF.",
+  "series_rankcorr_s0.1_copied": "Copied from results/stats/battery_stats.json series.precision_rank_corr: rho and p (8 graded readouts, s = 0.10).",
+  "series_auc_curve_brain": "Observed AUC of whole-brain spike count (odour A) against healthy at every series severity s = 0.05-1.0 (null = undefined in every fly).",
+  "series_auc_curve_LH": "Observed AUC of lateral horn rate (odour A) against healthy at every series severity s = 0.05-1.0 (null = undefined in every fly).",
+  "series_auc_curve_PN": "Observed AUC of projection neuron rate (odour A) against healthy at every series severity s = 0.05-1.0 (null = undefined in every fly).",
+  "series_auc_curve_KCrate": "Observed AUC of Kenyon cell rate (odour A) against healthy at every series severity s = 0.05-1.0 (null = undefined in every fly).",
+  "series_auc_curve_KCrecruited": "Observed AUC of fraction of Kenyon cells recruited (odour A) against healthy at every series severity s = 0.05-1.0 (null = undefined in every fly).",
+  "series_auc_curve_MBON": "Observed AUC of MBON rate (odour A) against healthy at every series severity s = 0.05-1.0 (null = undefined in every fly).",
+  "series_auc_curve_valence": "Observed AUC of naive MB valence (odour A) against healthy at every series severity s = 0.05-1.0 (null = undefined in every fly).",
+  "series_auc_curve_LI": "Observed AUC of learning index against healthy at every series severity s = 0.05-1.0 (null = undefined in every fly).",
+  "series_auc_curve_LInorm": "Observed AUC of learning index / MBON rate (MBON >= 0.5 Hz) against healthy at every series severity s = 0.05-1.0 (null = undefined in every fly). Note: flies with MBON rate below 0.5 Hz (ratio undefined) are excluded: n = 31 of 32 at s = 0.4, 25 of 32 at s = 0.5, 14 of 32 at s = 0.6, 12 of 32 at s = 0.75, 0 of 32 at s = 1 (all flies defined at the other severities).",
+  "series_auc_curve_MN9": "Observed AUC of MN9 sugar response rate against healthy at every series severity s = 0.05-1.0 (null = undefined in every fly).",
+  "series_auc_curve_GF": "Observed AUC of giant fibre looming rate (mean of the two DNp01) against healthy at every series severity s = 0.05-1.0 (null = undefined in every fly).",
+  "series_auc_curve_GFlatency": "Observed AUC of giant fibre first-spike latency against healthy at every series severity s = 0.05-1.0 (null = undefined in every fly). Note: flies whose giant fibre never spiked (latency undefined), which are the most affected flies, are excluded, so the value describes only flies with at least one GF spike: n = 30 of 32 at s = 0.4, 30 of 32 at s = 0.5, 30 of 32 at s = 0.6, 25 of 32 at s = 0.75, 23 of 32 at s = 1 (all flies defined at the other severities).",
+  "joint_healthy_rcv_pct_brain": "Healthy robust CV (%) of whole-brain spike count (odour A) in the joint cohort (n = 32 healthy flies with a defined value). The healthy flies are all the identical intact network (healthy_pathology_all_zero), so this is the trial-to-trial spread of one network under Poisson input noise, not variability between individual flies.",
+  "joint_change_pct_s0.1_brain": "Change of the s = 0.10 median of whole-brain spike count (odour A) relative to the joint-cohort healthy median (%).",
+  "joint_auc_brain": "Direction-free AUC of whole-brain spike count (odour A) against joint-cohort healthy flies at s = 0.05, 0.10, 0.15, 0.20, 0.30, 0.50.",
+  "joint_healthy_rcv_pct_LH": "Healthy robust CV (%) of lateral horn rate (odour A) in the joint cohort (n = 32 healthy flies with a defined value). The healthy flies are all the identical intact network (healthy_pathology_all_zero), so this is the trial-to-trial spread of one network under Poisson input noise, not variability between individual flies.",
+  "joint_change_pct_s0.1_LH": "Change of the s = 0.10 median of lateral horn rate (odour A) relative to the joint-cohort healthy median (%).",
+  "joint_auc_LH": "Direction-free AUC of lateral horn rate (odour A) against joint-cohort healthy flies at s = 0.05, 0.10, 0.15, 0.20, 0.30, 0.50.",
+  "joint_healthy_rcv_pct_KCrate": "Healthy robust CV (%) of Kenyon cell rate (odour A) in the joint cohort (n = 32 healthy flies with a defined value). The healthy flies are all the identical intact network (healthy_pathology_all_zero), so this is the trial-to-trial spread of one network under Poisson input noise, not variability between individual flies.",
+  "joint_change_pct_s0.1_KCrate": "Change of the s = 0.10 median of Kenyon cell rate (odour A) relative to the joint-cohort healthy median (%).",
+  "joint_auc_KCrate": "Direction-free AUC of Kenyon cell rate (odour A) against joint-cohort healthy flies at s = 0.05, 0.10, 0.15, 0.20, 0.30, 0.50.",
+  "joint_healthy_rcv_pct_MBON": "Healthy robust CV (%) of MBON rate (odour A) in the joint cohort (n = 32 healthy flies with a defined value). The healthy flies are all the identical intact network (healthy_pathology_all_zero), so this is the trial-to-trial spread of one network under Poisson input noise, not variability between individual flies.",
+  "joint_change_pct_s0.1_MBON": "Change of the s = 0.10 median of MBON rate (odour A) relative to the joint-cohort healthy median (%).",
+  "joint_auc_MBON": "Direction-free AUC of MBON rate (odour A) against joint-cohort healthy flies at s = 0.05, 0.10, 0.15, 0.20, 0.30, 0.50.",
+  "joint_healthy_rcv_pct_LI": "Healthy robust CV (%) of learning index in the joint cohort (n = 32 healthy flies with a defined value). The healthy flies are all the identical intact network (healthy_pathology_all_zero), so this is the trial-to-trial spread of one network under Poisson input noise, not variability between individual flies.",
+  "joint_change_pct_s0.1_LI": "Change of the s = 0.10 median of learning index relative to the joint-cohort healthy median (%).",
+  "joint_auc_LI": "Direction-free AUC of learning index against joint-cohort healthy flies at s = 0.05, 0.10, 0.15, 0.20, 0.30, 0.50.",
+  "joint_healthy_rcv_pct_MN9": "Healthy robust CV (%) of MN9 sugar response rate in the joint cohort (n = 32 healthy flies with a defined value). The healthy flies are all the identical intact network (healthy_pathology_all_zero), so this is the trial-to-trial spread of one network under Poisson input noise, not variability between individual flies.",
+  "joint_change_pct_s0.1_MN9": "Change of the s = 0.10 median of MN9 sugar response rate relative to the joint-cohort healthy median (%).",
+  "joint_auc_MN9": "Direction-free AUC of MN9 sugar response rate against joint-cohort healthy flies at s = 0.05, 0.10, 0.15, 0.20, 0.30, 0.50.",
+  "joint_healthy_rcv_pct_GF": "Healthy robust CV (%) of giant fibre looming rate (mean of the two DNp01) in the joint cohort (n = 32 healthy flies with a defined value). The healthy flies are all the identical intact network (healthy_pathology_all_zero), so this is the trial-to-trial spread of one network under Poisson input noise, not variability between individual flies.",
+  "joint_change_pct_s0.1_GF": "Change of the s = 0.10 median of giant fibre looming rate (mean of the two DNp01) relative to the joint-cohort healthy median (%).",
+  "joint_auc_GF": "Direction-free AUC of giant fibre looming rate (mean of the two DNp01) against joint-cohort healthy flies at s = 0.05, 0.10, 0.15, 0.20, 0.30, 0.50.",
+  "joint_healthy_rcv_pct_feedTime": "Healthy robust CV (%) of arena feeding time in the joint cohort (n = 32 healthy flies with a defined value). The healthy flies are all the identical intact network (healthy_pathology_all_zero), so this is the trial-to-trial spread of one network under Poisson input noise, not variability between individual flies.",
+  "joint_change_pct_s0.1_feedTime": "Change of the s = 0.10 median of arena feeding time relative to the joint-cohort healthy median (%).",
+  "joint_auc_feedTime": "Direction-free AUC of arena feeding time against joint-cohort healthy flies at s = 0.05, 0.10, 0.15, 0.20, 0.30, 0.50.",
+  "joint_healthy_rcv_pct_jumpsPerThreat": "Healthy robust CV (%) of arena jumps per threat encountered in the joint cohort (n = 31 healthy flies with a defined value). The healthy flies are all the identical intact network (healthy_pathology_all_zero), so this is the trial-to-trial spread of one network under Poisson input noise, not variability between individual flies.",
+  "joint_change_pct_s0.1_jumpsPerThreat": "Change of the s = 0.10 median of arena jumps per threat encountered relative to the joint-cohort healthy median (%).",
+  "joint_auc_jumpsPerThreat": "Direction-free AUC of arena jumps per threat encountered against joint-cohort healthy flies at s = 0.05, 0.10, 0.15, 0.20, 0.30, 0.50. Note: flies that met no threat (jumps per threat undefined) are excluded: n = 31 of 32 at s = 0, 23 of 24 at s = 0.1, 22 of 24 at s = 0.3, 23 of 24 at s = 0.5 (all flies defined at the other severities).",
+  "joint_healthy_rcv_pct_nearOdourA": "Healthy robust CV (%) of arena time near odour A in the joint cohort (n = 32 healthy flies with a defined value). The healthy flies are all the identical intact network (healthy_pathology_all_zero), so this is the trial-to-trial spread of one network under Poisson input noise, not variability between individual flies.",
+  "joint_change_pct_s0.1_nearOdourA": "Change of the s = 0.10 median of arena time near odour A relative to the joint-cohort healthy median (%).",
+  "joint_auc_nearOdourA": "Direction-free AUC of arena time near odour A against joint-cohort healthy flies at s = 0.05, 0.10, 0.15, 0.20, 0.30, 0.50.",
+  "joint_healthy_rcv_pct_PI": "Healthy robust CV (%) of arena preference index in the joint cohort (n = 32 healthy flies with a defined value). The healthy flies are all the identical intact network (healthy_pathology_all_zero), so this is the trial-to-trial spread of one network under Poisson input noise, not variability between individual flies. NOT INTERPRETABLE, do not quote: the preference index is a signed index in [-1, 1] centred near 0 (healthy median 0.2, bimodal at -1 and +1), so a percentage of its median has no meaning. Use joint_PI_absolute_s0.1 or the AUC.",
+  "joint_change_pct_s0.1_PI": "Change of the s = 0.10 median of arena preference index relative to the joint-cohort healthy median (%). NOT INTERPRETABLE, do not quote: the preference index is a signed index in [-1, 1] centred near 0 (healthy median 0.2, bimodal at -1 and +1), so a percentage of its median has no meaning. Use joint_PI_absolute_s0.1 or the AUC.",
+  "joint_auc_PI": "Direction-free AUC of arena preference index against joint-cohort healthy flies at s = 0.05, 0.10, 0.15, 0.20, 0.30, 0.50. Note: flies that spent no time near either odour (preference index undefined) are excluded: n = 22 of 24 at s = 0.05, 21 of 24 at s = 0.2, 23 of 24 at s = 0.5 (all flies defined at the other severities).",
+  "joint_PI_absolute_s0.1": "Joint cohort arena preference index on its own scale (PI in [-1, 1]): [healthy median, s = 0.10 median, difference of medians (PI units), healthy IQR/1.349 (PI units)]. Replaces the percentage change and robust CV, which are undefined in meaning for a signed index near 0.",
+  "fd_series_observed_brain": "Observed (full-sample) first severity at which whole-brain spike count (odour A) reaches AUC >= 0.80 against healthy in the severity series (null = never).",
+  "fd_series_bootmedian_copied_brain": "Bootstrap median first severity for whole-brain spike count (odour A), taken only over resamples that reached AUC 0.80 (copied from battery_stats.json series.first_detection, the bootstrap of analyze_battery.py, 4,000 resamples).",
+  "fd_series_bootci_copied_brain": "2.5-97.5 percentile range of the first-crossing severity for whole-brain spike count (odour A) over resamples that reached the criterion (battery_stats.json).",
+  "fd_series_fracnever_copied_brain": "Fraction of the 4,000 bootstrap resamples of analyze_battery.py in which whole-brain spike count (odour A) never reached AUC 0.80 (battery_stats.json).",
+  "fd_series_uncondmedian_recomputed_brain": "Median first severity for whole-brain spike count (odour A) over ALL 4,000 recomputed resamples with 'never' counted as beyond s = 1.0 (null = median is never); seed 20261009.",
+  "fd_series_fracby_recomputed_brain": "Share of ALL 4,000 recomputed resamples (seed 20261009) in which whole-brain spike count (odour A) first reached AUC 0.80 at or below each series severity s = 0.05-1.0 (cumulative; 1 minus the last value never reached).",
+  "fd_series_auc_step_before_observed_brain": "AUC of whole-brain spike count (odour A) at the severity one step below its observed first crossing (s = 0.05).",
+  "fd_series_observed_LH": "Observed (full-sample) first severity at which lateral horn rate (odour A) reaches AUC >= 0.80 against healthy in the severity series (null = never).",
+  "fd_series_bootmedian_copied_LH": "Bootstrap median first severity for lateral horn rate (odour A), taken only over resamples that reached AUC 0.80 (copied from battery_stats.json series.first_detection, the bootstrap of analyze_battery.py, 4,000 resamples).",
+  "fd_series_bootci_copied_LH": "2.5-97.5 percentile range of the first-crossing severity for lateral horn rate (odour A) over resamples that reached the criterion (battery_stats.json).",
+  "fd_series_fracnever_copied_LH": "Fraction of the 4,000 bootstrap resamples of analyze_battery.py in which lateral horn rate (odour A) never reached AUC 0.80 (battery_stats.json).",
+  "fd_series_uncondmedian_recomputed_LH": "Median first severity for lateral horn rate (odour A) over ALL 4,000 recomputed resamples with 'never' counted as beyond s = 1.0 (null = median is never); seed 20261009.",
+  "fd_series_fracby_recomputed_LH": "Share of ALL 4,000 recomputed resamples (seed 20261009) in which lateral horn rate (odour A) first reached AUC 0.80 at or below each series severity s = 0.05-1.0 (cumulative; 1 minus the last value never reached).",
+  "fd_series_auc_step_before_observed_LH": "AUC of lateral horn rate (odour A) at the severity one step below its observed first crossing (s = 0.05).",
+  "fd_series_observed_PN": "Observed (full-sample) first severity at which projection neuron rate (odour A) reaches AUC >= 0.80 against healthy in the severity series (null = never).",
+  "fd_series_bootmedian_copied_PN": "Bootstrap median first severity for projection neuron rate (odour A), taken only over resamples that reached AUC 0.80 (copied from battery_stats.json series.first_detection, the bootstrap of analyze_battery.py, 4,000 resamples).",
+  "fd_series_bootci_copied_PN": "2.5-97.5 percentile range of the first-crossing severity for projection neuron rate (odour A) over resamples that reached the criterion (battery_stats.json).",
+  "fd_series_fracnever_copied_PN": "Fraction of the 4,000 bootstrap resamples of analyze_battery.py in which projection neuron rate (odour A) never reached AUC 0.80 (battery_stats.json).",
+  "fd_series_uncondmedian_recomputed_PN": "Median first severity for projection neuron rate (odour A) over ALL 4,000 recomputed resamples with 'never' counted as beyond s = 1.0 (null = median is never); seed 20261009.",
+  "fd_series_fracby_recomputed_PN": "Share of ALL 4,000 recomputed resamples (seed 20261009) in which projection neuron rate (odour A) first reached AUC 0.80 at or below each series severity s = 0.05-1.0 (cumulative; 1 minus the last value never reached).",
+  "fd_series_auc_step_before_observed_PN": "AUC of projection neuron rate (odour A) at the severity one step below its observed first crossing (s = 0.3).",
+  "fd_series_observed_KCrate": "Observed (full-sample) first severity at which Kenyon cell rate (odour A) reaches AUC >= 0.80 against healthy in the severity series (null = never).",
+  "fd_series_bootmedian_copied_KCrate": "Bootstrap median first severity for Kenyon cell rate (odour A), taken only over resamples that reached AUC 0.80 (copied from battery_stats.json series.first_detection, the bootstrap of analyze_battery.py, 4,000 resamples).",
+  "fd_series_bootci_copied_KCrate": "2.5-97.5 percentile range of the first-crossing severity for Kenyon cell rate (odour A) over resamples that reached the criterion (battery_stats.json).",
+  "fd_series_fracnever_copied_KCrate": "Fraction of the 4,000 bootstrap resamples of analyze_battery.py in which Kenyon cell rate (odour A) never reached AUC 0.80 (battery_stats.json).",
+  "fd_series_uncondmedian_recomputed_KCrate": "Median first severity for Kenyon cell rate (odour A) over ALL 4,000 recomputed resamples with 'never' counted as beyond s = 1.0 (null = median is never); seed 20261009.",
+  "fd_series_fracby_recomputed_KCrate": "Share of ALL 4,000 recomputed resamples (seed 20261009) in which Kenyon cell rate (odour A) first reached AUC 0.80 at or below each series severity s = 0.05-1.0 (cumulative; 1 minus the last value never reached).",
+  "fd_series_auc_step_before_observed_KCrate": "AUC of Kenyon cell rate (odour A) at the severity one step below its observed first crossing (s = 0.15).",
+  "fd_series_observed_KCrecruited": "Observed (full-sample) first severity at which fraction of Kenyon cells recruited (odour A) reaches AUC >= 0.80 against healthy in the severity series (null = never).",
+  "fd_series_bootmedian_copied_KCrecruited": "Bootstrap median first severity for fraction of Kenyon cells recruited (odour A), taken only over resamples that reached AUC 0.80 (copied from battery_stats.json series.first_detection, the bootstrap of analyze_battery.py, 4,000 resamples).",
+  "fd_series_bootci_copied_KCrecruited": "2.5-97.5 percentile range of the first-crossing severity for fraction of Kenyon cells recruited (odour A) over resamples that reached the criterion (battery_stats.json).",
+  "fd_series_fracnever_copied_KCrecruited": "Fraction of the 4,000 bootstrap resamples of analyze_battery.py in which fraction of Kenyon cells recruited (odour A) never reached AUC 0.80 (battery_stats.json).",
+  "fd_series_uncondmedian_recomputed_KCrecruited": "Median first severity for fraction of Kenyon cells recruited (odour A) over ALL 4,000 recomputed resamples with 'never' counted as beyond s = 1.0 (null = median is never); seed 20261009.",
+  "fd_series_fracby_recomputed_KCrecruited": "Share of ALL 4,000 recomputed resamples (seed 20261009) in which fraction of Kenyon cells recruited (odour A) first reached AUC 0.80 at or below each series severity s = 0.05-1.0 (cumulative; 1 minus the last value never reached).",
+  "fd_series_auc_step_before_observed_KCrecruited": "AUC of fraction of Kenyon cells recruited (odour A) at the severity one step below its observed first crossing (s = 0.15).",
+  "fd_series_observed_MBON": "Observed (full-sample) first severity at which MBON rate (odour A) reaches AUC >= 0.80 against healthy in the severity series (null = never).",
+  "fd_series_bootmedian_copied_MBON": "Bootstrap median first severity for MBON rate (odour A), taken only over resamples that reached AUC 0.80 (copied from battery_stats.json series.first_detection, the bootstrap of analyze_battery.py, 4,000 resamples). CAUTION, seed-dependent (severity series): over 11 bootstrap runs of 4,000 resamples (seed 20261009 plus 10 replicate seeds) the median over reached resamples came out 0.15 in 8, 0.2 in 3; the copied median is 0.15. Pooled over all runs, 0.503 of reached resamples had crossed by s = 0.15 and 0.104 by the step below. The median is not reproducible and must not be quoted as a separation severity; quote the observed crossing (s = 0.2) and the share of resamples that crossed by each severity (fd_*_fracby_recomputed_*).",
+  "fd_series_bootci_copied_MBON": "2.5-97.5 percentile range of the first-crossing severity for MBON rate (odour A) over resamples that reached the criterion (battery_stats.json).",
+  "fd_series_fracnever_copied_MBON": "Fraction of the 4,000 bootstrap resamples of analyze_battery.py in which MBON rate (odour A) never reached AUC 0.80 (battery_stats.json).",
+  "fd_series_uncondmedian_recomputed_MBON": "Median first severity for MBON rate (odour A) over ALL 4,000 recomputed resamples with 'never' counted as beyond s = 1.0 (null = median is never); seed 20261009. CAUTION, seed-dependent (severity series): over 11 bootstrap runs of 4,000 resamples (seed 20261009 plus 10 replicate seeds) the median over all resamples came out 0.15 in 8, 0.2 in 3. Pooled over all runs, 0.503 of all resamples had crossed by s = 0.15 and 0.104 by the step below. The median is not reproducible and must not be quoted as a separation severity; quote the observed crossing (s = 0.2) and the share of resamples that crossed by each severity (fd_*_fracby_recomputed_*).",
+  "fd_series_fracby_recomputed_MBON": "Share of ALL 4,000 recomputed resamples (seed 20261009) in which MBON rate (odour A) first reached AUC 0.80 at or below each series severity s = 0.05-1.0 (cumulative; 1 minus the last value never reached).",
+  "fd_series_auc_step_before_observed_MBON": "AUC of MBON rate (odour A) at the severity one step below its observed first crossing (s = 0.15).",
+  "fd_series_observed_valence": "Observed (full-sample) first severity at which naive MB valence (odour A) reaches AUC >= 0.80 against healthy in the severity series (null = never).",
+  "fd_series_bootmedian_copied_valence": "Bootstrap median first severity for naive MB valence (odour A), taken only over resamples that reached AUC 0.80 (copied from battery_stats.json series.first_detection, the bootstrap of analyze_battery.py, 4,000 resamples).",
+  "fd_series_bootci_copied_valence": "2.5-97.5 percentile range of the first-crossing severity for naive MB valence (odour A) over resamples that reached the criterion (battery_stats.json).",
+  "fd_series_fracnever_copied_valence": "Fraction of the 4,000 bootstrap resamples of analyze_battery.py in which naive MB valence (odour A) never reached AUC 0.80 (battery_stats.json).",
+  "fd_series_uncondmedian_recomputed_valence": "Median first severity for naive MB valence (odour A) over ALL 4,000 recomputed resamples with 'never' counted as beyond s = 1.0 (null = median is never); seed 20261009.",
+  "fd_series_fracby_recomputed_valence": "Share of ALL 4,000 recomputed resamples (seed 20261009) in which naive MB valence (odour A) first reached AUC 0.80 at or below each series severity s = 0.05-1.0 (cumulative; 1 minus the last value never reached).",
+  "fd_series_auc_step_before_observed_valence": "AUC of naive MB valence (odour A) at the severity one step below its observed first crossing (s = 0.2).",
+  "fd_series_observed_LI": "Observed (full-sample) first severity at which learning index reaches AUC >= 0.80 against healthy in the severity series (null = never).",
+  "fd_series_bootmedian_copied_LI": "Bootstrap median first severity for learning index, taken only over resamples that reached AUC 0.80 (copied from battery_stats.json series.first_detection, the bootstrap of analyze_battery.py, 4,000 resamples).",
+  "fd_series_bootci_copied_LI": "2.5-97.5 percentile range of the first-crossing severity for learning index over resamples that reached the criterion (battery_stats.json).",
+  "fd_series_fracnever_copied_LI": "Fraction of the 4,000 bootstrap resamples of analyze_battery.py in which learning index never reached AUC 0.80 (battery_stats.json).",
+  "fd_series_uncondmedian_recomputed_LI": "Median first severity for learning index over ALL 4,000 recomputed resamples with 'never' counted as beyond s = 1.0 (null = median is never); seed 20261009.",
+  "fd_series_fracby_recomputed_LI": "Share of ALL 4,000 recomputed resamples (seed 20261009) in which learning index first reached AUC 0.80 at or below each series severity s = 0.05-1.0 (cumulative; 1 minus the last value never reached).",
+  "fd_series_auc_step_before_observed_LI": "AUC of learning index at the severity one step below its observed first crossing (s = 0.3).",
+  "fd_series_observed_LInorm": "Observed (full-sample) first severity at which learning index / MBON rate (MBON >= 0.5 Hz) reaches AUC >= 0.80 against healthy in the severity series (null = never). Note: flies with MBON rate below 0.5 Hz (ratio undefined) are excluded: n = 31 of 32 at s = 0.4, 25 of 32 at s = 0.5, 14 of 32 at s = 0.6, 12 of 32 at s = 0.75, 0 of 32 at s = 1 (all flies defined at the other severities).",
+  "fd_series_bootmedian_copied_LInorm": "Bootstrap median first severity for learning index / MBON rate (MBON >= 0.5 Hz), taken only over resamples that reached AUC 0.80 (copied from battery_stats.json series.first_detection, the bootstrap of analyze_battery.py, 4,000 resamples). Note: flies with MBON rate below 0.5 Hz (ratio undefined) are excluded: n = 31 of 32 at s = 0.4, 25 of 32 at s = 0.5, 14 of 32 at s = 0.6, 12 of 32 at s = 0.75, 0 of 32 at s = 1 (all flies defined at the other severities).",
+  "fd_series_bootci_copied_LInorm": "2.5-97.5 percentile range of the first-crossing severity for learning index / MBON rate (MBON >= 0.5 Hz) over resamples that reached the criterion (battery_stats.json). Note: flies with MBON rate below 0.5 Hz (ratio undefined) are excluded: n = 31 of 32 at s = 0.4, 25 of 32 at s = 0.5, 14 of 32 at s = 0.6, 12 of 32 at s = 0.75, 0 of 32 at s = 1 (all flies defined at the other severities).",
+  "fd_series_fracnever_copied_LInorm": "Fraction of the 4,000 bootstrap resamples of analyze_battery.py in which learning index / MBON rate (MBON >= 0.5 Hz) never reached AUC 0.80 (battery_stats.json). Note: flies with MBON rate below 0.5 Hz (ratio undefined) are excluded: n = 31 of 32 at s = 0.4, 25 of 32 at s = 0.5, 14 of 32 at s = 0.6, 12 of 32 at s = 0.75, 0 of 32 at s = 1 (all flies defined at the other severities).",
+  "fd_series_uncondmedian_recomputed_LInorm": "Median first severity for learning index / MBON rate (MBON >= 0.5 Hz) over ALL 4,000 recomputed resamples with 'never' counted as beyond s = 1.0 (null = median is never); seed 20261009. Note: flies with MBON rate below 0.5 Hz (ratio undefined) are excluded: n = 31 of 32 at s = 0.4, 25 of 32 at s = 0.5, 14 of 32 at s = 0.6, 12 of 32 at s = 0.75, 0 of 32 at s = 1 (all flies defined at the other severities).",
+  "fd_series_fracby_recomputed_LInorm": "Share of ALL 4,000 recomputed resamples (seed 20261009) in which learning index / MBON rate (MBON >= 0.5 Hz) first reached AUC 0.80 at or below each series severity s = 0.05-1.0 (cumulative; 1 minus the last value never reached). Note: flies with MBON rate below 0.5 Hz (ratio undefined) are excluded: n = 31 of 32 at s = 0.4, 25 of 32 at s = 0.5, 14 of 32 at s = 0.6, 12 of 32 at s = 0.75, 0 of 32 at s = 1 (all flies defined at the other severities).",
+  "fd_series_observed_MN9": "Observed (full-sample) first severity at which MN9 sugar response rate reaches AUC >= 0.80 against healthy in the severity series (null = never).",
+  "fd_series_bootmedian_copied_MN9": "Bootstrap median first severity for MN9 sugar response rate, taken only over resamples that reached AUC 0.80 (copied from battery_stats.json series.first_detection, the bootstrap of analyze_battery.py, 4,000 resamples).",
+  "fd_series_bootci_copied_MN9": "2.5-97.5 percentile range of the first-crossing severity for MN9 sugar response rate over resamples that reached the criterion (battery_stats.json).",
+  "fd_series_fracnever_copied_MN9": "Fraction of the 4,000 bootstrap resamples of analyze_battery.py in which MN9 sugar response rate never reached AUC 0.80 (battery_stats.json).",
+  "fd_series_uncondmedian_recomputed_MN9": "Median first severity for MN9 sugar response rate over ALL 4,000 recomputed resamples with 'never' counted as beyond s = 1.0 (null = median is never); seed 20261009.",
+  "fd_series_fracby_recomputed_MN9": "Share of ALL 4,000 recomputed resamples (seed 20261009) in which MN9 sugar response rate first reached AUC 0.80 at or below each series severity s = 0.05-1.0 (cumulative; 1 minus the last value never reached).",
+  "fd_series_auc_step_before_observed_MN9": "AUC of MN9 sugar response rate at the severity one step below its observed first crossing (s = 0.15).",
+  "fd_series_observed_GF": "Observed (full-sample) first severity at which giant fibre looming rate (mean of the two DNp01) reaches AUC >= 0.80 against healthy in the severity series (null = never).",
+  "fd_series_bootmedian_copied_GF": "Bootstrap median first severity for giant fibre looming rate (mean of the two DNp01), taken only over resamples that reached AUC 0.80 (copied from battery_stats.json series.first_detection, the bootstrap of analyze_battery.py, 4,000 resamples).",
+  "fd_series_bootci_copied_GF": "2.5-97.5 percentile range of the first-crossing severity for giant fibre looming rate (mean of the two DNp01) over resamples that reached the criterion (battery_stats.json).",
+  "fd_series_fracnever_copied_GF": "Fraction of the 4,000 bootstrap resamples of analyze_battery.py in which giant fibre looming rate (mean of the two DNp01) never reached AUC 0.80 (battery_stats.json).",
+  "fd_series_uncondmedian_recomputed_GF": "Median first severity for giant fibre looming rate (mean of the two DNp01) over ALL 4,000 recomputed resamples with 'never' counted as beyond s = 1.0 (null = median is never); seed 20261009.",
+  "fd_series_fracby_recomputed_GF": "Share of ALL 4,000 recomputed resamples (seed 20261009) in which giant fibre looming rate (mean of the two DNp01) first reached AUC 0.80 at or below each series severity s = 0.05-1.0 (cumulative; 1 minus the last value never reached).",
+  "fd_series_auc_step_before_observed_GF": "AUC of giant fibre looming rate (mean of the two DNp01) at the severity one step below its observed first crossing (s = 0.2).",
+  "fd_series_observed_GFlatency": "Observed (full-sample) first severity at which giant fibre first-spike latency reaches AUC >= 0.80 against healthy in the severity series (null = never). Note: flies whose giant fibre never spiked (latency undefined), which are the most affected flies, are excluded, so the value describes only flies with at least one GF spike: n = 30 of 32 at s = 0.4, 30 of 32 at s = 0.5, 30 of 32 at s = 0.6, 25 of 32 at s = 0.75, 23 of 32 at s = 1 (all flies defined at the other severities).",
+  "fd_series_bootmedian_copied_GFlatency": "Bootstrap median first severity for giant fibre first-spike latency, taken only over resamples that reached AUC 0.80 (copied from battery_stats.json series.first_detection, the bootstrap of analyze_battery.py, 4,000 resamples). Note: flies whose giant fibre never spiked (latency undefined), which are the most affected flies, are excluded, so the value describes only flies with at least one GF spike: n = 30 of 32 at s = 0.4, 30 of 32 at s = 0.5, 30 of 32 at s = 0.6, 25 of 32 at s = 0.75, 23 of 32 at s = 1 (all flies defined at the other severities).",
+  "fd_series_bootci_copied_GFlatency": "2.5-97.5 percentile range of the first-crossing severity for giant fibre first-spike latency over resamples that reached the criterion (battery_stats.json). Note: flies whose giant fibre never spiked (latency undefined), which are the most affected flies, are excluded, so the value describes only flies with at least one GF spike: n = 30 of 32 at s = 0.4, 30 of 32 at s = 0.5, 30 of 32 at s = 0.6, 25 of 32 at s = 0.75, 23 of 32 at s = 1 (all flies defined at the other severities).",
+  "fd_series_fracnever_copied_GFlatency": "Fraction of the 4,000 bootstrap resamples of analyze_battery.py in which giant fibre first-spike latency never reached AUC 0.80 (battery_stats.json). Note: flies whose giant fibre never spiked (latency undefined), which are the most affected flies, are excluded, so the value describes only flies with at least one GF spike: n = 30 of 32 at s = 0.4, 30 of 32 at s = 0.5, 30 of 32 at s = 0.6, 25 of 32 at s = 0.75, 23 of 32 at s = 1 (all flies defined at the other severities).",
+  "fd_series_uncondmedian_recomputed_GFlatency": "Median first severity for giant fibre first-spike latency over ALL 4,000 recomputed resamples with 'never' counted as beyond s = 1.0 (null = median is never); seed 20261009. Note: flies whose giant fibre never spiked (latency undefined), which are the most affected flies, are excluded, so the value describes only flies with at least one GF spike: n = 30 of 32 at s = 0.4, 30 of 32 at s = 0.5, 30 of 32 at s = 0.6, 25 of 32 at s = 0.75, 23 of 32 at s = 1 (all flies defined at the other severities).",
+  "fd_series_fracby_recomputed_GFlatency": "Share of ALL 4,000 recomputed resamples (seed 20261009) in which giant fibre first-spike latency first reached AUC 0.80 at or below each series severity s = 0.05-1.0 (cumulative; 1 minus the last value never reached). Note: flies whose giant fibre never spiked (latency undefined), which are the most affected flies, are excluded, so the value describes only flies with at least one GF spike: n = 30 of 32 at s = 0.4, 30 of 32 at s = 0.5, 30 of 32 at s = 0.6, 25 of 32 at s = 0.75, 23 of 32 at s = 1 (all flies defined at the other severities).",
+  "fd_series_auc_step_before_observed_GFlatency": "AUC of giant fibre first-spike latency at the severity one step below its observed first crossing (s = 0.6). Note: flies whose giant fibre never spiked (latency undefined), which are the most affected flies, are excluded, so the value describes only flies with at least one GF spike: n = 30 of 32 at s = 0.4, 30 of 32 at s = 0.5, 30 of 32 at s = 0.6, 25 of 32 at s = 0.75, 23 of 32 at s = 1 (all flies defined at the other severities).",
+  "fd_series_recomputed_condmedian_check": "Recomputed (seed 20261009, not the seed of analyze_battery.py) bootstrap median over reached resamples, per series readout, as a check of the copied values. A median that agrees with the copied one is not thereby reproducible: see fd_series_median_stability (seed-dependent: MBON).",
+  "fd_series_median_stability": "Severity series, per readout: replicate-seed check of the first-detection bootstrap medians. When any cumulative crossing share of the main run (seed 20261009) is within 0.1 of 50%, the 4,000-resample bootstrap is repeated with 10 further seeds. verdict: 'seed-dependent' = the median (over reached resamples, or over all resamples) differs between runs or from the copied median; 'near-even' = same median in every run but the pooled share of resamples crossing by the median severity is below 0.6 (barely half); 'stable' = neither. cond_* = over resamples that reached AUC 0.80 (as for the copied medians); uncond_* = over all resamples ('never' beyond the last severity); *_median_counts tallies the median of each run; *_frac_by_median and *_frac_by_step_below are pooled over all runs and taken at the seed-20261009 median severity.",
+  "fd_series_median_seed_dependent": "Severity-series readouts whose bootstrap first-detection median changes with the RNG seed (see fd_series_median_stability); quote their observed crossing instead.",
+  "fd_series_median_near_even": "Severity-series readouts whose bootstrap median held in every run, but only 0.5-0.6 of the resamples had crossed by the median severity: weak, quote with that share (see fd_series_median_stability).",
+  "fd_joint_observed_KCrecruited": "Observed first severity at which fraction of Kenyon cells recruited (odour A) reaches AUC >= 0.80 against healthy in the joint cohort (null = never up to s = 0.5).",
+  "fd_joint_bootmedian_copied_KCrecruited": "Joint-cohort bootstrap median first severity for fraction of Kenyon cells recruited (odour A) over resamples that reached AUC 0.80 (copied from results/joint/stats_joint.json cascade, analyze_joint.py, 4,000 resamples).",
+  "fd_joint_bootci_copied_KCrecruited": "2.5-97.5 percentile range of the joint-cohort first-crossing severity for fraction of Kenyon cells recruited (odour A) over reached resamples (stats_joint.json).",
+  "fd_joint_fracnever_copied_KCrecruited": "Fraction of 4,000 joint-cohort resamples in which fraction of Kenyon cells recruited (odour A) never reached AUC 0.80 by s = 0.5 (stats_joint.json).",
+  "fd_joint_uncondmedian_recomputed_KCrecruited": "Median first severity for fraction of Kenyon cells recruited (odour A) in the joint cohort over ALL 4,000 recomputed resamples, 'never' counted as beyond s = 0.5 (null = never); seed 20261009.",
+  "fd_joint_fracby_recomputed_KCrecruited": "Share of ALL 4,000 recomputed joint-cohort resamples (seed 20261009) in which fraction of Kenyon cells recruited (odour A) first reached AUC 0.80 at or below each severity s = 0.05-0.50 (cumulative; 1 minus the last value never reached).",
+  "fd_joint_observed_KCrate": "Observed first severity at which Kenyon cell rate (odour A) reaches AUC >= 0.80 against healthy in the joint cohort (null = never up to s = 0.5).",
+  "fd_joint_bootmedian_copied_KCrate": "Joint-cohort bootstrap median first severity for Kenyon cell rate (odour A) over resamples that reached AUC 0.80 (copied from results/joint/stats_joint.json cascade, analyze_joint.py, 4,000 resamples). CAUTION, weak (joint cohort): the median over reached resamples was s = 0.15 in all 11 bootstrap runs of 4,000 resamples (seed 20261009 plus 10 replicate seeds), but only 0.557 of reached resamples had crossed by that severity (pooled). Quote it as 'about half of resamples crossed by s = 0.15', alongside the observed crossing (s = 0.15).",
+  "fd_joint_bootci_copied_KCrate": "2.5-97.5 percentile range of the joint-cohort first-crossing severity for Kenyon cell rate (odour A) over reached resamples (stats_joint.json).",
+  "fd_joint_fracnever_copied_KCrate": "Fraction of 4,000 joint-cohort resamples in which Kenyon cell rate (odour A) never reached AUC 0.80 by s = 0.5 (stats_joint.json).",
+  "fd_joint_uncondmedian_recomputed_KCrate": "Median first severity for Kenyon cell rate (odour A) in the joint cohort over ALL 4,000 recomputed resamples, 'never' counted as beyond s = 0.5 (null = never); seed 20261009. CAUTION, weak (joint cohort): the median over all resamples was s = 0.15 in all 11 bootstrap runs of 4,000 resamples (seed 20261009 plus 10 replicate seeds), but only 0.557 of all resamples had crossed by that severity (pooled). Quote it as 'about half of resamples crossed by s = 0.15', alongside the observed crossing (s = 0.15).",
+  "fd_joint_fracby_recomputed_KCrate": "Share of ALL 4,000 recomputed joint-cohort resamples (seed 20261009) in which Kenyon cell rate (odour A) first reached AUC 0.80 at or below each severity s = 0.05-0.50 (cumulative; 1 minus the last value never reached).",
+  "fd_joint_observed_PN": "Observed first severity at which projection neuron rate (odour A) reaches AUC >= 0.80 against healthy in the joint cohort (null = never up to s = 0.5).",
+  "fd_joint_bootmedian_copied_PN": "Joint-cohort bootstrap median first severity for projection neuron rate (odour A) over resamples that reached AUC 0.80 (copied from results/joint/stats_joint.json cascade, analyze_joint.py, 4,000 resamples).",
+  "fd_joint_bootci_copied_PN": "2.5-97.5 percentile range of the joint-cohort first-crossing severity for projection neuron rate (odour A) over reached resamples (stats_joint.json).",
+  "fd_joint_fracnever_copied_PN": "Fraction of 4,000 joint-cohort resamples in which projection neuron rate (odour A) never reached AUC 0.80 by s = 0.5 (stats_joint.json).",
+  "fd_joint_uncondmedian_recomputed_PN": "Median first severity for projection neuron rate (odour A) in the joint cohort over ALL 4,000 recomputed resamples, 'never' counted as beyond s = 0.5 (null = never); seed 20261009.",
+  "fd_joint_fracby_recomputed_PN": "Share of ALL 4,000 recomputed joint-cohort resamples (seed 20261009) in which projection neuron rate (odour A) first reached AUC 0.80 at or below each severity s = 0.05-0.50 (cumulative; 1 minus the last value never reached).",
+  "fd_joint_observed_LH": "Observed first severity at which lateral horn rate (odour A) reaches AUC >= 0.80 against healthy in the joint cohort (null = never up to s = 0.5).",
+  "fd_joint_bootmedian_copied_LH": "Joint-cohort bootstrap median first severity for lateral horn rate (odour A) over resamples that reached AUC 0.80 (copied from results/joint/stats_joint.json cascade, analyze_joint.py, 4,000 resamples).",
+  "fd_joint_bootci_copied_LH": "2.5-97.5 percentile range of the joint-cohort first-crossing severity for lateral horn rate (odour A) over reached resamples (stats_joint.json).",
+  "fd_joint_fracnever_copied_LH": "Fraction of 4,000 joint-cohort resamples in which lateral horn rate (odour A) never reached AUC 0.80 by s = 0.5 (stats_joint.json).",
+  "fd_joint_uncondmedian_recomputed_LH": "Median first severity for lateral horn rate (odour A) in the joint cohort over ALL 4,000 recomputed resamples, 'never' counted as beyond s = 0.5 (null = never); seed 20261009.",
+  "fd_joint_fracby_recomputed_LH": "Share of ALL 4,000 recomputed joint-cohort resamples (seed 20261009) in which lateral horn rate (odour A) first reached AUC 0.80 at or below each severity s = 0.05-0.50 (cumulative; 1 minus the last value never reached).",
+  "fd_joint_observed_MBON": "Observed first severity at which MBON rate (odour A) reaches AUC >= 0.80 against healthy in the joint cohort (null = never up to s = 0.5).",
+  "fd_joint_bootmedian_copied_MBON": "Joint-cohort bootstrap median first severity for MBON rate (odour A) over resamples that reached AUC 0.80 (copied from results/joint/stats_joint.json cascade, analyze_joint.py, 4,000 resamples). CAUTION, weak (joint cohort): the median over reached resamples was s = 0.15 in all 11 bootstrap runs of 4,000 resamples (seed 20261009 plus 10 replicate seeds), but only 0.525 of reached resamples had crossed by that severity (pooled). Quote it as 'about half of resamples crossed by s = 0.15', alongside the observed crossing (s = 0.15).",
+  "fd_joint_bootci_copied_MBON": "2.5-97.5 percentile range of the joint-cohort first-crossing severity for MBON rate (odour A) over reached resamples (stats_joint.json).",
+  "fd_joint_fracnever_copied_MBON": "Fraction of 4,000 joint-cohort resamples in which MBON rate (odour A) never reached AUC 0.80 by s = 0.5 (stats_joint.json).",
+  "fd_joint_uncondmedian_recomputed_MBON": "Median first severity for MBON rate (odour A) in the joint cohort over ALL 4,000 recomputed resamples, 'never' counted as beyond s = 0.5 (null = never); seed 20261009. CAUTION, weak (joint cohort): the median over all resamples was s = 0.15 in all 11 bootstrap runs of 4,000 resamples (seed 20261009 plus 10 replicate seeds), but only 0.524 of all resamples had crossed by that severity (pooled). Quote it as 'about half of resamples crossed by s = 0.15', alongside the observed crossing (s = 0.15).",
+  "fd_joint_fracby_recomputed_MBON": "Share of ALL 4,000 recomputed joint-cohort resamples (seed 20261009) in which MBON rate (odour A) first reached AUC 0.80 at or below each severity s = 0.05-0.50 (cumulative; 1 minus the last value never reached).",
+  "fd_joint_observed_brain": "Observed first severity at which whole-brain spike count (odour A) reaches AUC >= 0.80 against healthy in the joint cohort (null = never up to s = 0.5).",
+  "fd_joint_bootmedian_copied_brain": "Joint-cohort bootstrap median first severity for whole-brain spike count (odour A) over resamples that reached AUC 0.80 (copied from results/joint/stats_joint.json cascade, analyze_joint.py, 4,000 resamples).",
+  "fd_joint_bootci_copied_brain": "2.5-97.5 percentile range of the joint-cohort first-crossing severity for whole-brain spike count (odour A) over reached resamples (stats_joint.json).",
+  "fd_joint_fracnever_copied_brain": "Fraction of 4,000 joint-cohort resamples in which whole-brain spike count (odour A) never reached AUC 0.80 by s = 0.5 (stats_joint.json).",
+  "fd_joint_uncondmedian_recomputed_brain": "Median first severity for whole-brain spike count (odour A) in the joint cohort over ALL 4,000 recomputed resamples, 'never' counted as beyond s = 0.5 (null = never); seed 20261009.",
+  "fd_joint_fracby_recomputed_brain": "Share of ALL 4,000 recomputed joint-cohort resamples (seed 20261009) in which whole-brain spike count (odour A) first reached AUC 0.80 at or below each severity s = 0.05-0.50 (cumulative; 1 minus the last value never reached).",
+  "fd_joint_observed_valence": "Observed first severity at which naive MB valence (odour A) reaches AUC >= 0.80 against healthy in the joint cohort (null = never up to s = 0.5).",
+  "fd_joint_bootmedian_copied_valence": "Joint-cohort bootstrap median first severity for naive MB valence (odour A) over resamples that reached AUC 0.80 (copied from results/joint/stats_joint.json cascade, analyze_joint.py, 4,000 resamples). CAUTION, seed-dependent (joint cohort): over 11 bootstrap runs of 4,000 resamples (seed 20261009 plus 10 replicate seeds) the median over reached resamples came out 0.2 in 2, 0.3 in 9; the copied median is 0.2. Pooled over all runs, 0.925 of reached resamples had crossed by s = 0.3 and 0.495 by the step below. The median is not reproducible and must not be quoted as a separation severity; quote the observed crossing (s = 0.3) and the share of resamples that crossed by each severity (fd_*_fracby_recomputed_*).",
+  "fd_joint_bootci_copied_valence": "2.5-97.5 percentile range of the joint-cohort first-crossing severity for naive MB valence (odour A) over reached resamples (stats_joint.json).",
+  "fd_joint_fracnever_copied_valence": "Fraction of 4,000 joint-cohort resamples in which naive MB valence (odour A) never reached AUC 0.80 by s = 0.5 (stats_joint.json).",
+  "fd_joint_uncondmedian_recomputed_valence": "Median first severity for naive MB valence (odour A) in the joint cohort over ALL 4,000 recomputed resamples, 'never' counted as beyond s = 0.5 (null = never); seed 20261009. CAUTION, seed-dependent (joint cohort): over 11 bootstrap runs of 4,000 resamples (seed 20261009 plus 10 replicate seeds) the median over all resamples came out 0.3 in 9, 0.2 in 2. Pooled over all runs, 0.925 of all resamples had crossed by s = 0.3 and 0.495 by the step below. The median is not reproducible and must not be quoted as a separation severity; quote the observed crossing (s = 0.3) and the share of resamples that crossed by each severity (fd_*_fracby_recomputed_*).",
+  "fd_joint_fracby_recomputed_valence": "Share of ALL 4,000 recomputed joint-cohort resamples (seed 20261009) in which naive MB valence (odour A) first reached AUC 0.80 at or below each severity s = 0.05-0.50 (cumulative; 1 minus the last value never reached).",
+  "fd_joint_observed_MN9": "Observed first severity at which MN9 sugar response rate reaches AUC >= 0.80 against healthy in the joint cohort (null = never up to s = 0.5).",
+  "fd_joint_bootmedian_copied_MN9": "Joint-cohort bootstrap median first severity for MN9 sugar response rate over resamples that reached AUC 0.80 (copied from results/joint/stats_joint.json cascade, analyze_joint.py, 4,000 resamples). CAUTION, weak (joint cohort): the median over reached resamples was s = 0.15 in all 11 bootstrap runs of 4,000 resamples (seed 20261009 plus 10 replicate seeds), but only 0.551 of reached resamples had crossed by that severity (pooled). Quote it as 'about half of resamples crossed by s = 0.15', alongside the observed crossing (s = 0.15).",
+  "fd_joint_bootci_copied_MN9": "2.5-97.5 percentile range of the joint-cohort first-crossing severity for MN9 sugar response rate over reached resamples (stats_joint.json).",
+  "fd_joint_fracnever_copied_MN9": "Fraction of 4,000 joint-cohort resamples in which MN9 sugar response rate never reached AUC 0.80 by s = 0.5 (stats_joint.json).",
+  "fd_joint_uncondmedian_recomputed_MN9": "Median first severity for MN9 sugar response rate in the joint cohort over ALL 4,000 recomputed resamples, 'never' counted as beyond s = 0.5 (null = never); seed 20261009. CAUTION, weak (joint cohort): the median over all resamples was s = 0.15 in all 11 bootstrap runs of 4,000 resamples (seed 20261009 plus 10 replicate seeds), but only 0.551 of all resamples had crossed by that severity (pooled). Quote it as 'about half of resamples crossed by s = 0.15', alongside the observed crossing (s = 0.15).",
+  "fd_joint_fracby_recomputed_MN9": "Share of ALL 4,000 recomputed joint-cohort resamples (seed 20261009) in which MN9 sugar response rate first reached AUC 0.80 at or below each severity s = 0.05-0.50 (cumulative; 1 minus the last value never reached).",
+  "fd_joint_observed_GF": "Observed first severity at which giant fibre looming rate (mean of the two DNp01) reaches AUC >= 0.80 against healthy in the joint cohort (null = never up to s = 0.5).",
+  "fd_joint_bootmedian_copied_GF": "Joint-cohort bootstrap median first severity for giant fibre looming rate (mean of the two DNp01) over resamples that reached AUC 0.80 (copied from results/joint/stats_joint.json cascade, analyze_joint.py, 4,000 resamples). CAUTION, weak (joint cohort): the median over reached resamples was s = 0.15 in all 11 bootstrap runs of 4,000 resamples (seed 20261009 plus 10 replicate seeds), but only 0.559 of reached resamples had crossed by that severity (pooled). Quote it as 'about half of resamples crossed by s = 0.15', alongside the observed crossing (s = 0.2).",
+  "fd_joint_bootci_copied_GF": "2.5-97.5 percentile range of the joint-cohort first-crossing severity for giant fibre looming rate (mean of the two DNp01) over reached resamples (stats_joint.json).",
+  "fd_joint_fracnever_copied_GF": "Fraction of 4,000 joint-cohort resamples in which giant fibre looming rate (mean of the two DNp01) never reached AUC 0.80 by s = 0.5 (stats_joint.json).",
+  "fd_joint_uncondmedian_recomputed_GF": "Median first severity for giant fibre looming rate (mean of the two DNp01) in the joint cohort over ALL 4,000 recomputed resamples, 'never' counted as beyond s = 0.5 (null = never); seed 20261009. CAUTION, weak (joint cohort): the median over all resamples was s = 0.15 in all 11 bootstrap runs of 4,000 resamples (seed 20261009 plus 10 replicate seeds), but only 0.559 of all resamples had crossed by that severity (pooled). Quote it as 'about half of resamples crossed by s = 0.15', alongside the observed crossing (s = 0.2).",
+  "fd_joint_fracby_recomputed_GF": "Share of ALL 4,000 recomputed joint-cohort resamples (seed 20261009) in which giant fibre looming rate (mean of the two DNp01) first reached AUC 0.80 at or below each severity s = 0.05-0.50 (cumulative; 1 minus the last value never reached).",
+  "fd_joint_observed_GFlatency": "Observed first severity at which giant fibre first-spike latency reaches AUC >= 0.80 against healthy in the joint cohort (null = never up to s = 0.5). Note: flies whose giant fibre never spiked (latency undefined), which are the most affected flies, are excluded, so the value describes only flies with at least one GF spike: n = 22 of 24 at s = 0.5 (all flies defined at the other severities).",
+  "fd_joint_bootmedian_copied_GFlatency": "Joint-cohort bootstrap median first severity for giant fibre first-spike latency over resamples that reached AUC 0.80 (copied from results/joint/stats_joint.json cascade, analyze_joint.py, 4,000 resamples). Note: flies whose giant fibre never spiked (latency undefined), which are the most affected flies, are excluded, so the value describes only flies with at least one GF spike: n = 22 of 24 at s = 0.5 (all flies defined at the other severities).",
+  "fd_joint_bootci_copied_GFlatency": "2.5-97.5 percentile range of the joint-cohort first-crossing severity for giant fibre first-spike latency over reached resamples (stats_joint.json). Note: flies whose giant fibre never spiked (latency undefined), which are the most affected flies, are excluded, so the value describes only flies with at least one GF spike: n = 22 of 24 at s = 0.5 (all flies defined at the other severities).",
+  "fd_joint_fracnever_copied_GFlatency": "Fraction of 4,000 joint-cohort resamples in which giant fibre first-spike latency never reached AUC 0.80 by s = 0.5 (stats_joint.json). Note: flies whose giant fibre never spiked (latency undefined), which are the most affected flies, are excluded, so the value describes only flies with at least one GF spike: n = 22 of 24 at s = 0.5 (all flies defined at the other severities).",
+  "fd_joint_uncondmedian_recomputed_GFlatency": "Median first severity for giant fibre first-spike latency in the joint cohort over ALL 4,000 recomputed resamples, 'never' counted as beyond s = 0.5 (null = never); seed 20261009. Note: flies whose giant fibre never spiked (latency undefined), which are the most affected flies, are excluded, so the value describes only flies with at least one GF spike: n = 22 of 24 at s = 0.5 (all flies defined at the other severities).",
+  "fd_joint_fracby_recomputed_GFlatency": "Share of ALL 4,000 recomputed joint-cohort resamples (seed 20261009) in which giant fibre first-spike latency first reached AUC 0.80 at or below each severity s = 0.05-0.50 (cumulative; 1 minus the last value never reached). Note: flies whose giant fibre never spiked (latency undefined), which are the most affected flies, are excluded, so the value describes only flies with at least one GF spike: n = 22 of 24 at s = 0.5 (all flies defined at the other severities).",
+  "fd_joint_observed_LI": "Observed first severity at which learning index reaches AUC >= 0.80 against healthy in the joint cohort (null = never up to s = 0.5).",
+  "fd_joint_bootmedian_copied_LI": "Joint-cohort bootstrap median first severity for learning index over resamples that reached AUC 0.80 (copied from results/joint/stats_joint.json cascade, analyze_joint.py, 4,000 resamples).",
+  "fd_joint_bootci_copied_LI": "2.5-97.5 percentile range of the joint-cohort first-crossing severity for learning index over reached resamples (stats_joint.json).",
+  "fd_joint_fracnever_copied_LI": "Fraction of 4,000 joint-cohort resamples in which learning index never reached AUC 0.80 by s = 0.5 (stats_joint.json).",
+  "fd_joint_uncondmedian_recomputed_LI": "Median first severity for learning index in the joint cohort over ALL 4,000 recomputed resamples, 'never' counted as beyond s = 0.5 (null = never); seed 20261009.",
+  "fd_joint_fracby_recomputed_LI": "Share of ALL 4,000 recomputed joint-cohort resamples (seed 20261009) in which learning index first reached AUC 0.80 at or below each severity s = 0.05-0.50 (cumulative; 1 minus the last value never reached).",
+  "fd_joint_observed_LInorm": "Observed first severity at which learning index / MBON rate (MBON >= 0.5 Hz) reaches AUC >= 0.80 against healthy in the joint cohort (null = never up to s = 0.5). Note: flies with MBON rate below 0.5 Hz (ratio undefined) are excluded: n = 17 of 24 at s = 0.5 (all flies defined at the other severities).",
+  "fd_joint_bootmedian_copied_LInorm": "Joint-cohort bootstrap median first severity for learning index / MBON rate (MBON >= 0.5 Hz) over resamples that reached AUC 0.80 (copied from results/joint/stats_joint.json cascade, analyze_joint.py, 4,000 resamples). Note: flies with MBON rate below 0.5 Hz (ratio undefined) are excluded: n = 17 of 24 at s = 0.5 (all flies defined at the other severities). CAUTION, seed-dependent (joint cohort): over 11 bootstrap runs of 4,000 resamples (seed 20261009 plus 10 replicate seeds) the median over reached resamples came out 0.15 in 3, 0.2 in 8; the copied median is 0.2. Pooled over all runs, 0.61 of reached resamples had crossed by s = 0.2 and 0.491 by the step below. The median is not reproducible and must not be quoted as a separation severity; quote the observed crossing (never) and the share of resamples that crossed by each severity (fd_*_fracby_recomputed_*).",
+  "fd_joint_bootci_copied_LInorm": "2.5-97.5 percentile range of the joint-cohort first-crossing severity for learning index / MBON rate (MBON >= 0.5 Hz) over reached resamples (stats_joint.json). Note: flies with MBON rate below 0.5 Hz (ratio undefined) are excluded: n = 17 of 24 at s = 0.5 (all flies defined at the other severities).",
+  "fd_joint_fracnever_copied_LInorm": "Fraction of 4,000 joint-cohort resamples in which learning index / MBON rate (MBON >= 0.5 Hz) never reached AUC 0.80 by s = 0.5 (stats_joint.json). Note: flies with MBON rate below 0.5 Hz (ratio undefined) are excluded: n = 17 of 24 at s = 0.5 (all flies defined at the other severities).",
+  "fd_joint_uncondmedian_recomputed_LInorm": "Median first severity for learning index / MBON rate (MBON >= 0.5 Hz) in the joint cohort over ALL 4,000 recomputed resamples, 'never' counted as beyond s = 0.5 (null = never); seed 20261009. Note: flies with MBON rate below 0.5 Hz (ratio undefined) are excluded: n = 17 of 24 at s = 0.5 (all flies defined at the other severities).",
+  "fd_joint_fracby_recomputed_LInorm": "Share of ALL 4,000 recomputed joint-cohort resamples (seed 20261009) in which learning index / MBON rate (MBON >= 0.5 Hz) first reached AUC 0.80 at or below each severity s = 0.05-0.50 (cumulative; 1 minus the last value never reached). Note: flies with MBON rate below 0.5 Hz (ratio undefined) are excluded: n = 17 of 24 at s = 0.5 (all flies defined at the other severities).",
+  "fd_joint_observed_feedTime": "Observed first severity at which arena feeding time reaches AUC >= 0.80 against healthy in the joint cohort (null = never up to s = 0.5).",
+  "fd_joint_bootmedian_copied_feedTime": "Joint-cohort bootstrap median first severity for arena feeding time over resamples that reached AUC 0.80 (copied from results/joint/stats_joint.json cascade, analyze_joint.py, 4,000 resamples).",
+  "fd_joint_bootci_copied_feedTime": "2.5-97.5 percentile range of the joint-cohort first-crossing severity for arena feeding time over reached resamples (stats_joint.json).",
+  "fd_joint_fracnever_copied_feedTime": "Fraction of 4,000 joint-cohort resamples in which arena feeding time never reached AUC 0.80 by s = 0.5 (stats_joint.json).",
+  "fd_joint_uncondmedian_recomputed_feedTime": "Median first severity for arena feeding time in the joint cohort over ALL 4,000 recomputed resamples, 'never' counted as beyond s = 0.5 (null = never); seed 20261009.",
+  "fd_joint_fracby_recomputed_feedTime": "Share of ALL 4,000 recomputed joint-cohort resamples (seed 20261009) in which arena feeding time first reached AUC 0.80 at or below each severity s = 0.05-0.50 (cumulative; 1 minus the last value never reached).",
+  "fd_joint_observed_jumpsPerThreat": "Observed first severity at which arena jumps per threat encountered reaches AUC >= 0.80 against healthy in the joint cohort (null = never up to s = 0.5). Note: flies that met no threat (jumps per threat undefined) are excluded: n = 31 of 32 at s = 0, 23 of 24 at s = 0.1, 22 of 24 at s = 0.3, 23 of 24 at s = 0.5 (all flies defined at the other severities).",
+  "fd_joint_bootmedian_copied_jumpsPerThreat": "Joint-cohort bootstrap median first severity for arena jumps per threat encountered over resamples that reached AUC 0.80 (copied from results/joint/stats_joint.json cascade, analyze_joint.py, 4,000 resamples). Note: flies that met no threat (jumps per threat undefined) are excluded: n = 31 of 32 at s = 0, 23 of 24 at s = 0.1, 22 of 24 at s = 0.3, 23 of 24 at s = 0.5 (all flies defined at the other severities).",
+  "fd_joint_bootci_copied_jumpsPerThreat": "2.5-97.5 percentile range of the joint-cohort first-crossing severity for arena jumps per threat encountered over reached resamples (stats_joint.json). Note: flies that met no threat (jumps per threat undefined) are excluded: n = 31 of 32 at s = 0, 23 of 24 at s = 0.1, 22 of 24 at s = 0.3, 23 of 24 at s = 0.5 (all flies defined at the other severities).",
+  "fd_joint_fracnever_copied_jumpsPerThreat": "Fraction of 4,000 joint-cohort resamples in which arena jumps per threat encountered never reached AUC 0.80 by s = 0.5 (stats_joint.json). Note: flies that met no threat (jumps per threat undefined) are excluded: n = 31 of 32 at s = 0, 23 of 24 at s = 0.1, 22 of 24 at s = 0.3, 23 of 24 at s = 0.5 (all flies defined at the other severities).",
+  "fd_joint_uncondmedian_recomputed_jumpsPerThreat": "Median first severity for arena jumps per threat encountered in the joint cohort over ALL 4,000 recomputed resamples, 'never' counted as beyond s = 0.5 (null = never); seed 20261009. Note: flies that met no threat (jumps per threat undefined) are excluded: n = 31 of 32 at s = 0, 23 of 24 at s = 0.1, 22 of 24 at s = 0.3, 23 of 24 at s = 0.5 (all flies defined at the other severities). CAUTION, weak (joint cohort): the median over all resamples was s = 0.5 in all 11 bootstrap runs of 4,000 resamples (seed 20261009 plus 10 replicate seeds), but only 0.582 of all resamples had crossed by that severity (pooled). Quote it as 'about half of resamples crossed by s = 0.5', alongside the observed crossing (s = 0.5).",
+  "fd_joint_fracby_recomputed_jumpsPerThreat": "Share of ALL 4,000 recomputed joint-cohort resamples (seed 20261009) in which arena jumps per threat encountered first reached AUC 0.80 at or below each severity s = 0.05-0.50 (cumulative; 1 minus the last value never reached). Note: flies that met no threat (jumps per threat undefined) are excluded: n = 31 of 32 at s = 0, 23 of 24 at s = 0.1, 22 of 24 at s = 0.3, 23 of 24 at s = 0.5 (all flies defined at the other severities).",
+  "fd_joint_observed_nearOdourA": "Observed first severity at which arena time near odour A reaches AUC >= 0.80 against healthy in the joint cohort (null = never up to s = 0.5).",
+  "fd_joint_bootmedian_copied_nearOdourA": "Joint-cohort bootstrap median first severity for arena time near odour A over resamples that reached AUC 0.80 (copied from results/joint/stats_joint.json cascade, analyze_joint.py, 4,000 resamples). CAUTION, seed-dependent (joint cohort): over 11 bootstrap runs of 4,000 resamples (seed 20261009 plus 10 replicate seeds) the median over reached resamples came out 0.05 in 3, 0.1 in 1, 0.15 in 4, 0.175 in 1, 0.2 in 1, 0.3 in 1; the copied median is 0.15. Pooled over all runs, 0.446 of reached resamples had crossed by s = 0.05 and 0.0 by the step below. The median is not reproducible and must not be quoted as a separation severity; quote the observed crossing (never) and the share of resamples that crossed by each severity (fd_*_fracby_recomputed_*).",
+  "fd_joint_bootci_copied_nearOdourA": "2.5-97.5 percentile range of the joint-cohort first-crossing severity for arena time near odour A over reached resamples (stats_joint.json).",
+  "fd_joint_fracnever_copied_nearOdourA": "Fraction of 4,000 joint-cohort resamples in which arena time near odour A never reached AUC 0.80 by s = 0.5 (stats_joint.json).",
+  "fd_joint_uncondmedian_recomputed_nearOdourA": "Median first severity for arena time near odour A in the joint cohort over ALL 4,000 recomputed resamples, 'never' counted as beyond s = 0.5 (null = never); seed 20261009.",
+  "fd_joint_fracby_recomputed_nearOdourA": "Share of ALL 4,000 recomputed joint-cohort resamples (seed 20261009) in which arena time near odour A first reached AUC 0.80 at or below each severity s = 0.05-0.50 (cumulative; 1 minus the last value never reached).",
+  "fd_joint_observed_PI": "Observed first severity at which arena preference index reaches AUC >= 0.80 against healthy in the joint cohort (null = never up to s = 0.5). Note: flies that spent no time near either odour (preference index undefined) are excluded: n = 22 of 24 at s = 0.05, 21 of 24 at s = 0.2, 23 of 24 at s = 0.5 (all flies defined at the other severities).",
+  "fd_joint_bootmedian_copied_PI": "Joint-cohort bootstrap median first severity for arena preference index over resamples that reached AUC 0.80 (copied from results/joint/stats_joint.json cascade, analyze_joint.py, 4,000 resamples). Note: flies that spent no time near either odour (preference index undefined) are excluded: n = 22 of 24 at s = 0.05, 21 of 24 at s = 0.2, 23 of 24 at s = 0.5 (all flies defined at the other severities). CAUTION, seed-dependent (joint cohort): over 11 bootstrap runs of 4,000 resamples (seed 20261009 plus 10 replicate seeds) the median over reached resamples came out 0.15 in 3, 0.175 in 1, 0.2 in 6, 0.3 in 1; the copied median is 0.2. Pooled over all runs, 0.677 of reached resamples had crossed by s = 0.2 and 0.444 by the step below. The median is not reproducible and must not be quoted as a separation severity; quote the observed crossing (never) and the share of resamples that crossed by each severity (fd_*_fracby_recomputed_*).",
+  "fd_joint_bootci_copied_PI": "2.5-97.5 percentile range of the joint-cohort first-crossing severity for arena preference index over reached resamples (stats_joint.json). Note: flies that spent no time near either odour (preference index undefined) are excluded: n = 22 of 24 at s = 0.05, 21 of 24 at s = 0.2, 23 of 24 at s = 0.5 (all flies defined at the other severities).",
+  "fd_joint_fracnever_copied_PI": "Fraction of 4,000 joint-cohort resamples in which arena preference index never reached AUC 0.80 by s = 0.5 (stats_joint.json). Note: flies that spent no time near either odour (preference index undefined) are excluded: n = 22 of 24 at s = 0.05, 21 of 24 at s = 0.2, 23 of 24 at s = 0.5 (all flies defined at the other severities).",
+  "fd_joint_uncondmedian_recomputed_PI": "Median first severity for arena preference index in the joint cohort over ALL 4,000 recomputed resamples, 'never' counted as beyond s = 0.5 (null = never); seed 20261009. Note: flies that spent no time near either odour (preference index undefined) are excluded: n = 22 of 24 at s = 0.05, 21 of 24 at s = 0.2, 23 of 24 at s = 0.5 (all flies defined at the other severities).",
+  "fd_joint_fracby_recomputed_PI": "Share of ALL 4,000 recomputed joint-cohort resamples (seed 20261009) in which arena preference index first reached AUC 0.80 at or below each severity s = 0.05-0.50 (cumulative; 1 minus the last value never reached). Note: flies that spent no time near either odour (preference index undefined) are excluded: n = 22 of 24 at s = 0.05, 21 of 24 at s = 0.2, 23 of 24 at s = 0.5 (all flies defined at the other severities).",
+  "fd_joint_recomputed_condmedian_check": "Joint cohort: recomputed (seed 20261009, not the seed of analyze_joint.py) bootstrap median over reached resamples, per readout, as a check of the values in stats_joint.json. See fd_joint_median_stability for which medians change with the seed (seed-dependent: valence, LInorm, nearOdourA, PI).",
+  "fd_joint_median_stability": "Joint cohort, per readout: replicate-seed check of the first-detection bootstrap medians, defined as fd_series_median_stability (seed 20261009 plus 10 replicate seeds when a cumulative crossing share is within 0.1 of 50%).",
+  "fd_joint_median_seed_dependent": "Joint-cohort readouts whose bootstrap first-detection median changes with the RNG seed or differs from the copied median (see fd_joint_median_stability); quote their observed crossing instead.",
+  "fd_joint_median_near_even": "Joint-cohort readouts whose bootstrap median held in every run, but only 0.5-0.6 of the resamples had crossed by the median severity: weak, quote with that share (see fd_joint_median_stability).",
+  "fd_joint_jumpsPerThreat_recomputed": "Recomputed joint-cohort bootstrap for jumps per threat: fraction of all 4,000 resamples never reaching AUC 0.80, fraction reaching it by s = 0.20, and by s = 0.50.",
+  "series_pair_brain_minus_LI_point": "Point AUC difference (whole-brain spike count (odour A) minus learning index, full-sample AUCs, same flies) at s = 0.05, 0.10, 0.15, 0.20, 0.30 in the severity series.",
+  "series_pair_brain_minus_LI_bootmean_copied": "Bootstrap mean of the paired AUC difference (brain minus LI) at s = 0.05-0.30 as written by analyze_battery.py (results/stats/series_paired_vs_LI.csv).",
+  "series_pair_brain_minus_LI_ci": "95% paired-bootstrap interval (4,000 resamples) of the AUC difference (brain minus LI) at s = 0.05-0.30 (series_paired_vs_LI.csv).",
+  "series_pair_LH_minus_LI_point": "Point AUC difference (lateral horn rate (odour A) minus learning index, full-sample AUCs, same flies) at s = 0.05, 0.10, 0.15, 0.20, 0.30 in the severity series.",
+  "series_pair_LH_minus_LI_bootmean_copied": "Bootstrap mean of the paired AUC difference (LH minus LI) at s = 0.05-0.30 as written by analyze_battery.py (results/stats/series_paired_vs_LI.csv).",
+  "series_pair_LH_minus_LI_ci": "95% paired-bootstrap interval (4,000 resamples) of the AUC difference (LH minus LI) at s = 0.05-0.30 (series_paired_vs_LI.csv).",
+  "series_pair_brain_minus_LI_s0.05_aucs": "Full-sample AUCs at s = 0.05 of whole-brain spike count and of the learning index (series_paired_vs_LI.csv); their difference is the point estimate to quote.",
+  "joint_pair_brain_minus_LI_point": "Joint cohort: point AUC difference (whole-brain spike count (odour A) minus learning index, same flies) at s = 0.05, 0.10, 0.15, 0.20, 0.30, 0.50.",
+  "joint_pair_brain_minus_LI_ci": "Joint cohort: 95% paired-bootstrap interval (4,000 resamples, seed 20261009) of the AUC difference (brain minus LI) at s = 0.05-0.50.",
+  "joint_pair_LH_minus_LI_point": "Joint cohort: point AUC difference (lateral horn rate (odour A) minus learning index, same flies) at s = 0.05, 0.10, 0.15, 0.20, 0.30, 0.50.",
+  "joint_pair_LH_minus_LI_ci": "Joint cohort: 95% paired-bootstrap interval (4,000 resamples, seed 20261009) of the AUC difference (LH minus LI) at s = 0.05-0.50.",
+  "joint_brain_vs_closest_arena_point": "Joint cohort: point AUC difference of whole-brain spike count (odour A) minus the closest arena readout (lowest bootstrap lower bound, results/stats/joint_vs_arena.csv) at s = 0.05-0.50.",
+  "joint_brain_vs_closest_arena_name": "Closest arena readout (lowest 2.5th percentile of the paired difference) for brain at s = 0.05-0.50 (joint_vs_arena.csv).",
+  "joint_brain_vs_closest_arena_ci": "95% paired-bootstrap interval (4,000 resamples, analyze_battery.py) of brain minus the closest arena readout at s = 0.05-0.50 (joint_vs_arena.csv).",
+  "joint_brain_beats_all_arena": "Whether the 95% interval of brain minus every arena readout excluded zero (lowest lower bound > 0), at s = 0.05-0.50 (joint_vs_arena.csv).",
+  "joint_LH_vs_closest_arena_point": "Joint cohort: point AUC difference of lateral horn rate (odour A) minus the closest arena readout (lowest bootstrap lower bound, results/stats/joint_vs_arena.csv) at s = 0.05-0.50.",
+  "joint_LH_vs_closest_arena_name": "Closest arena readout (lowest 2.5th percentile of the paired difference) for LH at s = 0.05-0.50 (joint_vs_arena.csv).",
+  "joint_LH_vs_closest_arena_ci": "95% paired-bootstrap interval (4,000 resamples, analyze_battery.py) of LH minus the closest arena readout at s = 0.05-0.50 (joint_vs_arena.csv).",
+  "joint_LH_beats_all_arena": "Whether the 95% interval of LH minus every arena readout excluded zero (lowest lower bound > 0), at s = 0.05-0.50 (joint_vs_arena.csv).",
+  "joint_LI_vs_closest_arena_point": "Joint cohort: point AUC difference of learning index minus the closest arena readout (lowest bootstrap lower bound, results/stats/joint_vs_arena.csv) at s = 0.05-0.50.",
+  "joint_LI_vs_closest_arena_name": "Closest arena readout (lowest 2.5th percentile of the paired difference) for LI at s = 0.05-0.50 (joint_vs_arena.csv).",
+  "joint_LI_vs_closest_arena_ci": "95% paired-bootstrap interval (4,000 resamples, analyze_battery.py) of LI minus the closest arena readout at s = 0.05-0.50 (joint_vs_arena.csv).",
+  "joint_LI_beats_all_arena": "Whether the 95% interval of LI minus every arena readout excluded zero (lowest lower bound > 0), at s = 0.05-0.50 (joint_vs_arena.csv).",
+  "joint_LI_vs_best_arena_point_auc": "Joint cohort, per severity s = 0.05-0.50: [learning-index AUC, highest arena-readout AUC, which arena readout] (full-sample point AUCs).",
+  "joint_LI_point_auc_above_all_arena_n_of6": "Number of the 6 joint-cohort severities at which the learning-index point AUC exceeds the point AUC of every arena readout. Point estimates only: never quote without joint_LI_vs_closest_arena_ci_includes0_n_of6. The paired 95% interval of LI minus the closest arena readout includes 0 at 6 of 6 severities, and LI is resolved better than every arena readout (joint_LI_beats_all_arena) at 0 of 6, so the learning index is not shown to beat the arena at any severity.",
+  "joint_LI_vs_closest_arena_ci_includes0_n_of6": "Joint cohort: [number of the 6 severities at which the 95% paired-bootstrap interval of LI AUC minus the closest arena readout AUC includes 0, number at which LI is resolved better than every arena readout] (results/stats/joint_vs_arena.csv).",
+  "joint_LI_healthy_rcv_pct_vs_series": "Healthy robust CV (%) of the learning index: [joint cohort (n = 32), severity series (n = 64)]. The healthy flies are all the identical intact network (healthy_pathology_all_zero), so this is the trial-to-trial spread of one network under Poisson input noise, not variability between individual flies.",
+  "LI_median_joint_vs_series_by_severity": "Per severity (0 and the joint-cohort severities): [s, joint-cohort LI median, series LI median, two-sided Mann-Whitney p joint vs series].",
+  "joint_LI_pct_healthy": "Joint cohort learning index median as % of joint healthy median, with 95% bootstrap interval, at s = 0.05-0.50 ([pct, lo, hi] per severity).",
+  "series_LI_pct_healthy_s0.05": "Severity-series learning index median at s = 0.05 as % of series healthy median [pct, lo, hi].",
+  "LI_vs_severity_rho_joint_series_le0.5": "Spearman rho of severity with learning index: [joint cohort, all 176 flies; severity series restricted to s <= 0.5]. The series subset includes s = 0.4, which the joint cohort lacks; LI_vs_severity_rho_series_joint_severities is the like-for-like comparison.",
+  "LI_vs_severity_rho_series_joint_severities": "Severity series restricted to the joint-cohort severities (0, 0.05, 0.10, 0.15, 0.20, 0.30, 0.50; s = 0.4 dropped): Spearman rho, p, n of severity with learning index; compare with the joint-cohort rho in LI_vs_severity_rho_joint_series_le0.5.",
+  "LInorm_vs_severity_joint": "Joint cohort: Spearman rho, p and n of severity with LI/MBON ratio (flies with MBON >= 0.5 Hz).",
+  "LInorm_vs_severity_series_le0.5": "Severity series, s <= 0.5 (including healthy and s = 0.4): Spearman rho, p and n of severity with LI/MBON ratio (MBON >= 0.5 Hz).",
+  "LInorm_vs_severity_series_joint_severities": "Severity series restricted to the joint-cohort severities (s = 0.4 dropped, healthy included): Spearman rho, p and n of severity with LI/MBON ratio (MBON >= 0.5 Hz); like-for-like with LInorm_vs_severity_joint.",
+  "LInorm_healthy_median_joint_vs_series": "Healthy median LI/MBON ratio: [joint cohort, severity series].",
+  "series_LInorm_pct_healthy": "Severity series: median LI/MBON ratio (defined where MBON >= 0.5 Hz) as % of healthy median, 95% bootstrap interval, per severity s = 0.05-1.0 ([pct, lo, hi]; null = undefined in every fly).",
+  "series_LInorm_n_defined": "Severity series: number of flies (of 32) with a defined LI/MBON ratio (MBON >= 0.5 Hz) at s = 0.05-1.0.",
+  "series_LInorm_mw_p_vs_healthy": "Severity series: uncorrected two-sided Mann-Whitney p of LI/MBON ratio, each severity vs healthy, s = 0.05-1.0.",
+  "series_LInorm_trend_0_to_0.3_incl_healthy": "Spearman rho, p, n of severity with LI/MBON ratio over s = 0-0.3 including healthy flies.",
+  "series_LInorm_trend_0.05_to_0.3": "Spearman rho, p, n of severity with LI/MBON ratio over affected flies s = 0.05-0.3.",
+  "series_LInorm_trend_0.1_to_0.3": "Spearman rho, p, n of severity with LI/MBON ratio within affected flies s = 0.1-0.3.",
+  "series_LInorm_trend_0.1_to_0.6": "Spearman rho, p, n of severity with LI/MBON ratio within affected flies s = 0.1-0.6 (defined ratios only).",
+  "series_LInorm_trend_ge0.1_all": "Spearman rho, p, n of severity with LI/MBON ratio over all affected flies with a defined ratio, s >= 0.1.",
+  "series_LInorm_kruskal_0.1_to_0.6": "Kruskal-Wallis H and p of LI/MBON ratio across the 7 severity groups s = 0.1-0.6.",
+  "series_LInorm_pooled_0.1_to_0.3": "Severity series, flies at s = 0.1-0.3 pooled: median LI/MBON ratio as % of healthy [pct, lo, hi], Mann-Whitney p vs healthy, n.",
+  "series_LInorm_pooled_0.1_to_0.6": "Severity series, flies at s = 0.1-0.6 pooled: median LI/MBON ratio as % of healthy [pct, lo, hi], Mann-Whitney p vs healthy, n.",
+  "series_partial_stage_LI_given_MBON_0.1_to_0.6": "Partial rank correlation of severity with raw learning index controlling for MBON rate, affected flies s = 0.1-0.6 (rho, p, n).",
+  "series_LInorm_survivor_selection": "Severity series, s = 0.4, 0.5, 0.6, 0.75: [s, n with defined ratio (of 32), MBON median all flies (Hz), MBON median defined flies, LI median all flies, LI median defined flies].",
+  "series_LInorm_n_undefined_total": "Severity series: number of flies with undefined LI/MBON ratio (MBON < 0.5 Hz).",
+  "components_all_s0.5_LInorm_pct_copied": "Rule-ablation cohort, all three rules at s = 0.5: LI/MBON ratio as % of series healthy [pct, lo, hi, n] (copied from battery_stats.json components.all_s0.5.LI_norm).",
+  "series_LI_vs_MBON_within_severity": "Severity series, within each group (healthy n = 64, others n = 32): [s, Spearman rho of LI vs MBON rate, p].",
+  "series_LI_vs_MBON_pooled_all": "Severity series: pooled Spearman rho of LI vs MBON rate over all 384 flies (the rho printed in S3 Fig, panel A), and n.",
+  "series_LI_vs_MBON_pooled_le0.3": "Severity series: pooled Spearman rho of LI vs MBON rate over flies at s <= 0.3 including healthy, and n.",
+  "series_LI_vs_MBON_pooled_ge0.4": "Severity series: pooled Spearman rho of LI vs MBON rate over flies at s >= 0.4, and n.",
+  "series_partial_LI_MBON_given_severity_all": "Severity series (all 384 flies, healthy included): partial rank correlation of LI with MBON rate controlling for severity rank (rho, p, n).",
+  "series_partial_LI_MBON_given_severity_le0.3": "Severity series (s <= 0.3 including the 64 healthy flies): partial rank correlation of LI with MBON rate controlling for severity rank (rho, p, n).",
+  "series_partial_LI_MBON_given_severity_ge0.4": "Severity series (s >= 0.4, affected flies only): partial rank correlation of LI with MBON rate controlling for severity rank (rho, p, n).",
+  "series_partial_severity_LI_given_MBON_all": "Severity series, all 384 flies: partial rank correlation of severity with LI controlling for MBON rate.",
+  "gf_healthy_range_hz": "Severity series: range of giant fibre rate (two-DNp01 mean, Hz) in the 64 healthy flies.",
+  "gf_healthy_latency_ms_counts": "Severity series healthy flies: number of flies at each giant fibre first-spike latency (1-ms bins).",
+  "gf_n_affected": "Severity series: number of affected flies (s > 0).",
+  "gf_n_below100": "Severity series: affected flies with giant fibre rate below 100 Hz (the criterion of Fig 6A and 6C).",
+  "gf_n_below100_silent": "Of the affected flies below 100 Hz, number with giant fibre rate exactly 0 (no spike).",
+  "gf_n_below100_firing": "Of the affected flies below 100 Hz, number that still fire (rate > 0).",
+  "gf_below100_firing_rate_hz": "Firing flies below 100 Hz: [median, min, max] giant fibre rate (two-DNp01 mean, Hz).",
+  "gf_below100_firing_latency_ms": "Firing flies below 100 Hz: first-spike latency [median, Q1, Q3, min, max] in ms (healthy flies are 2-3 ms).",
+  "gf_nonfail_affected_latency_median_ms": "Median first-spike latency (ms) of affected flies at or above 100 Hz.",
+  "gf_affected_between_60_and_100hz": "Affected flies with giant fibre rate in [60, 100) Hz: [rate Hz, s, seed, latency ms].",
+  "gf_bands_by_severity": "Severity series, per s = 0.05-1.0: [n below 100 Hz, n from 100 Hz to below the lowest healthy value, n at or above the lowest healthy value] (of 32).",
+  "gf_bands_total": "All 320 affected flies: [below 100 Hz, 100 Hz to below healthy minimum, within healthy range].",
+  "gf_failing_median_by_severity": "Median giant fibre rate (Hz) of the flies below 100 Hz, per severity s = 0.05-1.0 (null = no such fly).",
+  "gf_nonfail_median_by_severity": "Median giant fibre rate (Hz) of flies at or above 100 Hz, per severity s = 0.05-1.0 (healthy median 195).",
+  "gf_nonfail_auc_by_severity": "AUC of giant fibre rate against healthy using only flies at or above 100 Hz, per severity s = 0.05-1.0.",
+  "gf_s0.1_auc_all_vs_nonfail": "Giant fibre AUC at s = 0.10: [all 32 flies, only flies at or above 100 Hz].",
+  "gf_recon_left_removed_fail": "Reconstruction (results/paper/output_neuron_loss.json): [flies below 100 Hz, flies] among affected flies that lost the left (stimulated-side) giant fibre.",
+  "gf_recon_left_kept_fail": "Reconstruction: [flies below 100 Hz, flies] among affected flies that kept the left giant fibre.",
+  "gf_recon_by_loss": "Reconstruction: [flies below 100 Hz, total flies] by which giant fibres were removed (left only, both, right only, neither); output_neuron_loss.json gf_fail_by_left_right.",
+  "gf_recon_right_removed_total": "Reconstruction: affected flies that lost the right (unstimulated-side) giant fibre (right only plus both).",
+  "gf_vulnerability_percentile_L_R": "Vulnerability (load) percentile of the left and right giant fibre (DNp01) among neurons (output_neuron_loss.json).",
+  "mn9_recon_silent_by_n_removed": "Reconstruction: [silent MN9 flies, total flies] by number of MN9 neurons removed (0, 1, 2) among the 320 affected flies.",
+  "mn9_n_silent_affected": "Severity series: affected flies with silent MN9 (rate 0).",
+  "mn9_nonsilent_median_by_severity": "Median MN9 rate (Hz) among non-silent flies at s = 0 and 0.05-1.0.",
+  "motor_nonfail_trend_rho_incl_healthy": "Spearman rho of severity with [giant fibre rate among flies >= 100 Hz, MN9 rate among non-silent flies], severity series, healthy flies included.",
+  "motor_nonfail_trend_affected_only": "Severity series, affected flies only: [[rho, p, n] of severity with GF rate among flies >= 100 Hz], [[rho, p, n] with MN9 rate among non-silent flies].",
+  "mn9_nonsilent_auc_by_severity": "AUC of MN9 rate against healthy using only non-silent flies, per severity s = 0.05-1.0.",
+  "joint_gf_below100_n": "Joint cohort: flies with circuit giant fibre rate below 100 Hz.",
+  "joint_gf_below100_met_threat_n": "Joint cohort: flies below 100 Hz that met at least one arena threat.",
+  "joint_gf_below100_jpt_eq1_n": "Joint cohort: flies below 100 Hz that met a threat and jumped exactly once per threat (jumps per threat = 1.0). The 100 Hz criterion is the circuit mean rate of the two giant fibres, but arena take-off needs only 2 spikes summed over both giant fibres in 30 ms, so one surviving giant fibre can still trigger take-off. Caveat: a jump is counted at any take-off, not only during a threat. house_nb.py takes off whenever the fly is grounded, the giant fibre spikes summed over BOTH DNp01 neurons in the last 30 ms (three 10-ms body steps) reach 2, and more than 1 s has passed since the last jump. A threat window lasts 0.6 s and threat onsets are at least 10.1 s apart, so at most one jump fits in the window of a threat met; every jump beyond the number of threats met is a take-off outside those windows, and a jump inside a window need not be a response to it. Jumps per threat is therefore not escape success.",
+  "joint_gf_below100_jpt_eq1_gf_range_hz": "Joint cohort: range of circuit giant fibre rate (Hz) among the below-100-Hz flies that jumped once per threat.",
+  "joint_gf_below100_never_jumped": "Joint cohort: below-100-Hz flies with fewer jumps than threats: [s, GF rate Hz, jumps, threats seen].",
+  "joint_n_met_threat": "Joint cohort: flies that met at least one threat (jumps per threat defined).",
+  "joint_n_fewer_jumps_than_threats": "Joint cohort: flies (of those that met a threat) with fewer jumps than threats met. Caveat: a jump is counted at any take-off, not only during a threat. house_nb.py takes off whenever the fly is grounded, the giant fibre spikes summed over BOTH DNp01 neurons in the last 30 ms (three 10-ms body steps) reach 2, and more than 1 s has passed since the last jump. A threat window lasts 0.6 s and threat onsets are at least 10.1 s apart, so at most one jump fits in the window of a threat met; every jump beyond the number of threats met is a take-off outside those windows, and a jump inside a window need not be a response to it. Jumps per threat is therefore not escape success.",
+  "joint_fewer_jumps_flies_gf_hz": "Circuit giant fibre rate (Hz) of the joint-cohort flies with fewer jumps than threats.",
+  "joint_no_threat_flies": "Joint-cohort flies that met no threat: [s, total jumps, circuit giant fibre rate Hz].",
+  "joint_jpt_decomposition_by_severity": "Joint cohort, per s (0 and 0.05-0.50), flies that met a threat: [s, n, n with >1 jump per threat, n with exactly 1, n with <1, median, mean jumps per threat]. Caveat: a jump is counted at any take-off, not only during a threat. house_nb.py takes off whenever the fly is grounded, the giant fibre spikes summed over BOTH DNp01 neurons in the last 30 ms (three 10-ms body steps) reach 2, and more than 1 s has passed since the last jump. A threat window lasts 0.6 s and threat onsets are at least 10.1 s apart, so at most one jump fits in the window of a threat met; every jump beyond the number of threats met is a take-off outside those windows, and a jump inside a window need not be a response to it. Jumps per threat is therefore not escape success.",
+  "joint_jpt_vs_severity": "Joint cohort: Spearman rho, p, n of severity with jumps per threat. Caveat: a jump is counted at any take-off, not only during a threat. house_nb.py takes off whenever the fly is grounded, the giant fibre spikes summed over BOTH DNp01 neurons in the last 30 ms (three 10-ms body steps) reach 2, and more than 1 s has passed since the last jump. A threat window lasts 0.6 s and threat onsets are at least 10.1 s apart, so at most one jump fits in the window of a threat met; every jump beyond the number of threats met is a take-off outside those windows, and a jump inside a window need not be a response to it. Jumps per threat is therefore not escape success.",
+  "joint_jpt_capped1_vs_severity": "Joint cohort: Spearman rho, p, n of severity with jumps per threat capped at 1 (extra jumps removed). Caveat: a jump is counted at any take-off, not only during a threat. house_nb.py takes off whenever the fly is grounded, the giant fibre spikes summed over BOTH DNp01 neurons in the last 30 ms (three 10-ms body steps) reach 2, and more than 1 s has passed since the last jump. A threat window lasts 0.6 s and threat onsets are at least 10.1 s apart, so at most one jump fits in the window of a threat met; every jump beyond the number of threats met is a take-off outside those windows, and a jump inside a window need not be a response to it. Jumps per threat is therefore not escape success.",
+  "joint_jpt_gt1_indicator_vs_severity": "Joint cohort: Spearman rho, p, n of severity with the indicator 'more than one jump per threat', i.e. at least one take-off outside the windows of the threats met. Caveat: a jump is counted at any take-off, not only during a threat. house_nb.py takes off whenever the fly is grounded, the giant fibre spikes summed over BOTH DNp01 neurons in the last 30 ms (three 10-ms body steps) reach 2, and more than 1 s has passed since the last jump. A threat window lasts 0.6 s and threat onsets are at least 10.1 s apart, so at most one jump fits in the window of a threat met; every jump beyond the number of threats met is a take-off outside those windows, and a jump inside a window need not be a response to it. Jumps per threat is therefore not escape success.",
+  "joint_threats_seen_vs_severity": "Joint cohort: Spearman rho, p, n of severity with number of threats met.",
+  "joint_extra_jumps_mean_by_severity": "Joint cohort: mean (jumps minus threats met) per fly, at s = 0 and 0.05-0.50, flies that met a threat. Caveat: a jump is counted at any take-off, not only during a threat. house_nb.py takes off whenever the fly is grounded, the giant fibre spikes summed over BOTH DNp01 neurons in the last 30 ms (three 10-ms body steps) reach 2, and more than 1 s has passed since the last jump. A threat window lasts 0.6 s and threat onsets are at least 10.1 s apart, so at most one jump fits in the window of a threat met; every jump beyond the number of threats met is a take-off outside those windows, and a jump inside a window need not be a response to it. Jumps per threat is therefore not escape success.",
+  "joint_jumps_beyond_threats_met_by_severity": "Joint cohort, all flies (including those that met no threat), per s = 0 and 0.05-0.50: [s, n flies, n flies with more jumps than threats met, total jumps beyond threats met (sum of max(jumps - threats met, 0)), total jumps]. Jumps beyond threats met are a lower bound on take-offs outside the windows of the threats met. Caveat: a jump is counted at any take-off, not only during a threat. house_nb.py takes off whenever the fly is grounded, the giant fibre spikes summed over BOTH DNp01 neurons in the last 30 ms (three 10-ms body steps) reach 2, and more than 1 s has passed since the last jump. A threat window lasts 0.6 s and threat onsets are at least 10.1 s apart, so at most one jump fits in the window of a threat met; every jump beyond the number of threats met is a take-off outside those windows, and a jump inside a window need not be a response to it. Jumps per threat is therefore not escape success.",
+  "joint_threat_min_gap_s": "Joint-cohort arena: smallest interval (s) between threat onsets in results/joint/cohort_joint_meta.json (10 threats); larger than the 0.6 s threat window and the 1 s jump refractory period.",
+  "joint_mn9_silent_feed": "Joint cohort: [flies with silent MN9, of these flies with zero arena feeding time].",
+  "joint_healthy_never_fed": "Joint cohort: [healthy flies with zero feeding time, healthy flies].",
+  "joint_healthy_never_fed_mn9_hz": "MN9 rates (Hz) of the healthy joint-cohort flies that never fed (arena feeding threshold 10 Hz).",
+  "joint_healthy_threats_seen": "Joint-cohort healthy flies: threats met [median, min, max].",
+  "joint_healthy_jpt_exactly1": "Joint-cohort healthy flies: [n with jumps per threat exactly 1.0, n with a defined value]. Caveat: a jump is counted at any take-off, not only during a threat. house_nb.py takes off whenever the fly is grounded, the giant fibre spikes summed over BOTH DNp01 neurons in the last 30 ms (three 10-ms body steps) reach 2, and more than 1 s has passed since the last jump. A threat window lasts 0.6 s and threat onsets are at least 10.1 s apart, so at most one jump fits in the window of a threat met; every jump beyond the number of threats met is a take-off outside those windows, and a jump inside a window need not be a response to it. Jumps per threat is therefore not escape success.",
+  "joint_withinfly_MN9_vs_feedTime_raw": "Joint cohort, all flies: Spearman rho, p, n of MN9 sugar response rate with arena feeding time in the same fly.",
+  "joint_withinfly_MN9_vs_feedTime_partial_severity": "Joint cohort: partial rank correlation of MN9 sugar response rate with arena feeding time controlling for severity rank (rho, p, n).",
+  "joint_withinfly_MN9_vs_feedTime_healthy": "Joint cohort healthy flies only: Spearman rho, p, n of MN9 sugar response rate with arena feeding time.",
+  "joint_withinfly_GF_vs_jumpsPerThreat_raw": "Joint cohort, all flies: Spearman rho, p, n of giant fibre looming rate (mean of the two DNp01) with arena jumps per threat encountered in the same fly.",
+  "joint_withinfly_GF_vs_jumpsPerThreat_partial_severity": "Joint cohort: partial rank correlation of giant fibre looming rate (mean of the two DNp01) with arena jumps per threat encountered controlling for severity rank (rho, p, n).",
+  "joint_withinfly_GF_vs_jumpsPerThreat_healthy": "Joint cohort healthy flies only: Spearman rho, p, n of giant fibre looming rate (mean of the two DNp01) with arena jumps per threat encountered.",
+  "joint_withinfly_MN9_vs_feedTime_by_severity": "Joint cohort: within-severity Spearman rho of MN9 rate with feeding time at s = 0 and 0.05-0.50.",
+  "joint_pairs_circuit_better_copied": "analyze_joint.py all-pairs design (12 circuit x 4 arena readouts x 6 severities): [pairs where circuit AUC is resolved better, pairs tested, pairs where arena is resolved better] (stats_joint.json, paired_auc.csv).",
+  "webdemo_config": "Web-demo arena run (results/house_20v20_s05_full.json): [healthy flies, s>0 flies, severity, seconds, threats, seed, frames, frame interval s].",
+  "webdemo_feed_s_median_healthy_vs_s0.5": "Web-demo run: median feeding time (s) of healthy and s = 0.5 flies, and Mann-Whitney p (results/house_20v20_s05_flies.csv).",
+  "joint_arena_config": "Joint-cohort arena (results/joint/cohort_joint_meta.json): [seconds, threats scheduled, seed, stage list].",
+  "cohorts_reported_total": "Flies in the reported designs: [series+ablation+maps+KC-only+joint (battery_stats.json totals.all), burden-matched exp2 maps (288, results/exp2), total].",
+  "cohorts_unreported": "Flies in simulated cohorts not counted in the reported total: the earlier run of the four battery designs, called the pilot (results/battery/*.csv without _x4), the learning cohort, the early arena cohort, the web demo, and the technical test of the joint-cohort script (results/joint/smoke.csv and smoke_meta.json: 4 flies, stage list 0:2,0.5:2, 10-s arena).",
+  "healthy_KC_max_median_hz": "Severity series healthy flies: [maximum, median] Kenyon cell rate (Hz).",
+  "healthy_MBON_max_median_hz": "Severity series healthy flies: [maximum, median] MBON rate (Hz).",
+  "hiact_groupmedian_criterion_by_severity": "Severity series, s = 0.05-1.0: flies (of 32) with KC and MBON rates both above 1.5 x their own severity group's median (own-group criterion, open bars of Fig 6F).",
+  "hiact_healthy_referenced_KCmax_and_MBONmax_by_severity": "Severity series, s = 0.05-1.0: flies (of 32) with KC rate above the healthy maximum AND MBON rate above the healthy maximum.",
+  "hiact_healthy_referenced_1.5x_healthy_median_by_severity": "Severity series, s = 0.05-1.0: flies (of 32) with KC and MBON rates both above 1.5 x the healthy median.",
+  "hiact_groupmedian_flagged_with_KC_above_healthy_max": "Severity series, s = 0.05-1.0: of the group-median-flagged flies, number with KC rate above the healthy maximum.",
+  "hiact_groupmedian_flagged_KC_over_healthy_median": "Severity series, s = 0.05-1.0: median KC rate of the group-median-flagged flies as a multiple of the healthy median KC rate.",
+  "hiact_expected_one_of_two_top_hubs": "Expected flies (of 32) losing at least one of two maximally loaded neurons, 32 x [1 - (1 - 0.5 s)^2] (analyze_battery.py expected_if_one_of_two_top_hubs), s = 0.05-1.0.",
+  "hiact_binomial_P_le_observed": "Binomial P(X <= observed group-median count) with n = 32 and p = 1 - (1 - 0.5 s)^2, s = 0.05-1.0.",
+  "hiact_observed_vs_expected_le0.15": "Severity series, affected flies at s = 0.05, 0.1, 0.15 (3 x 32 flies, no healthy flies): [observed group-median-flagged flies, expected under the two-top-hub formula].",
+  "hiact_observed_vs_expected_0.2_to_0.4": "Severity series, affected flies at s = 0.2, 0.3, 0.4 (3 x 32 flies, no healthy flies): [observed group-median-flagged flies, expected under the two-top-hub formula].",
+  "hiact_observed_vs_expected_ge0.5": "Severity series, affected flies at s = 0.5, 0.6, 0.75, 1 (4 x 32 flies, no healthy flies): [observed group-median-flagged flies, expected under the two-top-hub formula].",
+  "hiact_healthy_flagged": "Healthy flies meeting the 1.5 x (healthy) median criterion for both KC and MBON: [n, total].",
+  "hiact_flagged_seeds_in_exp1": "Group-median-flagged high-activity flies that were also re-simulated in the exp1 counterfactual screen: [s, seed].",
+  "exp1_seed1266_APL_units": "Exp1 screen, fly s = 0.5 seed 1266 (a group-median-flagged fly), APL type row of s0.5_seed1266_units.csv: [number of APL neurons that died in this fly, mean vulnerability percentile rank of those neurons (cx.vuln = percentile of total synapse count among all neurons, 1 = most connected; column mean_rank), total input + output synapse count of those neurons in the intact connectome (column syn_lost = GraphPredictors.syn = out_syn + in_syn summed over the dead neurons; it counts the synapses of the removed neurons, not synapses removed by synapse thinning)].",
+  "exp1_seed1266_KC_MBON_hz": "Exp1 screen, seed 1266 at s = 0.5 (shortened screen protocol): [KC rate, MBON rate] in Hz for the damaged fly and after restoring both or one APL neuron (s0.5_seed1266_runs.csv).",
+  "series_seed1266_KC_MBON_vs_group_median": "Severity series fly seed 1266 (s = 0.5): [KC rate, MBON rate, s = 0.5 group median KC, group median MBON] (Hz).",
+  "ablation_KC_excursions": "Rule ablation (components_x4.csv, 32 flies each): [condition, n KC > healthy max, n KC > 1.2 x healthy max, n KC > 1.5 x healthy median, n flagged by the group-median KC&MBON criterion, max KC Hz].",
+  "dip_auc_all_KCrate": "Severity series AUC of Kenyon cell rate (odour A) at s = 0.15, 0.2, 0.3, 0.4, 0.5 with all 32 flies.",
+  "dip_auc_without_flagged_KCrate": "Severity series AUC of Kenyon cell rate (odour A) at s = 0.15, 0.2, 0.3, 0.4, 0.5 after removing the group-median-flagged high-activity flies.",
+  "dip_auc_all_KCrecruited": "Severity series AUC of fraction of Kenyon cells recruited (odour A) at s = 0.15, 0.2, 0.3, 0.4, 0.5 with all 32 flies.",
+  "dip_auc_without_flagged_KCrecruited": "Severity series AUC of fraction of Kenyon cells recruited (odour A) at s = 0.15, 0.2, 0.3, 0.4, 0.5 after removing the group-median-flagged high-activity flies.",
+  "dip_auc_all_MBON": "Severity series AUC of MBON rate (odour A) at s = 0.15, 0.2, 0.3, 0.4, 0.5 with all 32 flies.",
+  "dip_auc_without_flagged_MBON": "Severity series AUC of MBON rate (odour A) at s = 0.15, 0.2, 0.3, 0.4, 0.5 after removing the group-median-flagged high-activity flies.",
+  "dip_MBON_pct_healthy_s0.3_s0.4": "MBON rate median as % of healthy with 95% bootstrap interval at s = 0.3 and s = 0.4 ([pct, lo, hi] each).",
+  "dip_n_above_healthy_max_s0.4": "Severity series s = 0.4: [flies with KC rate above healthy max, flies with MBON rate above healthy max].",
+  "retest_n_pairs_by_condition": "Pilot battery flies re-simulated in the *_x4 tables with the same seed and condition, by condition. Damaged pairs are the same pathology under new input noise. Healthy pairs carry no pathology (healthy_pathology_all_zero; pilot and x4 healthy dead_frac = mean_load = 0), so every healthy run is the identical intact network and a healthy 'pair' is two runs of that one network under different input noise; the seed gives a healthy fly no individual identity.",
+  "retest_healthy_pathology_zero": "Test-retest healthy pairs with zero pathology in both the pilot and the x4 run (dead_frac and mean_load = 0): [n, healthy pairs].",
+  "retest_max_abs_dead_frac_difference": "Largest absolute difference in fraction of neurons removed between pilot and x4 runs of the same fly (0 = identical pathology).",
+  "retest_healthy_brain": "Test-retest of whole-brain spike count (odour A) in 16 pairs of runs of the identical healthy network under different input noise (pilot vs x4 run): [Spearman rho, within-pair SD / total SD] (within-pair SD = sqrt(mean diff^2 / 2); total SD over both runs). Healthy flies have no pathology (retest_healthy_pathology_zero), so there is no individual to retest: rho near 0 and a within/total SD ratio near 1 follow by construction and are NOT a measured low reliability of healthy individuals.",
+  "retest_healthy_LH": "Test-retest of lateral horn rate (odour A) in 16 pairs of runs of the identical healthy network under different input noise (pilot vs x4 run): [Spearman rho, within-pair SD / total SD] (within-pair SD = sqrt(mean diff^2 / 2); total SD over both runs). Healthy flies have no pathology (retest_healthy_pathology_zero), so there is no individual to retest: rho near 0 and a within/total SD ratio near 1 follow by construction and are NOT a measured low reliability of healthy individuals.",
+  "retest_healthy_PN": "Test-retest of projection neuron rate (odour A) in 16 pairs of runs of the identical healthy network under different input noise (pilot vs x4 run): [Spearman rho, within-pair SD / total SD] (within-pair SD = sqrt(mean diff^2 / 2); total SD over both runs). Healthy flies have no pathology (retest_healthy_pathology_zero), so there is no individual to retest: rho near 0 and a within/total SD ratio near 1 follow by construction and are NOT a measured low reliability of healthy individuals.",
+  "retest_healthy_KCrate": "Test-retest of Kenyon cell rate (odour A) in 16 pairs of runs of the identical healthy network under different input noise (pilot vs x4 run): [Spearman rho, within-pair SD / total SD] (within-pair SD = sqrt(mean diff^2 / 2); total SD over both runs). Healthy flies have no pathology (retest_healthy_pathology_zero), so there is no individual to retest: rho near 0 and a within/total SD ratio near 1 follow by construction and are NOT a measured low reliability of healthy individuals.",
+  "retest_healthy_KCrecruited": "Test-retest of fraction of Kenyon cells recruited (odour A) in 16 pairs of runs of the identical healthy network under different input noise (pilot vs x4 run): [Spearman rho, within-pair SD / total SD] (within-pair SD = sqrt(mean diff^2 / 2); total SD over both runs). Healthy flies have no pathology (retest_healthy_pathology_zero), so there is no individual to retest: rho near 0 and a within/total SD ratio near 1 follow by construction and are NOT a measured low reliability of healthy individuals.",
+  "retest_healthy_MBON": "Test-retest of MBON rate (odour A) in 16 pairs of runs of the identical healthy network under different input noise (pilot vs x4 run): [Spearman rho, within-pair SD / total SD] (within-pair SD = sqrt(mean diff^2 / 2); total SD over both runs). Healthy flies have no pathology (retest_healthy_pathology_zero), so there is no individual to retest: rho near 0 and a within/total SD ratio near 1 follow by construction and are NOT a measured low reliability of healthy individuals.",
+  "retest_healthy_valence": "Test-retest of naive MB valence (odour A) in 16 pairs of runs of the identical healthy network under different input noise (pilot vs x4 run): [Spearman rho, within-pair SD / total SD] (within-pair SD = sqrt(mean diff^2 / 2); total SD over both runs). Healthy flies have no pathology (retest_healthy_pathology_zero), so there is no individual to retest: rho near 0 and a within/total SD ratio near 1 follow by construction and are NOT a measured low reliability of healthy individuals.",
+  "retest_healthy_LI": "Test-retest of learning index in 16 pairs of runs of the identical healthy network under different input noise (pilot vs x4 run): [Spearman rho, within-pair SD / total SD] (within-pair SD = sqrt(mean diff^2 / 2); total SD over both runs). Healthy flies have no pathology (retest_healthy_pathology_zero), so there is no individual to retest: rho near 0 and a within/total SD ratio near 1 follow by construction and are NOT a measured low reliability of healthy individuals.",
+  "retest_healthy_MN9": "Test-retest of MN9 sugar response rate in 16 pairs of runs of the identical healthy network under different input noise (pilot vs x4 run): [Spearman rho, within-pair SD / total SD] (within-pair SD = sqrt(mean diff^2 / 2); total SD over both runs). Healthy flies have no pathology (retest_healthy_pathology_zero), so there is no individual to retest: rho near 0 and a within/total SD ratio near 1 follow by construction and are NOT a measured low reliability of healthy individuals.",
+  "retest_healthy_GF": "Test-retest of giant fibre looming rate (mean of the two DNp01) in 16 pairs of runs of the identical healthy network under different input noise (pilot vs x4 run): [Spearman rho, within-pair SD / total SD] (within-pair SD = sqrt(mean diff^2 / 2); total SD over both runs). Healthy flies have no pathology (retest_healthy_pathology_zero), so there is no individual to retest: rho near 0 and a within/total SD ratio near 1 follow by construction and are NOT a measured low reliability of healthy individuals.",
+  "retest_s0.5_pan_brain": "Test-retest of whole-brain spike count (odour A) in 16 damaged flies at s = 0.5, pan scope (all_s0.5 and hub_s0.5; pilot vs x4 run, same seed and pathology, new input noise): [Spearman rho, within-pair SD / total SD] (within-pair SD = sqrt(mean diff^2 / 2); total SD over both runs).",
+  "retest_s0.5_pan_LH": "Test-retest of lateral horn rate (odour A) in 16 damaged flies at s = 0.5, pan scope (all_s0.5 and hub_s0.5; pilot vs x4 run, same seed and pathology, new input noise): [Spearman rho, within-pair SD / total SD] (within-pair SD = sqrt(mean diff^2 / 2); total SD over both runs).",
+  "retest_s0.5_pan_PN": "Test-retest of projection neuron rate (odour A) in 16 damaged flies at s = 0.5, pan scope (all_s0.5 and hub_s0.5; pilot vs x4 run, same seed and pathology, new input noise): [Spearman rho, within-pair SD / total SD] (within-pair SD = sqrt(mean diff^2 / 2); total SD over both runs).",
+  "retest_s0.5_pan_KCrate": "Test-retest of Kenyon cell rate (odour A) in 16 damaged flies at s = 0.5, pan scope (all_s0.5 and hub_s0.5; pilot vs x4 run, same seed and pathology, new input noise): [Spearman rho, within-pair SD / total SD] (within-pair SD = sqrt(mean diff^2 / 2); total SD over both runs).",
+  "retest_s0.5_pan_KCrecruited": "Test-retest of fraction of Kenyon cells recruited (odour A) in 16 damaged flies at s = 0.5, pan scope (all_s0.5 and hub_s0.5; pilot vs x4 run, same seed and pathology, new input noise): [Spearman rho, within-pair SD / total SD] (within-pair SD = sqrt(mean diff^2 / 2); total SD over both runs).",
+  "retest_s0.5_pan_MBON": "Test-retest of MBON rate (odour A) in 16 damaged flies at s = 0.5, pan scope (all_s0.5 and hub_s0.5; pilot vs x4 run, same seed and pathology, new input noise): [Spearman rho, within-pair SD / total SD] (within-pair SD = sqrt(mean diff^2 / 2); total SD over both runs).",
+  "retest_s0.5_pan_valence": "Test-retest of naive MB valence (odour A) in 16 damaged flies at s = 0.5, pan scope (all_s0.5 and hub_s0.5; pilot vs x4 run, same seed and pathology, new input noise): [Spearman rho, within-pair SD / total SD] (within-pair SD = sqrt(mean diff^2 / 2); total SD over both runs).",
+  "retest_s0.5_pan_LI": "Test-retest of learning index in 16 damaged flies at s = 0.5, pan scope (all_s0.5 and hub_s0.5; pilot vs x4 run, same seed and pathology, new input noise): [Spearman rho, within-pair SD / total SD] (within-pair SD = sqrt(mean diff^2 / 2); total SD over both runs).",
+  "retest_s0.5_pan_MN9": "Test-retest of MN9 sugar response rate in 16 damaged flies at s = 0.5, pan scope (all_s0.5 and hub_s0.5; pilot vs x4 run, same seed and pathology, new input noise): [Spearman rho, within-pair SD / total SD] (within-pair SD = sqrt(mean diff^2 / 2); total SD over both runs).",
+  "retest_s0.5_pan_GF": "Test-retest of giant fibre looming rate (mean of the two DNp01) in 16 damaged flies at s = 0.5, pan scope (all_s0.5 and hub_s0.5; pilot vs x4 run, same seed and pathology, new input noise): [Spearman rho, within-pair SD / total SD] (within-pair SD = sqrt(mean diff^2 / 2); total SD over both runs).",
+  "retest_s0.5_KConly_brain": "Test-retest of whole-brain spike count (odour A) in 8 damaged flies at s = 0.5, Kenyon-cell-only scope (mb_s0.5; pilot vs x4 run, same seed and pathology, new input noise): [Spearman rho, within-pair SD / total SD] (within-pair SD = sqrt(mean diff^2 / 2); total SD over both runs).",
+  "retest_s0.5_KConly_LH": "Test-retest of lateral horn rate (odour A) in 8 damaged flies at s = 0.5, Kenyon-cell-only scope (mb_s0.5; pilot vs x4 run, same seed and pathology, new input noise): [Spearman rho, within-pair SD / total SD] (within-pair SD = sqrt(mean diff^2 / 2); total SD over both runs).",
+  "retest_s0.5_KConly_PN": "Test-retest of projection neuron rate (odour A) in 8 damaged flies at s = 0.5, Kenyon-cell-only scope (mb_s0.5; pilot vs x4 run, same seed and pathology, new input noise): [Spearman rho, within-pair SD / total SD] (within-pair SD = sqrt(mean diff^2 / 2); total SD over both runs).",
+  "retest_s0.5_KConly_KCrate": "Test-retest of Kenyon cell rate (odour A) in 8 damaged flies at s = 0.5, Kenyon-cell-only scope (mb_s0.5; pilot vs x4 run, same seed and pathology, new input noise): [Spearman rho, within-pair SD / total SD] (within-pair SD = sqrt(mean diff^2 / 2); total SD over both runs).",
+  "retest_s0.5_KConly_KCrecruited": "Test-retest of fraction of Kenyon cells recruited (odour A) in 8 damaged flies at s = 0.5, Kenyon-cell-only scope (mb_s0.5; pilot vs x4 run, same seed and pathology, new input noise): [Spearman rho, within-pair SD / total SD] (within-pair SD = sqrt(mean diff^2 / 2); total SD over both runs).",
+  "retest_s0.5_KConly_MBON": "Test-retest of MBON rate (odour A) in 8 damaged flies at s = 0.5, Kenyon-cell-only scope (mb_s0.5; pilot vs x4 run, same seed and pathology, new input noise): [Spearman rho, within-pair SD / total SD] (within-pair SD = sqrt(mean diff^2 / 2); total SD over both runs).",
+  "retest_s0.5_KConly_valence": "Test-retest of naive MB valence (odour A) in 8 damaged flies at s = 0.5, Kenyon-cell-only scope (mb_s0.5; pilot vs x4 run, same seed and pathology, new input noise): [Spearman rho, within-pair SD / total SD] (within-pair SD = sqrt(mean diff^2 / 2); total SD over both runs).",
+  "retest_s0.5_KConly_LI": "Test-retest of learning index in 8 damaged flies at s = 0.5, Kenyon-cell-only scope (mb_s0.5; pilot vs x4 run, same seed and pathology, new input noise): [Spearman rho, within-pair SD / total SD] (within-pair SD = sqrt(mean diff^2 / 2); total SD over both runs).",
+  "retest_s0.5_KConly_MN9": "Test-retest of MN9 sugar response rate in 8 damaged flies at s = 0.5, Kenyon-cell-only scope (mb_s0.5; pilot vs x4 run, same seed and pathology, new input noise): [Spearman rho, within-pair SD / total SD] (within-pair SD = sqrt(mean diff^2 / 2); total SD over both runs).",
+  "retest_s0.5_KConly_GF": "Test-retest of giant fibre looming rate (mean of the two DNp01) in 8 damaged flies at s = 0.5, Kenyon-cell-only scope (mb_s0.5; pilot vs x4 run, same seed and pathology, new input noise): [Spearman rho, within-pair SD / total SD] (within-pair SD = sqrt(mean diff^2 / 2); total SD over both runs).",
+  "protocol_joint_sequence": "Joint-cohort per-fly protocol in execution order, parsed from code/scripts/cohort_joint.py, code/adfly/house_nb.py (probe_naive, train, run) and results/joint/cohort_joint_meta.json.",
+  "protocol_joint_LI_uses_prereset_valence": "True if the joint-cohort learning index pairs pre-training valences from step 1 (before the state reset) with post-training valences (cohort_joint.py).",
+  "protocol_series_has_reset_or_probe": "Whether the severity-series protocol (code/scripts/assay_battery.py) contains a state reset or naive-valence probe (False = one continuous 5-step run).",
+  "arena_constants": "Arena constants from code: [shadow (threat) duration s (house.py Arena.shadow_dur), jump refractory s (house_nb.py), giant fibre spikes needed for take-off, summed over BOTH giant fibres (DNp01 left and right share out_id 1 in house_nb.py) (house.py Body.gf_spikes), take-off window ms = the last three 10-ms body steps (house_nb.py gf_sp), MN9 feeding threshold Hz (Body.feed_hz)]. The take-off test does not depend on a threat being present. Caveat: a jump is counted at any take-off, not only during a threat. house_nb.py takes off whenever the fly is grounded, the giant fibre spikes summed over BOTH DNp01 neurons in the last 30 ms (three 10-ms body steps) reach 2, and more than 1 s has passed since the last jump. A threat window lasts 0.6 s and threat onsets are at least 10.1 s apart, so at most one jump fits in the window of a threat met; every jump beyond the number of threats met is a take-off outside those windows, and a jump inside a window need not be a response to it. Jumps per threat is therefore not escape success.",
+  "arena_max_jumps_per_threat_window": "Maximum number of take-offs possible during one threat window, given the 0.6 s shadow duration and the 1 s jump refractory period. Jumps are counted at any grounded giant fibre burst, so jumps beyond the number of threats met are take-offs outside threat windows. Caveat: a jump is counted at any take-off, not only during a threat. house_nb.py takes off whenever the fly is grounded, the giant fibre spikes summed over BOTH DNp01 neurons in the last 30 ms (three 10-ms body steps) reach 2, and more than 1 s has passed since the last jump. A threat window lasts 0.6 s and threat onsets are at least 10.1 s apart, so at most one jump fits in the window of a threat met; every jump beyond the number of threats met is a take-off outside those windows, and a jump inside a window need not be a response to it. Jumps per threat is therefore not escape success."
+ },
+ "_provenance": {
+  "script": "code/scripts/facts_detection.py",
+  "seed": 20261009,
+  "n_boot": 4000,
+  "inputs": [
+   "results/battery/stage_curve_x4.csv",
+   "results/battery/components_x4.csv",
+   "results/battery/vulnerability_x4.csv",
+   "results/battery/scope_x4.csv",
+   "results/battery/{stage_curve,components,vulnerability,scope}.csv (pilot)",
+   "results/joint/cohort_joint.csv",
+   "results/joint/cohort_joint_meta.json",
+   "results/joint/stats_joint.json",
+   "results/joint/paired_auc.csv",
+   "results/stats/battery_stats.json",
+   "results/stats/series_paired_vs_LI.csv",
+   "results/stats/joint_vs_arena.csv",
+   "results/stats/kc_outliers_series.csv",
+   "results/paper/output_neuron_loss.json",
+   "results/exp1/screen/s0.5_seed1266_*.csv",
+   "results/house_20v20_s05_full.json",
+   "results/house_20v20_s05_flies.csv",
+   "results/learning/learning_by_stage.csv",
+   "results/paper/house_early_flies.csv",
+   "results/joint/smoke.csv",
+   "results/joint/smoke_meta.json",
+   "code/scripts/cohort_joint.py",
+   "code/scripts/assay_battery.py",
+   "code/adfly/house_nb.py",
+   "code/adfly/house.py",
+   "code/adfly/lif.py"
+  ],
+  "first_detection_replicates": {
+   "n_rep": 10,
+   "near": 0.1,
+   "rule": "replicate seeds rng([SEED, crc32(tag + '_rep' + j)]) run when a cumulative crossing share is within NEAR of 0.5"
+  }
+ }
+}

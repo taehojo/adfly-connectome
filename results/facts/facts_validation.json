@@ -1,0 +1,1135 @@
+{
+ "val_network": "Shiu et al. 2024 leaky integrate-and-fire on FlyWire v630",
+ "val_neurons": 127400,
+ "val_n_stimulated": 21,
+ "val_trials_and_duration": [
+  30,
+  1.0
+ ],
+ "val_seeds": [
+  7,
+  11,
+  12
+ ],
+ "val_seed_for_figure": 7,
+ "val_slope_definition": "engine rate regressed on reference rate (np.polyfit(ref, ours)), linear rates, neurons active in either run; slope_reverse is the reference regressed on the engine",
+ "val_engine_versions": {
+  "python": "3.13.5",
+  "numpy": "2.5.3",
+  "numba": "0.68.0",
+  "scipy": "1.18.1",
+  "pandas": "3.0.6"
+ },
+ "val_released_default_rate_hz": 150.0,
+ "val_prov_repository_commit": [
+  "91bdd1e",
+  "2024-09-14"
+ ],
+ "val_prov_notebook_statement": "By default, the neurons are excited at 200 Hz.",
+ "val_prov_notebook_statement_commit": [
+  "2023-07-12",
+  "Update example to state default is 200 Hz.ipynb"
+ ],
+ "val_prov_model_py_never_200": true,
+ "val_prov_distributed_output_commit_date": "2023-06-08",
+ "val_prov_notebook_output_is_distributed_file": true,
+ "val_prov_environment_brian2": "2.5.1",
+ "val_stim_hz_distributed_sugarR": [
+  191.3,
+  202.1,
+  196.8
+ ],
+ "val_stim_are_21_highest_distributed_sugarR": true,
+ "val_stim_hz_distributed_sugarR_100Hz": [
+  95.0,
+  102.6,
+  99.0
+ ],
+ "val_stim_hz_local_brian2_150": [
+  143.1,
+  151.0,
+  147.7
+ ],
+ "val_stim_hz_engine_150_discard_seed7": [
+  145.5,
+  150.6,
+  147.6
+ ],
+ "val_stim_spikes_per_event": {
+  "200": 0.984,
+  "100": 0.99
+ },
+ "val_mismatched_engine150_vs_distributed200": [
+  0.9943,
+  0.9897,
+  0.794,
+  453
+ ],
+ "val_mismatched_engine150_accumulate_vs_distributed200": [
+  0.9414,
+  0.9679,
+  0.895,
+  468
+ ],
+ "val_ref_local_brian2_150": [
+  13539.4,
+  436,
+  82.3
+ ],
+ "val_ref_local_brian2_150_trial_sd": [
+  280.5,
+  4.03
+ ],
+ "val_engine_150_discard_seed7_trial_sd": [
+  401.5,
+  4.53
+ ],
+ "val_engine_150_discard_seed7_diff_in_se_vs_local": [
+  1.88,
+  0.48
+ ],
+ "val_check_150hz_rerun_identical": [
+  true,
+  0.0
+ ],
+ "val_ref_distributed_200": [
+  17052.2,
+  448,
+  93.27
+ ],
+ "val_ref_distributed_200_trial_sd": [
+  215.3,
+  3.2
+ ],
+ "val_ref_distributed_200_total_spikes": 511566,
+ "val_ref_local_200": [
+  16996.9,
+  454,
+  93.63
+ ],
+ "val_ref_local_200_trial_sd": [
+  276.8,
+  6.29
+ ],
+ "val_ref_local_200_total_spikes": 509906,
+ "val_stim_hz_local_brian2_200": [
+  192.6,
+  199.5,
+  195.77
+ ],
+ "val_refcmp_local_vs_distributed_200": [
+  0.9998,
+  0.9992,
+  0.997,
+  1.003,
+  459
+ ],
+ "val_refdiff_local_minus_distributed_200": [
+  -55.3,
+  6,
+  0.36
+ ],
+ "val_refdiff_local_minus_distributed_200_in_se": [
+  -0.86,
+  0.28
+ ],
+ "val_engine_200_discard_spikes_per_trial_by_seed": [
+  16971.6,
+  17012.3,
+  16918.9
+ ],
+ "val_engine_200_discard_mn9_hz_by_seed": [
+  93.73,
+  91.9,
+  93.23
+ ],
+ "val_engine_200_discard_active_by_seed": [
+  445,
+  448,
+  442
+ ],
+ "val_engine_200_discard_stim_hz_seed7": [
+  192.03,
+  199.27,
+  196.31
+ ],
+ "val_engine_200_discard_trial_sd_by_seed": [
+  [
+   312.8,
+   330.1,
+   345.9
+  ],
+  [
+   4.46,
+   4.88,
+   4.74
+  ]
+ ],
+ "val_engine_200_discard_seed_spread": [
+  93.4,
+  1.83,
+  6
+ ],
+ "val_engine_200_discard_wall_s_by_seed": [
+  9.4,
+  9.4,
+  9.6
+ ],
+ "val_engine_200_discard_mn9_minus_distributed_by_seed": [
+  0.46,
+  -1.37,
+  -0.04
+ ],
+ "val_engine_200_discard_spikes_minus_distributed_by_seed": [
+  -80.6,
+  -39.9,
+  -133.3
+ ],
+ "val_engine_200_discard_diff_in_se_vs_distributed_by_seed": [
+  [
+   -1.16,
+   -0.55,
+   -1.79
+  ],
+  [
+   0.46,
+   -1.29,
+   -0.04
+  ]
+ ],
+ "val_engine_200_discard_spikes_ratio_to_distributed_by_seed": [
+  0.9953,
+  0.9977,
+  0.9922
+ ],
+ "val_engine_200_discard_mn9_minus_local_by_seed": [
+  0.1,
+  -1.73,
+  -0.4
+ ],
+ "val_engine_200_discard_spikes_minus_local_by_seed": [
+  -25.3,
+  15.4,
+  -78.0
+ ],
+ "val_engine_200_discard_diff_in_se_vs_local_by_seed": [
+  [
+   -0.33,
+   0.2,
+   -0.96
+  ],
+  [
+   0.07,
+   -1.19,
+   -0.28
+  ]
+ ],
+ "val_engine_200_discard_spikes_ratio_to_local_by_seed": [
+  0.9985,
+  1.0009,
+  0.9954
+ ],
+ "val_engine_200_discard_seed_vs_seed_pearson_range": [
+  0.9998,
+  0.9999
+ ],
+ "val_engine_200_discard_seed_vs_seed_slope_range": [
+  0.998,
+  1.002
+ ],
+ "val_engine_200_accumulate_spikes_per_trial_by_seed": [
+  20687.4,
+  20756.5,
+  20757.2
+ ],
+ "val_engine_200_accumulate_mn9_hz_by_seed": [
+  119.13,
+  120.07,
+  121.17
+ ],
+ "val_engine_200_accumulate_active_by_seed": [
+  455,
+  464,
+  461
+ ],
+ "val_engine_200_accumulate_stim_hz_seed7": [
+  192.03,
+  199.27,
+  196.28
+ ],
+ "val_engine_200_accumulate_trial_sd_by_seed": [
+  [
+   327.6,
+   296.3,
+   343.2
+  ],
+  [
+   4.52,
+   4.2,
+   4.64
+  ]
+ ],
+ "val_engine_200_accumulate_seed_spread": [
+  69.8,
+  2.04,
+  9
+ ],
+ "val_engine_200_accumulate_wall_s_by_seed": [
+  9.6,
+  9.6,
+  9.7
+ ],
+ "val_engine_200_accumulate_mn9_minus_distributed_by_seed": [
+  25.86,
+  26.8,
+  27.9
+ ],
+ "val_engine_200_accumulate_spikes_minus_distributed_by_seed": [
+  3635.2,
+  3704.3,
+  3705.0
+ ],
+ "val_engine_200_accumulate_diff_in_se_vs_distributed_by_seed": [
+  [
+   50.79,
+   55.4,
+   50.09
+  ],
+  [
+   25.58,
+   27.8,
+   27.11
+  ]
+ ],
+ "val_engine_200_accumulate_spikes_ratio_to_distributed_by_seed": [
+  1.2132,
+  1.2172,
+  1.2173
+ ],
+ "val_engine_200_accumulate_mn9_minus_local_by_seed": [
+  25.5,
+  26.44,
+  27.54
+ ],
+ "val_engine_200_accumulate_spikes_minus_local_by_seed": [
+  3690.5,
+  3759.6,
+  3760.3
+ ],
+ "val_engine_200_accumulate_diff_in_se_vs_local_by_seed": [
+  [
+   47.13,
+   50.79,
+   46.71
+  ],
+  [
+   18.03,
+   19.15,
+   19.3
+  ]
+ ],
+ "val_engine_200_accumulate_spikes_ratio_to_local_by_seed": [
+  1.2171,
+  1.2212,
+  1.2212
+ ],
+ "val_engine_200_accumulate_seed_vs_seed_pearson_range": [
+  0.9999,
+  0.9999
+ ],
+ "val_engine_200_accumulate_seed_vs_seed_slope_range": [
+  0.999,
+  1.001
+ ],
+ "val_cmp_engine_200_discard_vs_distributed_seed7": [
+  0.9998,
+  0.9993,
+  0.997,
+  1.002,
+  452
+ ],
+ "val_cmp_engine_200_discard_vs_distributed_pearson_range": [
+  0.9998,
+  0.9999
+ ],
+ "val_cmp_engine_200_discard_vs_distributed_slope_range": [
+  0.995,
+  0.997
+ ],
+ "val_cmp_engine_200_discard_vs_distributed_n_range": [
+  452,
+  452
+ ],
+ "val_cmp_engine_200_discard_vs_local_seed7": [
+  0.9998,
+  0.9993,
+  1.001,
+  0.999,
+  458
+ ],
+ "val_cmp_engine_200_discard_vs_local_pearson_range": [
+  0.9998,
+  0.9998
+ ],
+ "val_cmp_engine_200_discard_vs_local_slope_range": [
+  0.998,
+  1.001
+ ],
+ "val_cmp_engine_200_discard_vs_local_n_range": [
+  456,
+  458
+ ],
+ "val_cmp_engine_200_accumulate_vs_distributed_seed7": [
+  0.9674,
+  0.9761,
+  1.123,
+  0.833,
+  462
+ ],
+ "val_cmp_engine_200_accumulate_vs_distributed_pearson_range": [
+  0.9656,
+  0.9674
+ ],
+ "val_cmp_engine_200_accumulate_vs_distributed_slope_range": [
+  1.122,
+  1.123
+ ],
+ "val_cmp_engine_200_accumulate_vs_distributed_n_range": [
+  462,
+  472
+ ],
+ "val_cmp_engine_200_accumulate_vs_local_seed7": [
+  0.9689,
+  0.9774,
+  1.129,
+  0.831,
+  469
+ ],
+ "val_cmp_engine_200_accumulate_vs_local_pearson_range": [
+  0.9668,
+  0.9689
+ ],
+ "val_cmp_engine_200_accumulate_vs_local_slope_range": [
+  1.128,
+  1.129
+ ],
+ "val_cmp_engine_200_accumulate_vs_local_n_range": [
+  469,
+  473
+ ],
+ "val_cmp_engine_200_discard_vs_distributed_seed7_log_rmsd": [
+  0.096,
+  11,
+  0.1
+ ],
+ "val_cmp_engine_200_discard_vs_local_seed7_log_rmsd": [
+  0.092,
+  17,
+  0.1
+ ],
+ "val_cmp_engine_200_accumulate_vs_distributed_seed7_log_rmsd": [
+  0.377,
+  21,
+  6.87
+ ],
+ "val_cmp_engine_200_accumulate_vs_local_seed7_log_rmsd": [
+  0.364,
+  29,
+  6.87
+ ],
+ "val_ref_distributed_100": [
+  9635.8,
+  404,
+  67.03
+ ],
+ "val_ref_distributed_100_trial_sd": [
+  413.5,
+  6.71
+ ],
+ "val_ref_distributed_100_total_spikes": 289073,
+ "val_ref_local_100": [
+  9774.7,
+  414,
+  65.67
+ ],
+ "val_ref_local_100_trial_sd": [
+  290.0,
+  5.46
+ ],
+ "val_ref_local_100_total_spikes": 293241,
+ "val_stim_hz_local_brian2_100": [
+  96.77,
+  104.07,
+  99.54
+ ],
+ "val_refcmp_local_vs_distributed_100": [
+  0.9995,
+  0.9978,
+  1.008,
+  0.991,
+  420
+ ],
+ "val_refdiff_local_minus_distributed_100": [
+  138.9,
+  10,
+  -1.36
+ ],
+ "val_refdiff_local_minus_distributed_100_in_se": [
+  1.51,
+  -0.86
+ ],
+ "val_engine_100_discard_spikes_per_trial_by_seed": [
+  9648.3,
+  9719.6,
+  9679.1
+ ],
+ "val_engine_100_discard_mn9_hz_by_seed": [
+  68.07,
+  68.4,
+  68.6
+ ],
+ "val_engine_100_discard_active_by_seed": [
+  408,
+  409,
+  404
+ ],
+ "val_engine_100_discard_stim_hz_seed7": [
+  96.7,
+  102.57,
+  99.04
+ ],
+ "val_engine_100_discard_trial_sd_by_seed": [
+  [
+   296.0,
+   363.6,
+   329.0
+  ],
+  [
+   5.25,
+   5.09,
+   5.59
+  ]
+ ],
+ "val_engine_100_discard_seed_spread": [
+  71.3,
+  0.53,
+  5
+ ],
+ "val_engine_100_discard_wall_s_by_seed": [
+  9.5,
+  9.6,
+  9.6
+ ],
+ "val_engine_100_discard_mn9_minus_distributed_by_seed": [
+  1.04,
+  1.37,
+  1.57
+ ],
+ "val_engine_100_discard_spikes_minus_distributed_by_seed": [
+  12.5,
+  83.8,
+  43.3
+ ],
+ "val_engine_100_discard_diff_in_se_vs_distributed_by_seed": [
+  [
+   0.13,
+   0.83,
+   0.45
+  ],
+  [
+   0.67,
+   0.89,
+   0.98
+  ]
+ ],
+ "val_engine_100_discard_spikes_ratio_to_distributed_by_seed": [
+  1.0013,
+  1.0087,
+  1.0045
+ ],
+ "val_engine_100_discard_mn9_minus_local_by_seed": [
+  2.4,
+  2.73,
+  2.93
+ ],
+ "val_engine_100_discard_spikes_minus_local_by_seed": [
+  -126.4,
+  -55.1,
+  -95.6
+ ],
+ "val_engine_100_discard_diff_in_se_vs_local_by_seed": [
+  [
+   -1.67,
+   -0.65,
+   -1.19
+  ],
+  [
+   1.74,
+   2.0,
+   2.05
+  ]
+ ],
+ "val_engine_100_discard_spikes_ratio_to_local_by_seed": [
+  0.9871,
+  0.9944,
+  0.9902
+ ],
+ "val_engine_100_discard_seed_vs_seed_pearson_range": [
+  0.9995,
+  0.9997
+ ],
+ "val_engine_100_discard_seed_vs_seed_slope_range": [
+  0.996,
+  1.004
+ ],
+ "val_engine_100_accumulate_spikes_per_trial_by_seed": [
+  11787.5,
+  12009.7,
+  11861.4
+ ],
+ "val_engine_100_accumulate_mn9_hz_by_seed": [
+  79.9,
+  81.77,
+  81.87
+ ],
+ "val_engine_100_accumulate_active_by_seed": [
+  443,
+  430,
+  424
+ ],
+ "val_engine_100_accumulate_stim_hz_seed7": [
+  96.7,
+  102.57,
+  99.03
+ ],
+ "val_engine_100_accumulate_trial_sd_by_seed": [
+  [
+   464.1,
+   503.8,
+   528.9
+  ],
+  [
+   5.22,
+   7.23,
+   5.57
+  ]
+ ],
+ "val_engine_100_accumulate_seed_spread": [
+  222.2,
+  1.97,
+  19
+ ],
+ "val_engine_100_accumulate_wall_s_by_seed": [
+  9.8,
+  9.6,
+  9.6
+ ],
+ "val_engine_100_accumulate_mn9_minus_distributed_by_seed": [
+  12.87,
+  14.74,
+  14.84
+ ],
+ "val_engine_100_accumulate_spikes_minus_distributed_by_seed": [
+  2151.7,
+  2373.9,
+  2225.6
+ ],
+ "val_engine_100_accumulate_diff_in_se_vs_distributed_by_seed": [
+  [
+   18.96,
+   19.95,
+   18.16
+  ],
+  [
+   8.29,
+   8.18,
+   9.32
+  ]
+ ],
+ "val_engine_100_accumulate_spikes_ratio_to_distributed_by_seed": [
+  1.2233,
+  1.2464,
+  1.231
+ ],
+ "val_engine_100_accumulate_mn9_minus_local_by_seed": [
+  14.23,
+  16.1,
+  16.2
+ ],
+ "val_engine_100_accumulate_spikes_minus_local_by_seed": [
+  2012.8,
+  2235.0,
+  2086.7
+ ],
+ "val_engine_100_accumulate_diff_in_se_vs_local_by_seed": [
+  [
+   20.15,
+   21.06,
+   18.95
+  ],
+  [
+   10.32,
+   9.73,
+   11.38
+  ]
+ ],
+ "val_engine_100_accumulate_spikes_ratio_to_local_by_seed": [
+  1.2059,
+  1.2287,
+  1.2135
+ ],
+ "val_engine_100_accumulate_seed_vs_seed_pearson_range": [
+  0.9991,
+  0.9998
+ ],
+ "val_engine_100_accumulate_seed_vs_seed_slope_range": [
+  0.978,
+  1.02
+ ],
+ "val_cmp_engine_100_discard_vs_distributed_seed7": [
+  0.9996,
+  0.9978,
+  1.0,
+  0.999,
+  422
+ ],
+ "val_cmp_engine_100_discard_vs_distributed_pearson_range": [
+  0.9995,
+  0.9996
+ ],
+ "val_cmp_engine_100_discard_vs_distributed_slope_range": [
+  0.998,
+  1.002
+ ],
+ "val_cmp_engine_100_discard_vs_distributed_n_range": [
+  418,
+  422
+ ],
+ "val_cmp_engine_100_discard_vs_local_seed7": [
+  0.9995,
+  0.9982,
+  0.991,
+  1.008,
+  422
+ ],
+ "val_cmp_engine_100_discard_vs_local_pearson_range": [
+  0.9992,
+  0.9995
+ ],
+ "val_cmp_engine_100_discard_vs_local_slope_range": [
+  0.989,
+  0.994
+ ],
+ "val_cmp_engine_100_discard_vs_local_n_range": [
+  421,
+  422
+ ],
+ "val_cmp_engine_100_accumulate_vs_distributed_seed7": [
+  0.957,
+  0.968,
+  1.153,
+  0.794,
+  454
+ ],
+ "val_cmp_engine_100_accumulate_vs_distributed_pearson_range": [
+  0.9461,
+  0.957
+ ],
+ "val_cmp_engine_100_accumulate_vs_distributed_slope_range": [
+  1.153,
+  1.164
+ ],
+ "val_cmp_engine_100_accumulate_vs_distributed_n_range": [
+  431,
+  454
+ ],
+ "val_cmp_engine_100_accumulate_vs_local_seed7": [
+  0.9604,
+  0.9722,
+  1.148,
+  0.804,
+  453
+ ],
+ "val_cmp_engine_100_accumulate_vs_local_pearson_range": [
+  0.9499,
+  0.9604
+ ],
+ "val_cmp_engine_100_accumulate_vs_local_slope_range": [
+  1.148,
+  1.159
+ ],
+ "val_cmp_engine_100_accumulate_vs_local_n_range": [
+  429,
+  453
+ ],
+ "val_cmp_engine_100_discard_vs_distributed_seed7_log_rmsd": [
+  0.099,
+  32,
+  0.1
+ ],
+ "val_cmp_engine_100_discard_vs_local_seed7_log_rmsd": [
+  0.136,
+  22,
+  0.13
+ ],
+ "val_cmp_engine_100_accumulate_vs_distributed_seed7_log_rmsd": [
+  0.43,
+  61,
+  2.6
+ ],
+ "val_cmp_engine_100_accumulate_vs_local_seed7_log_rmsd": [
+  0.371,
+  49,
+  9.2
+ ],
+ "val_brian2_rerun_200_info": {
+  "code": "ext/Drosophila_brain_model (unmodified); run_exp(exp_name='sugarR', params=copy of default_params with r_poi set)",
+  "r_poi_hz": 200.0,
+  "r_poi_released_default_hz": 150.0,
+  "n_run": 30,
+  "t_run_ms": 1000.0,
+  "brian2": "2.10.1",
+  "codegen_target": "auto",
+  "python": "3.13.5",
+  "n_proc": 30,
+  "seeded": false,
+  "ld_preload": "libstdc++.so.6 of GCC 14.2.0 (system library of the cluster; path removed)",
+  "wall_s": 121.2
+ },
+ "val_brian2_rerun_100_info": {
+  "code": "ext/Drosophila_brain_model (unmodified); run_exp(exp_name='sugarR', params=copy of default_params with r_poi set)",
+  "r_poi_hz": 100.0,
+  "r_poi_released_default_hz": 150.0,
+  "n_run": 30,
+  "t_run_ms": 1000.0,
+  "brian2": "2.10.1",
+  "codegen_target": "auto",
+  "python": "3.13.5",
+  "n_proc": 30,
+  "seeded": false,
+  "ld_preload": "libstdc++.so.6 of GCC 14.2.0 (system library of the cluster; path removed)",
+  "wall_s": 104.7
+ },
+ "_meaning": {
+  "val_network": "Network and model of the engine validation (base model, no MaleCNS extensions).",
+  "val_neurons": "Neurons in the FlyWire v630 network.",
+  "val_n_stimulated": "Stimulated sugar gustatory receptor neurons (the 21 FlyWire IDs of the published example notebook).",
+  "val_trials_and_duration": "[trials, seconds per trial] of every run and of every reference.",
+  "val_seeds": "Poisson input seeds of the engine runs at each rate and refractory setting; references are single unseeded realisations.",
+  "val_seed_for_figure": "Seed whose 30-trial realisation is quoted first and drawn in S1 Fig; ranges are over the three seeds.",
+  "val_slope_definition": "Direction and scale of every regression slope.",
+  "val_engine_versions": "Software versions of the engine runs at 200 and 100 Hz.",
+  "val_released_default_rate_hz": "Poisson rate (Hz) set by default in the released model.py, read from its default_params['r_poi'] when the local Brian2 rerun was started.",
+  "val_prov_repository_commit": "Commit and date of the copy of the published code used here (unmodified).",
+  "val_prov_notebook_statement": "Sentence of the example notebook distributed with the code about the input rate of its first example (the call that writes sugarR.parquet has no rate argument).",
+  "val_prov_notebook_statement_commit": "Date and message of the commit that first stated the 200-Hz default in the notebook.",
+  "val_prov_model_py_never_200": "Whether every committed version of model.py sets r_poi = 150 Hz (two commits, 2023-04-30 and 2023-05-09).",
+  "val_prov_distributed_output_commit_date": "Date of the last commit that changed the distributed sugarR.parquet.",
+  "val_prov_notebook_output_is_distributed_file": "Whether the output stored in the notebook of that commit for the call without a rate argument (511,566 spikes; five listed rates of stimulated neurons) equals the distributed sugarR.parquet.",
+  "val_prov_environment_brian2": "Brian2 version in the environment files distributed with the code (brian2=2.5.1, python=3.10, numpy=1.24).",
+  "val_stim_hz_distributed_sugarR": "[min, max, mean] firing rate (Hz) of the 21 stimulated neurons, identified by FlyWire ID, in the distributed sugarR.parquet: the input was 200 Hz, not the 150-Hz default of the released code.",
+  "val_stim_are_21_highest_distributed_sugarR": "Whether the 21 stimulated neurons are the 21 highest-rate neurons of the distributed sugarR.parquet.",
+  "val_stim_hz_distributed_sugarR_100Hz": "[min, max, mean] firing rate (Hz) of the 21 stimulated neurons in the distributed sugarR_100Hz.parquet (input 100 Hz, as its name says).",
+  "val_stim_hz_local_brian2_150": "[min, max, mean] rate (Hz) of the 21 stimulated neurons in the local Brian2 2.10.1 run at the released default (150 Hz).",
+  "val_stim_hz_engine_150_discard_seed7": "[min, max, mean] rate (Hz) of the 21 stimulated neurons in the engine run at 150 Hz (seed 7, refractory input discarded).",
+  "val_stim_spikes_per_event": "Mean rate of the 21 stimulated neurons in the distributed outputs divided by the nominal input rate (a driven neuron fires slightly less than once per Poisson event).",
+  "val_mismatched_engine150_vs_distributed200": "Comparison at unequal input rates, NOT like for like: engine at 150 Hz (seed 7, discarded) against the distributed sugarR.parquet, which was generated at 200 Hz: [Pearson r, Spearman r, slope, n].",
+  "val_mismatched_engine150_accumulate_vs_distributed200": "Comparison at unequal input rates, NOT like for like: engine at 150 Hz (seed 7, accumulated) against the distributed sugarR.parquet (200 Hz): [Pearson r, Spearman r, slope, n].",
+  "val_ref_local_brian2_150": "Local Brian2 2.10.1 at 150 Hz: [spikes per trial, active neurons, MN9 Hz].",
+  "val_ref_local_brian2_150_trial_sd": "Local Brian2 2.10.1 at 150 Hz: standard deviation over the 30 trials of [spikes per trial, MN9 rate in Hz].",
+  "val_engine_150_discard_seed7_trial_sd": "Engine at 150 Hz (seed 7, discarded): standard deviation over the 30 trials of [spikes per trial, MN9 rate in Hz].",
+  "val_engine_150_discard_seed7_diff_in_se_vs_local": "Engine (seed 7, discarded) minus local Brian2 at 150 Hz, in standard errors of the difference between two 30-trial means: [spikes per trial, MN9 rate].",
+  "val_check_150hz_rerun_identical": "validate_engine_200hz.py repeated the 150-Hz run of validate_engine_final.py (seed 7, discarded): [per-neuron rates identical to the saved run, largest absolute difference in Hz].",
+  "val_ref_distributed_200": "Reference at 200 Hz, the example output distributed with the published code: [spikes per trial, active neurons, MN9 Hz] (single realisation of 30 trials).",
+  "val_ref_distributed_200_trial_sd": "Same reference: standard deviation over its 30 trials of [spikes per trial, MN9 rate in Hz]; the standard error of the 30-trial mean is this divided by 5.48.",
+  "val_ref_distributed_200_total_spikes": "Total spikes in the 30 trials of that reference (data/shiu2024/example/sugarR.parquet).",
+  "val_ref_local_200": "Reference at 200 Hz, the local Brian2 2.10.1 run of the unmodified published code: [spikes per trial, active neurons, MN9 Hz] (single realisation of 30 trials).",
+  "val_ref_local_200_trial_sd": "Same reference: standard deviation over its 30 trials of [spikes per trial, MN9 rate in Hz]; the standard error of the 30-trial mean is this divided by 5.48.",
+  "val_ref_local_200_total_spikes": "Total spikes in the 30 trials of that reference (results/validation/brian2_rerun_200hz/sugarR.parquet).",
+  "val_stim_hz_local_brian2_200": "[min, max, mean] rate (Hz) of the 21 stimulated neurons in the local Brian2 2.10.1 run at 200 Hz.",
+  "val_refcmp_local_vs_distributed_200": "Local Brian2 2.10.1 at 200 Hz against the distributed output at 200 Hz, two independent realisations: [Pearson r, Spearman r, slope local-on-distributed, reverse slope, n neurons active in either].",
+  "val_refdiff_local_minus_distributed_200": "Local Brian2 2.10.1 minus distributed output at 200 Hz: [spikes per trial, active neurons, MN9 Hz].",
+  "val_refdiff_local_minus_distributed_200_in_se": "The same differences at 200 Hz in standard errors of the difference between two 30-trial means: [spikes per trial, MN9 rate].",
+  "val_engine_200_discard_spikes_per_trial_by_seed": "Total spikes per 1-s trial, engine at 200 Hz with refractory input discarded, seeds [7, 11, 12].",
+  "val_engine_200_discard_mn9_hz_by_seed": "MN9 rate (Hz), engine at 200 Hz with refractory input discarded, seeds [7, 11, 12].",
+  "val_engine_200_discard_active_by_seed": "Neurons with nonzero mean rate, engine at 200 Hz with refractory input discarded, seeds [7, 11, 12].",
+  "val_engine_200_discard_stim_hz_seed7": "[min, max, mean] rate (Hz) of the 21 stimulated neurons, engine at 200 Hz, seed 7, refractory input discarded.",
+  "val_engine_200_discard_trial_sd_by_seed": "Standard deviation over the 30 trials, engine at 200 Hz with refractory input discarded: [spikes per trial by seed, MN9 rate (Hz) by seed].",
+  "val_engine_200_discard_seed_spread": "Range (max minus min) over the three seeds, engine at 200 Hz with refractory input discarded: [spikes per trial, MN9 Hz, active neurons].",
+  "val_engine_200_discard_wall_s_by_seed": "Wall time (s) of each 30-trial engine run at 200 Hz, refractory input discarded (the first run of a session includes compilation).",
+  "val_engine_200_discard_mn9_minus_distributed_by_seed": "Engine minus reference MN9 rate (Hz) for each seed: engine at 200 Hz, refractory input discarded, against the example output distributed with the published code.",
+  "val_engine_200_discard_spikes_minus_distributed_by_seed": "Engine minus reference spikes per trial for each seed: engine at 200 Hz, refractory input discarded, against the example output distributed with the published code.",
+  "val_engine_200_discard_diff_in_se_vs_distributed_by_seed": "Those differences in standard errors of the difference between two 30-trial means (trial SDs of both runs): [spikes per trial by seed, MN9 rate by seed]; engine at 200 Hz, refractory input discarded, against the example output distributed with the published code.",
+  "val_engine_200_discard_spikes_ratio_to_distributed_by_seed": "Engine spikes per trial divided by the reference's, for each seed: engine at 200 Hz, refractory input discarded, against the example output distributed with the published code.",
+  "val_engine_200_discard_mn9_minus_local_by_seed": "Engine minus reference MN9 rate (Hz) for each seed: engine at 200 Hz, refractory input discarded, against the local Brian2 2.10.1 run of the unmodified published code.",
+  "val_engine_200_discard_spikes_minus_local_by_seed": "Engine minus reference spikes per trial for each seed: engine at 200 Hz, refractory input discarded, against the local Brian2 2.10.1 run of the unmodified published code.",
+  "val_engine_200_discard_diff_in_se_vs_local_by_seed": "Those differences in standard errors of the difference between two 30-trial means (trial SDs of both runs): [spikes per trial by seed, MN9 rate by seed]; engine at 200 Hz, refractory input discarded, against the local Brian2 2.10.1 run of the unmodified published code.",
+  "val_engine_200_discard_spikes_ratio_to_local_by_seed": "Engine spikes per trial divided by the reference's, for each seed: engine at 200 Hz, refractory input discarded, against the local Brian2 2.10.1 run of the unmodified published code.",
+  "val_engine_200_discard_seed_vs_seed_pearson_range": "[min, max] Pearson r between the per-neuron rates of two engine seeds at 200 Hz (refractory input discarded; three pairs): the agreement expected between two input realisations of the same simulator.",
+  "val_engine_200_discard_seed_vs_seed_slope_range": "[min, max] slope between two engine seeds at 200 Hz (both directions, three pairs), refractory input discarded.",
+  "val_engine_200_accumulate_spikes_per_trial_by_seed": "Total spikes per 1-s trial, engine at 200 Hz with refractory input accumulated, seeds [7, 11, 12].",
+  "val_engine_200_accumulate_mn9_hz_by_seed": "MN9 rate (Hz), engine at 200 Hz with refractory input accumulated, seeds [7, 11, 12].",
+  "val_engine_200_accumulate_active_by_seed": "Neurons with nonzero mean rate, engine at 200 Hz with refractory input accumulated, seeds [7, 11, 12].",
+  "val_engine_200_accumulate_stim_hz_seed7": "[min, max, mean] rate (Hz) of the 21 stimulated neurons, engine at 200 Hz, seed 7, refractory input accumulated.",
+  "val_engine_200_accumulate_trial_sd_by_seed": "Standard deviation over the 30 trials, engine at 200 Hz with refractory input accumulated: [spikes per trial by seed, MN9 rate (Hz) by seed].",
+  "val_engine_200_accumulate_seed_spread": "Range (max minus min) over the three seeds, engine at 200 Hz with refractory input accumulated: [spikes per trial, MN9 Hz, active neurons].",
+  "val_engine_200_accumulate_wall_s_by_seed": "Wall time (s) of each 30-trial engine run at 200 Hz, refractory input accumulated (the first run of a session includes compilation).",
+  "val_engine_200_accumulate_mn9_minus_distributed_by_seed": "Engine minus reference MN9 rate (Hz) for each seed: engine at 200 Hz, refractory input accumulated, against the example output distributed with the published code.",
+  "val_engine_200_accumulate_spikes_minus_distributed_by_seed": "Engine minus reference spikes per trial for each seed: engine at 200 Hz, refractory input accumulated, against the example output distributed with the published code.",
+  "val_engine_200_accumulate_diff_in_se_vs_distributed_by_seed": "Those differences in standard errors of the difference between two 30-trial means (trial SDs of both runs): [spikes per trial by seed, MN9 rate by seed]; engine at 200 Hz, refractory input accumulated, against the example output distributed with the published code.",
+  "val_engine_200_accumulate_spikes_ratio_to_distributed_by_seed": "Engine spikes per trial divided by the reference's, for each seed: engine at 200 Hz, refractory input accumulated, against the example output distributed with the published code.",
+  "val_engine_200_accumulate_mn9_minus_local_by_seed": "Engine minus reference MN9 rate (Hz) for each seed: engine at 200 Hz, refractory input accumulated, against the local Brian2 2.10.1 run of the unmodified published code.",
+  "val_engine_200_accumulate_spikes_minus_local_by_seed": "Engine minus reference spikes per trial for each seed: engine at 200 Hz, refractory input accumulated, against the local Brian2 2.10.1 run of the unmodified published code.",
+  "val_engine_200_accumulate_diff_in_se_vs_local_by_seed": "Those differences in standard errors of the difference between two 30-trial means (trial SDs of both runs): [spikes per trial by seed, MN9 rate by seed]; engine at 200 Hz, refractory input accumulated, against the local Brian2 2.10.1 run of the unmodified published code.",
+  "val_engine_200_accumulate_spikes_ratio_to_local_by_seed": "Engine spikes per trial divided by the reference's, for each seed: engine at 200 Hz, refractory input accumulated, against the local Brian2 2.10.1 run of the unmodified published code.",
+  "val_engine_200_accumulate_seed_vs_seed_pearson_range": "[min, max] Pearson r between the per-neuron rates of two engine seeds at 200 Hz (refractory input accumulated; three pairs): the agreement expected between two input realisations of the same simulator.",
+  "val_engine_200_accumulate_seed_vs_seed_slope_range": "[min, max] slope between two engine seeds at 200 Hz (both directions, three pairs), refractory input accumulated.",
+  "val_cmp_engine_200_discard_vs_distributed_seed7": "Engine at 200 Hz (seed 7, refractory input discarded) against the example output distributed with the published code at 200 Hz: [Pearson r, Spearman r, slope engine-on-reference, reverse slope, n neurons active in either run].",
+  "val_cmp_engine_200_discard_vs_distributed_pearson_range": "[min, max] of that Pearson r over seeds [7, 11, 12].",
+  "val_cmp_engine_200_discard_vs_distributed_slope_range": "[min, max] of that slope (engine on reference) over seeds [7, 11, 12].",
+  "val_cmp_engine_200_discard_vs_distributed_n_range": "[min, max] number of neurons compared over seeds [7, 11, 12].",
+  "val_cmp_engine_200_discard_vs_local_seed7": "Engine at 200 Hz (seed 7, refractory input discarded) against the local Brian2 2.10.1 run of the unmodified published code at 200 Hz: [Pearson r, Spearman r, slope engine-on-reference, reverse slope, n neurons active in either run].",
+  "val_cmp_engine_200_discard_vs_local_pearson_range": "[min, max] of that Pearson r over seeds [7, 11, 12].",
+  "val_cmp_engine_200_discard_vs_local_slope_range": "[min, max] of that slope (engine on reference) over seeds [7, 11, 12].",
+  "val_cmp_engine_200_discard_vs_local_n_range": "[min, max] number of neurons compared over seeds [7, 11, 12].",
+  "val_cmp_engine_200_accumulate_vs_distributed_seed7": "Engine at 200 Hz (seed 7, refractory input accumulated) against the example output distributed with the published code at 200 Hz: [Pearson r, Spearman r, slope engine-on-reference, reverse slope, n neurons active in either run].",
+  "val_cmp_engine_200_accumulate_vs_distributed_pearson_range": "[min, max] of that Pearson r over seeds [7, 11, 12].",
+  "val_cmp_engine_200_accumulate_vs_distributed_slope_range": "[min, max] of that slope (engine on reference) over seeds [7, 11, 12].",
+  "val_cmp_engine_200_accumulate_vs_distributed_n_range": "[min, max] number of neurons compared over seeds [7, 11, 12].",
+  "val_cmp_engine_200_accumulate_vs_local_seed7": "Engine at 200 Hz (seed 7, refractory input accumulated) against the local Brian2 2.10.1 run of the unmodified published code at 200 Hz: [Pearson r, Spearman r, slope engine-on-reference, reverse slope, n neurons active in either run].",
+  "val_cmp_engine_200_accumulate_vs_local_pearson_range": "[min, max] of that Pearson r over seeds [7, 11, 12].",
+  "val_cmp_engine_200_accumulate_vs_local_slope_range": "[min, max] of that slope (engine on reference) over seeds [7, 11, 12].",
+  "val_cmp_engine_200_accumulate_vs_local_n_range": "[min, max] number of neurons compared over seeds [7, 11, 12].",
+  "val_cmp_engine_200_discard_vs_distributed_seed7_log_rmsd": "Agreement on the logarithmic scale of S1 Fig, engine at 200 Hz (seed 7, discarded) against the example output distributed with the published code: [root-mean-square difference of log10 rate over the neurons active in either run, with silence set to one spike in 30 trials; number of neurons active in only one of the two; highest rate (Hz) among those neurons].",
+  "val_cmp_engine_200_discard_vs_local_seed7_log_rmsd": "Agreement on the logarithmic scale of S1 Fig, engine at 200 Hz (seed 7, discarded) against the local Brian2 2.10.1 run of the unmodified published code: [root-mean-square difference of log10 rate over the neurons active in either run, with silence set to one spike in 30 trials; number of neurons active in only one of the two; highest rate (Hz) among those neurons].",
+  "val_cmp_engine_200_accumulate_vs_distributed_seed7_log_rmsd": "Agreement on the logarithmic scale of S1 Fig, engine at 200 Hz (seed 7, accumulated) against the example output distributed with the published code: [root-mean-square difference of log10 rate over the neurons active in either run, with silence set to one spike in 30 trials; number of neurons active in only one of the two; highest rate (Hz) among those neurons].",
+  "val_cmp_engine_200_accumulate_vs_local_seed7_log_rmsd": "Agreement on the logarithmic scale of S1 Fig, engine at 200 Hz (seed 7, accumulated) against the local Brian2 2.10.1 run of the unmodified published code: [root-mean-square difference of log10 rate over the neurons active in either run, with silence set to one spike in 30 trials; number of neurons active in only one of the two; highest rate (Hz) among those neurons].",
+  "val_ref_distributed_100": "Reference at 100 Hz, the example output distributed with the published code: [spikes per trial, active neurons, MN9 Hz] (single realisation of 30 trials).",
+  "val_ref_distributed_100_trial_sd": "Same reference: standard deviation over its 30 trials of [spikes per trial, MN9 rate in Hz]; the standard error of the 30-trial mean is this divided by 5.48.",
+  "val_ref_distributed_100_total_spikes": "Total spikes in the 30 trials of that reference (data/shiu2024/example/sugarR_100Hz.parquet).",
+  "val_ref_local_100": "Reference at 100 Hz, the local Brian2 2.10.1 run of the unmodified published code: [spikes per trial, active neurons, MN9 Hz] (single realisation of 30 trials).",
+  "val_ref_local_100_trial_sd": "Same reference: standard deviation over its 30 trials of [spikes per trial, MN9 rate in Hz]; the standard error of the 30-trial mean is this divided by 5.48.",
+  "val_ref_local_100_total_spikes": "Total spikes in the 30 trials of that reference (results/validation/brian2_rerun_100hz/sugarR.parquet).",
+  "val_stim_hz_local_brian2_100": "[min, max, mean] rate (Hz) of the 21 stimulated neurons in the local Brian2 2.10.1 run at 100 Hz.",
+  "val_refcmp_local_vs_distributed_100": "Local Brian2 2.10.1 at 100 Hz against the distributed output at 100 Hz, two independent realisations: [Pearson r, Spearman r, slope local-on-distributed, reverse slope, n neurons active in either].",
+  "val_refdiff_local_minus_distributed_100": "Local Brian2 2.10.1 minus distributed output at 100 Hz: [spikes per trial, active neurons, MN9 Hz].",
+  "val_refdiff_local_minus_distributed_100_in_se": "The same differences at 100 Hz in standard errors of the difference between two 30-trial means: [spikes per trial, MN9 rate].",
+  "val_engine_100_discard_spikes_per_trial_by_seed": "Total spikes per 1-s trial, engine at 100 Hz with refractory input discarded, seeds [7, 11, 12].",
+  "val_engine_100_discard_mn9_hz_by_seed": "MN9 rate (Hz), engine at 100 Hz with refractory input discarded, seeds [7, 11, 12].",
+  "val_engine_100_discard_active_by_seed": "Neurons with nonzero mean rate, engine at 100 Hz with refractory input discarded, seeds [7, 11, 12].",
+  "val_engine_100_discard_stim_hz_seed7": "[min, max, mean] rate (Hz) of the 21 stimulated neurons, engine at 100 Hz, seed 7, refractory input discarded.",
+  "val_engine_100_discard_trial_sd_by_seed": "Standard deviation over the 30 trials, engine at 100 Hz with refractory input discarded: [spikes per trial by seed, MN9 rate (Hz) by seed].",
+  "val_engine_100_discard_seed_spread": "Range (max minus min) over the three seeds, engine at 100 Hz with refractory input discarded: [spikes per trial, MN9 Hz, active neurons].",
+  "val_engine_100_discard_wall_s_by_seed": "Wall time (s) of each 30-trial engine run at 100 Hz, refractory input discarded (the first run of a session includes compilation).",
+  "val_engine_100_discard_mn9_minus_distributed_by_seed": "Engine minus reference MN9 rate (Hz) for each seed: engine at 100 Hz, refractory input discarded, against the example output distributed with the published code.",
+  "val_engine_100_discard_spikes_minus_distributed_by_seed": "Engine minus reference spikes per trial for each seed: engine at 100 Hz, refractory input discarded, against the example output distributed with the published code.",
+  "val_engine_100_discard_diff_in_se_vs_distributed_by_seed": "Those differences in standard errors of the difference between two 30-trial means (trial SDs of both runs): [spikes per trial by seed, MN9 rate by seed]; engine at 100 Hz, refractory input discarded, against the example output distributed with the published code.",
+  "val_engine_100_discard_spikes_ratio_to_distributed_by_seed": "Engine spikes per trial divided by the reference's, for each seed: engine at 100 Hz, refractory input discarded, against the example output distributed with the published code.",
+  "val_engine_100_discard_mn9_minus_local_by_seed": "Engine minus reference MN9 rate (Hz) for each seed: engine at 100 Hz, refractory input discarded, against the local Brian2 2.10.1 run of the unmodified published code.",
+  "val_engine_100_discard_spikes_minus_local_by_seed": "Engine minus reference spikes per trial for each seed: engine at 100 Hz, refractory input discarded, against the local Brian2 2.10.1 run of the unmodified published code.",
+  "val_engine_100_discard_diff_in_se_vs_local_by_seed": "Those differences in standard errors of the difference between two 30-trial means (trial SDs of both runs): [spikes per trial by seed, MN9 rate by seed]; engine at 100 Hz, refractory input discarded, against the local Brian2 2.10.1 run of the unmodified published code.",
+  "val_engine_100_discard_spikes_ratio_to_local_by_seed": "Engine spikes per trial divided by the reference's, for each seed: engine at 100 Hz, refractory input discarded, against the local Brian2 2.10.1 run of the unmodified published code.",
+  "val_engine_100_discard_seed_vs_seed_pearson_range": "[min, max] Pearson r between the per-neuron rates of two engine seeds at 100 Hz (refractory input discarded; three pairs): the agreement expected between two input realisations of the same simulator.",
+  "val_engine_100_discard_seed_vs_seed_slope_range": "[min, max] slope between two engine seeds at 100 Hz (both directions, three pairs), refractory input discarded.",
+  "val_engine_100_accumulate_spikes_per_trial_by_seed": "Total spikes per 1-s trial, engine at 100 Hz with refractory input accumulated, seeds [7, 11, 12].",
+  "val_engine_100_accumulate_mn9_hz_by_seed": "MN9 rate (Hz), engine at 100 Hz with refractory input accumulated, seeds [7, 11, 12].",
+  "val_engine_100_accumulate_active_by_seed": "Neurons with nonzero mean rate, engine at 100 Hz with refractory input accumulated, seeds [7, 11, 12].",
+  "val_engine_100_accumulate_stim_hz_seed7": "[min, max, mean] rate (Hz) of the 21 stimulated neurons, engine at 100 Hz, seed 7, refractory input accumulated.",
+  "val_engine_100_accumulate_trial_sd_by_seed": "Standard deviation over the 30 trials, engine at 100 Hz with refractory input accumulated: [spikes per trial by seed, MN9 rate (Hz) by seed].",
+  "val_engine_100_accumulate_seed_spread": "Range (max minus min) over the three seeds, engine at 100 Hz with refractory input accumulated: [spikes per trial, MN9 Hz, active neurons].",
+  "val_engine_100_accumulate_wall_s_by_seed": "Wall time (s) of each 30-trial engine run at 100 Hz, refractory input accumulated (the first run of a session includes compilation).",
+  "val_engine_100_accumulate_mn9_minus_distributed_by_seed": "Engine minus reference MN9 rate (Hz) for each seed: engine at 100 Hz, refractory input accumulated, against the example output distributed with the published code.",
+  "val_engine_100_accumulate_spikes_minus_distributed_by_seed": "Engine minus reference spikes per trial for each seed: engine at 100 Hz, refractory input accumulated, against the example output distributed with the published code.",
+  "val_engine_100_accumulate_diff_in_se_vs_distributed_by_seed": "Those differences in standard errors of the difference between two 30-trial means (trial SDs of both runs): [spikes per trial by seed, MN9 rate by seed]; engine at 100 Hz, refractory input accumulated, against the example output distributed with the published code.",
+  "val_engine_100_accumulate_spikes_ratio_to_distributed_by_seed": "Engine spikes per trial divided by the reference's, for each seed: engine at 100 Hz, refractory input accumulated, against the example output distributed with the published code.",
+  "val_engine_100_accumulate_mn9_minus_local_by_seed": "Engine minus reference MN9 rate (Hz) for each seed: engine at 100 Hz, refractory input accumulated, against the local Brian2 2.10.1 run of the unmodified published code.",
+  "val_engine_100_accumulate_spikes_minus_local_by_seed": "Engine minus reference spikes per trial for each seed: engine at 100 Hz, refractory input accumulated, against the local Brian2 2.10.1 run of the unmodified published code.",
+  "val_engine_100_accumulate_diff_in_se_vs_local_by_seed": "Those differences in standard errors of the difference between two 30-trial means (trial SDs of both runs): [spikes per trial by seed, MN9 rate by seed]; engine at 100 Hz, refractory input accumulated, against the local Brian2 2.10.1 run of the unmodified published code.",
+  "val_engine_100_accumulate_spikes_ratio_to_local_by_seed": "Engine spikes per trial divided by the reference's, for each seed: engine at 100 Hz, refractory input accumulated, against the local Brian2 2.10.1 run of the unmodified published code.",
+  "val_engine_100_accumulate_seed_vs_seed_pearson_range": "[min, max] Pearson r between the per-neuron rates of two engine seeds at 100 Hz (refractory input accumulated; three pairs): the agreement expected between two input realisations of the same simulator.",
+  "val_engine_100_accumulate_seed_vs_seed_slope_range": "[min, max] slope between two engine seeds at 100 Hz (both directions, three pairs), refractory input accumulated.",
+  "val_cmp_engine_100_discard_vs_distributed_seed7": "Engine at 100 Hz (seed 7, refractory input discarded) against the example output distributed with the published code at 100 Hz: [Pearson r, Spearman r, slope engine-on-reference, reverse slope, n neurons active in either run].",
+  "val_cmp_engine_100_discard_vs_distributed_pearson_range": "[min, max] of that Pearson r over seeds [7, 11, 12].",
+  "val_cmp_engine_100_discard_vs_distributed_slope_range": "[min, max] of that slope (engine on reference) over seeds [7, 11, 12].",
+  "val_cmp_engine_100_discard_vs_distributed_n_range": "[min, max] number of neurons compared over seeds [7, 11, 12].",
+  "val_cmp_engine_100_discard_vs_local_seed7": "Engine at 100 Hz (seed 7, refractory input discarded) against the local Brian2 2.10.1 run of the unmodified published code at 100 Hz: [Pearson r, Spearman r, slope engine-on-reference, reverse slope, n neurons active in either run].",
+  "val_cmp_engine_100_discard_vs_local_pearson_range": "[min, max] of that Pearson r over seeds [7, 11, 12].",
+  "val_cmp_engine_100_discard_vs_local_slope_range": "[min, max] of that slope (engine on reference) over seeds [7, 11, 12].",
+  "val_cmp_engine_100_discard_vs_local_n_range": "[min, max] number of neurons compared over seeds [7, 11, 12].",
+  "val_cmp_engine_100_accumulate_vs_distributed_seed7": "Engine at 100 Hz (seed 7, refractory input accumulated) against the example output distributed with the published code at 100 Hz: [Pearson r, Spearman r, slope engine-on-reference, reverse slope, n neurons active in either run].",
+  "val_cmp_engine_100_accumulate_vs_distributed_pearson_range": "[min, max] of that Pearson r over seeds [7, 11, 12].",
+  "val_cmp_engine_100_accumulate_vs_distributed_slope_range": "[min, max] of that slope (engine on reference) over seeds [7, 11, 12].",
+  "val_cmp_engine_100_accumulate_vs_distributed_n_range": "[min, max] number of neurons compared over seeds [7, 11, 12].",
+  "val_cmp_engine_100_accumulate_vs_local_seed7": "Engine at 100 Hz (seed 7, refractory input accumulated) against the local Brian2 2.10.1 run of the unmodified published code at 100 Hz: [Pearson r, Spearman r, slope engine-on-reference, reverse slope, n neurons active in either run].",
+  "val_cmp_engine_100_accumulate_vs_local_pearson_range": "[min, max] of that Pearson r over seeds [7, 11, 12].",
+  "val_cmp_engine_100_accumulate_vs_local_slope_range": "[min, max] of that slope (engine on reference) over seeds [7, 11, 12].",
+  "val_cmp_engine_100_accumulate_vs_local_n_range": "[min, max] number of neurons compared over seeds [7, 11, 12].",
+  "val_cmp_engine_100_discard_vs_distributed_seed7_log_rmsd": "Agreement on the logarithmic scale of S1 Fig, engine at 100 Hz (seed 7, discarded) against the example output distributed with the published code: [root-mean-square difference of log10 rate over the neurons active in either run, with silence set to one spike in 30 trials; number of neurons active in only one of the two; highest rate (Hz) among those neurons].",
+  "val_cmp_engine_100_discard_vs_local_seed7_log_rmsd": "Agreement on the logarithmic scale of S1 Fig, engine at 100 Hz (seed 7, discarded) against the local Brian2 2.10.1 run of the unmodified published code: [root-mean-square difference of log10 rate over the neurons active in either run, with silence set to one spike in 30 trials; number of neurons active in only one of the two; highest rate (Hz) among those neurons].",
+  "val_cmp_engine_100_accumulate_vs_distributed_seed7_log_rmsd": "Agreement on the logarithmic scale of S1 Fig, engine at 100 Hz (seed 7, accumulated) against the example output distributed with the published code: [root-mean-square difference of log10 rate over the neurons active in either run, with silence set to one spike in 30 trials; number of neurons active in only one of the two; highest rate (Hz) among those neurons].",
+  "val_cmp_engine_100_accumulate_vs_local_seed7_log_rmsd": "Agreement on the logarithmic scale of S1 Fig, engine at 100 Hz (seed 7, accumulated) against the local Brian2 2.10.1 run of the unmodified published code: [root-mean-square difference of log10 rate over the neurons active in either run, with silence set to one spike in 30 trials; number of neurons active in only one of the two; highest rate (Hz) among those neurons].",
+  "val_brian2_rerun_200_info": "How the local Brian2 reference at 200 Hz was produced (unmodified published code, r_poi passed through its parameter dictionary).",
+  "val_brian2_rerun_100_info": "How the local Brian2 reference at 100 Hz was produced (unmodified published code, r_poi passed through its parameter dictionary)."
+ },
+ "_source": {
+  "val_network": "results/validation/engine_validation_200hz.json model",
+  "val_neurons": "results/validation/engine_validation_200hz.json neurons",
+  "val_n_stimulated": "results/validation/engine_validation_200hz_rates.npz stim_index",
+  "val_trials_and_duration": "results/validation/engine_validation_200hz.json stimulus; references[*].trials",
+  "val_seeds": "results/validation/engine_validation_200hz.json seeds",
+  "val_seed_for_figure": "results/validation/engine_validation_200hz.json comparisons[*].seed_7",
+  "val_slope_definition": "results/validation/engine_validation_200hz.json slope",
+  "val_engine_versions": "results/validation/engine_validation_200hz.json versions",
+  "val_released_default_rate_hz": "results/validation/brian2_rerun_200hz/run_info.json r_poi_released_default_hz",
+  "val_prov_repository_commit": "results/validation/shiu_example_provenance.json server_copy",
+  "val_prov_notebook_statement": "results/validation/shiu_example_provenance.json example_notebook",
+  "val_prov_notebook_statement_commit": "results/validation/shiu_example_provenance.json example_notebook.commit_that_introduced_the_statement",
+  "val_prov_model_py_never_200": "results/validation/shiu_example_provenance.json released_model_py.history",
+  "val_prov_distributed_output_commit_date": "results/validation/shiu_example_provenance.json distributed_output_history",
+  "val_prov_notebook_output_is_distributed_file": "results/validation/shiu_example_provenance.json notebook_with_stored_outputs",
+  "val_prov_environment_brian2": "results/validation/shiu_example_provenance.json environment_file",
+  "val_stim_hz_distributed_sugarR": "results/validation/engine_validation_200hz_rates.npz ref_200hz_distributed[stim_index]",
+  "val_stim_are_21_highest_distributed_sugarR": "results/validation/engine_validation_200hz.json rates.200.references",
+  "val_stim_hz_distributed_sugarR_100Hz": "results/validation/engine_validation_200hz_rates.npz ref_100hz_distributed[stim_index]",
+  "val_stim_hz_local_brian2_150": "results/validation/engine_validation_rates.npz ref_local_brian2_2.10.1[stim_index]",
+  "val_stim_hz_engine_150_discard_seed7": "results/validation/engine_validation_rates.npz ours_gate1[stim_index]",
+  "val_stim_spikes_per_event": "results/validation/engine_validation_200hz_rates.npz",
+  "val_mismatched_engine150_vs_distributed200": "results/validation/engine_validation.json comparisons[gate=True vs released_example_output]",
+  "val_mismatched_engine150_accumulate_vs_distributed200": "results/validation/engine_validation.json comparisons[gate=False vs released_example_output]",
+  "val_ref_local_brian2_150": "results/validation/engine_validation.json references",
+  "val_ref_local_brian2_150_trial_sd": "results/validation/engine_validation_200hz.json reference_150hz_local_brian2_2.10.1",
+  "val_engine_150_discard_seed7_trial_sd": "results/validation/engine_validation_200hz.json check_150hz_seed7_discard",
+  "val_engine_150_discard_seed7_diff_in_se_vs_local": "results/validation/engine_validation_200hz.json",
+  "val_check_150hz_rerun_identical": "results/validation/engine_validation_200hz.json check_150hz_seed7_discard",
+  "val_ref_distributed_200": "results/validation/engine_validation_200hz.json rates.200.references[distributed_example_output]",
+  "val_ref_distributed_200_trial_sd": "results/validation/engine_validation_200hz.json rates.200.references[distributed_example_output]",
+  "val_ref_distributed_200_total_spikes": "results/validation/engine_validation_200hz.json rates.200.references[distributed_example_output].total_spikes",
+  "val_ref_local_200": "results/validation/engine_validation_200hz.json rates.200.references[local_brian2_2.10.1]",
+  "val_ref_local_200_trial_sd": "results/validation/engine_validation_200hz.json rates.200.references[local_brian2_2.10.1]",
+  "val_ref_local_200_total_spikes": "results/validation/engine_validation_200hz.json rates.200.references[local_brian2_2.10.1].total_spikes",
+  "val_stim_hz_local_brian2_200": "results/validation/engine_validation_200hz.json rates.200.references[local_brian2_2.10.1]",
+  "val_refcmp_local_vs_distributed_200": "results/validation/engine_validation_200hz.json rates.200.reference_vs_reference[local_brian2_2.10.1 vs distributed_example_output]",
+  "val_refdiff_local_minus_distributed_200": "results/validation/engine_validation_200hz.json rates.200.references",
+  "val_refdiff_local_minus_distributed_200_in_se": "results/validation/engine_validation_200hz.json rates.200.references",
+  "val_engine_200_discard_spikes_per_trial_by_seed": "results/validation/engine_validation_200hz.json rates.200.engine_runs[gate=True]",
+  "val_engine_200_discard_mn9_hz_by_seed": "results/validation/engine_validation_200hz.json rates.200.engine_runs[gate=True]",
+  "val_engine_200_discard_active_by_seed": "results/validation/engine_validation_200hz.json rates.200.engine_runs[gate=True]",
+  "val_engine_200_discard_stim_hz_seed7": "results/validation/engine_validation_200hz.json rates.200.engine_runs[gate=True]",
+  "val_engine_200_discard_trial_sd_by_seed": "results/validation/engine_validation_200hz.json rates.200.engine_runs[gate=True]",
+  "val_engine_200_discard_seed_spread": "results/validation/engine_validation_200hz.json rates.200.engine_runs[gate=True]",
+  "val_engine_200_discard_wall_s_by_seed": "results/validation/engine_validation_200hz.json rates.200.engine_runs[gate=True]",
+  "val_engine_200_discard_mn9_minus_distributed_by_seed": "results/validation/engine_validation_200hz.json rates.200.engine_runs[gate=True]",
+  "val_engine_200_discard_spikes_minus_distributed_by_seed": "results/validation/engine_validation_200hz.json rates.200.engine_runs[gate=True]",
+  "val_engine_200_discard_diff_in_se_vs_distributed_by_seed": "results/validation/engine_validation_200hz.json rates.200.engine_runs[gate=True]",
+  "val_engine_200_discard_spikes_ratio_to_distributed_by_seed": "results/validation/engine_validation_200hz.json rates.200.engine_runs[gate=True]",
+  "val_engine_200_discard_mn9_minus_local_by_seed": "results/validation/engine_validation_200hz.json rates.200.engine_runs[gate=True]",
+  "val_engine_200_discard_spikes_minus_local_by_seed": "results/validation/engine_validation_200hz.json rates.200.engine_runs[gate=True]",
+  "val_engine_200_discard_diff_in_se_vs_local_by_seed": "results/validation/engine_validation_200hz.json rates.200.engine_runs[gate=True]",
+  "val_engine_200_discard_spikes_ratio_to_local_by_seed": "results/validation/engine_validation_200hz.json rates.200.engine_runs[gate=True]",
+  "val_engine_200_discard_seed_vs_seed_pearson_range": "results/validation/engine_validation_200hz.json rates.200.engine_seed_vs_seed[gate=True]",
+  "val_engine_200_discard_seed_vs_seed_slope_range": "results/validation/engine_validation_200hz.json rates.200.engine_seed_vs_seed[gate=True]",
+  "val_engine_200_accumulate_spikes_per_trial_by_seed": "results/validation/engine_validation_200hz.json rates.200.engine_runs[gate=False]",
+  "val_engine_200_accumulate_mn9_hz_by_seed": "results/validation/engine_validation_200hz.json rates.200.engine_runs[gate=False]",
+  "val_engine_200_accumulate_active_by_seed": "results/validation/engine_validation_200hz.json rates.200.engine_runs[gate=False]",
+  "val_engine_200_accumulate_stim_hz_seed7": "results/validation/engine_validation_200hz.json rates.200.engine_runs[gate=False]",
+  "val_engine_200_accumulate_trial_sd_by_seed": "results/validation/engine_validation_200hz.json rates.200.engine_runs[gate=False]",
+  "val_engine_200_accumulate_seed_spread": "results/validation/engine_validation_200hz.json rates.200.engine_runs[gate=False]",
+  "val_engine_200_accumulate_wall_s_by_seed": "results/validation/engine_validation_200hz.json rates.200.engine_runs[gate=False]",
+  "val_engine_200_accumulate_mn9_minus_distributed_by_seed": "results/validation/engine_validation_200hz.json rates.200.engine_runs[gate=False]",
+  "val_engine_200_accumulate_spikes_minus_distributed_by_seed": "results/validation/engine_validation_200hz.json rates.200.engine_runs[gate=False]",
+  "val_engine_200_accumulate_diff_in_se_vs_distributed_by_seed": "results/validation/engine_validation_200hz.json rates.200.engine_runs[gate=False]",
+  "val_engine_200_accumulate_spikes_ratio_to_distributed_by_seed": "results/validation/engine_validation_200hz.json rates.200.engine_runs[gate=False]",
+  "val_engine_200_accumulate_mn9_minus_local_by_seed": "results/validation/engine_validation_200hz.json rates.200.engine_runs[gate=False]",
+  "val_engine_200_accumulate_spikes_minus_local_by_seed": "results/validation/engine_validation_200hz.json rates.200.engine_runs[gate=False]",
+  "val_engine_200_accumulate_diff_in_se_vs_local_by_seed": "results/validation/engine_validation_200hz.json rates.200.engine_runs[gate=False]",
+  "val_engine_200_accumulate_spikes_ratio_to_local_by_seed": "results/validation/engine_validation_200hz.json rates.200.engine_runs[gate=False]",
+  "val_engine_200_accumulate_seed_vs_seed_pearson_range": "results/validation/engine_validation_200hz.json rates.200.engine_seed_vs_seed[gate=False]",
+  "val_engine_200_accumulate_seed_vs_seed_slope_range": "results/validation/engine_validation_200hz.json rates.200.engine_seed_vs_seed[gate=False]",
+  "val_cmp_engine_200_discard_vs_distributed_seed7": "results/validation/engine_validation_200hz.json rates.200.comparisons[gate=True vs distributed_example_output]",
+  "val_cmp_engine_200_discard_vs_distributed_pearson_range": "results/validation/engine_validation_200hz.json rates.200.comparisons[gate=True vs distributed_example_output].by_seed",
+  "val_cmp_engine_200_discard_vs_distributed_slope_range": "results/validation/engine_validation_200hz.json rates.200.comparisons[gate=True vs distributed_example_output].by_seed",
+  "val_cmp_engine_200_discard_vs_distributed_n_range": "results/validation/engine_validation_200hz.json rates.200.comparisons[gate=True vs distributed_example_output].by_seed",
+  "val_cmp_engine_200_discard_vs_local_seed7": "results/validation/engine_validation_200hz.json rates.200.comparisons[gate=True vs local_brian2_2.10.1]",
+  "val_cmp_engine_200_discard_vs_local_pearson_range": "results/validation/engine_validation_200hz.json rates.200.comparisons[gate=True vs local_brian2_2.10.1].by_seed",
+  "val_cmp_engine_200_discard_vs_local_slope_range": "results/validation/engine_validation_200hz.json rates.200.comparisons[gate=True vs local_brian2_2.10.1].by_seed",
+  "val_cmp_engine_200_discard_vs_local_n_range": "results/validation/engine_validation_200hz.json rates.200.comparisons[gate=True vs local_brian2_2.10.1].by_seed",
+  "val_cmp_engine_200_accumulate_vs_distributed_seed7": "results/validation/engine_validation_200hz.json rates.200.comparisons[gate=False vs distributed_example_output]",
+  "val_cmp_engine_200_accumulate_vs_distributed_pearson_range": "results/validation/engine_validation_200hz.json rates.200.comparisons[gate=False vs distributed_example_output].by_seed",
+  "val_cmp_engine_200_accumulate_vs_distributed_slope_range": "results/validation/engine_validation_200hz.json rates.200.comparisons[gate=False vs distributed_example_output].by_seed",
+  "val_cmp_engine_200_accumulate_vs_distributed_n_range": "results/validation/engine_validation_200hz.json rates.200.comparisons[gate=False vs distributed_example_output].by_seed",
+  "val_cmp_engine_200_accumulate_vs_local_seed7": "results/validation/engine_validation_200hz.json rates.200.comparisons[gate=False vs local_brian2_2.10.1]",
+  "val_cmp_engine_200_accumulate_vs_local_pearson_range": "results/validation/engine_validation_200hz.json rates.200.comparisons[gate=False vs local_brian2_2.10.1].by_seed",
+  "val_cmp_engine_200_accumulate_vs_local_slope_range": "results/validation/engine_validation_200hz.json rates.200.comparisons[gate=False vs local_brian2_2.10.1].by_seed",
+  "val_cmp_engine_200_accumulate_vs_local_n_range": "results/validation/engine_validation_200hz.json rates.200.comparisons[gate=False vs local_brian2_2.10.1].by_seed",
+  "val_cmp_engine_200_discard_vs_distributed_seed7_log_rmsd": "results/validation/engine_validation_200hz_rates.npz",
+  "val_cmp_engine_200_discard_vs_local_seed7_log_rmsd": "results/validation/engine_validation_200hz_rates.npz",
+  "val_cmp_engine_200_accumulate_vs_distributed_seed7_log_rmsd": "results/validation/engine_validation_200hz_rates.npz",
+  "val_cmp_engine_200_accumulate_vs_local_seed7_log_rmsd": "results/validation/engine_validation_200hz_rates.npz",
+  "val_ref_distributed_100": "results/validation/engine_validation_200hz.json rates.100.references[distributed_example_output]",
+  "val_ref_distributed_100_trial_sd": "results/validation/engine_validation_200hz.json rates.100.references[distributed_example_output]",
+  "val_ref_distributed_100_total_spikes": "results/validation/engine_validation_200hz.json rates.100.references[distributed_example_output].total_spikes",
+  "val_ref_local_100": "results/validation/engine_validation_200hz.json rates.100.references[local_brian2_2.10.1]",
+  "val_ref_local_100_trial_sd": "results/validation/engine_validation_200hz.json rates.100.references[local_brian2_2.10.1]",
+  "val_ref_local_100_total_spikes": "results/validation/engine_validation_200hz.json rates.100.references[local_brian2_2.10.1].total_spikes",
+  "val_stim_hz_local_brian2_100": "results/validation/engine_validation_200hz.json rates.100.references[local_brian2_2.10.1]",
+  "val_refcmp_local_vs_distributed_100": "results/validation/engine_validation_200hz.json rates.100.reference_vs_reference[local_brian2_2.10.1 vs distributed_example_output]",
+  "val_refdiff_local_minus_distributed_100": "results/validation/engine_validation_200hz.json rates.100.references",
+  "val_refdiff_local_minus_distributed_100_in_se": "results/validation/engine_validation_200hz.json rates.100.references",
+  "val_engine_100_discard_spikes_per_trial_by_seed": "results/validation/engine_validation_200hz.json rates.100.engine_runs[gate=True]",
+  "val_engine_100_discard_mn9_hz_by_seed": "results/validation/engine_validation_200hz.json rates.100.engine_runs[gate=True]",
+  "val_engine_100_discard_active_by_seed": "results/validation/engine_validation_200hz.json rates.100.engine_runs[gate=True]",
+  "val_engine_100_discard_stim_hz_seed7": "results/validation/engine_validation_200hz.json rates.100.engine_runs[gate=True]",
+  "val_engine_100_discard_trial_sd_by_seed": "results/validation/engine_validation_200hz.json rates.100.engine_runs[gate=True]",
+  "val_engine_100_discard_seed_spread": "results/validation/engine_validation_200hz.json rates.100.engine_runs[gate=True]",
+  "val_engine_100_discard_wall_s_by_seed": "results/validation/engine_validation_200hz.json rates.100.engine_runs[gate=True]",
+  "val_engine_100_discard_mn9_minus_distributed_by_seed": "results/validation/engine_validation_200hz.json rates.100.engine_runs[gate=True]",
+  "val_engine_100_discard_spikes_minus_distributed_by_seed": "results/validation/engine_validation_200hz.json rates.100.engine_runs[gate=True]",
+  "val_engine_100_discard_diff_in_se_vs_distributed_by_seed": "results/validation/engine_validation_200hz.json rates.100.engine_runs[gate=True]",
+  "val_engine_100_discard_spikes_ratio_to_distributed_by_seed": "results/validation/engine_validation_200hz.json rates.100.engine_runs[gate=True]",
+  "val_engine_100_discard_mn9_minus_local_by_seed": "results/validation/engine_validation_200hz.json rates.100.engine_runs[gate=True]",
+  "val_engine_100_discard_spikes_minus_local_by_seed": "results/validation/engine_validation_200hz.json rates.100.engine_runs[gate=True]",
+  "val_engine_100_discard_diff_in_se_vs_local_by_seed": "results/validation/engine_validation_200hz.json rates.100.engine_runs[gate=True]",
+  "val_engine_100_discard_spikes_ratio_to_local_by_seed": "results/validation/engine_validation_200hz.json rates.100.engine_runs[gate=True]",
+  "val_engine_100_discard_seed_vs_seed_pearson_range": "results/validation/engine_validation_200hz.json rates.100.engine_seed_vs_seed[gate=True]",
+  "val_engine_100_discard_seed_vs_seed_slope_range": "results/validation/engine_validation_200hz.json rates.100.engine_seed_vs_seed[gate=True]",
+  "val_engine_100_accumulate_spikes_per_trial_by_seed": "results/validation/engine_validation_200hz.json rates.100.engine_runs[gate=False]",
+  "val_engine_100_accumulate_mn9_hz_by_seed": "results/validation/engine_validation_200hz.json rates.100.engine_runs[gate=False]",
+  "val_engine_100_accumulate_active_by_seed": "results/validation/engine_validation_200hz.json rates.100.engine_runs[gate=False]",
+  "val_engine_100_accumulate_stim_hz_seed7": "results/validation/engine_validation_200hz.json rates.100.engine_runs[gate=False]",
+  "val_engine_100_accumulate_trial_sd_by_seed": "results/validation/engine_validation_200hz.json rates.100.engine_runs[gate=False]",
+  "val_engine_100_accumulate_seed_spread": "results/validation/engine_validation_200hz.json rates.100.engine_runs[gate=False]",
+  "val_engine_100_accumulate_wall_s_by_seed": "results/validation/engine_validation_200hz.json rates.100.engine_runs[gate=False]",
+  "val_engine_100_accumulate_mn9_minus_distributed_by_seed": "results/validation/engine_validation_200hz.json rates.100.engine_runs[gate=False]",
+  "val_engine_100_accumulate_spikes_minus_distributed_by_seed": "results/validation/engine_validation_200hz.json rates.100.engine_runs[gate=False]",
+  "val_engine_100_accumulate_diff_in_se_vs_distributed_by_seed": "results/validation/engine_validation_200hz.json rates.100.engine_runs[gate=False]",
+  "val_engine_100_accumulate_spikes_ratio_to_distributed_by_seed": "results/validation/engine_validation_200hz.json rates.100.engine_runs[gate=False]",
+  "val_engine_100_accumulate_mn9_minus_local_by_seed": "results/validation/engine_validation_200hz.json rates.100.engine_runs[gate=False]",
+  "val_engine_100_accumulate_spikes_minus_local_by_seed": "results/validation/engine_validation_200hz.json rates.100.engine_runs[gate=False]",
+  "val_engine_100_accumulate_diff_in_se_vs_local_by_seed": "results/validation/engine_validation_200hz.json rates.100.engine_runs[gate=False]",
+  "val_engine_100_accumulate_spikes_ratio_to_local_by_seed": "results/validation/engine_validation_200hz.json rates.100.engine_runs[gate=False]",
+  "val_engine_100_accumulate_seed_vs_seed_pearson_range": "results/validation/engine_validation_200hz.json rates.100.engine_seed_vs_seed[gate=False]",
+  "val_engine_100_accumulate_seed_vs_seed_slope_range": "results/validation/engine_validation_200hz.json rates.100.engine_seed_vs_seed[gate=False]",
+  "val_cmp_engine_100_discard_vs_distributed_seed7": "results/validation/engine_validation_200hz.json rates.100.comparisons[gate=True vs distributed_example_output]",
+  "val_cmp_engine_100_discard_vs_distributed_pearson_range": "results/validation/engine_validation_200hz.json rates.100.comparisons[gate=True vs distributed_example_output].by_seed",
+  "val_cmp_engine_100_discard_vs_distributed_slope_range": "results/validation/engine_validation_200hz.json rates.100.comparisons[gate=True vs distributed_example_output].by_seed",
+  "val_cmp_engine_100_discard_vs_distributed_n_range": "results/validation/engine_validation_200hz.json rates.100.comparisons[gate=True vs distributed_example_output].by_seed",
+  "val_cmp_engine_100_discard_vs_local_seed7": "results/validation/engine_validation_200hz.json rates.100.comparisons[gate=True vs local_brian2_2.10.1]",
+  "val_cmp_engine_100_discard_vs_local_pearson_range": "results/validation/engine_validation_200hz.json rates.100.comparisons[gate=True vs local_brian2_2.10.1].by_seed",
+  "val_cmp_engine_100_discard_vs_local_slope_range": "results/validation/engine_validation_200hz.json rates.100.comparisons[gate=True vs local_brian2_2.10.1].by_seed",
+  "val_cmp_engine_100_discard_vs_local_n_range": "results/validation/engine_validation_200hz.json rates.100.comparisons[gate=True vs local_brian2_2.10.1].by_seed",
+  "val_cmp_engine_100_accumulate_vs_distributed_seed7": "results/validation/engine_validation_200hz.json rates.100.comparisons[gate=False vs distributed_example_output]",
+  "val_cmp_engine_100_accumulate_vs_distributed_pearson_range": "results/validation/engine_validation_200hz.json rates.100.comparisons[gate=False vs distributed_example_output].by_seed",
+  "val_cmp_engine_100_accumulate_vs_distributed_slope_range": "results/validation/engine_validation_200hz.json rates.100.comparisons[gate=False vs distributed_example_output].by_seed",
+  "val_cmp_engine_100_accumulate_vs_distributed_n_range": "results/validation/engine_validation_200hz.json rates.100.comparisons[gate=False vs distributed_example_output].by_seed",
+  "val_cmp_engine_100_accumulate_vs_local_seed7": "results/validation/engine_validation_200hz.json rates.100.comparisons[gate=False vs local_brian2_2.10.1]",
+  "val_cmp_engine_100_accumulate_vs_local_pearson_range": "results/validation/engine_validation_200hz.json rates.100.comparisons[gate=False vs local_brian2_2.10.1].by_seed",
+  "val_cmp_engine_100_accumulate_vs_local_slope_range": "results/validation/engine_validation_200hz.json rates.100.comparisons[gate=False vs local_brian2_2.10.1].by_seed",
+  "val_cmp_engine_100_accumulate_vs_local_n_range": "results/validation/engine_validation_200hz.json rates.100.comparisons[gate=False vs local_brian2_2.10.1].by_seed",
+  "val_cmp_engine_100_discard_vs_distributed_seed7_log_rmsd": "results/validation/engine_validation_200hz_rates.npz",
+  "val_cmp_engine_100_discard_vs_local_seed7_log_rmsd": "results/validation/engine_validation_200hz_rates.npz",
+  "val_cmp_engine_100_accumulate_vs_distributed_seed7_log_rmsd": "results/validation/engine_validation_200hz_rates.npz",
+  "val_cmp_engine_100_accumulate_vs_local_seed7_log_rmsd": "results/validation/engine_validation_200hz_rates.npz",
+  "val_brian2_rerun_200_info": "results/validation/brian2_rerun_200hz/run_info.json",
+  "val_brian2_rerun_100_info": "results/validation/brian2_rerun_100hz/run_info.json"
+ }
+}

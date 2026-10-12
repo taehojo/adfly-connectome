@@ -1,0 +1,98 @@
+{
+ "w0.275_dropSensIn": {
+  "odor_active_on": 9408,
+  "odor_active_last200": 8211,
+  "KC_frac_active_on": 0.614,
+  "KC_active_last200": 2280,
+  "MN9_sugar_hz": [
+   93.3,
+   1.7
+  ],
+  "sugar_active_last200": 986,
+  "GF_LPLC2_hz": [
+   265.0,
+   140.8
+  ],
+  "lplc2_active_last200": 91,
+  "persist_top": {
+   "KCg-m": 1318,
+   "KCab-m": 373,
+   "KCab-c": 313,
+   "KCab-s": 256,
+   "cb_intrinsic": 122,
+   "PAM08": 49
+  }
+ },
+ "w0.275_dropSensIn+KCKC": {
+  "odor_active_on": 8056,
+  "odor_active_last200": 7253,
+  "KC_frac_active_on": 0.293,
+  "KC_active_last200": 1053,
+  "MN9_sugar_hz": [
+   93.3,
+   1.7
+  ],
+  "sugar_active_last200": 986,
+  "GF_LPLC2_hz": [
+   265.0,
+   140.8
+  ],
+  "lplc2_active_last200": 91,
+  "persist_top": {
+   "KCg-m": 479,
+   "KCab-m": 220,
+   "KCab-c": 173,
+   "KCab-s": 158,
+   "cb_intrinsic": 125,
+   "PAM08": 41
+  }
+ },
+ "w0.157_dropSensIn": {
+  "odor_active_on": 4354,
+  "odor_active_last200": 4002,
+  "KC_frac_active_on": 0.19,
+  "KC_active_last200": 623,
+  "MN9_sugar_hz": [
+   22.5,
+   0.0
+  ],
+  "sugar_active_last200": 0,
+  "GF_LPLC2_hz": [
+   217.5,
+   124.2
+  ],
+  "lplc2_active_last200": 48,
+  "persist_top": {
+   "KCg-m": 382,
+   "KCab-m": 133,
+   "cb_intrinsic": 78,
+   "KCab-c": 78,
+   "lLN1_bc": 30,
+   "KCab-s": 23
+  }
+ },
+ "w0.157_dropSensIn+KCKC": {
+  "odor_active_on": 4143,
+  "odor_active_last200": 3775,
+  "KC_frac_active_on": 0.141,
+  "KC_active_last200": 466,
+  "MN9_sugar_hz": [
+   22.5,
+   0.0
+  ],
+  "sugar_active_last200": 0,
+  "GF_LPLC2_hz": [
+   217.5,
+   124.2
+  ],
+  "lplc2_active_last200": 48,
+  "persist_top": {
+   "KCg-m": 293,
+   "KCab-m": 90,
+   "cb_intrinsic": 77,
+   "KCab-c": 56,
+   "lLN1_bc": 30,
+   "KCab-s": 21
+  }
+ }
+}

@@ -1,0 +1,430 @@
+{
+ "settings": {
+  "bootstrap_resamples": 4000,
+  "seed": 20261010,
+  "interval": "95% percentile bootstrap of the ratio of group median to healthy median, flies resampled within the group and the healthy group"
+ },
+ "n_series_healthy": 64,
+ "n_exp2_healthy": 32,
+ "A": {
+  "contacts_lost_pct_s0.5_equal_neurons": {
+   "hub": 48.3,
+   "shuffled": 35.2,
+   "antihub": 19.7
+  },
+  "max_contacts_lost_pct_s1": {
+   "hub": 76.9,
+   "shuffled": 60.4,
+   "antihub": 35.5
+  },
+  "targets_pct": {
+   "syn11.5": 11.55,
+   "syn27.1": 27.08,
+   "syn48.3": 48.28
+  },
+  "matched_s": {
+   "syn11.5": {
+    "hub": 0.1,
+    "shuffled": 0.1452,
+    "antihub": 0.2809
+   },
+   "syn27.1": {
+    "hub": 0.25,
+    "shuffled": 0.3676,
+    "antihub": 0.7175
+   },
+   "syn48.3": {
+    "hub": 0.5,
+    "shuffled": 0.7348,
+    "antihub": null
+   }
+  }
+ },
+ "B_equal_neurons": {
+  "hub": {
+   "n": 32,
+   "neurons_removed_pct": 11.92,
+   "brain": [
+    30.6,
+    27.4,
+    35.1
+   ]
+  },
+  "shuffled": {
+   "n": 32,
+   "neurons_removed_pct": 11.88,
+   "brain": [
+    47.0,
+    40.0,
+    52.0
+   ]
+  },
+  "antihub": {
+   "n": 32,
+   "neurons_removed_pct": 11.88,
+   "brain": [
+    93.1,
+    85.3,
+    97.6
+   ]
+  }
+ },
+ "levels": {
+  "syn11.5": {
+   "target_pct": 11.55,
+   "maps": {
+    "hub": {
+     "s": 0.1,
+     "n": 32,
+     "contacts_lost_pct": 11.5,
+     "neurons_removed_pct": 2.38,
+     "KC_removed_pct": 2.93,
+     "neurons_removed_iqr_pp": 0.03,
+     "KC_removed_iqr_pp": 0.28,
+     "brain": [
+      76.1,
+      70.1,
+      80.5
+     ],
+     "LH": [
+      90.9,
+      84.6,
+      93.3
+     ],
+     "MBON": [
+      82.6,
+      72.7,
+      88.9
+     ],
+     "LI": [
+      76.3,
+      62.3,
+      98.4
+     ],
+     "GF": [
+      99.6,
+      97.0,
+      101.7
+     ],
+     "PN": [
+      97.9,
+      91.3,
+      99.6
+     ]
+    },
+    "shuffled": {
+     "s": 0.1452,
+     "n": 32,
+     "contacts_lost_pct": 11.5,
+     "neurons_removed_pct": 3.46,
+     "KC_removed_pct": 3.84,
+     "neurons_removed_iqr_pp": 0.07,
+     "KC_removed_iqr_pp": 0.42,
+     "brain": [
+      79.7,
+      75.0,
+      84.9
+     ],
+     "LH": [
+      91.7,
+      87.7,
+      95.3
+     ],
+     "MBON": [
+      86.7,
+      75.6,
+      93.9
+     ],
+     "LI": [
+      71.1,
+      63.3,
+      86.5
+     ],
+     "GF": [
+      97.0,
+      93.6,
+      100.0
+     ],
+     "PN": [
+      98.6,
+      96.5,
+      100.1
+     ]
+    },
+    "antihub": {
+     "s": 0.2809,
+     "n": 32,
+     "contacts_lost_pct": 11.6,
+     "neurons_removed_pct": 6.67,
+     "KC_removed_pct": 6.74,
+     "neurons_removed_iqr_pp": 0.09,
+     "KC_removed_iqr_pp": 0.44,
+     "brain": [
+      91.5,
+      85.6,
+      96.9
+     ],
+     "LH": [
+      98.3,
+      95.5,
+      101.2
+     ],
+     "MBON": [
+      83.5,
+      75.6,
+      94.0
+     ],
+     "LI": [
+      63.8,
+      54.5,
+      82.5
+     ],
+     "GF": [
+      98.3,
+      96.6,
+      100.0
+     ],
+     "PN": [
+      100.5,
+      97.8,
+      101.8
+     ]
+    }
+   },
+   "kruskal_p": {
+    "brain": 6.521226475377628e-07,
+    "LH": 2.5573393209595237e-07,
+    "MBON": 0.7853474172249467,
+    "LI": 0.28294121032691577,
+    "GF": 0.17600020893343077,
+    "PN": 0.157309032089588
+   }
+  },
+  "syn27.1": {
+   "target_pct": 27.08,
+   "maps": {
+    "hub": {
+     "s": 0.25,
+     "n": 32,
+     "contacts_lost_pct": 27.1,
+     "neurons_removed_pct": 5.96,
+     "KC_removed_pct": 7.37,
+     "neurons_removed_iqr_pp": 0.08,
+     "KC_removed_iqr_pp": 0.52,
+     "brain": [
+      52.9,
+      42.7,
+      57.8
+     ],
+     "LH": [
+      75.5,
+      70.8,
+      82.1
+     ],
+     "MBON": [
+      64.9,
+      55.2,
+      77.6
+     ],
+     "LI": [
+      50.7,
+      41.7,
+      64.9
+     ],
+     "GF": [
+      94.8,
+      90.6,
+      97.8
+     ],
+     "PN": [
+      91.5,
+      88.1,
+      95.4
+     ]
+    },
+    "shuffled": {
+     "s": 0.3676,
+     "n": 32,
+     "contacts_lost_pct": 27.2,
+     "neurons_removed_pct": 8.74,
+     "KC_removed_pct": 9.92,
+     "neurons_removed_iqr_pp": 0.07,
+     "KC_removed_iqr_pp": 0.9,
+     "brain": [
+      55.5,
+      50.8,
+      64.8
+     ],
+     "LH": [
+      84.4,
+      77.1,
+      87.6
+     ],
+     "MBON": [
+      64.7,
+      58.1,
+      79.2
+     ],
+     "LI": [
+      53.3,
+      37.6,
+      67.7
+     ],
+     "GF": [
+      92.7,
+      88.0,
+      96.1
+     ],
+     "PN": [
+      93.1,
+      88.0,
+      99.3
+     ]
+    },
+    "antihub": {
+     "s": 0.7175,
+     "n": 32,
+     "contacts_lost_pct": 27.1,
+     "neurons_removed_pct": 17.06,
+     "KC_removed_pct": 17.22,
+     "neurons_removed_iqr_pp": 0.11,
+     "KC_removed_iqr_pp": 0.44,
+     "brain": [
+      80.6,
+      76.4,
+      89.3
+     ],
+     "LH": [
+      95.3,
+      92.5,
+      97.4
+     ],
+     "MBON": [
+      67.4,
+      61.4,
+      72.6
+     ],
+     "LI": [
+      49.3,
+      40.9,
+      60.9
+     ],
+     "GF": [
+      97.4,
+      95.7,
+      98.3
+     ],
+     "PN": [
+      99.4,
+      96.8,
+      100.8
+     ]
+    }
+   },
+   "kruskal_p": {
+    "brain": 4.2422763700032806e-11,
+    "LH": 2.688320281664826e-14,
+    "MBON": 0.9138177089468806,
+    "LI": 0.7136804652702953,
+    "GF": 0.0029975396225821248,
+    "PN": 0.16635075957428996
+   }
+  },
+  "syn48.3": {
+   "target_pct": 48.28,
+   "maps": {
+    "hub": {
+     "s": 0.5,
+     "n": 32,
+     "contacts_lost_pct": 48.4,
+     "neurons_removed_pct": 11.86,
+     "KC_removed_pct": 14.69,
+     "neurons_removed_iqr_pp": 0.12,
+     "KC_removed_iqr_pp": 0.9,
+     "brain": [
+      23.9,
+      21.8,
+      27.1
+     ],
+     "LH": [
+      44.2,
+      40.8,
+      48.9
+     ],
+     "MBON": [
+      28.1,
+      23.5,
+      42.1
+     ],
+     "LI": [
+      30.3,
+      23.2,
+      43.7
+     ],
+     "GF": [
+      82.8,
+      78.5,
+      86.8
+     ],
+     "PN": [
+      76.5,
+      65.6,
+      87.9
+     ]
+    },
+    "shuffled": {
+     "s": 0.7348,
+     "n": 32,
+     "contacts_lost_pct": 48.3,
+     "neurons_removed_pct": 17.49,
+     "KC_removed_pct": 19.65,
+     "neurons_removed_iqr_pp": 0.17,
+     "KC_removed_iqr_pp": 0.39,
+     "brain": [
+      34.8,
+      31.8,
+      37.6
+     ],
+     "LH": [
+      63.5,
+      57.1,
+      68.9
+     ],
+     "MBON": [
+      36.4,
+      29.6,
+      50.2
+     ],
+     "LI": [
+      36.8,
+      25.8,
+      51.4
+     ],
+     "GF": [
+      82.8,
+      74.4,
+      88.0
+     ],
+     "PN": [
+      87.2,
+      77.4,
+      90.0
+     ]
+    }
+   },
+   "kruskal_p": {
+    "brain": 1.4008111325728249e-05,
+    "LH": 1.5354280980571637e-05,
+    "MBON": 0.13963381830855398,
+    "LI": 0.6003822312174296,
+    "GF": 0.8613082480436351,
+    "PN": 0.04915345084272392
+   }
+  }
+ },
+ "check_vs_facts_exp2": {
+  "point_estimates_identical": true,
+  "max_abs_ci_bound_diff_pct_points": 0.8,
+  "note": "Interval bounds are recomputed with seed 20261010 but a different resampling order than facts_exp2.py, so they differ from the facts by Monte Carlo error only; quote the facts file in the text."
+ }
+}

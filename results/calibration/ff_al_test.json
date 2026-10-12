@@ -1,0 +1,58 @@
+[
+ {
+  "variant": "ffAL",
+  "da": 0.0,
+  "n_PN_A": 8,
+  "n_PN_B": 9,
+  "KC_frac_A": 0.0416,
+  "KC_frac_B": 0.0145,
+  "KC_jaccard_AB": 0.008,
+  "active_on_A": 702,
+  "active_last200_A": 11,
+  "active_last200_B": 0,
+  "MBON_hz_A": 0.44,
+  "MBON_hz_B": 0.0
+ },
+ {
+  "variant": "ffAL",
+  "da": 1.0,
+  "n_PN_A": 8,
+  "n_PN_B": 9,
+  "KC_frac_A": 0.0557,
+  "KC_frac_B": 0.019,
+  "KC_jaccard_AB": 0.012,
+  "active_on_A": 1066,
+  "active_last200_A": 1,
+  "active_last200_B": 0,
+  "MBON_hz_A": 0.67,
+  "MBON_hz_B": 0.0
+ },
+ {
+  "variant": "ffAL-KCKC",
+  "da": 0.0,
+  "n_PN_A": 8,
+  "n_PN_B": 9,
+  "KC_frac_A": 0.0377,
+  "KC_frac_B": 0.0139,
+  "KC_jaccard_AB": 0.008,
+  "active_on_A": 512,
+  "active_last200_A": 0,
+  "active_last200_B": 0,
+  "MBON_hz_A": 0.3,
+  "MBON_hz_B": 0.0
+ },
+ {
+  "variant": "ffAL-KCKC",
+  "da": 1.0,
+  "n_PN_A": 8,
+  "n_PN_B": 9,
+  "KC_frac_A": 0.0519,
+  "KC_frac_B": 0.0183,
+  "KC_jaccard_AB": 0.01,
+  "active_on_A": 1289,
+  "active_last200_A": 0,
+  "active_last200_B": 0,
+  "MBON_hz_A": 0.57,
+  "MBON_hz_B": 0.0
+ }
+]

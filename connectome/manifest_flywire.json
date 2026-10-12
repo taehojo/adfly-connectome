@@ -1,0 +1,170 @@
+{
+ "what": "Provenance record of the FlyWire and base-model source files used for the engine validation (FlyWire v630) and the weight calibration (FlyWire v783). None of these files is redistributed in this repository. The digests were computed on 2026-10-10 from the files on the machine that ran the simulations. git_blob_sha1 is the identifier git gives the same bytes, so a file can also be checked against the file listing of its repository without downloading it. The MaleCNS source files are recorded in manifest.json.",
+ "recorded": "2026-10-10",
+ "base_model": {
+  "reference": "Shiu PK, et al. A Drosophila computational brain model reveals sensorimotor processing. Nature. 2024;634:210-219. doi:10.1038/s41586-024-07763-9",
+  "repository": "https://github.com/philshiu/Drosophila_brain_model",
+  "commit": "91bdd1e7dcf193f3e7ca5a8933497fcef63b7960",
+  "commit_date": "2024-09-14T09:47:44-04:00",
+  "commit_message": "Update Readme.md",
+  "clone": "shallow clone of branch main with a clean working tree (git status reports no change), placed at ext/Drosophila_brain_model",
+  "licence": "MIT, Copyright (c) 2023 Philip Shiu and Nico Spiller",
+  "data_licence": "the connectivity and completeness tables are FlyWire data, CC BY-NC 4.0",
+  "files": [
+   {
+    "path": "2023_03_23_completeness_630_final.csv",
+    "bytes": 3057611,
+    "sha256": "e6b71e17671a9bdb05f55e4bc6774640a1418cb7a05125e0fc994ad40f9bfdfb",
+    "git_blob_sha1": "be745f0ce054308df21accc5c4b3883aa38498f9",
+    "copied_to": "data/shiu2024/2023_03_23_completeness_630_final.csv",
+    "read_by": [
+     "validate_engine_flywire.py",
+     "rerun_brian2_sugarR.py",
+     "rerun_brian2_sugarR_rate.py"
+    ]
+   },
+   {
+    "path": "2023_03_23_connectivity_630_final.parquet",
+    "bytes": 86630944,
+    "sha256": "94db8c650533bc36ffa3223f2e62325d5648b8d6bd31c3a4e1c804628c7557b3",
+    "git_blob_sha1": "8b4d9531bc0acbda7c2074ae577e6ac9e2fca166",
+    "copied_to": "data/shiu2024/2023_03_23_connectivity_630_final.parquet",
+    "read_by": [
+     "validate_engine_flywire.py",
+     "rerun_brian2_sugarR.py",
+     "rerun_brian2_sugarR_rate.py"
+    ]
+   },
+   {
+    "path": "Completeness_783.csv",
+    "bytes": 3327347,
+    "sha256": "bbb847a4cc2caaa7a16349722d220c087317b946d148d4d592d94d250617a311",
+    "git_blob_sha1": "b5a26b82b69a3c2e7fd99cd6810c36fc8f0e492b",
+    "copied_to": "data/shiu2024/Completeness_783.csv",
+    "read_by": [
+     "calibrate_wsyn.py"
+    ]
+   },
+   {
+    "path": "Connectivity_783.parquet",
+    "bytes": 100804642,
+    "sha256": "efeb23fb99098e9c390f6869969b2a121a2ee92c833cfc45ecb2c1d8e1af0347",
+    "git_blob_sha1": "d386555d1a5f40ebfa1380bcb05b1fab044855fd",
+    "copied_to": "data/shiu2024/Connectivity_783.parquet",
+    "read_by": [
+     "calibrate_wsyn.py"
+    ]
+   },
+   {
+    "path": "results/example/sugarR.parquet",
+    "bytes": 948526,
+    "sha256": "83921d50089d966785e402d6c0e3be5ab3eba5beb680410a09c557b0f22dcc28",
+    "git_blob_sha1": "1204cb3ed453ad03b0141028fa511d924f99d599",
+    "copied_to": "data/shiu2024/example/sugarR.parquet",
+    "read_by": [
+     "validate_engine_flywire.py",
+     "validate_engine_final.py",
+     "validate_engine_200hz.py"
+    ],
+    "note": "example output distributed with the code; generated with 200-Hz input (results/validation/shiu_example_provenance.json)"
+   },
+   {
+    "path": "results/example/sugarR_100Hz.parquet",
+    "bytes": 557849,
+    "sha256": "93722ec03c3faa5a85790d77ed16bdd7f1e38a7c847ed0bc3af3dc2e4d0c3d34",
+    "git_blob_sha1": "bd76730d5e991d64b756f354a749f94ffb874c64",
+    "copied_to": "data/shiu2024/example/sugarR_100Hz.parquet",
+    "read_by": [
+     "validate_engine_200hz.py"
+    ],
+    "note": "second example output distributed with the code; generated with 100-Hz input"
+   },
+   {
+    "path": "model.py",
+    "bytes": 11900,
+    "sha256": "fc45837d7122c6ce2a7f3f2f23c515992e4b232aadb919efabb72337fac88e4e",
+    "git_blob_sha1": "5ba7083cf55bf6092967f8d9065e86cd677efed1",
+    "read_by": [
+     "rerun_brian2_sugarR.py",
+     "rerun_brian2_sugarR_rate.py"
+    ],
+    "note": "the published model code, imported and run unmodified for the Brian2 reference runs"
+   },
+   {
+    "path": "utils.py",
+    "bytes": 2176,
+    "sha256": "f378cf0b464f2ac5e1daf3609ba25fd51c7e34f294846281707ffe006c3e9ef1",
+    "git_blob_sha1": "a7785ce7141a2f348b9e0c8beb0d3dd8e992d497"
+   },
+   {
+    "path": "example.ipynb",
+    "bytes": 10282,
+    "sha256": "1737c3043af700504c4791c4bfc02d1856bbeb0d36c469832e4b9399dfddda3a",
+    "git_blob_sha1": "bc479485c42c18ef50762d9ab50817bc96d65c8d"
+   },
+   {
+    "path": "environment.yml",
+    "bytes": 174,
+    "sha256": "52991bcc78eb5a18534c2c02e8240330f8ad376f31f63546756ad0724924a667",
+    "git_blob_sha1": "27599c545d10fc702777cb372ab4333e73c225b8"
+   },
+   {
+    "path": "environment_full.yml",
+    "bytes": 3445,
+    "sha256": "402fcef4968c99397b0e908b3323ab9e6ef86af5583e46e6427f96f3d1091adf",
+    "git_blob_sha1": "1428b314d40bf8b7dc2cb3991db213c12033fdfc"
+   },
+   {
+    "path": "LICENSE",
+    "bytes": 1085,
+    "sha256": "3621f6d6476189190e2960fa43f11b275ba4eca848fdac50a1ba2925de6223e8",
+    "git_blob_sha1": "deca2d0f1e82e910d8248b0d27398eb9450976ee"
+   }
+  ],
+  "copies_checked": "each file under data/shiu2024/ has the same SHA-256 digest as the file of the clone it was copied from, and the git_blob_sha1 values are those git lists for the commit above (git ls-tree)"
+ },
+ "flywire_annotations": {
+  "reference": "Schlegel P, et al. Whole-brain annotation and multi-connectome cell typing of Drosophila. Nature. 2024;634:139-152. doi:10.1038/s41586-024-07686-5",
+  "repository": "https://github.com/flyconnectome/flywire_annotations",
+  "source_path": "supplemental_files/Supplemental_file1_neuron_annotations.tsv",
+  "used_as": "data/flywire/fw_neuron_annotations.tsv",
+  "bytes": 31720298,
+  "rows": 139248,
+  "sha256": "b214970b55d2fbe0853bba536fdcb9e28730f4eb7ab06f600491df795da683cd",
+  "git_blob_sha1": "02e72f6c8161d3465f77fec0edf96c5d98027a9e",
+  "downloaded": "2026-10-02",
+  "version": "the file as of commit a83b2776d60d5764cef36b927f5f9679c16c47a2 (2026-09-29, \"incorporate Tastekin et al. (2026) annotations\"), the latest commit that had changed it when it was downloaded",
+  "how_identified": "No download record was kept. The origin was established on 2026-10-10 from the content: the git blob identifier and the size of the file used equal those the GitHub API lists for source_path at the head of the repository, and the commit named above is the most recent one in the history of that file.",
+  "licence": "FlyWire data, CC BY-NC 4.0",
+  "read_by": [
+   "calibrate_wsyn.py"
+  ]
+ },
+ "derived_networks": {
+  "what": "Signed networks compiled from the tables above, in the file layout of the MaleCNS network (not redistributed). A rebuild can be checked against these digests.",
+  "data/pack/flywire_630": {
+   "built_by": "validate_engine_flywire.py",
+   "neurons": 127400,
+   "edges": 14687178,
+   "synapses_abs": 52793639,
+   "sha256": {
+    "neuron_ids.npy": "f3147dcea7e17a2c2acc05d716ee2e9fe278b0f60335afbf6094e48ef56b6571",
+    "row_ptr.npy": "e443b22d59ec5694116ef9f243d5f8083b839e8a40efdca1fe9adaa4a318b31b",
+    "dst.npy": "9e75c3e0b0dec3c7797936e0a1cb11c7f3c29af93ec6f251253f237679e1c78a",
+    "signed_w.npy": "1334162fd42b9b945ec2f6b5b80eff5a6cbecf95b745c1952b646f5250b3aa93"
+   }
+  },
+  "data/pack/flywire_783": {
+   "built_by": "calibrate_wsyn.py",
+   "neurons": 138639,
+   "edges": 15091983,
+   "synapses_abs": 54492922,
+   "sha256": {
+    "neuron_ids.npy": "9aa291f1324759a92ad5bb9a1cbfb3d799fcfb9a818220ef07316ecd3f644832",
+    "row_ptr.npy": "e1c889332d8b63081c22e3e45a2828fa2544e48f8a33fe1fb9f28e24b468dd69",
+    "dst.npy": "70fb921e634027cd55831c13090326483a415eac1f63c6a714b88807d3230f72",
+    "signed_w.npy": "c65d105712f23632e3a224eafe6fb9930d8bae2c4e86718b3e0274b6b50c95c1"
+   }
+  }
+ }
+}
