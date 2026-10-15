@@ -24,11 +24,13 @@ keywords:
   - "whole-brain simulation"
   - MaleCNS
 preferred-citation:
-  type: unpublished
+  type: article
   title: "Simulating Alzheimer's amyloid-like pathology on a fly central nervous system connectome"
   authors:
     - family-names: Jo
       given-names: Taeho
       orcid: "https://orcid.org/0000-0003-1765-5735"
   year: 2026
-  notes: "Manuscript; a preprint will be posted on bioRxiv."
+  doi: "10.48550/arXiv.2610.19153"
+  url: "https://arxiv.org/abs/2610.19153"
+  notes: "Preprint, arXiv:2610.19153."

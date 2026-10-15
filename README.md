@@ -3,7 +3,14 @@
 Code, result tables and figures of an in silico model of amyloid-like pathology on the
 *Drosophila* MaleCNS connectome.
 
-**Manuscript:** Jo T. Simulating Alzheimer's amyloid-like pathology on a fly central nervous system connectome. 2026. A preprint will be posted on bioRxiv.
+**Manuscript:** Jo T. Simulating Alzheimer's amyloid-like pathology on a fly central nervous system connectome. arXiv:2610.19153, 2026. <https://arxiv.org/abs/2610.19153>.
+
+**Interactive demo:** <https://www.jolab.ai/adfly/> plays a recorded 90-s run of 20 healthy flies and 20 flies at
+severity 0.5 in a virtual arena, next to the neurons and their connections in one fly of each group, and redraws five
+result charts from the tables in this repository. The run is an illustration; it is not the arena cohort of the
+manuscript.
+
+[![The demo: the virtual arena with healthy (blue) and damaged (orange) flies during a looming threat, and the neurons and connections of one healthy and one damaged fly](media/demo.gif)](https://www.jolab.ai/adfly/)
 
 The study simulates the adult male *Drosophila* central nervous system (MaleCNS v1.0,
 166,700 leaky integrate-and-fire neurons) and applies graded amyloid-like pathology to it.
@@ -27,6 +34,7 @@ Release `v1.0.0` is the state of the code and tables at submission.
 | `code/scripts/` | Scripts that run the designs, analyse them, write the facts tables and draw the figures. The table under "Scripts" says what each one does. |
 | `connectome/` | Records of the networks, without the networks: `manifest.json` (MaleCNS build record with the SHA-256 digest of each of the three source files), `network_digests.json` (digests of the built MaleCNS network files and the record of the rebuild and reruns of 10 October 2026) and `manifest_flywire.json` (digests and versions of the FlyWire and base-model files). |
 | `results/` | Per-fly result tables and analysis outputs. The eight files `results/facts/facts_*.json` are the facts tables. |
+| `media/` | `demo.gif` and `demo.png`, a recording and a still of the web illustration, shown at the top of this README. |
 | `figures/` | The figures of the manuscript (Fig 1 to Fig 7, S1 Fig to S4 Fig) as PNG, PDF and TIFF, with the plotted values of Fig 4 and Fig 5 as JSON. |
 
 All commands below are run from the top folder of the repository. Scripts find that folder
@@ -726,7 +734,7 @@ for the test-retest comparison.
 | `results/battery/stage_curve.csv`, `components.csv`, `vulnerability.csv`, `scope.csv` | Earlier and smaller run of the four battery designs, 240 flies. Forty of them have the seed and condition of flies of the reported designs, so those flies were simulated twice with identical pathology and different input noise; the pairs give the test-retest comparison. "Seeds and run details" has the layout. |
 | `results/learning/learning_by_stage.csv` | Learning cohort, 30 flies (`learning_test.py`). |
 | `results/paper/house_early_flies.csv` | Early arena cohort, 45 flies. The script that wrote the table is not here ("Result tables"). |
-| `results/house_20v20_s05_full.json`, `results/house_20v20_s05_flies.csv` | The 40 flies of the web illustration of the arena at <https://www.jolab.ai/adfly/> (`run_house.py`): a precomputed 90-s run of 20 healthy flies and 20 flies at s = 0.5, with 7 threats and its own arena seed (2026). It is not the arena run of the manuscript, and the result summaries on that page are not part of the manuscript. |
+| `results/house_20v20_s05_full.json`, `results/house_20v20_s05_flies.csv` | The 40 flies of the web illustration of the arena at <https://www.jolab.ai/adfly/> (`run_house.py`): a precomputed 90-s run of 20 healthy flies and 20 flies at s = 0.5, with 7 threats and its own arena seed (2026). It is not the arena run of the manuscript. The result charts on that page are redrawn from the result tables in this repository and are not figures of the manuscript; the feeding times of the illustration run are not part of the manuscript. |
 | `results/joint/smoke.csv`, `smoke_meta.json` | Four-fly technical test of the joint-cohort script. |
 
 ## Scripts
@@ -757,7 +765,7 @@ for the test-retest comparison.
 ## What is not here
 
 - The connectomes and the base model's data files (see above for where to get them).
-- The manuscript text. It will be available from bioRxiv and, if accepted, from the journal.
+- The manuscript text. It is available from arXiv (<https://arxiv.org/abs/2610.19153>) and, if accepted, will be available from the journal.
 - The scripts of the three exploratory tests and of the odour intensity sweep, and the two
   unsaved steps and the earlier analysis script named under "Result tables".
 - The page code of the web illustration. The data of its run are in `results/`.
